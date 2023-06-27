@@ -1,0 +1,18 @@
+[{
+    "type": "WHEEL",
+    "id": "wheel_armor",
+    "category": "veh_parts",
+    "name": { "str": "armored wheel" },
+    "description": "A wide military grade wheel. Performs well off-road.",
+    "weight": "24500 g",
+    "volume": "17500 ml",
+    "price": 34000,
+    "price_postapoc": 750,
+    "bashing": 17,
+    "to_hit": -1,
+    "material": [ "steel", "ceramic" ],
+    "symbol": "]",
+    "color": "green",
+    "diameter": 32,
+    "width": 20
+  }]

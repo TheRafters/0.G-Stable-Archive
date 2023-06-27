@@ -1,0 +1,332 @@
+[
+  {
+    "id": "PSY_TALK_TRADER_MONSTER",
+    "type": "talk_topic",
+    "dynamic_line": "Welcome! What would you like?",
+    "responses": [
+      { "text": "[I need some kind of weapon.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY1" },
+      { "text": "[I need some kind of magic item.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY2" },
+      { "text": "[I need some kind of spells.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY3" },
+      { "text": "[I'd like to try my luck.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY4" },
+      { "text": "[other]", "topic": "PSY_TALK_TRADER_MONSTER_BUY5" },
+      { "text": "[I don't want any right now.]", "topic": "PSY_TALK_TRADER_GOODBYE" }
+    ]
+  },
+  {
+    "//1": "WEAPON",
+    "id": "PSY_TALK_TRADER_MONSTER_BUY1",
+    "type": "talk_topic",
+    "dynamic_line": "Please select the item you want.",
+    "responses": [
+      {
+        "text": "[30 Magical Forest Coin] a longsword +2",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest", "count": 30 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "longsword_plus_two", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest", "count": 30 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      {
+        "text": "[30 Magical Forest Coin] a morningstar +2",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest", "count": 30 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "morningstar_plus_two", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest", "count": 30 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      {
+        "text": "[35 Magical Forest Coin] a sledge hammer +2",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest", "count": 35 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "sledge_plus_two", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest", "count": 35 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      {
+        "text": "[40 Magical Forest Coin] a halberd +2",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest", "count": 40 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "halberd_plus_two", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest", "count": 40 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      {
+        "text": "[40 Magical Forest Coin] a rapier +2",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest", "count": 40 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "rapier_plus_two", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest", "count": 40 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      {
+        "text": "[1 Magical Forest Core] a Magus battle staff",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest_core", "count": 1 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "rune_magus_weapon_adept", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest_core", "count": 1 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      { "text": "[I need some kind of magic item.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY2" },
+      { "text": "[I need some kind of spells.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY3" },
+      { "text": "[I'd like to try my luck.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY4" },
+      { "text": "[other]", "topic": "PSY_TALK_TRADER_MONSTER_BUY5" },
+      { "text": "[I don't want any right now.]", "topic": "PSY_TALK_TRADER_GOODBYE" }
+    ]
+  },
+  
+  
+  {
+    "//1": "trade magic item",
+    "id": "PSY_TALK_TRADER_MONSTER_BUY2",
+    "type": "talk_topic",
+    "dynamic_line": "Please select the item you want.",
+    "responses": [
+      {
+        "text": "[1 Magical Forest Core] a ring of wizardry",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest_core", "count": 1 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "mring_wizardry_moderate", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest_core", "count": 1 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+      
+      {
+        "text": "[1 Magical Forest Core] an eel ring",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest_core", "count": 1 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "mring_dodge_bonus_1", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest_core", "count": 1 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+      
+      {
+        "text": "[1 Magical Forest Core] a lesser storage ring",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest_core", "count": 1 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "storage_ring_lesser", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest_core", "count": 1 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      { "text": "[I need some kind of weapon.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY1" },
+      { "text": "[I need some kind of spells.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY3" },
+      { "text": "[I'd like to try my luck.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY4" },
+      { "text": "[other]", "topic": "PSY_TALK_TRADER_MONSTER_BUY5" },
+      { "text": "[I don't want any right now.]", "topic": "PSY_TALK_TRADER_GOODBYE" }
+    ]
+  },
+  {
+    "id": "PSY_TALK_TRADER_MONSTER_BUY3",
+    "type": "talk_topic",
+    "dynamic_line": "Please select the item you want.",
+    "responses": [
+      {
+        "text": "[1 Magical Forest Core] a Spell Token",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest_core", "count": 1 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "PSY_magi_magical_spell_token", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest_core", "count": 1 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      {
+        "text": "[30 Magical Coin] a Spell Token",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 30 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "PSY_magi_magical_spell_token", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 30 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      {
+        "text": "[1 Magical Forest Core] a Scroll of [Blade Dance]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest_core", "count": 1 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "spell_scroll_PSY_magi_summon_blade_dance", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest_core", "count": 1 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+      
+      {
+        "text": "[1 Magical Forest Core] a Scroll of [Blade of Air]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest_core", "count": 1 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "spell_scroll_PSY_magi_conj_blade_of_air", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest_core", "count": 1 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      {
+        "text": "[1 Magical Forest Core] a Scroll of [Throw Boomerang]",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest_core", "count": 1 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "spell_scroll_PSY_magi_summon_boomerang", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest_core", "count": 1 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      { "text": "[I need some kind of weapon.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY1" },
+      { "text": "[I need some kind of magic item.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY2" },
+      { "text": "[I'd like to try my luck.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY4" },
+      { "text": "[other]", "topic": "PSY_TALK_TRADER_MONSTER_BUY5" },
+      { "text": "[I don't want any right now.]", "topic": "PSY_TALK_TRADER_GOODBYE" }
+    ]
+  },
+  {
+    "id": "PSY_TALK_TRADER_MONSTER_BUY4",
+    "type": "talk_topic",
+    "dynamic_line": "Please select the item you want.",
+    "responses": [
+
+      {
+        "text": "[30 Magical Forest Coin] a random pistol with its ammo",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest", "count": 30 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "PSY_magi_scroll_of_create_pistol", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest", "count": 30 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+      
+      {
+        "text": "[40 Magical Forest Coin] a random rifle with its ammo",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest", "count": 40 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "PSY_magi_scroll_of_create_rifle", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest", "count": 40 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      { "text": "[I need some kind of weapon.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY1" },
+      { "text": "[I need some kind of magic item.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY2" },
+      { "text": "[I need some kind of spells.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY3" },
+      { "text": "[other]", "topic": "PSY_TALK_TRADER_MONSTER_BUY5" },
+      { "text": "[I don't want any right now.]", "topic": "PSY_TALK_TRADER_GOODBYE" }
+    ]
+  },
+  {
+    "id": "PSY_TALK_TRADER_MONSTER_BUY5",
+    "type": "talk_topic",
+    "dynamic_line": "Please select the item you want.",
+    "responses": [
+      {
+        "text": "[50 Magical Forest Coin] a Magical Forest Core",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_forest", "count": 50 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "PSY_magi_magical_coin_forest_core", "count": 1 },
+            { "u_sell_item": "PSY_magi_magical_coin_forest", "count": 50 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      {
+        "text": "[10 Magical Coin] 15 Magical Forest Coin",
+        "trial": { "type": "CONDITION", "condition": { "u_has_items": { "item": "PSY_magi_magical_coin_bronze", "count": 10 } } },
+        "success": {
+          "topic": "PSY_TALK_TRADER_MONSTER_ANSWER",
+          "effect": [
+            { "u_spawn_item": "PSY_magi_magical_coin_forest", "count": 15 },
+            { "u_sell_item": "PSY_magi_magical_coin_bronze", "count": 10 }
+          ]
+        },
+        "failure": { "topic": "PSY_TALK_TRADER_MONSTER_NOCASH" }
+      },
+
+      { "text": "[I need some kind of weapon.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY1" },
+      { "text": "[I need some kind of magic item.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY2" },
+      { "text": "[I need some kind of spells.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY3" },
+      { "text": "[I'd like to try my luck.]", "topic": "PSY_TALK_TRADER_MONSTER_BUY4" },
+      { "text": "[I don't want any right now.]", "topic": "PSY_TALK_TRADER_GOODBYE" }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "PSY_TALK_TRADER_MONSTER_ANSWER",
+    "dynamic_line": "Thank you very much. Is there anything else you need?",
+    "responses": [ { "text": "Maybe there is.", "topic": "PSY_TALK_TRADER_MONSTER" } ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "PSY_TALK_TRADER_MONSTER_NOCASH",
+    "dynamic_line": "You don't have enough currency.",
+    "responses": [ { "text": "Yeah!", "topic": "PSY_TALK_TRADER_MONSTER" } ]
+  },
+  {
+    "id": "PSY_TALK_TRADER_GOODBYE",
+    "type": "talk_topic",
+    "dynamic_line": "Thanks!",
+    "responses": [ { "text": "…", "topic": "TALK_DONE" } ]
+  }
+]

@@ -1,0 +1,1 @@
+items.json: Maid Uniform: copy pasted the climate control hack from the exosuit in AFTERSHOCK and deleted the obsolete CLIMATE_CONTROL flag. I lowered the power draw from 120000 because it literally drained a full battery in less than a second soooooo.... it's 2 now. see how that feels.

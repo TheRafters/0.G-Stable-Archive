@@ -1,0 +1,26 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "hotplate",
+    "name": { "str": "hotplate" },
+    "symbol": "&",
+    "categories": [ "utility" ],
+    "color": "blue",
+    "broken_symbol": "*",
+    "broken_color": "light_blue",
+    "damage_modifier": 40,
+    "durability": 200,
+    "description": "This is a small heating element, powered by the vehicle's batteries.  It is indispensable for cooking and chemistry.  Try not to burn yourself. 'e'xamine the tile with the hotplate to use it.",
+    "item": "hotplate",
+    "location": "anywhere",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "15 m", "using": [ [ "adhesive", 1 ], [ "soldering_standard", 2 ] ] }
+    },
+    "flags": [  ],
+    "pseudo_tools": [ { "id": "hotplate", "hotkey": "h" } ],
+    "breaks_into": [ { "item": "plastic_chunk", "count": [ 1, 2 ] }, { "item": "scrap_aluminum", "count": [ 1, 2 ] } ],
+    "damage_reduction": { "all": 45 }
+  }
+]

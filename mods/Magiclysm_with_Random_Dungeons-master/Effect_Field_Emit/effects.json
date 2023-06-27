@@ -1,0 +1,968 @@
+[
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_slow_dammy",
+    "name": [ 
+      "Slow", 
+      "Slow[2]",
+      "Slow[3](max)"
+    
+    ],
+    "desc": [ "Decreased your movement for a short period." ],
+    "apply_message": "slowed.",
+    "remove_message": "No more slowed.",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "speed_mod": [ -100 ], "dex_mod": [ -1 ] },
+    "scaling_mods": { 
+      "speed_mod": [ -50 ],
+      "dex_mod": [ -1 ]
+    },
+    "show_in_info": true
+  },
+
+    {
+        "type": "effect_type",
+        "id": "PSY_magi_slow",
+        "name": [ 
+          "Slow", 
+          "Slow[2]",
+          "Slow[3](max)"
+        
+        ],
+        "desc": [ "Decreased your movement for a short period." ],
+        "apply_message": "slowed.",
+        "remove_message": "No more slowed.",
+        "max_intensity": 3,
+        "int_add_val": 1,
+        "base_mods": { "speed_mod": [ -100 ], "dex_mod": [ -1 ] },
+        "scaling_mods": { 
+          "speed_mod": [ -50 ],
+          "dex_mod": [ -1 ]
+        },
+        "show_in_info": true
+    },
+
+    {
+      "type": "effect_type",
+      "id": "PSY_magi_weak_slow",
+      "name": [ 
+        "Slow", 
+        "Slow[2]",
+        "Slow[3](max)"
+      
+      ],
+      "desc": [ "Decreased your movement for a short period." ],
+      "apply_message": "slowed.",
+      "remove_message": "No more slowed.",
+      "max_intensity": 3,
+      "int_add_val": 1,
+      "max_duration": "5 seconds",
+      "base_mods": { "speed_mod": [ -30 ], "dex_mod": [ -1 ] },
+      "scaling_mods": { 
+        "speed_mod": [ -10 ],
+        "dex_mod": [ -1 ]
+      },
+      "show_in_info": true
+  },
+
+    {
+      "type": "effect_type",
+      "id": "PSY_magi_remove_teleglow",
+      "name": [ "Remove Taint" ],
+      "desc": [ "Disables the polluting effect of floating eyes" ],
+      "apply_message": "You feel better!",
+      "remove_message": "No more immune from taint.",
+      "rating": "good",
+      "removes_effects": [ "taint" ]
+    },
+
+    {
+      "type": "effect_type",
+      "id": "PSY_magi_remove_nausea",
+      "name": [ "Remove Nausea" ],
+      "desc": [ "You removed Nausea effect" ],
+      "apply_message": "You feel better!",
+      "remove_message": "oups, your stomach",
+      "rating": "good",
+      "max_duration": "5 m",
+      "removes_effects": [ "nausea" ]
+    },
+
+    {
+      "type": "effect_type",
+      "id": "PSY_magi_remove_stunned",
+      "name": [ "Remove Stunned" ],
+      "desc": [ "You removed Nausea effect" ],
+      "rating": "good",
+      "max_duration": "1 m",
+      "removes_effects": [ "stunned" ]
+    },
+
+    {
+      "type": "effect_type",
+      "id": "PSY_magi_allow_pay",
+      "name": [ 
+        "Allow_pay"
+      ],
+      "desc": [ "Decreased your movement for a short period." ],
+      "apply_message": "Payable.",
+      "remove_message": "No more payable.",
+      "max_intensity": 1,
+      "flags": [ "PAY_BOT","DOGFOOD","CATFOOD","BIRDFOOD" ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_cold_slow",
+    "name": [ 
+      "Cold Slow"
+    
+    ],
+    "desc": [ "Decreased your movement for a short period." ],
+    "apply_message": "cold slowed.",
+    "remove_message": "No more slowed.",
+    "max_intensity": 10,
+    "int_add_val": 1,
+    "base_mods": { "speed_mod": [ -10 ], "dex_mod": [ -1 ] },
+    "scaling_mods": { 
+      "speed_mod": [ -5 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_haste_invisibility",
+    "name": [ "Emagency Invisible" ],
+    "desc": [ "You are invisible and haste your movement by 100." ],
+    "base_mods": { "speed_mod": [ 100 ] },
+    "flags": [ "EFFECT_INVISIBLE" ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_haste_200",
+    "name": [ "Emagency haste" ],
+    "desc": [ "haste your movement by 200." ],
+    "base_mods": { "speed_mod": [ 200 ] }
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_tangled",
+    "name": [ "entangled in ivy" ],
+    "desc": [ "You are entangled in ivy!" ],
+    "apply_message": "You are entangled in ivy!",
+    "rating": "bad",
+    "miss_messages": [ [ "The vines restrict your movement.", 4 ] ],
+    "max_intensity": 3,
+    "base_mods": { "speed_mod": [ -50 ] },
+    "scaling_mods": { "speed_mod": [ -15 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_weak_accelerating",
+    "name":  [ 
+      "Accelerating"  
+    ],
+    "desc": [ "Your movement is accelerating by the field!" ],
+    "rating": "good",
+    "max_duration": "30 seconds",
+    "max_intensity": 10,
+    "int_add_val": 1,
+    "int_decay_tick": 1,
+    "base_mods": { "speed_mod": [ 20 ] },
+    "scaling_mods": { "speed_mod": [ 5 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_accelerating",
+    "name":  [ 
+      "Accelerating"        
+    ],
+    "desc": [ "Your movement is accelerating by the field!" ],
+    "rating": "good",
+    "max_duration": "15 seconds",
+    "max_intensity": 10,
+    "int_add_val": 1,
+    "int_decay_tick": 1,
+    "base_mods": { "speed_mod": [ 50 ] },
+    "scaling_mods": { "speed_mod": [ 25 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_bird_accelerating",
+    "name":  [ 
+      "Bird Accelerating"        
+    ],
+    "desc": [ "Your movement speed is increased by the blessing of a mystical bird!" ],
+    "rating": "good",
+    "max_duration": "600 seconds",
+    "max_intensity": 10,
+    "int_add_val": 1,
+    "base_mods": { "speed_mod": [ 20 ] },
+    "scaling_mods": { "speed_mod": [ 20 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_bird_attack_tempo",
+    "name":  [ 
+      "Attack Tempo"        
+    ],
+    "desc": [ "Your movement speed is increased by the blessing of a mystical bird!" ],
+    "rating": "good",
+    "max_duration": "60 seconds",
+    "max_intensity": 50,
+    "int_add_val": 5,
+    "int_decay_tick": 1,
+    "base_mods": { "speed_mod": [ 11 ] },
+    "scaling_mods": { "speed_mod": [ 1 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_futile_wishes_attack_tempo",
+    "name":  [ 
+      "Attack Tempo"        
+    ],
+    "desc": [ "Your movement speed is increased by someone's wish." ],
+    "rating": "good",
+    "max_duration": "60 seconds",
+    "max_intensity": 100,
+    "int_add_val": 10,
+    "int_decay_tick": 1,
+    "base_mods": { "speed_mod": [ 1 ] },
+    "scaling_mods": { "speed_mod": [ 1 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_in_sanctuary",
+    "name":  [ 
+      "Sanctuary"      
+    ],
+    "desc": [ "You are in sanctuary ! While you're in it, immune to stunned and dazed, also buffed all status then recover 50 of stamina every second." ],
+    "rating": "good",
+    "max_duration": "8 seconds",
+    "max_intensity": 1,
+    "base_mods": { "str_mod": [ 5 ], "dex_mod": [ 5 ], "per_mod": [ 5 ], "int_mod": [ 5 ], "stamina_min": [ 50 ], "speed_mod": [ 30 ] },
+    "scaling_mods": { "speed_mod": [ 10 ] },
+    "removes_effects": [ "stunned", "dazed" ],
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_foods_int",
+    "name":  [ 
+      "Foods:INT UP"      
+    ],
+    "desc": [ "You ate a picked apple and gained int buff." ],
+    "rating": "good",
+    "max_duration": "600 seconds",
+    "max_intensity": 1,
+    "base_mods": { "int_mod": [ 2 ], "stamina_amount": [ 1000 ], "hunger_amount": [ -10 ],"thirst_amount": [ -5 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_foods_str",
+    "name":  [ 
+      "Foods:STR UP"      
+    ],
+    "desc": [ "You ate a picked strawberries and gained str buff." ],
+    "rating": "good",
+    "max_duration": "600 seconds",
+    "max_intensity": 1,
+    "base_mods": { "str_mod": [ 2 ], "stamina_amount": [ 1000 ], "hunger_amount": [ -10 ],"thirst_amount": [ -5 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_foods_dex",
+    "name":  [ 
+      "Foods:DEX UP"      
+    ],
+    "desc": [ "You ate a picked banana and gained dex buff." ],
+    "rating": "good",
+    "max_duration": "600 seconds",
+    "max_intensity": 1,
+    "base_mods": { "dex_mod": [ 2 ], "stamina_amount": [ 1000 ], "hunger_amount": [ -10 ],"thirst_amount": [ -5 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_foods_per",
+    "name":  [ 
+      "Foods:PER UP"      
+    ],
+    "desc": [ "You ate a picked blueberries and gained per buff." ],
+    "rating": "good",
+    "max_duration": "600 seconds",
+    "max_intensity": 1,
+    "base_mods": { "per_mod": [ 2 ],"stamina_amount": [ 1000 ], "hunger_amount": [ -10 ],"thirst_amount": [ -5 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_foods_speed",
+    "name":  [ 
+      "Foods:SPEED UP"      
+    ],
+    "desc": [ "You ate a picked lemon and gained speed buff." ],
+    "rating": "good",
+    "max_duration": "600 seconds",
+    "max_intensity": 1,
+    "base_mods": { "speed_mod": [ 20 ],"stamina_amount": [ 1000 ], "hunger_amount": [ -10 ],"thirst_amount": [ -5 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_STR_DOWN",
+    "name":  [ 
+      "STR DOWN"      
+    ],
+    "desc": [ "You ate  picked strawberries and gained str buff." ],
+    "rating": "bad",
+    "max_duration": "600 seconds",
+    "max_intensity": 1,
+    "base_mods": { "str_mod": [ 99 ]},
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_DEX_DOWN",
+    "name":  [ 
+      "DEX DOWN"      
+    ],
+    "desc": [ "You ate  picked strawberries and gained str buff." ],
+    "rating": "bad",
+    "max_duration": "600 seconds",
+    "max_intensity": 1,
+    "base_mods": { "dex_mod": [ 99 ]},
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_PER_DOWN",
+    "name":  [ 
+      "PER DOWN"      
+    ],
+    "desc": [ "You ate  picked strawberries and gained str buff." ],
+    "rating": "bad",
+    "max_duration": "600 seconds",
+    "max_intensity": 1,
+    "base_mods": { "per_mod": [ 99 ]},
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_caltrop_slow",
+    "name": [ 
+      "Injured by a caltrop"
+    ],
+    "desc": [ "Your legs are hurting, Decreased your movement be continuous damaged from it's effect." ],
+    "apply_message": "Injured by a caltrop.",
+    "remove_message": "caltrop Injury has healed.",
+    "max_duration": "30 seconds",
+    "max_intensity": 3,
+    "base_mods": { 
+      "speed_mod": [ -20 ],               
+      "dex_mod": [ -1 ], 
+      "hurt_min": [ 4 ],             
+      "hurt_chance": [ 5 ]
+    },
+    "scaling_mods": { 
+      "speed_mod": [ -10 ],
+      "dex_mod": [ -1 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_plague_slow",
+    "name": [ 
+      "Plague"
+    ],
+    "desc": [ "You got plague from totem. Decreased your movement and be continuous damaged from it's effect." ],
+    "apply_message": "You got plague from totem.",
+    "remove_message": "Plague has healed.",
+    "max_duration": "15 seconds",
+    "max_intensity": 1,
+    "base_mods": { 
+      "speed_mod": [ -35 ],               
+      "dex_mod": [ -1 ], 
+      "hurt_min": [ 7 ],             
+      "hurt_chance": [ 3 ]
+    },
+    "scaling_mods": { 
+      "speed_mod": [ -10 ],
+      "dex_mod": [ -1 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_bloody_cursed",
+    "name": [ 
+      "Bloody Curse"
+    ],
+    "desc": [ "You are under the curse of blood." ],
+    "apply_message": "You are cursed from bloody cloud.",
+    "remove_message": "No more Cursed.",
+    "max_duration": "3 seconds",
+    "max_intensity": 3,
+    "base_mods": { 
+      "speed_mod": [ -35 ],               
+      "dex_mod": [ -3 ], 
+      "hurt_min": [ 12 ]
+    },
+    "scaling_mods": { 
+      "speed_mod": [ -10 ],
+      "dex_mod": [ -1 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_death_field_effect",
+    "name": [ 
+      "Deadly Cursed"
+    ],
+    "desc": [ "You are under the curse of death." ],
+    "apply_message": "You are cursed from deadly field.",
+    "remove_message": "No more Cursed.",
+    "max_duration": "3 seconds",
+    "max_intensity": 3,
+    "base_mods": { 
+      "hurt_min": [ 50 ]
+    },
+    "scaling_mods": { 
+      "dex_mod": [ 10 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_statue_blessing_swamp",
+    "name":  [ 
+      "Blessing of Swamp"      
+    ],
+    "desc": [ "You have received the blessing of the stone statue of the swamp. Increased stamina recovery speed, and resistance to stunned." ],
+    "rating": "good",
+    "max_duration": "24 hours",
+    "max_intensity": 1,
+    "base_mods": {"stamina_min": [ 300 ]},
+    "removes_effects": [ "stunned" ],
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_statue_blessing_horn",
+    "name":  [ 
+      "Blessing of Horn"      
+    ],
+    "desc": [ "You have received the blessing of the stone statue of the horn.Increased movement speed and resistance to bleeding." ],
+    "rating": "good",
+    "max_duration": "24 hours",
+    "max_intensity": 1,
+    "base_mods": {  "speed_mod": [ 50 ] },
+    "removes_effects": [ "bleed" ],
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_statue_blessing_cleric",
+    "name":  [ 
+      "Blessing of Cleric"      
+    ],
+    "desc": [ "You have received the blessing of the stone statue of cleric. You are immune from most conditions." ],
+    "rating": "good",
+    "max_duration": "24 hours",
+    "max_intensity": 1,
+    "base_mods": {  "speed_mod": [ 30 ] },
+    "removes_effects": [
+      "fungus",
+      "dermatik",
+      "bloodworms",
+      "paincysts",
+      "brainworms",
+      "tapeworm",
+      "blind",
+      "poison",
+      "venom_dmg",
+      "venom_weaken",
+      "stung",
+      "badpoison",
+      "foodpoison",
+      "paralyzepoison",
+      "tetanus",
+      "rat_bite_fever",
+      "infected",
+      "asthma",
+      "common_cold",
+      "flu"
+    ],
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_statue_blessing_mysterious",
+    "name":  [ 
+      "Blessing of mysterious"      
+    ],
+    "desc": [ "You have received the blessing of the stone statue of the mysterious. All your status are increased." ],
+    "rating": "good",
+    "max_duration": "24 hours",
+    "max_intensity": 1,
+    "base_mods": {  "str_mod": [ 3 ], "dex_mod": [ 3 ], "per_mod": [ 3 ], "int_mod": [ 3 ],"speed_mod": [ 20 ] },
+    "removes_effects": [ "bleed" ],
+    "show_in_info": true
+  },
+
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_Strengthening",
+    "name":  [ 
+      "Strengthening"      
+    ],
+    "desc": [ "You are Strengthened by totem ! immune to stunned, buffed all status then recover 25 of stamina every seconds." ],
+    "rating": "good",
+    "max_duration": "135 seconds",
+    "max_intensity": 1,
+    "base_mods": { "str_mod": [ 2 ], "dex_mod": [ 2 ], "per_mod": [ 2 ], "int_mod": [ 2 ], "stamina_min": [ 25 ], "speed_mod": [ 15 ] },
+    "removes_effects": [ "stunned" ],
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_Strengthening_bot",
+    "name":  [ 
+      "Strengthening"      
+    ],
+    "desc": [ "You are enhanced by the support mech! All statuses are increased." ],
+    "rating": "good",
+    "max_duration": "15 seconds",
+    "max_intensity": 1,
+    "base_mods": { "str_mod": [ 2 ], "dex_mod": [ 1 ], "per_mod": [ 1 ], "int_mod": [ 2 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_healing_air_effect",
+    "name":  [ 
+      "Aura of Healing"      
+    ],
+    "desc": [ "My body is healed by being near the crystal." ],
+    "rating": "good",
+    "max_duration": "135 seconds",
+    "max_intensity": 1,
+    "base_mods": {
+      
+      "hurt_min": [ -1 ],
+      "hurt_chance" : [ 15 ],
+      "healing_rate": [ 5 ],
+      "hunger_min": [ 1 ], 
+      "hunger_chance": [ 18, 36 ]
+    },
+    "removes_effects": ["bleed", "common_cold"],
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_healing_hot_water_effect",
+    "name":  [ 
+      "Pleasant hot water temperature"      
+    ],
+    "desc": [ "The water is soaked at a comfortable temperature." ],
+    "rating": "good",
+    "max_duration": "3 seconds",
+    "max_intensity": 1,
+    "base_mods": {
+      
+      "healing_rate": [ 5 ],
+      "hunger_min": [ 1 ], 
+      "hunger_chance": [ 18, 36 ],
+      "stamina_min": [ 500 ]
+    },
+    "removes_effects": ["bleed", "common_cold"],
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_speed_rising_air_effect",
+    "name": [ 
+      "Aura of Speed rising"
+    
+    ],
+    "desc": [ "The effect of the nearby crystal has increased your movement speed." ],
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "rating": "good",
+    "max_duration": "10 seconds",
+    "base_mods": { "speed_mod": [ 30 ], "dex_mod": [ 1 ] },
+    "scaling_mods": { 
+      "speed_mod": [ 10 ],
+      "dex_mod": [ 1 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_stamina_recover_air_effect",
+    "name": [ 
+      "Aura of Stamina Recovery"
+    
+    ],
+    "desc": [ "I feel like I could run forever." ],
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "rating": "good",
+    "max_duration": "10 seconds",
+    "base_mods": { "str_mod": [ 1 ], "stamina_min": [ 200 ] },
+    "scaling_mods": { 
+      "stamina_min": [ 100 ],
+      "str_mod": [ 1 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_cursed_air_effect",
+    "name":  [ 
+      "Aura of Cursed"      
+    ],
+    "desc": [ "You are cursed because of the crystal. Hurry up and destroy the crystal or leave the place!" ],
+    "rating": "bad",
+    "max_duration": "15 seconds",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "base_mods": { "str_mod": [ -1 ], "dex_mod": [ -1 ], "per_mod": [ -1 ], "int_mod": [ -2 ], "speed_mod": [ -15 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_cursed_blood_effect",
+    "name":  [ 
+      "Curse of blood"      
+    ],
+    "desc": [ "You are cursed with the curse of blood." ],
+    "rating": "bad",
+    "max_duration": "180 seconds",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "base_mods": { "str_mod": [ -2 ], "dex_mod": [ -2 ], "per_mod": [ -2 ], "int_mod": [ -2 ], "speed_mod": [ -20 ] },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_feather_fall",
+    "name": [ "Feather Fall" ],
+    "desc": [ "You  are light as a feather and fall like one." ],
+    "apply_message": "Your body feels light as a feather.",
+    "remove_message": "The earth pulls you down hard.",
+    "rating": "good",
+    "flags": [ "FEATHER_FALL" ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_magic_laser_effect",
+    "name":  [ 
+      "Laser Damage"        
+    ],
+    "desc": [ "The laser is irradiated. Movement speed is reduced and periodic damage" ],
+    "rating": "bad",
+    "max_duration": "3 seconds",
+    "max_intensity": 100,
+    "int_add_val": 5,
+    "base_mods": { "speed_mod": [ -1 ] ,"hurt_min": [ 1 ]},
+    "scaling_mods": { "speed_mod": [ -0.5 ],"hurt_min": [ 1 ]  },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_honey_effect",
+    "name": [ 
+      "Honey", 
+      "Honey[2]",
+      "Honey[3](max)"
+    
+    ],
+    "desc": [ "The movement speed is reduced for a short period of time, but recovery from injuries is faster." ],
+    "apply_message": "slowed.",
+    "remove_message": "No more slowed.",
+    "max_duration": "10 seconds",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "speed_mod": [ -45 ], "dex_mod": [ -1 ], "healing_rate": [ 3 ] },
+    "scaling_mods": { 
+      "speed_mod": [ -10 ],
+      "dex_mod": [ -0.5 ],
+      "healing_rate": [ 2 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_speed_effect",
+    "name":  [ 
+      "Speed Candy",   
+      "Speed Candy[2]",
+      "Speed Candy[3](max)"   
+    ],
+    "desc": [ "SPEED increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "speed_mod": [ 20 ] },
+    "scaling_mods": { 
+      "speed_mod": [ 10 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_str_effect",
+    "name":  [ 
+      "STR Candy",   
+      "STR Candy[2]",
+      "STR Candy[3](max)"   
+    ],
+    "desc": [ "STR increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "str_mod": [ 2 ] },
+    "scaling_mods": { 
+      "str_mod": [ 1 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_dex_effect",
+    "name":  [ 
+      "DEX Candy",   
+      "DEX Candy[2]",
+      "DEX Candy[3](max)"   
+    ],
+    "desc": [ "DEX increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "dex_mod": [ 2 ] },
+    "scaling_mods": { 
+      "dex_mod": [ 1 ]
+    },
+    "show_in_info": true
+  },
+
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_per_effect",
+    "name":  [ 
+      "PER Candy",   
+      "PER Candy[2]",
+      "PER Candy[3](max)"   
+    ],
+    "desc": [ "PER increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "per_mod": [ 2 ] },
+    "scaling_mods": { 
+      "per_mod": [ 1 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_int_effect",
+    "name":  [ 
+      "INT Candy",   
+      "INT Candy[2]",
+      "INT Candy[3](max)"   
+    ],
+    "desc": [ "INT increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "int_mod": [ 2 ] },
+    "scaling_mods": { 
+      "int_mod": [ 1 ]
+    },
+    "show_in_info": true
+  },
+
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_max_hp_effect",
+    "name":  [ 
+      "Candy of Life"
+    ],
+    "desc": [ "MAX HP increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "MAX_HP", "multiply": 0.1 } ] } ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_max_mana_effect",
+    "name":  [ 
+      "Candy of Mana"
+    ],
+    "desc": [ "MAX MANA increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "MAX_MANA", "multiply": 0.1 } ] } ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_max_stamina_effect",
+    "name":  [ 
+      "Candy of Stamina"
+    ],
+    "desc": [ "MAX STAMINA increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "MAX_STAMINA", "multiply": 0.1 } ] } ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_max_power_effect",
+    "name":  [ 
+      "Candy of Power"
+    ],
+    "desc": [ "Melee damage increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "MELEE_DAMAGE", "multiply": 0.2 } ] } ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_max_diligent_effect",
+    "name":  [ 
+      "Candy of Diligent"
+    ],
+    "desc": [ "Reading EXP increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "READING_EXP", "add": 3 } ] } ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_candy_max_focus_effect",
+    "name":  [ 
+      "Candy of Focus"
+    ],
+    "desc": [ "MAX Focus increases for a certain time by eating candy" ],
+    "rating": "good",
+    "max_duration": "72 hours",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "LEARNING_FOCUS", "multiply": 0.5 } ] } ]
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_recover_stamina_effect",
+    "name":  [ 
+      "recover stamina"     
+    ],
+    "desc": [ "Your stamina has been restored by the mech." ],
+    "rating": "good",
+    "max_duration": "1 seconds",
+    "max_intensity": 10,
+    "base_mods": { "stamina_amount": [ 1000 ]},
+    "scaling_mods": { 
+      "stamina_amount": [ 1000 ]
+    },
+    "show_in_info": true
+  },
+
+  {
+    "type": "effect_type",
+    "id": "PSY_magi_recover_mana_effect",
+    "name":  [ 
+      "recover mana x2"
+    ],
+    "desc": [ "Temporarily your mana resilience is doubled by the mech."],
+    "rating": "good",
+    "max_duration": "180 seconds",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "show_in_info": true,
+    "enchantments": [ { "values": [ { "value": "REGEN_MANA", "multiply": 1.0 } ] } ]
+  }
+
+]

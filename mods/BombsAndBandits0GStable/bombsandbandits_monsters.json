@@ -1,0 +1,1110 @@
+[
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_high_explosive_bomb",
+    "name": { "str": "high-explosive bomb" },
+    "description": "An active bomb!  It will soon explode, delivering its entire destructive power to everything in sight.  Probably dropped/planted by the military in a last attempt to contain the outbreak.",
+    "hp": 50,
+    "volume": "120000 ml",
+    "weight": "195000 g",
+    "symbol": "o",
+    "color": "dark_gray",
+    "default_faction": "bandits",
+    "speed": 100,
+    "species": ["ROBOT"],
+    "material": ["steel"],
+    "diff": 20,
+    "aggression": 100,
+    "morale": 100,
+    "dodge": 0,
+    "armor_bash": 5,
+    "armor_bullet": 5,
+    "armor_cut": 5,
+    "armor_stab": 5,
+    "armor_acid": 5,
+    "armor_fire": 5,
+    "armor_electric": 5,
+    "armor_cold": 5,
+    "armor_pure": 5,
+    "vision_day": 35,
+    "vision_night": 35,
+    "luminance": 0,
+    "flags": [
+      "ATTACKMON",
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "NOHEAD",
+      "NO_BREATHE",
+      "NO_FUNG_DMG",
+      "STUN_IMMUNE",
+      "COLDPROOF",
+      "IMMOBILE"
+    ],
+    "anger_triggers": [
+      "FRIEND_ATTACKED",
+      "FRIEND_DIED",
+      "HOSTILE_SEEN",
+      "PLAYER_WEAK",
+      "PLAYER_CLOSE",
+      "STALK",
+      "SOUND",
+      "HURT"
+    ],
+    "fear_triggers": [],
+    "upgrades": false,
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": {
+          "id": "spell_bandits_varying_explosions_all",
+          "hit_self": true
+        },
+        "monster_message": "%s detonates!",
+        "cooldown": 100
+      }
+    ],
+    "death_function": {
+      "effect": {
+        "id": "death_conflagration",
+        "hit_self": true
+      },
+      "corpse_type": "NO_CORPSE"
+    },
+    "path_settings": {
+      "max_dist": 1,
+      "allow_open_doors": false,
+      "avoid_traps": false,
+      "avoid_sharp": false
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_incendiary_bomb",
+    "name": { "str": "incendiary bomb" },
+    "copy-from": "mon_bandits_high_explosive_bomb",
+    "upgrades": {
+      "into": "mon_bandits_high_explosive_bomb",
+      "half_life": 14
+    },
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": {
+          "id": "spell_bandits_varying_firestorms_all",
+          "hit_self": true
+        },
+        "monster_message": "%s detonates!",
+        "cooldown": 100
+      }
+    ]
+  },
+  {
+    "type": "MONSTER",
+    "id": "template_mon_bandit",
+    "name": "Template: Bandit",
+    "description": "Template: Bandit - You shouldn't see this...",
+    "hp": 100,
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "symbol": "@",
+    "color": "white",
+    "default_faction": "bandits",
+    "bodytype": "human",
+    "speed": 100,
+    "species": ["HUMAN"],
+    "material": ["flesh"],
+    "diff": 5,
+    "aggression": 5,
+    "morale": 15,
+    "melee_skill": 2,
+    "dodge": 2,
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 1
+      }
+    ],
+    "melee_dice": 1,
+    "melee_dice_sides": 5,
+    "grab_strength": 1,
+    "armor_bash": 2,
+    "armor_bullet": 2,
+    "armor_cut": 2,
+    "armor_stab": 2,
+    "armor_acid": 2,
+    "armor_fire": 2,
+    "armor_electric": 2,
+    "armor_cold": 2,
+    "armor_pure": 2,
+    "weakpoint_sets": ["wps_humanoid_body"],
+    "families": ["prof_intro_biology", "prof_physiology"],
+    "vision_day": 45,
+    "vision_night": 2,
+    "tracking_distance": 3,
+    "luminance": 3,
+    "regen_morale": true,
+    "flags": [
+      "HUMAN",
+      "PRIORITIZE_TARGETS",
+      "GROUP_MORALE",
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "PATH_AVOID_FALL",
+      "CAN_OPEN_DOORS",
+      "CLIMBS"
+    ],
+    "fear_triggers": ["FRIEND_DIED", "HOSTILE_SEEN", "HURT", "SOUND"],
+    "anger_triggers": [
+      "FRIEND_ATTACKED",
+      "PLAYER_WEAK",
+      "PLAYER_CLOSE",
+      "STALK"
+    ],
+    "upgrades": false,
+    "path_settings": {
+      "max_dist": 30,
+      "allow_open_doors": true,
+      "avoid_traps": true,
+      "avoid_sharp": true
+    },
+    "harvest": "human",
+    "dissect": "dissect_human_sample_single",
+    "zombify_into": "mon_zombie",
+    "fungalize_into": "mon_feral_human_pipe_fungal_infected"
+  },
+  {
+    "type": "MONSTER",
+    "id": "template_mon_armoured_bandit",
+    "copy-from": "template_mon_bandit",
+    "name": "Template: Armoured Bandit",
+    "speed": 110,
+    "diff": 10,
+    "aggression": 10,
+    "morale": 25,
+    "melee_skill": 5,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 4
+      }
+    ],
+    "melee_dice": 2,
+    "dodge": 4,
+    "grab_strength": 2,
+    "armor_bash": 5,
+    "armor_bullet": 5,
+    "armor_cut": 5,
+    "armor_stab": 5,
+    "armor_acid": 5,
+    "armor_fire": 5,
+    "armor_electric": 5,
+    "armor_cold": 5,
+    "armor_pure": 5,
+    "weakpoint_sets": [
+      "wps_humanoid_body",
+      "wps_humanoid_body_armor",
+      "wps_humanoid_open_helmet"
+    ],
+    "families": [
+      "prof_intro_biology",
+      "prof_physiology",
+      "prof_wp_syn_armored"
+    ],
+    "vision_day": 50,
+    "vision_night": 4,
+    "anger_triggers": [
+      "FRIEND_ATTACKED",
+      "FRIEND_DIED",
+      "HOSTILE_SEEN",
+      "PLAYER_WEAK",
+      "PLAYER_CLOSE",
+      "STALK",
+      "SOUND"
+    ],
+    "luminance": 0,
+    "fear_triggers": ["HURT"],
+    "zombify_into": "mon_zombie_survivor"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_looter",
+    "copy-from": "template_mon_bandit",
+    "name": { "str": "looter" },
+    "color": "pink",
+    "morale": 20,
+    "speed": 110,
+    "death_drops": "bandits_looter",
+    "upgrades": {
+      "into": "mon_bandits_scrapper",
+      "half_life": 14
+    },
+    "hp": 80,
+    "description": "Covered in ragtag armor, the look in this one's eyes denotes desperation; a common but dangerous feeling in this time.",
+    "extend": {
+      "flags": [
+        "SWIMS",
+        "SWARMS",
+        "PATH_AVOID_DANGER_2",
+        "PATH_AVOID_FIRE",
+        "GRABS"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_scrapper",
+    "copy-from": "template_mon_armoured_bandit",
+    "name": { "str": "scrapper" },
+    "color": "brown",
+    "aggression": 10,
+    "speed": 120,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 4
+      }
+    ],
+    "armor_bash": 6,
+    "armor_cut": 6,
+    "armor_stab": 6,
+    "vision_night": 3,
+    "death_drops": "bandits_scrapper",
+    "upgrades": {
+      "into": "mon_bandits_incendiary_bomb",
+      "half_life": 14
+    },
+    "hp": 95,
+    "luminance": 2,
+    "special_attacks": [["GRAB", 6]],
+    "description": "You can tell by the number of scars this survivor has that they have seen many battles. Best to keep your distance; he seems somewhat eager to get personal.",
+    "anger_triggers": [
+      "FRIEND_ATTACKED",
+      "PLAYER_WEAK",
+      "PLAYER_CLOSE",
+      "STALK",
+      "SOUND"
+    ],
+    "fear_triggers": ["FRIEND_DIED", "HOSTILE_SEEN", "HURT"],
+    "extend": {
+      "flags": [
+        "ATTACKMON",
+        "SWIMS",
+        "SWARMS",
+        "GOODHEARING",
+        "PATH_AVOID_DANGER_2",
+        "PATH_AVOID_FIRE",
+        "DROPS_AMMO",
+        "GRABS"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_glock",
+    "copy-from": "template_mon_bandit",
+    "name": { "str": "bandit" },
+    "color": "red",
+    "speed": 105,
+    "melee_dice_sides": 4,
+    "dodge": 1,
+    "armor_bash": 3,
+    "armor_cut": 3,
+    "armor_stab": 3,
+    "armor_acid": 1,
+    "death_drops": "bandits_glock",
+    "upgrades": {
+      "into": "mon_bandits_m1911",
+      "half_life": 14
+    },
+    "hp": 80,
+    "special_attacks": [
+      ["PARROT_AT_DANGER", 10],
+      {
+        "type": "gun",
+        "cooldown": 10,
+        "gun_type": "glock_19",
+        "ammo_type": "reloaded_9mm",
+        "fake_str": 6,
+        "fake_dex": 6,
+        "fake_int": 3,
+        "fake_per": 5,
+        "fake_skills": [
+          ["gun", 1],
+          ["pistol", 2]
+        ],
+        "move_cost": 100,
+        "targeting_cost": 45,
+        "ranges": [[0, 10, "DEFAULT"]],
+        "description": "The bandit opens fire!",
+        "targeting_sound": "The bandit takes aim.",
+        "targeting_volume": 15,
+        "no_ammo_sound": "chk, chk!"
+      }
+    ],
+    "starting_ammo": {
+      "reloaded_9mm": 35
+    },
+    "description": "Seeing you approach, they ready their pistol with a look of cold malice in their eye.",
+    "extend": {
+      "flags": [
+        "SWIMS",
+        "SWARMS",
+        "PATH_AVOID_DANGER_2",
+        "PATH_AVOID_FIRE",
+        "DROPS_AMMO",
+        "RANGED_ATTACKER"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_m1911",
+    "copy-from": "template_mon_bandit",
+    "name": { "str": "highwayman" },
+    "color": "white",
+    "aggression": 15,
+    "speed": 105,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 2
+      }
+    ],
+    "armor_bash": 6,
+    "armor_cut": 6,
+    "armor_stab": 6,
+    "armor_acid": 3,
+    "death_drops": "bandits_highway",
+    "upgrades": {
+      "into": "mon_bandits_smg",
+      "half_life": 14
+    },
+    "hp": 90,
+    "special_attacks": [
+      ["PARROT_AT_DANGER", 10],
+      {
+        "type": "gun",
+        "cooldown": 7,
+        "gun_type": "m1911",
+        "ammo_type": "45_acp",
+        "fake_str": 8,
+        "fake_dex": 7,
+        "fake_int": 4,
+        "fake_per": 6,
+        "fake_skills": [
+          ["gun", 3],
+          ["pistol", 3]
+        ],
+        "move_cost": 95,
+        "targeting_cost": 55,
+        "ranges": [[0, 12, "DEFAULT"]],
+        "description": "The highwayman's pistol erupts with fire and sound!",
+        "targeting_sound": "'Good eatin' tonight!'",
+        "targeting_volume": 15,
+        "no_ammo_sound": "chk, chk, chk..."
+      }
+    ],
+    "starting_ammo": {
+      "45_acp": 35
+    },
+    "description": "This particular survivor seems a tad more well-off than his companions. Brandishing a well-kept pistol, his eyes dart around eagerly, looking for another source of good loot.",
+    "anger_triggers": [
+      "FRIEND_ATTACKED",
+      "HOSTILE_SEEN",
+      "PLAYER_WEAK",
+      "PLAYER_CLOSE",
+      "STALK",
+      "SOUND"
+    ],
+    "fear_triggers": ["FRIEND_DIED", "HURT"],
+    "harvest": "mon_broken_cyborg",
+    "dissect": "dissect_CBM_CIV",
+    "extend": {
+      "flags": [
+        "ATTACKMON",
+        "SWIMS",
+        "SWARMS",
+        "GOODHEARING",
+        "PATH_AVOID_DANGER_2",
+        "PATH_AVOID_FIRE",
+        "DROPS_AMMO",
+        "RANGED_ATTACKER"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_smg",
+    "copy-from": "template_mon_armoured_bandit",
+    "name": { "str": "outlaw" },
+    "color": "dark_gray_red",
+    "melee_dice_sides": 7,
+    "dodge": 5,
+    "armor_bash": 10,
+    "armor_cut": 10,
+    "armor_stab": 10,
+    "armor_acid": 4,
+    "death_drops": "bandits_smg",
+    "upgrades": {
+      "into": "mon_bandits_alpha",
+      "half_life": 14
+    },
+    "special_attacks": [
+      ["PARROT_AT_DANGER", 10],
+      {
+        "type": "gun",
+        "cooldown": 4,
+        "gun_type": "uzi",
+        "ammo_type": "9mm",
+        "fake_str": 13,
+        "fake_dex": 8,
+        "fake_int": 8,
+        "fake_per": 10,
+        "fake_skills": [
+          ["gun", 3],
+          ["smg", 4]
+        ],
+        "move_cost": 115,
+        "targeting_cost": 85,
+        "ranges": [
+          [0, 3, "AUTO"],
+          [4, 8, "DEFAULT"]
+        ],
+        "description": "Fire and a stream of bullets erupts from the outlaw's gun!",
+        "targeting_sound": "'Never should've come here...'",
+        "targeting_volume": 17,
+        "no_ammo_sound": "click, click, click, click,..."
+      }
+    ],
+    "starting_ammo": {
+      "9mm": 128
+    },
+    "description": "A crazed gunman, out for blood! He doesn't hesitate to brandish his submachine gun at any hint of potential prey.",
+    "harvest": "mon_broken_cyborg",
+    "dissect": "dissect_CBM_CIV",
+    "extend": {
+      "flags": [
+        "ATTACKMON",
+        "SWIMS",
+        "SWARMS",
+        "GOODHEARING",
+        "NO_BREATHE",
+        "NO_FUNG_DMG",
+        "PATH_AVOID_DANGER_2",
+        "PATH_AVOID_FIRE",
+        "DROPS_AMMO",
+        "RANGED_ATTACKER"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_alpha",
+    "copy-from": "template_mon_armoured_bandit",
+    "name": { "str": "marauder" },
+    "color": "red_white",
+    "aggression": 35,
+    "morale": 65,
+    "speed": 115,
+    "melee_skill": 8,
+    "melee_dice": 3,
+    "melee_dice_sides": 5,
+    "melee_damage": [
+      {
+        "damage_type": "electric",
+        "amount": 5
+      }
+    ],
+    "dodge": 7,
+    "armor_bash": 15,
+    "armor_cut": 15,
+    "armor_stab": 15,
+    "armor_acid": 10,
+    "vision_night": 6,
+    "death_drops": "bandits_alpha",
+    "hp": 150,
+    "upgrades": {
+      "into": "mon_bandits_incendiary_bomb",
+      "half_life": 14
+    },
+    "special_attacks": [
+      ["PARROT_AT_DANGER", 10],
+      {
+        "type": "gun",
+        "cooldown": 3,
+        "gun_type": "hk_g36",
+        "ammo_type": "223",
+        "fake_str": 14,
+        "fake_dex": 11,
+        "fake_int": 10,
+        "fake_per": 12,
+        "fake_skills": [
+          ["gun", 5],
+          ["rifle", 5]
+        ],
+        "move_cost": 100,
+        "targeting_cost": 60,
+        "ranges": [
+          [0, 6, "AUTO"],
+          [7, 14, "DEFAULT"]
+        ],
+        "description": "P-P-P-POW",
+        "targeting_sound": "'Say good night, punk!'",
+        "targeting_volume": 15,
+        "no_ammo_sound": "chk, chk, chk!"
+      }
+    ],
+    "special_when_hit": ["ZAPBACK", 50],
+    "starting_ammo": {
+      "223": 150
+    },
+    "description": "Covered head to toe in piecemeal armor, it's hard to tell that there is no mere human behind that gasmask. Clued-in by his unnatural grace and beastial posture, it is safe to assume this bandit has modified himself well beyond human limits.",
+    "harvest": "mon_broken_cyborg",
+    "dissect": "dissect_CBM_OP",
+    "extend": {
+      "flags": [
+        "ATTACKMON",
+        "SWIMS",
+        "SWARMS",
+        "KEENNOSE",
+        "GOODHEARING",
+        "NO_BREATHE",
+        "NO_FUNG_DMG",
+        "PATH_AVOID_DANGER_2",
+        "PATH_AVOID_FIRE",
+        "DROPS_AMMO",
+        "RANGED_ATTACKER",
+        "NIGHT_INVISIBILITY",
+        "STUN_IMMUNE"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_melee",
+    "copy-from": "template_mon_bandit",
+    "name": { "str": "psycho" },
+    "color": "white_red",
+    "aggression": 40,
+    "morale": 65,
+    "speed": 130,
+    "melee_skill": 7,
+    "melee_dice": 3,
+    "melee_dice_sides": 7,
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 4
+      }
+    ],
+    "dodge": 4,
+    "armor_bash": 7,
+    "armor_cut": 7,
+    "armor_stab": 7,
+    "armor_acid": 5,
+    "death_drops": "bandits_psycho",
+    "upgrades": {
+      "into": "mon_bandits_pyro",
+      "half_life": 14
+    },
+    "luminance": 0,
+    "special_attacks": [
+      ["BIO_OP_TAKEDOWN", 15],
+      ["SHRIEK", 20],
+      ["GRAB", 5],
+      { "id": "scratch", "min_mul": 0.7, "cooldown": 20 },
+      { "type": "bite", "min_mul": 0.8, "cooldown": 20 }
+    ],
+    "death_function": {
+      "effect": {
+        "id": "death_conflagration",
+        "hit_self": true
+      }
+    },
+    "description": "Gone crazy after years of drug abuse, this mad individual brandishes a large and nasty blade - twitching in anticipation for every upcoming battle.",
+    "zombify_into": "mon_zombie_survivor",
+    "anger_triggers": [
+      "FRIEND_ATTACKED",
+      "HOSTILE_SEEN",
+      "PLAYER_WEAK",
+      "PLAYER_CLOSE",
+      "STALK",
+      "SOUND"
+    ],
+    "fear_triggers": ["FRIEND_DIED", "HURT"],
+    "extend": {
+      "flags": [
+        "ATTACKMON",
+        "SWIMS",
+        "PATH_AVOID_DANGER_1",
+        "PATH_AVOID_FIRE",
+        "GRABS"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_pyro",
+    "copy-from": "template_mon_bandit",
+    "name": { "str": "pyromaniac" },
+    "color": "magenta",
+    "aggression": 50,
+    "morale": 75,
+    "speed": 95,
+    "melee_skill": 5,
+    "melee_dice": 2,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 3
+      }
+    ],
+    "dodge": 8,
+    "armor_bash": 10,
+    "armor_cut": 10,
+    "armor_stab": 10,
+    "armor_acid": 8,
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": {
+          "id": "spell_bandits_varying_firestorms_smaller",
+          "hit_self": true
+        },
+        "cooldown": 65
+      }
+    ],
+    "death_function": {
+      "effect": {
+        "id": "death_conflagration",
+        "hit_self": true
+      },
+      "corpse_type": "NO_CORPSE"
+    },
+    "upgrades": {
+      "into": "mon_bandits_super_psycho",
+      "half_life": 14
+    },
+    "description": "always burning desire within this individual could finally take hold and is now acted out unhindered by society.",
+    "anger_triggers": [
+      "FRIEND_ATTACKED",
+      "FRIEND_DIED",
+      "HOSTILE_SEEN",
+      "PLAYER_WEAK",
+      "PLAYER_CLOSE",
+      "STALK",
+      "SOUND"
+    ],
+    "fear_triggers": ["HURT"],
+    "harvest": "mon_broken_cyborg",
+    "dissect": "dissect_CBM_CIV",
+    "extend": {
+      "flags": [
+        "ATTACKMON",
+        "NO_BREATHE",
+        "NO_FUNG_DMG",
+        "PATH_AVOID_DANGER_1",
+        "PATH_AVOID_FIRE",
+        "FIREPROOF",
+        "DRIPS_NAPALM"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_super_psycho",
+    "copy-from": "template_mon_armoured_bandit",
+    "name": { "str": "bad doctor" },
+    "color": "light_green_red",
+    "aggression": 50,
+    "morale": 75,
+    "speed": 130,
+    "melee_skill": 9,
+    "melee_dice": 3,
+    "melee_damage": [
+      {
+        "damage_type": "acid",
+        "amount": 5
+      }
+    ],
+    "dodge": 7,
+    "armor_bash": 14,
+    "armor_cut": 13,
+    "armor_stab": 15,
+    "armor_acid": 9,
+    "vision_night": 5,
+    "death_drops": "bandits_super_psycho",
+    "hp": 150,
+    "special_attacks": [
+      ["BIO_OP_TAKEDOWN", 10],
+      ["GRAB", 3]
+    ],
+    "death_function": {
+      "effect": {
+        "id": "death_conflagration",
+        "hit_self": true
+      }
+    },
+    "upgrades": {
+      "into": "mon_bandits_suicide_bomber",
+      "half_life": 14
+    },
+    "description": "This guy is way too big to be just another bandit - and his revving chainsaw only cements that fact. The one hole in his burlap-sack mask reveals a bloodshot orb darting around, surveying for blood.",
+    "harvest": "mon_broken_cyborg",
+    "dissect": "dissect_CBM_SCI",
+    "extend": {
+      "flags": [
+        "ATTACKMON",
+        "SWIMS",
+        "GOODHEARING",
+        "NO_BREATHE",
+        "NO_FUNG_DMG",
+        "PATH_AVOID_DANGER_1",
+        "PATH_AVOID_FIRE",
+        "RANGED_ATTACKER",
+        "FIREPROOF",
+        "CAMOUFLAGE",
+        "GRABS"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_suicide_bomber",
+    "copy-from": "template_mon_bandit",
+    "name": { "str": "suicide bomber" },
+    "color": "light_gray",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 3,
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 3
+      }
+    ],
+    "upgrades": {
+      "into": "mon_bandits_incendiary_bomb",
+      "half_life": 14
+    },
+    "special_attacks": [["SHRIEK_ALERT", 20]],
+    "death_function": {
+      "effect": {
+        "id": "death_conflagration",
+        "hit_self": true
+      },
+      "corpse_type": "NO_CORPSE"
+    },
+    "hp": 50,
+    "description": "always burning desire within this individual could finally take hold and is now acted out unhindered by society.",
+    "anger_triggers": [
+      "FRIEND_ATTACKED",
+      "FRIEND_DIED",
+      "HOSTILE_SEEN",
+      "PLAYER_WEAK",
+      "PLAYER_CLOSE",
+      "STALK",
+      "SOUND",
+      "HURT"
+    ],
+    "fear_triggers": [],
+    "extend": {
+      "flags": [
+        "ATTACKMON",
+        "KEENNOSE",
+        "GOODHEARING",
+        "NO_BREATHE",
+        "NO_FUNG_DMG",
+        "FIREPROOF",
+        "GRABS",
+        "DRIPS_NAPALM"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_shotgun",
+    "copy-from": "template_mon_armoured_bandit",
+    "name": { "str": "armored bandit" },
+    "color": "light_red",
+    "speed": 85,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 2
+      }
+    ],
+    "armor_bash": 8,
+    "armor_cut": 8,
+    "armor_stab": 6,
+    "armor_acid": 4,
+    "death_drops": "bandits_shotgun",
+    "upgrades": {
+      "into": "mon_bandits_raider",
+      "half_life": 14
+    },
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 12,
+        "gun_type": "pipe_shotgun",
+        "ammo_type": "shot_scrap",
+        "fake_str": 11,
+        "fake_dex": 7,
+        "fake_int": 3,
+        "fake_per": 5,
+        "fake_skills": [
+          ["gun", 3],
+          ["shotgun", 2]
+        ],
+        "move_cost": 125,
+        "targeting_cost": 115,
+        "ranges": [[0, 5, "DEFAULT"]],
+        "description": "KABLAAM!!",
+        "targeting_sound": "The barrel snaps into place!",
+        "targeting_volume": 10,
+        "no_ammo_sound": "a hollow rapping!"
+      }
+    ],
+    "starting_ammo": {
+      "shot_scrap": 10
+    },
+    "description": "More armored than the average bandit, this survivor stands out with their break-action shotgun and satchel of shells.",
+    "harvest": "mon_broken_cyborg",
+    "dissect": "dissect_CBM_CIV",
+    "extend": {
+      "flags": [
+        "SWIMS",
+        "PATH_AVOID_DANGER_2",
+        "PATH_AVOID_FIRE",
+        "DROPS_AMMO",
+        "RANGED_ATTACKER"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_raider",
+    "copy-from": "template_mon_bandit",
+    "name": { "str": "raider" },
+    "color": "dark_gray_green",
+    "aggression": 25,
+    "morale": 35,
+    "speed": 95,
+    "melee_skill": 6,
+    "melee_dice": 2,
+    "melee_dice_sides": 5,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 2
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 11,
+    "armor_cut": 11,
+    "armor_stab": 8,
+    "armor_acid": 7,
+    "vision_night": 3,
+    "death_drops": "bandits_raider",
+    "upgrades": {
+      "into": "mon_bandits_rifle",
+      "half_life": 14
+    },
+    "luminance": 0,
+    "special_attacks": [
+      ["GRAB", 5],
+      ["PARROT_AT_DANGER", 10],
+      {
+        "type": "gun",
+        "cooldown": 9,
+        "gun_type": "surv_levershotgun",
+        "ammo_type": "shot_00",
+        "fake_str": 10,
+        "fake_dex": 9,
+        "fake_int": 4,
+        "fake_per": 7,
+        "fake_skills": [
+          ["gun", 4],
+          ["shotgun", 5]
+        ],
+        "move_cost": 110,
+        "targeting_cost": 100,
+        "ranges": [[0, 6, "DEFAULT"]],
+        "description": "BOOOOM!!",
+        "targeting_sound": "Tchk, tchk!",
+        "targeting_volume": 10,
+        "no_ammo_sound": "a click!"
+      }
+    ],
+    "starting_ammo": {
+      "shot_00": 15
+    },
+    "description": "Large chunks of scrap metal were draped on this bandit's duster with odd symbols painted across each and every one. They grip their shotgun sternly, anticipating someone to test their mettle.",
+    "anger_triggers": [
+      "FRIEND_ATTACKED",
+      "HOSTILE_SEEN",
+      "PLAYER_WEAK",
+      "PLAYER_CLOSE",
+      "STALK",
+      "SOUND"
+    ],
+    "fear_triggers": ["FRIEND_DIED", "HURT"],
+    "harvest": "mon_broken_cyborg",
+    "dissect": "dissect_CBM_POWER",
+    "extend": {
+      "flags": [
+        "ATTACKMON",
+        "SWIMS",
+        "SWARMS",
+        "GOODHEARING",
+        "PATH_AVOID_DANGER_2",
+        "PATH_AVOID_FIRE",
+        "DROPS_AMMO",
+        "RANGED_ATTACKER"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_rifle",
+    "copy-from": "template_mon_armoured_bandit",
+    "name": { "str": "marksman" },
+    "color": "green",
+    "speed": 100,
+    "melee_damage": [
+      {
+        "damage_type": "electric",
+        "amount": 3
+      }
+    ],
+    "armor_bash": 12,
+    "armor_cut": 11,
+    "armor_stab": 10,
+    "armor_acid": 9,
+    "death_drops": "bandits_rifle",
+    "upgrades": {
+      "into": "mon_bandits_super_sniper",
+      "half_life": 14
+    },
+    "hp": 120,
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 7,
+        "gun_type": "remington_700",
+        "ammo_type": "3006",
+        "fake_str": 14,
+        "fake_dex": 10,
+        "fake_int": 6,
+        "fake_per": 10,
+        "fake_skills": [
+          ["gun", 4],
+          ["rifle", 3]
+        ],
+        "move_cost": 150,
+        "targeting_cost": 120,
+        "ranges": [[0, 17, "DEFAULT"]],
+        "description": "CRAACK!!",
+        "targeting_sound": "The barrel becomes unnervingly steady...",
+        "targeting_volume": 15,
+        "no_ammo_sound": "c'tching!"
+      }
+    ],
+    "starting_ammo": {
+      "3006": 10
+    },
+    "description": "Clothed in a battered duster, this survivor grips his rifle doubtless with predatory intentions.",
+    "zombify_into": "mon_zombie_survivor",
+    "anger_triggers": [
+      "FRIEND_ATTACKED",
+      "FRIEND_DIED",
+      "HOSTILE_SEEN",
+      "PLAYER_WEAK",
+      "PLAYER_CLOSE",
+      "STALK",
+      "SOUND"
+    ],
+    "fear_triggers": ["HURT"],
+    "harvest": "mon_broken_cyborg",
+    "dissect": "dissect_CBM_CIV",
+    "extend": {
+      "flags": [
+        "ATTACKMON",
+        "GOODHEARING",
+        "NO_BREATHE",
+        "NO_FUNG_DMG",
+        "PATH_AVOID_DANGER_2",
+        "PATH_AVOID_FIRE",
+        "DROPS_AMMO",
+        "RANGED_ATTACKER",
+        "NIGHT_INVISIBILITY"
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_bandits_super_sniper",
+    "copy-from": "template_mon_armoured_bandit",
+    "name": { "str": "head hunter" },
+    "color": "light_green_green",
+    "melee_dice_sides": 5,
+    "armor_bash": 15,
+    "armor_cut": 15,
+    "armor_stab": 15,
+    "armor_acid": 12,
+    "vision_night": 6,
+    "death_drops": "bandits_super_rifle",
+    "upgrades": {
+      "into": "mon_bandits_incendiary_bomb",
+      "half_life": 14
+    },
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 5,
+        "gun_type": "savage_111f",
+        "ammo_type": "308",
+        "fake_str": 13,
+        "fake_dex": 11,
+        "fake_int": 9,
+        "fake_per": 13,
+        "fake_skills": [
+          ["gun", 5],
+          ["rifle", 5]
+        ],
+        "move_cost": 155,
+        "targeting_cost": 200,
+        "ranges": [[0, 20, "DEFAULT"]],
+        "description": "CRA-BOOOM!!",
+        "targeting_sound": "For a second, the wind almost seems to stop!",
+        "targeting_volume": 17,
+        "no_ammo_sound": "a click!"
+      }
+    ],
+    "starting_ammo": {
+      "308": 12
+    },
+    "description": "It's incredibly difficult to see this guillied-up survivor amongst their surrounding. A few seconds later and it might have been too late to notice him ... maybe it already is.",
+    "harvest": "mon_broken_cyborg",
+    "dissect": "dissect_CBM_OP",
+    "extend": {
+      "flags": [
+        "ATTACKMON",
+        "KEENNOSE",
+        "GOODHEARING",
+        "PATH_AVOID_DANGER_2",
+        "PATH_AVOID_FIRE",
+        "DROPS_AMMO",
+        "RANGED_ATTACKER",
+        "NIGHT_INVISIBILITY",
+        "CAMOUFLAGE"
+      ]
+    }
+  }
+]

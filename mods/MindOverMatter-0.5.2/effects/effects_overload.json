@@ -1,0 +1,125 @@
+[
+  {
+    "type": "effect_type",
+    "id": "psionic_overload",
+    "name": [ 
+      "Headache",
+      "Headache",
+      "Headache",
+      "Bad Headache",
+      "Bad Headache",
+      "Splitting Headache",
+      "Splitting Headache",
+      "Excuciating Headache",
+      "Excuciating Headache",
+      "Pure Agony"
+    ],
+    "desc": [ 
+      "Your head is is pounding and you feel unwell.",
+      "Your head is is pounding and you feel unwell.",
+      "Your head is is pounding and you feel unwell.",
+      "Your head throbs and its hard to see straight.",
+      "Your head throbs and its hard to see straight.",
+      "You can barely think through the pain in your head.",
+      "You can barely think through the pain in your head.",
+      "You skull feels like it's going to explode.",
+      "You skull feels like it's going to explode.",
+      "The agony is only thing in the world that matters."
+    ],
+	  "rating": "bad",
+		"int_add_val": 1,
+		"max_intensity": 10,
+		"max_duration": "24 hours",
+		"base_mods": { "per_mod": [ -2 ], "int_mod": [ -2 ], "pain_chance": [ 10 ], "pain_min": [ 2 ], "pain_max": [ 3 ], "pain_max_val": [ 50 ], "vomit_chance": [ 25 ], "hurt_chance": [ -10 ], "hurt_amount": [ 0 ], "hurt_tick": [ 200 ] },
+    "scaling_mods": { "per_mod": [ -1.2 ], "int_mod": [ -0.6 ], "pain_min": [ 1 ], "pain_max": [ 4 ], "pain_max_val": [ 30 ], "vomit_chance": [ -2 ], "hurt_chance": [ 8 ], "hurt_amount": [ 2, 1 ], "hurt_tick": [ -15 ] }
+  },
+	{
+		"type": "effect_type",
+		"id": "effect_biokin_overload",
+		"name": [ "Weakened" ],
+		"desc": [ "Your muscles and coordination are impaired." ],
+		"apply_message": "Your muscles tremble with weakness!",
+		"remove_message": "New strength fills you!",
+		"rating": "bad",
+		"max_intensity": 10,  
+		"base_mods": { "str_mod": [ -2 ], "dex_mod": [ -2 ] },
+		"scaling_mods": { "str_mod": [ -1.2 ], "dex_mod": [ -1.2 ] }
+	},
+  {
+    "type": "effect_type",
+    "id": "blind_clair_overload",
+    "//": "This effect and the one below exist so a clairsentient can't cure their powers going haywire using their own powers.",
+    "name": [ "Blind" ],
+    "desc": [ "Darkness obscures your vision." ],
+    "removes_effects": [ "glare", "snow_glare", "darkness" ],
+    "apply_message": "You're blinded!",
+    "remove_message": "Your sight returns!",
+    "rating": "bad",
+    "show_in_info": true,
+    "flags": [ "BLIND" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "deaf_clair_overload",
+    "name": [ "Deaf" ],
+    "desc": [ "You can't hear anything." ],
+    "apply_message": "All sound is blotted out!",
+    "remove_message": "You can hear again!",
+    "rating": "bad",
+    "max_intensity": 3,
+    "int_dur_factor": "100 s",
+    "flags": [ "DEAF" ]
+  },
+	{
+		"type": "effect_type",
+		"id": "effect_pyrokin_overload",
+		"name": [ "Feverish" ],
+		"desc": [ "You feel much too warm." ],
+		"apply_message": "",
+		"remove_message": "The air feels much cooler now.",
+		"rating": "bad",
+		"base_mods": { "per_mod": [ -2 ], "health_min": [ -1 ], "health_chance": [ 25 ] },
+		"enchantments": [ "enchant_pyrokin_fever" ]
+	},
+  {
+	  "type": "effect_type",
+		"id": "effect_portal_storm_teleport",
+		"name": [ "Dimensionally Unstable" ],
+		"desc": [ "You feel like you're barely part of the world." ],
+		"//": "Duplicate so teleporters can get teleported during portal storms.",
+		"apply_message": "",
+		"remove_message": "With a jolt, you feel more solid again.",
+		"rating": "bad",
+		"enchantments": [ "enchant_riftwalker_teleport" ]
+  },
+	{
+		"type": "effect_type",
+		"id": "effect_telekin_overload",
+		"name": [ "Oppressive Weight" ],
+		"desc": [ "Everything feels so much heavier." ],
+		"apply_message": "The air itself seems to press down on you!",
+		"remove_message": "The oppressive weight vanishes",
+		"rating": "bad",
+		"max_intensity": 10,  
+		"enchantments": [
+			{  
+				"values": [ 
+					{ "value": "CARRY_WEIGHT", "multiply": 0.75 },
+					{ "value": "MOVE_COST", "multiply": 1.5 }
+				]
+			}
+		]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_vitakin_overload",
+		"name": [ "Enervated" ],
+		"desc": [ "Your muscles and coordination are impaired." ],
+		"apply_message": "You feel awful!",
+		"remove_message": "You don't feel as bad anymore!",
+    "rating": "bad",
+    "max_intensity": 10,  
+    "base_mods": { "fatigue_tick": [ 300 ], "fatigue_min": [ 1 ], "health_min": [ -1 ], "health_tick": [ 400 ] },
+    "scaling_mods": { "fatigue_min": [ 1 ], "health_min": [ -1 ] }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fireball_talisman",
+    "name": "talisman of fireball",
+    "description": "A paper carrying the lesser fireball spell.",
+    "use_action": { "type": "cast_spell", "spell_id": "fireball_talisman", "no_fail": true, "level": 1 },
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "category": "tools",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "symbol": ",",
+    "color": "light_red",
+    "stack_size": 10,
+    "flags": [ "NO_SALVAGE", "NO_INGEST", "NUTRIENT_OVERRIDE" ],
+    "price": 100
+    },
+
+ {
+    "id": "wall_talisman",
+    "type": "COMESTIBLE",
+    "name": "barrier talisman",
+    "copy-from": "fireball_talisman",
+    "description": "A paper carrying the paper barrier spell.",
+    "use_action": { "type": "cast_spell", "spell_id": "wall_talisman", "no_fail": true, "level": 1 },
+    "price": 100
+  },
+{
+    "id": "pit_talisman",
+    "type": "COMESTIBLE",
+    "name": "pit talisman",
+    "copy-from": "fireball_talisman",
+    "description": "A paper carrying the pit spell.",
+    "use_action": { "type": "cast_spell", "spell_id": "pit_talisman", "no_fail": true, "level": 1 },
+    "price": 100
+  }
+
+]

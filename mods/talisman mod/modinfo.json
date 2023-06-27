@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "talismans",
+    "name": "Talisman utilities",
+    "authors": [ "Ignaramico" ],
+    "description": "utility talismans.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

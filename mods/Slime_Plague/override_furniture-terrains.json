@@ -1,0 +1,35 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_rubble",
+    "name": "pile of rubble",
+    "symbol": "^",
+    "description": "Pile of various metals, bricks, and other building materials.  You could clear it with a shovel.",
+    "color": "light_gray",
+    "move_cost_mod": 6,
+    "max_volume": "750 L",
+    "required_str": -1,
+    "flags": [
+      "ALLOW_ON_OPEN_AIR",
+      "TRANSPARENT",
+      "UNSTABLE",
+      "ROUGH",
+      "PLACE_ITEM",
+      "MOUNTABLE",
+      "CONTAINER",
+      "SEALED",
+      "ALLOW_FIELD_EFFECT",
+      "TINY",
+      "RUBBLE"
+    ],
+    "examine_action": "rubble"
+  },
+ {
+    "type": "furniture",
+    "id": "f_bench",
+    "copy-from": "f_bench",
+    "name": "bench",
+    "description": "A simple bench with wood slats nailed to a frame.  While uncomfortably flat and just as cold as the ground, it could serve as a bed if needed.",
+    "flags": [   "ALLOW_ON_OPEN_AIR", "TRANSPARENT", "FLAMMABLE_ASH", "ORGANIC", "MOUNTABLE", "SHORT", "CAN_SIT" ]
+  }
+]

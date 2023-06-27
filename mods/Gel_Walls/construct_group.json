@@ -1,0 +1,12 @@
+[
+  {
+    "id": "build_gel_door",
+    "type": "construction_group",
+    "name": "Build gel door"
+  },
+  {
+    "id": "build_gel_wall",
+    "type": "construction_group",
+    "name": "Build gel wall"
+  }
+]

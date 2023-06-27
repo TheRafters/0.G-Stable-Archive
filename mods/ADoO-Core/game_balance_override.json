@@ -1,0 +1,16 @@
+[
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "SELECT_STARTING_CITY",
+    "info": "Allows to select starting city in new character menu. Default to false.",
+    "stype": "bool",
+    "value": false
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "EMP_DISABLE_ELECTRONICS",
+    "info": "Whether EMP effects will permanently disable items. Default to true.",
+    "stype": "bool",
+    "value": false
+  }
+  ]

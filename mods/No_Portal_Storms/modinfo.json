@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "no_portal_storms",
+    "name": "No Portal Storms",
+    "authors": [ "Cthae" ],
+    "description": "Removes Portal Storms",
+    "category": "balance",
+    "dependencies": [ "dda" ]
+  }
+]

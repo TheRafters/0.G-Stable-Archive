@@ -1,0 +1,15 @@
+[{
+    "type": "npc_class",
+    "id": "NC_APIS",
+    "copy-from":"NC_APIS",
+    "carry_override":"NC_APIS_AMULET"
+},
+
+  {
+    "type": "item_group",
+    "id": "NC_APIS_AMULET",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "bee_amulet", "prob": 100 }
+    ]
+  }]

@@ -1,0 +1,10 @@
+[{
+    "abstract": "spell_base",
+    "type": "TOOL",
+    "name": "testing abstract",
+    "material": [ "paper" ],
+    "symbol": ",",
+    "drop_action": { "type": "emit_actor" },
+    "flags": [ "NO_SALVAGE", "TRADER_AVOID", "UNBREAKABLE_MELEE" ]
+  }
+]

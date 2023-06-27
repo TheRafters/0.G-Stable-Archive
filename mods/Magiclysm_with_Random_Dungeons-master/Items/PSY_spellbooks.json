@@ -1,0 +1,709 @@
+[
+
+    {
+        "id": "PSY_magi_dungeon_map",
+        "copy-from": "abstractmap",
+        "type": "GENERIC",
+        "category": "maps",
+        "name": "dungeon map",
+        "description": "This is an well worn map.  It has pictures of fantastical beasts embellishing the carefully drawn map markers.",
+        "color": "white",
+        "use_action": {
+          "type": "reveal_map",
+          "radius": 135,
+          "terrain": [
+            "PSY_magi_random_dungeon_0_NW",
+            "PSY_magi_random_dungeon_0_NE",
+            "PSY_magi_random_dungeon_0_SW",
+            "PSY_magi_random_dungeon_0_SE"
+          ],
+          "message": "You add the locations to your map."
+        }
+    },
+
+    {
+        "id": "PSY_magi_forest_dungeon_map",
+        "copy-from": "abstractmap",
+        "type": "GENERIC",
+        "category": "maps",
+        "name": "forest dungeon map",
+        "description": "This is an well worn map.  It has pictures of fantastical beasts embellishing the carefully drawn map markers.",
+        "color": "white",
+        "use_action": {
+          "type": "reveal_map",
+          "radius": 135,
+          "terrain": [
+            "PSY_magi_random_dungeon_forest_0_NW", 
+            "PSY_magi_random_dungeon_forest_0_N", 
+            "PSY_magi_random_dungeon_forest_0_NE",
+            "PSY_magi_random_dungeon_forest_0_SW", 
+            "PSY_magi_random_dungeon_forest_0_S", 
+            "PSY_magi_random_dungeon_forest_0_SE" 
+          ],
+          "message": "You add the locations to your map."
+        }
+    },
+
+    {
+        "id": "PSY_magi_control_beginner",
+        "type": "BOOK",
+        "name": { "str": "A Beginner's Guide to Control enemies", "str_pl": "copies of A Beginner's Guide to Control enemies" },
+        "//": "3 classless spell",
+        "looks_like": "wizard_beginner",
+        "description": "It's a spellbook on how to manipulate the mind of your opponent.",
+        "weight": "585 g",
+        "volume": "250 ml",
+        "price": 5000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_red",
+        "use_action": { "type": "learn_spell", "spells": ["PSY_magi_mindcontrol", "PSY_magi_spell_mass_mindcontrol","PSY_magi_electro_stun","PSY_magi_sweep" ] }
+    },
+
+    {
+        "id": "PSY_magi_alien_advanced",
+        "type": "BOOK",
+        "name": { "str": "The mystery of the universe", "str_pl": "copies of The mystery of the universe" },
+        "//": "3 classless spell",
+        "looks_like": "wizard_beginner",
+        "description": "It's a spellbook on how to manipulate magnetism and how to deal with it.",
+        "weight": "1585 g",
+        "volume": "250 ml",
+        "price": 5000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_red",
+        "use_action": { "type": "learn_spell", "spells": ["PSY_magi_spell_vacuum", "PSY_magi_spell_magnetic_field","PSY_magi_spell_remove_telegrow","PSY_magi_summon_magic_UFO" ] }
+    },
+
+    {
+        "id": "PSY_magi_Vegetable_paradox",
+        "type": "BOOK",
+        "name": { "str": "The Book of [Vegetable Paradox]", "str_pl": "copies of The Book of [Vegetable Paradox]" },
+        "//": "3 classless spell",
+        "looks_like": "wizard_beginner",
+        "description": "It is a book covered with plants. It contains instructions on how to grow plants instantly!",
+        "weight": "1585 g",
+        "volume": "250 ml",
+        "price": 5000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_red",
+        "use_action": { "type": "learn_spell", "spells": ["PSY_magi_spawn_plant_shooter", "PSY_magi_spell_Tangled_vine_line","PSY_magi_spell_create_orchard","PSY_magi_summon_magic_5x5box" ] }
+    },
+
+    {
+        "id": "PSY_magi_tome_of_trickstar",
+        "type": "BOOK",
+        "//": "3 spells",
+        "looks_like": "tome_of_storms",
+        "name": { "str": "The Tome [Trickstar]", "str_pl": "copies of The Tome [Trickstar]" },
+        "description": "It's a spellbook that describes how to exchange positions with your partner.",
+        "weight": "50 g",
+        "volume": "250 ml",
+        "price": 5000,
+        "material": [ "silver","gold","platinum" ],
+        "symbol": "?",
+        "color": "light_gray",
+        "use_action": {
+          "type": "learn_spell",
+          "spells": [ "PSY_magi_short_swap_pos","PSY_magi_long_swap_pos","PSY_magi_emergency_call" ]
+        }
+    },
+
+    {
+        "id": "PSY_magi_the_fear_of_disaster",
+        "type": "BOOK",
+        "//": "3 spells",
+        "looks_like": "tome_of_storms",
+        "name": { "str": "The Fear of Disaster", "str_pl": "copies of The Fear of Disaster" },
+        "description": "It's a spellbook about how to create a disaster easily.",
+        "weight": "50 g",
+        "volume": "250 ml",
+        "price": 5000,
+        "material": [ "silver","gold","platinum" ],
+        "symbol": "?",
+        "color": "light_gray",
+        "use_action": {
+          "type": "learn_spell",
+          "spells": [ "PSY_magi_spawn_pushing_orb","PSY_magi_call_lightning_tornado","PSY_magi_call_black_hole" ]
+        }
+    },
+
+    {
+        "id": "PSY_magi_summon_advanced",
+        "type": "BOOK",
+        "//": "3 classless spells",
+        "looks_like": "wizard_advanced",
+        "name": { "str": "A Treatise on Magical Summons", "str_pl": "copies of A Treatise on Magical Summons" },
+        "description": "This is a book where you can learn intermediate summoning techniques.",
+        "weight": "920 g",
+        "volume": "750 ml",
+        "price": 30000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_red",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spawn_pushing_orb", "PSY_magi_summon_animated_steel_utensil","PSY_magi_spawn_vine_tentacle" ] }
+    },
+
+    {
+        "id": "PSY_magi_ninja_instruction",
+        "type": "BOOK",
+        "//": "3 classless spells",
+        "looks_like": "wizard_advanced",
+        "name": { "str": "The Ninja instruction Book", "str_pl": "copies of The Ninja instruction Book" },
+        "description": "This is a spellbook on how to use ninjutsu.",
+        "weight": "920 g",
+        "volume": "750 ml",
+        "price": 30000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_red",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_summon_decoy_replacement","PSY_magi_spell_scatter_caltrop","PSY_magi_spell_Speed_UP_line","PSY_magi_spell_Create_Sanctuary" ] }
+    },
+
+    {
+        "id": "PSY_magi_unholy_summoning_advanced",
+        "type": "BOOK",
+        "//": "3 classless spells",
+        "looks_like": "wizard_advanced",
+        "name": { "str": "The benefits of unholy summoning", "str_pl": "copies of The benefits of unholy summoning" },
+        "description": "This is a spellbook with a suspicious glow. It looks like you could learn a thing or two about summoning...",
+        "weight": "920 g",
+        "volume": "750 ml",
+        "price": 30000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_red",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_necrotic_calamity", "PSY_magi_summon_flying_skul","PSY_magi_spawn_resurrect_orb","PSY_magi_open_summon_gate" ] }
+    },
+
+    {
+        "id": "PSY_magi_create_items_spellbook",
+        "type": "BOOK",
+        "name": { "str": "Book of Magic Creation", "str_pl": "copies of Book of Magic Creation" },
+        "//": "5 Kelvinist spells",
+        "looks_like": "winter_grasp",
+        "description": "This is a spellbook on how to create simple items with magic.",
+        "weight": "450 g",
+        "volume": "1 L",
+        "price": 1904,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_create_magic_bomb_spider_web", "PSY_magi_conj_throwing_blade","PSY_magi_conj_throwing_bat" ] }
+    },
+
+    {
+        "id": "PSY_magi_create_totems_spellbook",
+        "type": "BOOK",
+        "name": { "str": "Book of Totem Creation", "str_pl": "copies of Book of Totem Creation" },
+        "//": "5 Kelvinist spells",
+        "looks_like": "winter_grasp",
+        "description": "This is a book for beginner spellcasters. It contains information on totems.",
+        "weight": "450 g",
+        "volume": "1 L",
+        "price": 1904,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spawn_blind_totem", "PSY_magi_spawn_charm_totem","PSY_magi_spawn_fear_totem" ] }
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_PUNIPUNI",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_grave_fall" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of []", "str_pl": "Scrolls of []" },
+        "description": "You can read this scroll to learn [].\n "
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spell_morph_totem",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spell_morph_totem" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Polymorph Totem]", "str_pl": "Scrolls of [Polymorph Totem]" },
+        "description": "You can read this scroll to learn [Polymorph Totem].\n Polymorph target totem into another form.\n Fear totem into stun totem that stun nearby enemies.\nMindcontrol Totem into Strengthening totem that buffs nearby friendly units.\nblind Totem into spotting totem that spots and illuminates all nearby enemies.\nPlague totem into rat totem that summon a lot of plague rats."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spell_repair_totem",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spell_repair_totem" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Repair Totem]", "str_pl": "Scrolls of [Repair Totem]" },
+        "description": "You can read this scroll to learn [Repair Totem].\n Repair target totem to full HP . "
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spawn_taunt_totem",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spawn_taunt_totem" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon a Tauntotem]", "str_pl": "Scrolls of [Summon a Tauntotem]" },
+        "description": "You can read this scroll to learn [Summon a Tauntotem].\n Summon a Totem that Taunt nearby enemies(max range:5 tiles)."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spawn_plague_totem",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spawn_plague_totem" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon a plague Totem]", "str_pl": "Scrolls of [Summon a plague Totem]" },
+        "description": "You can read this scroll to learn [Summon a plague Totem].\n Summon a Totem that inflicts plague(slowing and Dot) nearby enemies(max range:12 tiles)"
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spawn_blind_totem",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spawn_blind_totem" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon a blind Totem]", "str_pl": "Scrolls of [Summon a blind Totem]" },
+        "description": "You can read this scroll to learn [Summon a blind Totem].\n Summon a Totem that blind nearest enemies(max range:15 tiles)."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spawn_charm_totem",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spawn_charm_totem" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon a Mindcontrol Totem]", "str_pl": "Scrolls of [Summon a Mindcontrol Totem]" },
+        "description": "You can read this scroll to learn [Summon a Mindcontrol Totem].\n Summon a Totem that Mindcontrol random enemy(maxHP 180 or under) within 5 tiles."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spawn_fear_totem",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spawn_fear_totem" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon a fear Totem]", "str_pl": "Scrolls of [Summon a fear Totem]" },
+        "description": "You can read this scroll to learn [Summon a fear Totem].\n Summon a Totem that frighten nearby enemies(max range:6 tiles). "
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_Thunder_snake_base",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_Thunder_snake_base" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Thunder Snake]", "str_pl": "Scrolls of [Thunder Snake]" },
+        "description": "You can read this scroll to learn [Thunder Snake].\n Summon a thunder snake that jumps from enemy to enemy in the target area and dealing damage to them "
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_necrotic_calamity",
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Necrotic Calamity]", "str_pl": "Scrolls of [Necrotic Calamity]" },
+        "description": "You can learn [Necrotic Calamity] with this scroll.\n You sacrifice your own blood to amplify necrotic power into your fingertips, damaging the target you point at.\n Summon Skeleton snake for 10 minutes at target location if target is killed by this spell!",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_necrotic_calamity" ] }
+    },
+
+    {
+        "looks_like": "spell_scroll",
+        "id": "spell_scroll_PSY_magi_grave_fall",
+        "//": "Classless spell",
+        "type": "BOOK",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Grave Fall]", "str_pl": "Scrolls of [Grave Fall]" },
+        "description": "You can learn [Grave Fall] with this scroll.\n instantly kill enemy under the 300 HP, then bury it with grave",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_grave_fall" ] }
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_summon_skeleton_grave",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_summon_skeleton_grave" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon a skeleton grave]", "str_pl": "Scrolls of [Summon a skeleton grave]" },
+        "description": "You can read this scroll to learn [Summon a skeleton grave].\n Summon a grave that raises lesser skeletons from underground every 8 seconds."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spell_summon_four_element",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spell_summon_four_element" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon Element]", "str_pl": "Scrolls of [Summon Element]" },
+        "description": "You can read this scroll to learn [Summon Element].\n Summons one of the four elements."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_meteor",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_meteor" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Meteor Strike]", "str_pl": "Scrolls of [Meteor Strike]" },
+        "description": "You can read this scroll to learn [Meteor Strike].\n Meteor Strike is an attack that consumes magic power and borrows the power of the stars.It creates a small meteorite mass in the sky above the target location, and inflicts heavy fire damage to the area where the meteorite falls.One drawback of this magic, however, is that the user is defenseless until the meteorite falls.In most cases, the user's MP is depleted after using this magic, so it is necessary to be judicious in its use."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_Tiamat_breath",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_Tiamat_breath" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Tiamat breath]", "str_pl": "Scrolls of [Tiamat breath]" },
+        "description": "You can read this scroll to learn [Tiamat breath].\n Tiamat Breath is a water-attributed breath attack that consumes magical power and borrows the power of Tiamat, a magical beast of the sea dragon species.It is said to be so powerful that it can pierce the earth, but it consumes an enormous amount of magical power to activate, so it is a technique that is selective in its use.It is said to be so powerful that those who are hit by it cannot escape death, but it takes time before it is activated, making it difficult to use."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_dead_end",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_dead_end" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Dead End]", "str_pl": "Scrolls of [Dead End]" },
+        "description": "You can read this scroll to learn [Dead End].\n Dead End is a magic that takes the life of a target in exchange for the user's magical power.Because of its nature, it is effective against large creatures, but its long chanting time makes it a double-edged sword that carries the risk of the user's own death."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_summon_bug_swarm",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_summon_bug_swarm" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Bug Swarm]", "str_pl": "Scrolls of [Bug Swarm]" },
+        "description": "You can read this scroll to learn [Bug Swarm].\n Bug Swarm is a magic that summons a large number of insects through magical power. There are various types of bugs, ranging from monsters such as worms and beetles to cockroach-like insects. The summoned insects can be controlled to some extent, so those who are not good at group battles must be especially wary of them. Some of the insects have powerful poisons or can fly, so one cannot be too careful when fighting them."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_mega_healing",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_mega_healing" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Mega Cure wounds]", "str_pl": "Scrolls of [Mega Cure wounds]" },
+        "description": "You can read this scroll to learn [Mega Cure wounds].\n Mega cure wounds is a recovery magic that requires a huge amount of MP and chanting time, and can almost completely recover HP from a near-death state. However, the long chanting time is so long that the dying person is likely to pass out from the pain during the chanting, so it is sometimes better not to use it. This spell cannot be used on party members, but only on oneself.It can only heal HP, not poison, disease, or curses."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spell_summon_ultimate_flame_feather",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spell_summon_ultimate_flame_feather" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon Feather]", "str_pl": "Scrolls of [Summon Feather]" },
+        "description": "You can read this scroll to learn [Summon Feather].\n Spell acquired by defeating the Bird boss.Summons two bird feathers that deal pure damage to nearby targets and your movement speed increases for a short while. can be stacked up to 10 times!"
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spell_ultimate_random_breath",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spell_ultimate_random_breath" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Chimera Breath]", "str_pl": "Scrolls of [Chimera Breath]" },
+        "description": "You can read this scroll to learn [Chimera Breath].\n Spell acquired by defeating the Chimera boss.Breath of random attributes is released toward the target point.Increasing the spell level increases the number of breaths released up to 10!"
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_spell_summon_ultimate_apple_tree",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_spell_summon_ultimate_apple_tree" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon Apple Tree Monster]", "str_pl": "Scrolls of [Summon Apple Tree Monster]" },
+        "description": "You can read this scroll to learn [Summon Apple Tree Monster].\n Summons a Monster Apple Tree that produces many monsters that at first glance appear to be nothing more than an apple tree."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_conj_blade_of_air",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_conj_blade_of_air" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Blade of Air]", "str_pl": "Scrolls of [Blade of Air]" },
+        "description": "You can read this scroll to learn [Blade of Air].\n Continuously summons blades of air that slices the target for a certain period of time."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_summon_blade_dance",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_summon_blade_dance" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Blade Dance]", "str_pl": "Scrolls of [Blade Dance]" },
+        "description": "You can read this scroll to learn [Blade Dance].\n Scatter a number of daggers that cut surrounding enemies at different times."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_summon_boomerang",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_summon_boomerang" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Throw Boomerang]", "str_pl": "Scrolls of [Throw Boomerang]" },
+        "description": "You can read this scroll to learn [Throw Boomerang].\n Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_summon_flying_eye",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_summon_flying_eye" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon a flying eye]", "str_pl": "Scrolls of [Summon a flying eye]" },
+        "description": "You can read this scroll to learn [Summon a flying eye].\n Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_summon_magic_tower",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_summon_magic_tower" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [Summon Magic Tower]", "str_pl": "Scrolls of [Summon Magic Tower]" },
+        "description": "You can read this scroll to learn [Summon Magic Tower].\n Summons a magic tower that keeps irradiating lasers at the target enemy. Each time that enemy continues to be irradiated by the laser, the damage it takes is increased and its movement speed is reduced."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_conj_blitzkrieg_aura",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_conj_blitzkrieg_aura" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [blitzkrieg]", "str_pl": "Scrolls of [blitzkrieg]" },
+        "description": "You can read this scroll to learn [blitzkrieg].\n A magic that attacks enemies in a range of 10 squares around it while moving randomly for a certain period of time. Each attack can inflict 100 bash damage."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_short_blink_base",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_short_blink_base" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [short blink]", "str_pl": "Scrolls of [short blink]" },
+        "description": "You can read this scroll to learn [short blink].\n Magic that moves instantly to the target point. It can confuse enemies in its path for a short time."
+    },
+
+    {
+        "id": "spell_scroll_PSY_magi_conj_thread_cone",
+        "use_action": { "type": "learn_spell", "spells": [ "PSY_magi_conj_thread_cone" ] },
+        "type": "BOOK",
+        "looks_like": "spell_scroll",
+        "//": "PSY spell",
+        "weight": "50 g",
+        "volume": "150 ml",
+        "price": 1000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_blue",
+        "name": { "str": "Scroll of [thread beam]", "str_pl": "Scrolls of [thread beam]" },
+        "description": "You can read this scroll to learn [thread beam].\n Magic that scatters threads to the target point.It does no damage and requires 10 threads to use."
+    },
+
+    {
+        "id": "PSY_magi_ice_mage_book",
+        "type": "BOOK",
+        "name": { "str": "The Glacier Magic Book", "str_pl": "copies of The Glacier Magic Book" },
+        "//": "3 classless spell",
+        "looks_like": "wizard_beginner",
+        "description": "This is a magic book describing ice magic that has been studied for many years. Touch it with your bare hands and you will get frostbite, okay?",
+        "weight": "1585 g",
+        "volume": "250 ml",
+        "price": 5000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_red",
+        "use_action": { "type": "learn_spell", "spells": ["PSY_magi_spell_Eisbahn_main", "PSY_magi_conj_ice_barrage","PSY_magi_summon_golem_ice","PSY_magi_item_spell_summon_ice_crystal" ,"PSY_magi_item_spell_detonate_ice_crystal" ] }
+    },
+
+    {
+        "id": "PSY_magi_magic_gunner_book",
+        "type": "BOOK",
+        "name": { "str": "The Magic Gun Book", "str_pl": "copies of The Magic Gun Book" },
+        "//": "3 classless spell",
+        "looks_like": "PSY_magi_ice_mage_book",
+        "description": "A spell book that describes this and that about magic guns. By reading it, you will be able to create a gun using magic power.",
+        "weight": "1585 g",
+        "volume": "250 ml",
+        "price": 5000,
+        "material": [ "paper" ],
+        "symbol": "?",
+        "color": "light_red",
+        "use_action": { "type": "learn_spell", "spells": ["PSY_magi_create_mana_bullet_fast", "PSY_magi_create_mana_pistol"] }
+    }
+
+]

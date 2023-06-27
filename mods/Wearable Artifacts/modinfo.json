@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Artifact Jewelries",
+    "name": "Artifact Jewelries",
+    "authors": [ "Kywie" ],
+    "maintainers": [ "Kywie" ],
+    "description": "turns your average useless artifacts into a necklace that you can equip one at a time.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

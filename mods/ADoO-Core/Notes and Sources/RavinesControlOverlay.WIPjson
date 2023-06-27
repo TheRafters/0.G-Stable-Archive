@@ -1,0 +1,7 @@
+[
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "overmap_ravine_settings": { "num_ravines": 2, "ravine_width": 3, "ravine_range": 25, "ravine_depth": -1  }
+  }
+]

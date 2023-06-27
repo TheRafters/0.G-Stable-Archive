@@ -1,0 +1,6 @@
+Update to nanite material definition
+Add Soft to nanite material. Stuff is made of nanites, it can be as hard or soft as it wants.
+Update armor definitions to fix coverage
+Remove superalloy override, that shit spawns now. Maybe make a recipe for superalloy if it seems too rare.
+
+Added ai core, nanofactory_exp and bio_nanites to several more related item groups. Very rare.

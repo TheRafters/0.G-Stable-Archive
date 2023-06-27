@@ -1,0 +1,11 @@
+[
+  {
+    "id": "stamina_pool_buff",
+    "type": "MOD_INFO",
+    "name": "Player Stamina Pool <color_light_green>Boost</color>",
+    "authors": [ "Malkeus" ],
+    "description": "Increase base stamina pool by 50%.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_summoned_monster",
+    "friendly": [ "PSY_magi_random_dungeon_allies" ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_the_box",
+    "friendly": [ "PSY_magi_summoned_monster", "human", "player" ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_witch_doctor",
+    "friendly": [ "insect"],
+    "neutral": ["fish","small_animal", "aquatic_predator" ],
+    "hate": [ "zombie", "bot", "fungus", "exodii" ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_random_dungeon_monsters",
+    "friendly": [ "PSY_magi_random_dungeon_allies","PSY_magi_random_dungeon_chesses"],
+    "neutral": ["fish","small_animal", "aquatic_predator" ],
+    "hate": [  "player"  ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_random_dungeon_chesses",
+    "friendly": [ "PSY_magi_random_dungeon_allies","PSY_magi_random_dungeon_monsters"],
+    "neutral": ["fish","small_animal", "aquatic_predator" ],
+    "hate": [  "player"  ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_random_dungeon_allies",
+    "friendly": [ "slime","insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters","PSY_magi_random_dungeon_chesses"],
+    "neutral": ["human" ,"berserk_bot","amigara","slug","razorclaw","mutant","vermin","herbivore","yrax","isolated_artisans","robofac","nether", "vortex","defense_bot", "mech_bot","cult", "passive_machine", "nether_player_hate" ,"factionless","fish","small_animal", "aquatic_predator","zombie", "bot", "fungus", "exodii","PSY_magi_summoned_monster" ],
+    "hate": [  "player"  ]
+  },
+
+  {
+    "type": "MONSTER_FACTION",
+    "name": "PSY_magi_magic_tower",
+    "friendly": [ "human" ,"slime","insect","ooze", "lizardfolk","magical_beast","forge_lords","wonder_forge","orcs","goblin","PSY_magi_random_dungeon_monsters","PSY_magi_random_dungeon_chesses","player"],
+    "neutral": ["berserk_bot","amigara","slug","razorclaw","mutant","vermin","herbivore","yrax","isolated_artisans","robofac","nether", "vortex","defense_bot", "mech_bot","cult", "passive_machine", "nether_player_hate" ,"factionless","fish","small_animal", "aquatic_predator","zombie", "bot", "fungus", "exodii","PSY_magi_summoned_monster" ],
+    "hate": [  "PSY_magi_magic_tower"]
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "type": "material",
+    "id": "titanium",
+    "name": "Titanium",
+    "density": 10,
+    "bash_resist": 4,
+    "cut_resist": 9,
+    "bullet_resist": 7,
+    "acid_resist": 14,
+    "fire_resist": 4,
+    "elec_resist": 8,
+    "chip_resist": 20,
+    "repaired_with": "afs_scrap_titanium",
+    "dmg_adj": [ "marked", "dented", "smashed", "shattered" ],
+    "bash_dmg_verb": "dented",
+    "cut_dmg_verb": "scratched"
+  },
+  {
+    "id": "afs_titanium_implant",
+    "type": "GENERIC",
+    "name": { "str": "titanium implant" },
+    "description": "An internal implant to correct a musculoskeletal problem such as a bad hip or back.  It is made of titanium due to its biocompatibility.",
+    "price": 9500,
+    "price_postapoc": 1500,
+    "weight": "2250 g",
+    "volume": "500 ml",
+    "to_hit": -3,
+    "symbol": "*",
+    "color": "light_gray",
+    "material": [ "titanium" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "afs_scrap_titanium",
+    "symbol": ",",
+    "color": "light_gray",
+    "name": { "str_sp": "scrap titanium" },
+    "category": "spare_parts",
+    "description": "A piece of light titanium, usable for crafting or repairs.",
+    "price": 1000,
+    "material": [ "titanium" ],
+    "looks_like": "scrap",
+    "weight": "450 g",
+    "volume": "100 ml",
+    "to_hit": -2,
+    "melee_damage": { "bash": 1 }
+  },
+  {
+    "result": "afs_titanium_implant",
+    "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
+    "time": "10 m",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "afs_scrap_titanium", 5 ] ] ]
+  },
+    {
+    "id": "dissect_CBM_POWER",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bio_power_storage",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      { "drop": "afs_titanium_implant", "type": "bionic", "flags": [ "FILTHY", "NO_STERILE" ], "max": 1 }
+    ]
+  },
+  {
+    "id": "dissect_CBM_CIV",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bio_power_storage",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionics_common",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      { "drop": "afs_titanium_implant", "type": "bionic", "flags": [ "FILTHY", "NO_STERILE" ], "max": 1 }
+    ]
+  },
+    {
+    "id": "dissect_CBM_SCI",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bio_power_storage",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionics_sci",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      { "drop": "afs_titanium_implant", "type": "bionic", "flags": [ "FILTHY", "NO_STERILE" ], "max": 1 }
+    ]
+  },
+    {
+    "id": "dissect_CBM_OP",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bio_power_storage",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionics_mil",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      { "drop": "afs_titanium_implant", "type": "bionic", "flags": [ "FILTHY", "NO_STERILE" ], "max": 1 }
+    ]
+  }
+  ]

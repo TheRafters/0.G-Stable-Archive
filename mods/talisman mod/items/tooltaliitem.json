@@ -1,0 +1,62 @@
+[{
+    "id": "capturing_talisman",
+    "type": "TOOL",
+    "name": "talisman of capture",
+    "description": "A talisman with a drawing resembling a caged animal on it.  Use it on a suitable animal to capture, use it on an empty tile to release.",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "price": 100,
+    "price_postapoc": 100,
+    "material": [ "paper" ],
+    "symbol": ",",
+    "color": "yellow",
+    "properties": [ [ "monster_size_capacity", "MEDIUM" ] ],
+    "use_action": "CAPTURE_MONSTER_ACT",
+    "flags": [ "TRADER_AVOID" ]
+  },
+{
+    "id": "tali_candle_lit",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": "Lesser light talisman lit ",
+    "description": "A pretty well made lesser talisman of light, made with looping glyphs so it works as long as the talisman isnt broken",
+    "weight": "100g",
+    "volume": "100 ml",
+    "price": 100,
+    "price_postapoc": 100,
+    "material": [ "paper", "glass" ],
+    "symbol": ",",
+    "color": "yellow",
+    "use_action": { "target": "tali_candle_off", "msg": "You will the talisman off.", "menu_text": "turn it off", "type": "transform" },
+    "flags": [ "LIGHT_8" ]
+  },
+  {
+    "id": "tali_candle_off",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": "Lesser light talisman",
+    "description": "A pretty well made lesser talisman of light, made with looping glyphs so it works as long as the talisman isnt broken,use your will to turn it on ",
+    "weight": "100g",
+    "volume": "100 ml",
+    "price": 100,
+    "price_postapoc": 100,
+    "material": [ "paper", "glass" ],
+    "symbol": ",",
+    "color": "yellow",
+    "use_action": {
+      "target": "tali_candle_lit",
+      "active": true,
+      "msg": "You use your will to turn it on.",
+      "menu_text": "Turn it on",
+      "type": "transform"
+    }
+   
+  }
+
+
+
+
+
+
+
+]

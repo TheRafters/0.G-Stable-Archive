@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "townportal",
+    "name": "Town Portal",
+    "authors": [ "TGW" ],
+    "description": "Adds a simple spell that works like the old Town Portal spell of Diablo and similar games: you set a home point, warp to it from anywhere, then warp back to where you just were. Mostly added to enable pocket safehouses and remove the need to only build mobile bases.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ],
+    "version": "0.1"
+  }
+]

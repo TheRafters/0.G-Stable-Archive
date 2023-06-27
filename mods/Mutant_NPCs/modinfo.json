@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mutant_npcs_new",
+    "name": "Mutant NPCs",
+    "authors": [ "Spencer Michaels" ],
+    "description": "Conflicts with Aftershock, place above Aftershock in load order. NPCs wandering the wasteland will occasionally have mutations --- your foes included.  Beware!",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]

@@ -1,0 +1,261 @@
+[
+
+      {
+        "id": "PSY_magi_spell_components_thread100",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "thread", 100 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_ai_module1",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "ai_module", 1 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_solder_wire10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "solder_wire", 10 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_scrap1",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "scrap", 1 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_scrap2",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "scrap", 2 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_scrap5",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "scrap", 5 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_scrap10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "scrap", 10 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_scrap50",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "scrap", 50 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_scrap100",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "scrap", 100 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_ai1_scrap3",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "ai_module", 1 ] ],[ [ "scrap", 3 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_ai1_scrap5_wire30",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "solder_wire", 30 ] ] ,[ [ "ai_module", 1 ] ],[ [ "scrap", 5 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_ai1_scrap10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "ai_module", 1 ] ],[ [ "scrap", 10 ] ]  ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_slime_scrap1",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "slime_scrap", 1 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_thread10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "thread", 10 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_magical_coin_forest30",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "PSY_magi_magical_coin_forest", 30 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_magical_coin_forest40",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "PSY_magi_magical_coin_forest", 40 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_magical_coin_forest50",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "PSY_magi_magical_coin_forest", 50 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_magical_coin_forest20",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "PSY_magi_magical_coin_forest", 20 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_magical_coin_forest10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "PSY_magi_magical_coin_forest", 10 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_magical_coin_forest1",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "PSY_magi_magical_coin_forest", 1 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_slime_scrap10",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "slime_scrap", 10 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_slime_scrap7",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "slime_scrap", 7 ] ] ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_slime_scrap30",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ [ [ "slime_scrap", 30 ] ] ]
+      },
+
+
+      {
+        "id": "PSY_magi_spell_components_ice_golem_water1",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "water", 1 ],
+                [ "water_clean", 1 ],
+                [ "water_mineral", 1 ]  
+              ] 
+            
+            ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_ice_golem_water15",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "water", 15 ],
+                [ "water_clean", 15 ],
+                [ "water_mineral", 15 ]  
+              ] 
+            
+            ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_ice_golem_water20",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "water", 20 ],
+                [ "water_clean", 10 ],
+                [ "water_mineral", 10 ]  
+              ] 
+            
+            ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_steel_utensil",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "fork", 1 ],
+                [ "spoon", 1 ],
+                [ "knife_butter", 1 ], 
+                [ "spork", 1 ],  
+                [ "pizza_cutter", 1 ], 
+                [ "foon", 1 ],
+                [ "carving_fork", 1 ]
+              ]
+            ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_steel_utensil5",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "fork", 5 ],
+                [ "spoon", 5 ],
+                [ "knife_butter", 5 ], 
+                [ "spork", 5 ],  
+                [ "pizza_cutter", 5 ], 
+                [ "foon", 5 ],
+                [ "carving_fork", 5 ]
+              ]
+            ]
+      },
+
+      {
+        "id": "PSY_magi_spell_components_book_changer",
+        "type": "requirement",
+        "//": "Sling for the Impact Sling spell",
+        "components": [ 
+              [ 
+                [ "PSY_magi_control_beginner", 2 ],
+                [ "PSY_magi_alien_advanced", 2 ],
+                [ "PSY_magi_Vegetable_paradox", 2 ], 
+                [ "PSY_magi_tome_of_trickstar", 2 ],  
+                [ "PSY_magi_the_fear_of_disaster", 2 ], 
+                [ "PSY_magi_summon_advanced", 2 ],
+                [ "PSY_magi_ninja_instruction", 2 ],
+                [ "PSY_magi_unholy_summoning_advanced", 2 ], 
+                [ "PSY_magi_create_items_spellbook", 2 ],  
+                [ "PSY_magi_create_totems_spellbook", 2 ]
+              ]
+            ]
+      }
+
+]

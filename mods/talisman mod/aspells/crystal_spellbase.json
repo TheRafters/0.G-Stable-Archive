@@ -1,0 +1,45 @@
+ [{
+    "type": "SPELL",
+    "id": "spell_callshot_base",
+    "name": "shard summoning spells",
+    "description": "Causes one of the spawn spells to be cast.",
+    "valid_targets": [ "hostile", "ground" ],
+    "effect": "none",
+    "base_casting_time": 100,
+    "flags": [ "WONDER" ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "message": "",
+    "extra_effects": [
+      { "id": "call_shot1" },
+      { "id": "call_shot2" },
+      { "id": "call_shot3" }
+    ]
+  },
+{
+    "type": "SPELL",
+    "id": "spell_shard_base",
+    "name": "shard summoning spells",
+    "description": "Causes one of the spawn spells to be cast.",
+    "valid_targets": [ "hostile", "ground" ],
+    "effect": "none",
+    "base_casting_time": 100,
+    "flags": [ "WONDER" ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "message": "",
+    "extra_effects": [
+      { "id": "spike_shot" },
+      { "id": "spark_shot" },
+      { "id": "dazzling_shot" }
+    ]
+  }
+
+
+
+
+
+
+
+
+]

@@ -1,0 +1,23 @@
+ダウンロードしていただきありがとうございます！！
+
+このmod[Magiclysm_with_Random_Dungeons]の使い方
+
+１	まずこのファイル[Magiclysm_with_Random_Dungeons]を
+
+	cdda/mods/Magiclysm_with_Random_Dungeons
+
+	として入れてください
+	cddaにmodsファイルがない場合は新たに作ってください
+
+	※cdda/data/modsに入れても機能はしますが、日本語翻訳は適応されなくなります。
+
+
+
+2	画像はUNDEAD_PEOPLEをベースにしております。
+	対応する画像	{"UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm"}
+
+	もし上記の対応タイルであるのに、適用されていないのであれば以下をお試しください
+
+	１　タイルが反映されるまでゲームをリログする（ダウンロードしてすぐだとなぜかタイル画像適応に時間がかかるときがあります）
+	
+	2　それでもだめなら　作者”puninokp”にdiscordにて連絡ください。

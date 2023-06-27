@@ -1,0 +1,366 @@
+[
+
+    {
+        "abstract": "PSY_magi_spell_wand",
+        "name": { "str": "Magic Wand" },
+        "type": "TOOL",
+        "weight": "230 g",
+        "volume": "500 ml",
+        "price": "400 USD",
+        "bashing": 3,
+        "to_hit": 1,
+        "material": [ "wood" ],
+        "looks_like": "spell_wand",
+        "symbol": "|",
+        "color": "brown",
+        "flags": [ "BELT_CLIP", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
+        "charges_per_use": 1,
+        "ammo": [ "crystallized_mana" ],
+        "pocket_data": [
+          {
+            "pocket_type": "MAGAZINE_WELL",
+            "holster": true,
+            "max_contains_volume": "20 L",
+            "max_contains_weight": "20 kg",
+            "item_restriction": [ "small_mana_crystal" ]
+          }
+        ]
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_magic_transform_minor",
+        "name": { "str": "minor wand of random polymorph", "str_pl": "minor wands of random polymorph" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price_postapoc": "150 USD",
+        "description": "A slender wooden wand with a mana crystal socket at the base that casts a spell when activated.  This wand casts [random polymorph] that polymorphs target enemy has MAXHP equal 100 or less.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_random_polymorph", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_magic_transform_lesser",
+        "name": { "str": "lesser wand of random polymorph", "str_pl": "lesser wands of random polymorph" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 20000,
+        "description": "A slender wooden wand with a mana crystal socket at the base that casts a spell when activated.  This wand casts [random polymorph] that polymorphs target enemy has MAXHP equal 150 or less.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_random_polymorph", "no_fail": true, "level": 5, "need_wielding": true }
+      },
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_magic_transform_greater",
+        "name": { "str": "greater wand of random polymorph", "str_pl": "greater wands of random polymorph" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "description": "A slender wooden wand with a mana crystal socket at the base that casts a spell when activated.  This wand casts [random polymorph] that polymorphs target enemy has MAXHP equal 200 or less.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_random_polymorph", "no_fail": true, "level": 10, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_summon_insects",
+        "name": { "str": "wand of insects", "str_pl": "wands of insects" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "description": "This is magic wand that has been wriggling all along. When you wave this wand, friendly insects will appear out of nowhere for a short time!\nUpgrades will increase summoned insect of duration.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_summon_insects", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_summon_insects+1",
+        "name": { "str": "wand of insects+1", "str_pl": "wands of insects+1" },
+        "copy-from": "PSY_magi_spell_wand",
+        "looks_like": "PSY_magi_wand_summon_insects",
+        "price": 30000,
+        "description": "This is magic wand that has been wriggling all along. When you wave this wand, friendly insects will appear out of nowhere for a short time!\nUpgrades will increase summoned insect of duration.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_summon_insects", "no_fail": true, "level": 10, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_summon_insects+2",
+        "name": { "str": "wand of insects+2", "str_pl": "wands of insects+2" },
+        "copy-from": "PSY_magi_spell_wand",
+        "looks_like": "PSY_magi_wand_summon_insects",
+        "price": 30000,
+        "description": "This is magic wand that has been wriggling all along. When you wave this wand, friendly insects will appear out of nowhere for a short time!\nUpgrades will increase summoned insect of duration.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_summon_insects", "no_fail": true, "level": 20, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_upgrade",
+        "name": { "str": "wand of upgrade", "str_pl": "wands of upgrade" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 2,
+        "description": "This is magic wand that upgrades target upgradeable monster,It has no effect on monsters that cannot be upgraded.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_upgrade", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_tangled_vine",
+        "name": { "str": "wand of tangled vines", "str_pl": "wands of tangled vine" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 3,
+        "description": "This is magic wand that conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n Monsters who steps on the vine will move slower.\nUpgrades will increase damage and range.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_Tangled_vine_line", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_tangled_vine+1",
+        "name": { "str": "wand of tangled vines+1", "str_pl": "wands of tangled vine+1" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 3,
+        "description": "This is magic wand that conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n Monsters who steps on the vine will move slower.\nUpgrades will increase damage and range.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_Tangled_vine_line", "no_fail": true, "level": 5, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_tangled_vine+2",
+        "name": { "str": "wand of tangled vines+2", "str_pl": "wands of tangled vine+2" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 3,
+        "description": "This is magic wand that conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n Monsters who steps on the vine will move slower.\nUpgrades will increase damage and range.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_Tangled_vine_line", "no_fail": true, "level": 10, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_healing",
+        "name": { "str": "wand of healing", "str_pl": "wands of healing" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "A magic wand that heals all allies within 10 tiles except yourself and temporarily increases your movement speed.\nUpgrades will increase healing power.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_healing_ally", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_healing+1",
+        "name": { "str": "wand of healing+1", "str_pl": "wands of healing+1" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "A magic wand that heals all allies within 10 tiles except yourself and temporarily increases your movement speed.\nUpgrades will increase healing power.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_healing_ally", "no_fail": true, "level": 10, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_healing+2",
+        "name": { "str": "wand of healing+2", "str_pl": "wands of healing+2" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "A magic wand that heals all allies within 10 tiles except yourself and temporarily increases your movement speed.\nUpgrades will increase healing power.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_healing_ally", "no_fail": true, "level": 20, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_resurrection",
+        "name": { "str": "wand of resurrection", "str_pl": "wands of resurrection" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "A magic wand that compleatly reanimates the corpse of a resurrectable zombie as your side./n That zombie will turn again as an enemy in 24 hours.\nUpgrades will decrease casting cost.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_resurrection", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_resurrection+1",
+        "name": { "str": "wand of resurrection+1", "str_pl": "wands of resurrection+1" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 4,
+        "description": "A magic wand that compleatly reanimates the corpse of a resurrectable zombie as your side./n That zombie will turn again as an enemy in 24 hours.\nUpgrades will decrease casting cost.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_resurrection", "no_fail": true, "level": 10, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_resurrection+2",
+        "name": { "str": "wand of resurrection+2", "str_pl": "wands of resurrection+2" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 3,
+        "description": "A magic wand that compleatly reanimates the corpse of a resurrectable zombie as your side./n That zombie will turn again as an enemy in 24 hours.\nUpgrades will decrease casting cost.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_resurrection", "no_fail": true, "level": 20, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_pulling",
+        "name": { "str": "wand of pulling", "str_pl": "wands of pulling" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 2,
+        "description": "A magic wand that attempts to pull the target towards the caster in a straight line.\nUpgrades will increase range.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_pulling", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_pulling+1",
+        "name": { "str": "wand of pulling+1", "str_pl": "wands of pulling+1" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 2,
+        "description": "A magic wand that attempts to pull the target towards the caster in a straight line.\nUpgrades will increase range.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_pulling", "no_fail": true, "level": 10, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_pulling+2",
+        "name": { "str": "wand of pulling+2", "str_pl": "wands of pulling+2" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 2,
+        "description": "A magic wand that attempts to pull the target towards the caster in a straight line.\nUpgrades will increase range.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_pulling", "no_fail": true, "level": 20, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_dashing",
+        "name": { "str": "wand of dashing", "str_pl": "wands of dashing" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 2,
+        "description": "A magic wand that shoots a magic bullet at the target and causes the caster to move to it in a straight line.\nUpgrades will increase range.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_dashing", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_dashing+1",
+        "name": { "str": "wand of dashing+1", "str_pl": "wands of dashing+1" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 2,
+        "description": "A magic wand that shoots a magic bullet at the target and causes the caster to move to it in a straight line.\nUpgrades will increase range.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_dashing", "no_fail": true, "level": 10, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_dashing+2",
+        "name": { "str": "wand of dashing+2", "str_pl": "wands of dashing+2" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 2,
+        "description": "A magic wand that shoots a magic bullet at the target and causes the caster to move to it in a straight line.\nUpgrades will increase range.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_dashing", "no_fail": true, "level": 20, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_swapping",
+        "name": { "str": "wand of swapping", "str_pl": "wands of swapping" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 3,
+        "description": "A magic wand that shoots a magic bullet at the target and swaps you and target positions in a long distance,   also slow target movement for a short of period.\nUpgrades will increase range and duration.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_swapping", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_swapping+1",
+        "name": { "str": "wand of swapping+1", "str_pl": "wands of swapping+1" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 3,
+        "description": "A magic wand that shoots a magic bullet at the target and swaps you and target positions in a long distance,   also slow target movement for a short of period.\nUpgrades will increase range and duration.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_swapping", "no_fail": true, "level": 10, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_swapping+2",
+        "name": { "str": "wand of swapping+2", "str_pl": "wands of swapping+2" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 3,
+        "description": "A magic wand that shoots a magic bullet at the target and swaps you and target positions in a long distance,   also slow target movement for a short of period.\nUpgrades will increase range and duration.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_spell_wand_of_swapping", "no_fail": true, "level": 20, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_bloodrain",
+        "name": { "str": "wand of blood rain", "str_pl": "wands of blood rain" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 3,
+        "description": "A magic wand that shoots a magic bullet at the target and causes the caster to move to it in a straight line.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_blood_rain", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_chess_king",
+        "name": { "str": "wand of chess of king", "str_pl": "wands of chess of king" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "A magic wand that summons 2 chess of pawns to the target location.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_summon_pawns", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_chess_king+1",
+        "name": { "str": "wand of chess of king+1", "str_pl": "wands of chess of king+1" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "A magic wand that summons 4 chess of pawns to the target location.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_summon_pawns", "no_fail": true, "level": 10, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_chess_king+2",
+        "name": { "str": "wand of chess of king+2", "str_pl": "wands of chess of king+2" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "A magic wand that summons 6 chess of pawns to the target location.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_item_spell_summon_pawns", "no_fail": true, "level": 20, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_create_stunning_field",
+        "name": { "str": "wand of Create Stunning Field", "str_pl": "wands of Create Stunning Field" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "Create a field of stunning in the area of the target point.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_create_stunning_field", "no_fail": true, "level": 0, "need_wielding": true }
+      },
+
+      {
+        "type": "TOOL",
+        "id": "PSY_magi_wand_of_create_darkness_field",
+        "name": { "str": "wand of Create Darkness Field", "str_pl": "wands of Create Darkness Field" },
+        "copy-from": "PSY_magi_spell_wand",
+        "price": 30000,
+        "charges_per_use": 5,
+        "description": "Create a field of darkness in the area of the target point.",
+        "use_action": { "type": "cast_spell", "spell_id": "PSY_magi_create_darkness_field", "no_fail": true, "level": 0, "need_wielding": true }
+      }
+
+
+]

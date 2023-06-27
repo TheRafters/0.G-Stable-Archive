@@ -1,0 +1,135 @@
+[
+    {
+       "id": "xtals",
+       "type": "item_group",
+       "subtype": "distribution",
+       "items": [
+       { "item": "alexandrite", "prob": 5 },
+       { "item": "amethyst", "prob": 5 },
+       { "item": "aquamarine", "prob": 5 },
+       { "item": "citrine", "prob": 5 },
+       { "item": "emerald", "prob": 5 },
+       { "item": "garnet", "prob": 5 },
+       { "item": "jade", "prob": 5 },
+       { "item": "lapis_lazuli", "prob": 5 },
+       { "item": "moonstone", "prob": 5 },
+       { "item": "morganite", "prob": 5 },
+       { "item": "onyx", "prob": 5 },
+       { "item": "opal", "prob": 5 },
+       { "item": "paraiba", "prob": 5 },
+       { "item": "peridot", "prob": 5 },
+       { "item": "rubellite", "prob": 5 },
+       { "item": "ruby", "prob": 5 },
+       { "item": "sapphire", "prob": 5 },
+       { "item": "spinel", "prob": 5 },
+       { "item": "tanzanite", "prob": 5 },
+       { "item": "topaz", "prob": 5 },
+       { "item": "tourmaline", "prob": 5 },
+       { "item": "turquoise", "prob": 5 },
+       { "item": "zircon", "prob": 5 },
+       { "item": "rose_quartz", "prob": 5 },
+       { "item": "malachite", "prob": 5 },
+       { "item": "pearl", "prob": 5 },
+       { "item": "blue_topaz", "prob": 5 },
+       { "item": "diamond", "prob": 1 }
+     ]
+  },
+  {
+      "id": "xtal_rings",
+      "type": "item_group",
+      "subtype": "distribution",
+      "items": [
+      { "item": "ring_gold_alexa", "prob": 5 },
+      { "item": "ring_gold_ame", "prob": 5 },
+      { "item": "ring_gold_aqua", "prob": 5 },
+      { "item": "ring_gold_cit", "prob": 5 },
+      { "item": "ring_gold_eme", "prob": 5 },
+      { "item": "ring_gold_gar", "prob": 5 },
+      { "item": "ring_gold_jade", "prob": 5 },
+      { "item": "ring_gold_lap", "prob": 5 },
+      { "item": "ring_gold_moon", "prob": 5 },
+      { "item": "ring_gold_mor", "prob": 5 },
+      { "item": "ring_gold_onyx", "prob": 5 },
+      { "item": "ring_gold_opal", "prob": 5 },
+      { "item": "ring_gold_para", "prob": 5 },
+      { "item": "ring_gold_peri", "prob": 5 },
+      { "item": "ring_gold_rubel", "prob": 5 },
+      { "item": "ring_gold_ruby", "prob": 5 },
+      { "item": "ring_gold_sapp", "prob": 5 },
+      { "item": "ring_gold_spi", "prob": 5 },
+      { "item": "ring_gold_tan", "prob": 5 },
+      { "item": "ring_gold_topaz", "prob": 5 },
+      { "item": "ring_gold_tour", "prob": 5 },
+      { "item": "ring_gold_turq", "prob": 5 },
+      { "item": "ring_gold_zir", "prob": 5 },
+      { "item": "ring_gold_rq", "prob": 5 },
+      { "item": "ring_gold_mal", "prob": 5 },
+      { "item": "ring_gold_pear", "prob": 5 },
+      { "item": "ring_gold_btop", "prob": 5 }
+    ]
+  },
+  {
+    "id": "mining_rock",
+    "type": "item_group",
+    "copy-from": "mining_rock",
+    "subtype": "collection",
+    "extend": {
+        "entries": [
+          { "collection": [ { "group": "xtals", "count": [ 0, 5 ], "prob": 15 } ] }  
+        ]
+    }
+  },
+  {
+    "id": "vault",
+    "type": "item_group",
+    "copy-from": "vault",
+    "extend": {
+        "entries": [
+            {
+            "collection": [ 
+                { "group": "xtals", "count": [ 0, 5 ], "prob": 80 }, 
+                { "group": "xtal_rings", "count": [ 0, 2 ], "prob": 80 },
+                { "group": "xtals", "count": [ 0, 10 ], "prob": 1 }, 
+                { "group": "xtal_rings", "count": [ 0, 10 ], "prob": 1 } 
+                ]
+            }  
+        ]
+    }
+  },
+  {
+    "id": "jewelry_front",
+    "type": "item_group",
+    "copy-from": "jewelry_front",
+    "extend": {
+        "entries": [
+            {
+            "collection": [ { "group": "xtal_rings", "count": [ 0, 10 ], "prob": 25 } ]
+            }  
+        ]
+    }
+  },
+  {
+    "id": "jewelry_back",
+    "type": "item_group",
+    "copy-from": "jewelry_back",
+    "extend": {
+        "entries": [
+            {
+            "collection": [ { "group": "xtal_rings", "count": [ 0, 10 ], "prob": 25 }, { "group": "xtal_rings", "count": [ 0, 10 ], "prob": 25 } ]
+            }  
+        ]
+    }
+  },
+  {
+    "id": "jewelry_safe",
+    "type": "item_group",
+    "copy-from": "jewelry_safe",
+    "extend": {
+        "entries": [
+            {
+            "collection": [ { "group": "xtals", "count": [ 0, 10 ], "prob": 25 } ]
+            }  
+        ]
+    }
+  }
+]

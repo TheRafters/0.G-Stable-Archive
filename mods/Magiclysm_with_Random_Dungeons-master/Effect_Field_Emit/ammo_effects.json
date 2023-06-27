@@ -1,0 +1,201 @@
+[
+  {
+    "id": "PSY_FLAME",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 1, "size": 2 }
+  },
+  {
+    "id": "PSY_NAPALM",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 1, "size": 3 },
+    "explosion": { "power": 60, "distance_factor": 0.7, "fire": true }
+  },
+  {
+    "id": "PSY_ACIDBOMB",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_acid", "intensity_min": 3, "intensity_max": 3 }
+  },
+  {
+    "id": "PSY_TOXICGAS",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_toxic_gas", "intensity_min": 3, "intensity_max": 3 }
+  },
+  {
+    "id": "PSY_LIGHTNING",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_electricity", "intensity_min": 6, "intensity_max": 10, "chance": 25 }
+  },
+  {
+    "id": "PSY_PLASMA",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_plasma", "intensity_min": 2, "intensity_max": 3, "chance": 50 },
+    "trail": { "field_type": "fd_plasma", "intensity_min": 1, "intensity_max": 2, "chance": 50 }
+  },
+  {
+    "id": "PSY_EXPLOSIVE",
+    "type": "ammo_effect",
+    "explosion": { "power": 360 }
+  },
+  {
+    "id": "PSY_FRAG",
+    "type": "ammo_effect",
+    "explosion": { "power": 185, "shrapnel": { "casing_mass": 212, "fragment_mass": 0.025 } }
+  },
+  {
+    "id": "PSY_MININUKE_MOD",
+    "type": "ammo_effect",
+    "aoe": {
+      "field_type": "fd_nuke_gas",
+      "intensity_min": 3,
+      "intensity_max": 3,
+      "radius": 18,
+      "size": 1,
+      "check_passable": true,
+      "check_sees": true,
+      "check_sees_radius": 3
+    },
+    "explosion": { "power": 72000000 }
+  },
+  {
+    "id": "PSY_FLASHBANG",
+    "type": "ammo_effect",
+    "do_flashbang": true
+  },
+  {
+    "id": "PSY_EMP",
+    "type": "ammo_effect",
+    "do_emp_blast": true
+  },
+  {
+    "id": "PSY_ACID_TRAIL",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_acid", "intensity_min": 1, "intensity_max": 2, "chance": 75 }
+  },
+  {
+    "id": "PSY_SLUDGE_TRAIL",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_sludge", "intensity_min": 1, "intensity_max": 2, "chance": 66 }
+  },
+  {
+    "id": "PSY_SLUDGE_AOE",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_sludge", "intensity_min": 1, "intensity_max": 2,"radius": 2, "size": 2 }
+  },
+
+  {
+    "id": "PSY_EXTINGUISHER_TRAIL",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_extinguisher", "intensity_min": 1, "intensity_max": 2 }
+  },
+
+  {
+    "id": "PSY_EXTINGUISHER_AOE",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_extinguisher", "intensity_min": 1, "intensity_max": 2,"radius": 3, "size": 3 }
+  },
+
+
+  {
+    "id": "PSY_SHADOW_TRAIL",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_shadow", "intensity_min": 1, "intensity_max": 1 }
+  },
+
+  {
+    "id": "PSY_SHADOW_AOE",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_shadow", "intensity_min": 1, "intensity_max": 2,"radius": 3, "size": 3 }
+  },
+
+  {
+    "id": "PSY_DAZZLING_TRAIL",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_dazzling", "intensity_min": 1, "intensity_max": 1 }
+  },
+
+  {
+    "id": "PSY_DAZZLING_AOE",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_dazzling", "intensity_min": 1, "intensity_max": 2,"radius": 3, "size": 3 }
+  },
+
+  {
+    "id": "PSY_CLAIRVOYANT_TRAIL",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_clairvoyant", "intensity_min": 1, "intensity_max": 1 }
+  },
+
+  {
+    "id": "PSY_CLAIRVOYANT_AOE",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_clairvoyant", "intensity_min": 1, "intensity_max": 2,"radius": 6, "size": 6 }
+  },
+
+  {
+    "id": "PSY_HONEY_AOE_1",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "PSY_fd_honey", "intensity_min": 1, "intensity_max": 2, "size": 1 }
+  },
+
+  {
+    "id": "PSY_HONEY_AOE_2",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "PSY_fd_honey", "intensity_min": 2, "intensity_max": 3,"radius": 2, "size": 2 }
+  },
+
+  {
+    "id": "PSY_HONEY_AOE_5",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "PSY_fd_honey", "intensity_min": 2, "intensity_max": 3,"radius": 5, "size": 5 }
+  },
+
+  {
+    "id": "PSY_HONEY_TRAIL_WEAK",
+    "type": "ammo_effect",
+    "trail": { "field_type": "PSY_fd_honey_weak", "intensity_min": 1, "intensity_max": 2, "chance": 50 }
+  },
+
+  {
+    "id": "PSY_EXPLOSIVE_HONEY",
+    "type": "ammo_effect",
+    "explosion": { "power": 160 }
+  },
+  {
+    "id": "PSY_TURRET_FLAME",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 1,"radius": 2, "size": 2 },
+    "trail": { "field_type": "fd_fire", "intensity_min": 1, "intensity_max": 2, "chance": 80 }
+  },
+
+  {
+    "id": "PSY_TURRET_LIGHTNING",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_electricity", "intensity_min": 1, "intensity_max": 1, "chance": 80 }
+  },
+
+  {
+    "id": "PSY_TURRET_EXPLOSIVE",
+    "type": "ammo_effect",
+    "explosion": { "power": 24 }
+  },
+
+  {
+    "id": "PSY_TURRET_FROST",
+    "type": "ammo_effect",
+    "trail": { "field_type": "PSY_fd_ice_field_no_effect", "intensity_min": 1, "intensity_max": 1, "chance": 50 },
+    "aoe": { "field_type": "PSY_fd_ice_field_has_effect", "intensity_min": 1, "intensity_max": 1,"radius": 1, "size": 1 }
+  },
+
+  {
+    "id": "PSY_TURRET_ACID",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_acid", "intensity_min": 1, "intensity_max": 1, "chance": 50 },
+    "aoe": { "field_type": "fd_acid", "intensity_min": 1, "intensity_max": 1,"radius": 1, "size": 1 }
+  },
+
+  {
+    "id": "PSY_MAGIC_CANNON",
+    "type": "ammo_effect",
+    "explosion": { "power": 498, "shrapnel": { "casing_mass": 1000, "fragment_mass": 0.15 } }
+  }
+]

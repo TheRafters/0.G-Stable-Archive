@@ -1,0 +1,1 @@
+Removed "helsing", "tihar" entry from Merchant Smith's shoplist as they no longer exist.

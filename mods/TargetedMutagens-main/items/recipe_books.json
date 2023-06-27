@@ -1,0 +1,72 @@
+[
+  {
+	    "id": "manual_catgirl_recipes",
+	    "type": "BOOK",
+	    "category": "manuals",
+	    "name": { "str": "Lab Journal-Takada", "str_pl": "copies of Lab Journal-Takada" },
+	    "description": "This notebook is an extremely embarrassing list of all the perfect qualities of the author's ideal wife.  Amidst the rambling, however, some chemical formulae catch your eye.",
+	    "copy-from": "recipe_lab_cvd",
+	    "skill": "chemistry",
+	    "required_level": 7,
+	    "max_level": 8,
+	    "intelligence": 12,
+	    "time": "45 m",
+	    "fun": -2
+	  },
+	  {
+	    "id": "manual_supersoldier_recipes",
+	    "type": "BOOK",
+	    "category": "manuals",
+	    "name": { "str": "Lab Journal-Spencer", "str_pl": "copies of Lab Journal-Spencer" },
+	    "description": "This offical report is a list of chemical formulae and \"combat data\" from an attempt to create a supersoldier using a regimen of specific mutation recipes.  The ending describes how despite initial promise, all of the testing candidates eventually underwent uncontrolled mutation and had to be terminated at the cost of dozens of lives, but surely that won't happen to you, right?",
+	    "copy-from": "recipe_lab_cvd",
+	    "skill": "chemistry",
+	    "required_level": 7,
+	    "max_level": 8,
+	    "intelligence": 12,
+	    "time": "45 m",
+	    "fun": -1
+	  },
+	{
+		"id": "manual_molepeople_recipes",
+		"type": "BOOK",
+		"category": "manuals",
+		"name": { "str": "Lab Journal-Cheek", "str_pl": "copies of Lab Journal-Cheek" },
+		"description": "This is a proposal to use mutagen to create a subservient species of workers to help staff XEDRA laboratories.  It goes into great detail about how they would be adapted to life underground, capable of sustaining 16- to 18-hour work days without rest.  At the end is scrawled a simple \"Denied.\"",
+		"copy-from": "recipe_lab_cvd",
+		"skill": "chemistry",
+		"required_level": 7,
+		"max_level": 8,
+		"intelligence": 12,
+		"time": "45 m",
+		"fun": -1
+	},
+	{
+		"id": "manual_germophobe_recipes",
+		"type": "BOOK",
+		"category": "manuals",
+		"name": { "str": "Lab Journal-Koch", "str_pl": "copies of Lab Journal-Koch" },
+		"description": "This loose collection of documents contains a scattering of vehement rants about the dangers of contamination and risks of infection, as well as a series of chemical formulae designed to create an innoculation course to protect against them.  On the other hand, what with the way the world ended, maybe the author was on to something.",
+		"copy-from": "recipe_lab_cvd",
+		"skill": "chemistry",
+		"required_level": 7,
+		"max_level": 8,
+		"intelligence": 12,
+		"time": "45 m",
+		"fun": -2
+	},
+	{
+		"id": "manual_fishman_recipes",
+		"type": "BOOK",
+		"category": "manuals",
+		"name": { "str": "Lab Journal-Gilman", "str_pl": "copies of Lab Journal-Gilman" },
+		"description": "A formal proposal for \"Project INNSMOUTH\" to create a species of underwater-adapted workers to create underwater bases that would be more isolated, thus providing greater safety in the event of something called an \"immersion incident.\"  At the end is scrawled a simple \"Denied,\" and below in a different hand is written \"Dr. Gilman, please review the policy manual on appropriate project designations.\"",
+		"copy-from": "recipe_lab_cvd",
+		"skill": "chemistry",
+		"required_level": 7,
+		"max_level": 8,
+		"intelligence": 12,
+		"time": "45 m",
+		"fun": -2
+	}
+]

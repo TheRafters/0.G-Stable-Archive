@@ -1,0 +1,137 @@
+[
+ {
+    "id": "toolset",
+    "copy-from": "fake_item",
+    "type": "TOOL",
+    "name": { "str": "integrated multitool" },
+    "flags": [ "TRADER_AVOID", "FIRESTARTER", "TARDIS" ],
+    "use_action": [ "CROWBAR", "HAMMER", "HOTPLATE_ATOMIC" ],
+    "pocket_data": [ { "max_contains_volume": "2 L", "max_contains_weight": "2100 g", "watertight": true, "rigid": true } ],
+    "qualities": [
+      [ "SAW_W", 1 ],
+      [ "SAW_M", 1 ],
+      [ "SAW_M_FINE", 3 ],
+      [ "WRENCH", 1 ],
+      [ "WRENCH_FINE", 3 ],
+      [ "SCREW", 1 ],
+      [ "SCREW_FINE", 3 ],
+      [ "CUT", 2 ],
+      [ "PRY", 1 ],
+      [ "PRYING_NAIL", 1 ],
+      [ "BUTCHER", -55 ],
+      [ "FILE", 1],
+      [ "HAMMER", 1],
+      [ "HAMMER_FINE", 3],
+      [ "GRIND", 3],
+      [ "FINE_GRIND", 3],
+      [ "BOIL", 1 ],
+      [ "DRILL", 3 ],
+      [ "DRILL_ROCK", 1 ],
+      [ "PUNCH", 3 ]
+    ]
+  },
+ {
+    "id": "toolset_extended",
+    "type": "TOOL",
+    "name": { "str": "extended multitool" },
+    "description": "Your forearms expand as a mass of blades, drills and sparking electrodes explodes from your palms. A rapid-fire series of whirs and clicks accompany the sight of each tool testing itself briefly before all are still, awaiting your will. (Repair(solder,weld), Gross Cutting, Massive Prybar)",
+    "symbol": "#",
+    "color": "white",
+    "weight": "150 g",
+    "bashing": 15,
+    "cutting": 15,
+    "material_thickness": 1,
+    "armor": [
+      {
+        "material": [
+          { "type": "kevlar", "covered_by_mat": 100, "thickness": 1.0 },
+          { "type": "superalloy", "covered_by_mat": 75, "thickness": 0.5 }
+        ],
+        "encumbrance": 5,
+        "coverage": 100,
+        "covers": [ "hand_l", "hand_r" ],
+        "specifically_covers": [ "hand_wrist_l", "hand_wrist_r", "hand_palm_l", "hand_palm_r", "hand_back_l", "hand_back_r" ]
+      },
+      {
+        "material": [
+          { "type": "kevlar", "covered_by_mat": 100, "thickness": 1.0 },
+          { "type": "superalloy", "covered_by_mat": 75, "thickness": 0.5 }
+        ],
+        "encumbrance": 0,
+        "coverage": 50,
+        "covers": [ "hand_l", "hand_r" ],
+        "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ]
+      }
+    ],
+    "techniques": [ "WBLOCK_1", "SWEEP", "BRUTAL" ],
+    "flags": [ "NO_UNWIELD", "BIONIC_WEAPON", "UNBREAKABLE_MELEE", "TRADER_AVOID", "TARDIS" ],
+    "pocket_data": [ { "max_contains_volume": "2 L", "max_contains_weight": "2100 g", "watertight": true, "rigid": true } ],
+    "//": "Charges will exceed max charges since they're always equal to the player's bionic power, but this has no adverse effects.",
+    "charges_per_use": 1,
+    "use_action": [
+     "HAMMER", 
+     "BOLTCUTTERS",
+     "CROWBAR",
+     "HOTPLATE_ATOMIC",
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [
+          "iron",
+          "steel",
+          "lc_steel",
+          "mc_steel",
+          "hc_steel",
+          "ch_steel",
+          "lc_steel_chain",
+          "mc_steel_chain",
+          "hc_steel_chain",
+          "ch_steel_chain",
+          "aluminum",
+          "copper",
+          "bronze",
+          "fancy_bronze",
+          "silver",
+          "gold",
+          "platinum",
+          "superalloy",
+          "plastic",
+          "lead",
+          "tin",
+          "zinc"
+        ],
+        "skill": "fabrication",
+        "cost_scaling": 0.01,
+        "move_cost": 250
+      }
+    ],
+    "qualities": [
+      [ "SAW_W", 3 ],
+      [ "SAW_M", 3 ],
+      [ "SAW_M_FINE", 3 ],
+      [ "WRENCH", 3 ],
+      [ "WRENCH_FINE", 3 ],
+      [ "SCREW", 1 ],
+      [ "SCREW_FINE", 1 ],
+      [ "CUT", 3 ],
+      [ "PRY", 5 ],
+      [ "PRYING_NAIL", 1 ],
+      [ "BUTCHER", -55 ],
+      [ "AXE", 3],
+      [ "FILE", 3],
+      [ "CHISEL", 3],
+      [ "CHISEL_WOOD", 3],
+      [ "GRIND", 3],
+      [ "FINE_GRIND", 3],
+      [ "ANVIL", 2],
+      [ "HAMMER", 3],
+      [ "HAMMER_FINE", 1],
+      [ "COOK", 2 ],
+      [ "CHEM", 2 ],
+      [ "BOIL", 3 ],
+      [ "DRILL", 3 ],
+      [ "DRILL_ROCK", 3 ],
+      [ "PUNCH", 3 ]
+    ]
+  }
+]

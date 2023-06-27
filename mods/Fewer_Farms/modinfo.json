@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "Fewer_Farms",
+    "name": "Fewer Farms",
+    "authors": [ "Chaosvolt" ],
+    "description": "Reduces the number of farms in a standard overmap to a saner amount.",
+    "version": "DDA and BN version, update 5/17/2021",
+    "category": "buildings",
+    "dependencies": [ "dda" ]
+  }
+]

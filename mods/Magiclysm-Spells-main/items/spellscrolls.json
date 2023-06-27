@@ -1,0 +1,68 @@
+  [
+    {
+      "type": "BOOK",
+      "copy-from": "spell_scroll",
+      "id": "spell_scroll_druid_bandage",
+      "name": { "str": "Scroll of Vegetative Poultice", "str_pl": "Scrolls of Vegetative Poultice" },
+      "description": "Before modern medicine, druids were the healers for their communities.",
+      "use_action": { "type": "learn_spell", "spells": [ "druid_bandage_heal" ] }
+    },
+    {
+      "type": "BOOK",
+      "copy-from": "spell_scroll",
+      "id": "spell_scroll_verdant_empowerment",
+      "name": { "str": "Scroll of Verdant Empowerment", "str_pl": "Scrolls of Verdant Empowerment" },
+      "description": "Most druids live in harmony with nature, but some become one with it.",
+      "use_action": { "type": "learn_spell", "spells": [ "druid_verdant" ] }
+    },
+    {
+      "type": "BOOK",
+      "copy-from": "spell_scroll",
+      "id": "spell_scroll_druid_whispers",
+      "name": { "str": "Scroll of Whispers of the Leaves", "str_pl": "Scrolls of Whispers of the Leaves" },
+      "description": "Listen to the secrets of the forest, carried on the wind through the leaves.",
+      "use_action": { "type": "learn_spell", "spells": [ "druid_whispers" ] }
+    },
+    {
+      "type": "BOOK",
+      "copy-from": "spell_scroll",
+      "id": "spell_scroll_nature_guardian",
+      "name": { "str": "Scroll of Nature's Guardian", "str_pl": "Scrolls of Nature's Guardian" },
+      "description": "Based on the infamous 'Cause Bear' spell, summon a bear that actually wants to defend the druid.",
+      "use_action": { "type": "learn_spell", "spells": [ "druid_nature_guardian" ] }
+    },
+    {
+      "type": "BOOK",
+      "copy-from": "spell_scroll",
+      "id": "spell_scroll_druid_harvest",
+      "name": { "str": "Scroll of Harvest of the Hunter", "str_pl": "Scrolls of Harvest of the Hunter" },
+      "description": "The best arrows are grown, not made.",
+      "use_action": { "type": "learn_spell", "spells": [ "druid_harvest_hunter" ] }
+    },
+		{
+			"type": "BOOK",
+			"copy-from": "spell_scroll",
+			"id": "spell_scroll_thorn_skin",
+			"name": { "str": "Scroll of Thornskin", "str_pl": "Scrolls of Thornskin" },
+			"description": "The proper version of the 'Tornskin' spell.",
+			"use_action": { "type": "learn_spell", "spells": [ "druid_thorn_skin" ] }
+		},
+		{
+			"type": "BOOK",
+			"copy-from": "spell_scroll",
+			"id": "spell_scroll_druid_bramble_spear",
+			"name": { "str": "Scroll of Spear of Brambles", "str_pl": "Scrolls of Spear of Brambles" },
+			"description": "Turn a stick into an all-natural weapon.",
+			"use_action": { "type": "learn_spell", "spells": [ "druid_bramble_spear" ] }
+		},
+		{
+      "type": "BOOK",
+      "copy-from": "spell_scroll",
+      "id": "spell_scroll_earthshaper_reveal_world_map",
+      "name": { "str": "Scroll of Reading the Earthbones", "str_pl": "Scrolls of Reading the Earthbone" },
+      "description": "Use magic to reveal nearby terrain .",
+      "use_action": { "type": "learn_spell", "spells": [ "earthshaper_reveal_world_map" ] }
+    }
+  ]
+
+

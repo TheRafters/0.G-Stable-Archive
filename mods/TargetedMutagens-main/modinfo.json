@@ -1,0 +1,12 @@
+ 	[
+	  {
+	    "type": "MOD_INFO",
+	    "id": "targetedmutagens",
+	    "name": "Targeted Mutagens",
+	    "authors": [ "StandingStorm" ],
+	    "maintainers": [ "StandingStorm" ],
+	    "description": "Adds recipes that target specific mutations rather than mutation categories.",
+	    "category": "items",
+	    "dependencies": [ "dda" ]
+	  }
+	]

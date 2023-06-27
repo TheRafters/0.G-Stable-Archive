@@ -1,0 +1,11 @@
+[
+  {
+    "id": "Tiered_Evolution",
+    "type": "MOD_INFO",
+    "name": "Tiered Evolution",
+    "authors": "Malkeus",
+    "description": "Makes game progressively harder by adding a third tier of evolutions. Very, Very, Very very, VERY long time since I released this into the wild and I haven't looked at it since...Ok, near as I can tell this just duplicates the same list 3 times and gradually shifts the spawn frequencies to favor stronger zombies. Btw, it only affects the zombie group, too. It probably works as intended, but it's so ooooooold, who knows what monsters it's not using.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

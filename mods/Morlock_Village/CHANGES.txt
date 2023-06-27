@@ -1,0 +1,1 @@
+Removed INCONSPICUOUS and TRIGGERHAPPY from trait groups, they're deprecated.

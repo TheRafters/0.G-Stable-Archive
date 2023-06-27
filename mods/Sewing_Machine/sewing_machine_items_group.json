@@ -1,0 +1,10 @@
+[
+  {
+    "id": "livingroom",
+    "type": "item_group",
+    "copy-from": "livingroom",
+    "extend": {
+      "items": [ [ "sewing_machine", 30 ] ]
+   }
+  }
+]

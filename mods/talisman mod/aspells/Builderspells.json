@@ -1,0 +1,91 @@
+[
+{
+    "id": "earth_wall",
+    "type": "SPELL",
+    "name": "earth wall",
+    "description": "spell to raise an earth wall",
+    "effect": "ter_transform",
+    "effect_str": "raise_earth",
+    "valid_targets": [ "ground" ],
+    "flags": [ "NO_LEGS", "SILENT" ],
+    "max_level": 10,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 15,
+    "max_range": 15,
+    "base_casting_time": 100,
+    "base_energy_cost": 100,
+    "energy_source": "MANA",
+    "difficulty": 1
+          
+  },
+{
+    "id": "rock_pole",
+    "type": "SPELL",
+    "name": "rock pole",
+    "description": "spell to raise a rock pole",
+    "effect": "ter_transform",
+    "effect_str": "raise_pole",
+    "valid_targets": [ "ground" ],
+    "flags": [ "NO_LEGS", "SILENT" ],
+    "max_level": 20,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 1,
+    "max_range": 1,
+    "base_casting_time": 180000,
+    "base_energy_cost": 1000,
+    "energy_source": "MANA",
+    "difficulty": 3
+  },
+{
+    "id": "water_shallow",
+    "type": "SPELL",
+    "name": "shallow pond",
+    "description": "spell to place water",
+    "effect": "ter_transform",
+    "effect_str": "shallow_pond",
+    "valid_targets": [ "ground" ],
+    "flags": [ "NO_LEGS", "CONCENTRATE" ],
+    "max_level": 10,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_aoe": 1,
+    "max_aoe": 1,
+    "min_range": 15,
+    "max_range": 15,
+    "range_increment": 1.0,
+    "base_casting_time": 180000,
+    "base_energy_cost": 27,
+    "energy_source": "HP",
+    "difficulty": 3
+  
+    
+   
+  },
+
+{
+    "id": "wall_feller",
+    "type": "SPELL",
+    "name": "Wall drill",
+    "description": "spell to perforate a wall",
+    "effect": "ter_transform",
+    "effect_str": "mine_wall",
+    "valid_targets": [ "ground" ],
+    "flags": [ "NO_LEGS", "CONCENTRATE" ],
+    "max_level": 12,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 1,
+    "max_range": 1,
+    "base_casting_time": 180000,
+    "base_energy_cost": 750,
+    "energy_source": "MANA",
+    "difficulty": 3
+  }
+
+
+
+
+
+]

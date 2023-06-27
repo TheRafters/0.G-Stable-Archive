@@ -1,0 +1,68 @@
+[
+  {
+    "abstract": "fake_item",
+    "type": "GENERIC",
+    "name": { "str": "fake item" },
+    "description": "Dummy item.  If you see this, then something went wrong.",
+    "//": "Include ZERO_WEIGHT flag to avoid errors when instantiating pseudo items.",
+    "flags": [ "ZERO_WEIGHT" ],
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "@",
+    "color": "red"
+  },
+  {
+    "id": "fake_appliance_tool",
+    "name": { "str": "fake appliance tool" },
+    "description": "Dummy item.  If you see this, then something went wrong.",
+    "type": "TOOL",
+    "copy-from": "fake_item",
+    "ammo": [ "battery" ],
+    "extend": { "flags": [ "ALLOWS_REMOTE_USE", "PSEUDO" ] },
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "default_magazine": "pseudo_battery" } ]
+  },
+  {
+    "copy-from": "fake_appliance_tool",
+    "id": "bat_jackhammer",
+    "type": "TOOL",
+    "name": { "str": "battery-powered jackhammer" },
+    "description": "This is a construction tool for drilling through hard rock or other surfaces.  It's UPS hardware has been bypassed to allow it to run on a vehicles battery system.  Use it to blast a hole in adjacent solid terrain.",
+    "weight": "40000 g",
+    "volume": "10 L",
+    "longest_side": "71 cm",
+    "price": 40000,
+    "price_postapoc": 500,
+    "to_hit": -8,
+    "bashing": 14,
+    "cutting": 6,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "charges_per_use": 3500,
+    "use_action": [ "JACKHAMMER" ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "bat_jackhammer",
+    "name": { "str": "battery-powered jackhammer" },
+    "symbol": "&",
+    "categories": [ "utility" ],
+    "color": "blue",
+    "broken_symbol": "*",
+    "broken_color": "light_blue",
+    "damage_modifier": 40,
+    "durability": 200,
+    "description": "This is a construction tool for drilling through hard rock or other surfaces.  It runs on a cell compatible with UPS.  Use it to blast a hole in adjacent solid terrain. 'e'xamine the tile with the electric jackhammer to use it.",
+    "item": "elec_jackhammer",
+    "location": "anywhere",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "15 m", "using": [ [ "adhesive", 1 ], [ "soldering_standard", 2 ] ] }
+    },
+    "flags": [  ],
+    "pseudo_tools": [ { "id": "bat_jackhammer", "hotkey": "p" } ],
+    "breaks_into": [ { "item": "plastic_chunk", "count": [ 1, 2 ] } ],
+    "damage_reduction": { "all": 26 }
+  }
+]

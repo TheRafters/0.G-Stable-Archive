@@ -1,0 +1,12 @@
+[
+  {
+    "id": "Summons_animals",
+    "type": "MOD_INFO",
+    "name": "Animal Summoner Item",
+    "authors": [ "Unknown" ],
+    "maintainers": [ "TheGoatGod" ],
+    "description": "Add items to summon wildlife",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

@@ -1,0 +1,665 @@
+[
+
+    {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_floating_earth_form",
+        "terrain": [
+          {
+            "result": "t_dirt",
+            "valid_terrain": [ 
+              "t_null",
+              "t_open_air",
+              "t_open_air_rooved_outside",
+              "t_water_sh",
+              "t_water_dp",
+              "t_water_murky",
+              "t_water_moving_sh",
+              "t_water_moving_dp", 
+              "t_swater_sh",
+              "t_swater_dp",
+              "t_sewage",
+              "t_lava",
+              "t_water_hot",
+              "t_water_pool_outdoors",
+              "t_water_pool_shallow_outdoors",
+              "t_glass_roof"
+            ],
+            "message": "Created floating dirt!"
+          },
+
+          {
+            "result": "t_dirt_underground",
+            "valid_terrain": [ 
+              "t_water_pool_shallow",
+              "t_water_sh_underground",
+              "t_water_dp_underground",
+              "t_open_air_rooved",
+              "t_water_murky_sh_murky_underground",
+              "t_water_moving_sh_underground",
+              "t_water_moving_dp_underground",
+              "t_swater_sh_underground",
+              "t_swater_dp_underground",
+              "t_water_pool"
+            ],
+            "message": "Created floating dirt!"
+          }
+        ]
+      },
+
+      {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_transform_hidden_world",
+        "terrain": [
+          {
+            "result": "PSY_magi_t_dirt",
+            "valid_terrain": [ 
+              "t_rock",
+              "t_door_c",
+              "t_wall_log"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_dirt",
+            "valid_terrain": [ 
+              "t_null",
+              "t_open_air",
+              "t_open_air_rooved_outside",
+              "t_water_pool_outdoors",
+              "t_water_pool_shallow_outdoors",
+              "t_glass_roof"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_lava",
+            "valid_terrain": [ 
+              "t_water_dp",
+              "t_swater_sh",
+              "t_swater_dp"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_water_pool_outdoors",
+            "valid_terrain": [ 
+              "t_water_murky",
+              "t_sewage",
+              "t_water_hot"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_water_sh",
+            "valid_terrain": [ 
+              "t_pit_covered",
+              "t_pit_glass",
+              "t_pit_glass_covered"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_pit_corpsed",
+            "valid_terrain": [ 
+              "t_pit_spiked",
+              "t_pit_spiked_covered",
+              "t_rootcellar",
+              "t_pit_shallow",
+              "t_pit"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_grass",
+            "valid_terrain": [ 
+              "t_pavement",
+              "t_sidewalk",
+              "t_brick_wall",
+              "t_rock_wall"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_thconc_floor",
+            "valid_terrain": [ 
+              "t_floor",
+              "t_grate",
+              "t_floor_red",
+              "t_floor_blue"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_carpet_red",
+            "valid_terrain": [ 
+              "t_carpet_base_wood",
+              "t_carpet_wood_yellow",
+              "t_carpet_wood_purple",
+              "t_carpet_concrete_red"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_carpet_metal_red",
+            "valid_terrain": [ 
+              "t_carpet_metal_yellow",
+              "t_carpet_metal_purple",
+              "t_carpet_strconcrete_green",
+              "t_carpet_rock_green"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_carpet_primitive_red",
+            "valid_terrain": [ 
+              "t_carpet_primitive_green",
+              "t_carpet_base_linoleum_gray",
+              "t_carpet_linoleum_gray_yellow",
+              "t_linoleum_white"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_carpet_primitive_red",
+            "valid_terrain": [ 
+              "t_carpet_primitive_green",
+              "t_carpet_base_linoleum_gray",
+              "t_carpet_linoleum_gray_yellow",
+              "t_linoleum_white"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_moss_underground",
+            "valid_terrain": [ 
+              "t_sand_underground",
+              "t_moss_underground",
+              "t_dirt_underground",
+              "t_claymound_underground"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_sand",
+            "valid_terrain": [ 
+              "t_mud",
+              "t_claymound",
+              "t_glassed_sand",
+              "t_dirtmound"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_grave",
+            "valid_terrain": [ 
+              "t_zebra",
+              "t_concrete_y",
+              "t_metal_floor_no_roof",
+              "t_dirtfloor_no_roof"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_tree_dead",
+            "valid_terrain": [ 
+              "t_tree_blackjack",
+              "t_tree_alder",
+              "t_tree_alder_harvested",
+              "t_tree_chestnut",
+              "t_tree_beech",
+              "t_tree_walnut",
+              "t_tree_apple",
+              "t_tree_coffee",
+              "t_tree_peach"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_wall_resin",
+            "valid_terrain": [ 
+              "t_triffid_bark_wall",
+              "t_bark_wall_chipped",
+              "t_triffid_wood_wall"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_pillar",
+            "valid_terrain": [ 
+              "t_wall",
+              "t_rock_smooth",
+              "t_wall_metal",
+              "t_sconc_wall",
+              "t_scrap_wall"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_wall_wood",
+            "valid_terrain": [ 
+              "t_palisade",
+              "t_junk_wall",
+              "t_wall_dirt"
+            ],
+            "message": ""
+          },
+          {
+            "result": "t_wall_glass",
+            "valid_terrain": [ 
+              "t_paper",
+              "t_wax",
+              "t_paper_brood",
+              "t_paper_hard"
+            ],
+            "message": ""
+          }
+        ]
+      },
+
+      {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_remove_wall_form",
+        "terrain": [
+          {
+            "result": "PSY_magi_t_dirt",
+            "valid_terrain": [ 
+              "t_rock",
+              "t_door_c",
+              "t_wall_log"
+            ],
+            "message": "Remove all walls!"
+          }
+        ]
+      },
+
+      {
+        "type": "ter_furn_transform",
+        "id": "PSY_create_metaldoor_form",
+        "//": "Furniture alteration has to be able to reasonably check for most intervening furniture and remove it.",
+        "terrain": [
+          {
+            "result": "t_door_metal_c",
+            "valid_flags": ["WALL"],
+            "message": "Wall changed to metal door."
+          },
+
+          {
+            "result": "t_door_metal_pickable",
+            "valid_terrain": [ 
+              "t_door_metal_c",
+              "t_door_metal_o"
+            ],
+            "message": "locked metal door."
+          }
+        ],
+        "furniture": [ { "result": "f_null", "valid_flags": [ "TRANSPARENT", "WALL" ] } ]
+      },
+
+
+
+      {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_after_water_form",
+        "terrain": [
+
+          {
+            "result": "t_water_dp",
+            "valid_terrain": [ 
+              "t_pit_corpsed",
+              "t_pit_covered",
+              "t_pit_glass",
+              "t_pit_glass_covered",
+              "t_pit_spiked",
+              "t_pit_spiked_covered",
+              "t_rootcellar",
+              "t_pit_shallow",
+              "t_pit",
+              "t_water_sh"
+            ],
+            "message": "Created deep water!"
+          },
+          
+          {
+            "result": "t_water_sh",
+            "valid_terrain": [ 
+              "t_grave",
+              "t_dirt",
+              "t_sand",
+              "t_clay",
+              "t_dirtmound",
+              "t_grass",
+              "t_grass_long",
+              "t_grass_tall",
+              "t_grass_dead",
+              "t_grass_white",
+              "t_dirtfloor",
+              "t_fungus_floor_in",
+              "t_fungus_floor_sup",
+              "t_fungus_floor_out",
+              "t_sandbox"
+            ],
+            "message": "Created shallow water!"
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_chest_after_form",
+        "furniture":[
+          {
+            "result": [ 
+              [ "PSY_magi_f_treasure_chest_opened", 10 ], 
+              [ "PSY_magi_f_treasure_chest_opened_empty", 2 ],
+              [ "PSY_magi_f_treasure_chest_opened_big", 1 ],
+              [ "PSY_magi_f_treasure_chest_opened_mid", 3 ]  
+            ],
+            "valid_furniture": [ "f_null" ],
+            "message": "The treasure chest has opened!",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_statue_swamp_after_form",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_statue_swamp",
+            "valid_furniture": [ "f_null" ],
+            "message": "You got a buff from statue!",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_statue_horn_after_form",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_statue_horn",
+            "valid_furniture": [ "f_null" ],
+            "message": "You got a buff from statue!",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_statue_cleric_after_form",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_statue_cleric",
+            "valid_furniture": [ "f_null" ],
+            "message": "You got a buff from statue!",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_statue_mysterious_after_form",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_statue_mysterious",
+            "valid_furniture": [ "f_null" ],
+            "message": "You got a buff from statue!",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_gun_random_transform",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_gun_random",
+            "valid_furniture": [ "f_null" ],
+            "message": "",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_rifle_random_transform",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_rifle_random",
+            "valid_furniture": [ "f_null" ],
+            "message": "",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_beehive_wax_form",
+        "terrain": [
+          {
+            "result": "t_floor_wax",
+            "valid_terrain": [ 
+              "t_null",
+              "t_wax"
+            ],
+            "message": ""
+          }
+        ]
+      },
+
+      {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_found_stairs_form",
+        "terrain": [
+          {
+            "result": "PSY_t_stairs_down",
+            "valid_terrain": [ 
+              "t_wood_stairs_down",
+              "t_stairs_down",
+              "t_slope_down"
+           ],    
+           
+            "message": ""
+          },
+          {
+            "result": "PSY_t_stairs_up",
+            "valid_terrain": [ 
+              "t_wood_stairs_up",
+              "t_stairs_up",
+              "t_slope_up"
+           ],    
+           
+            "message": ""
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_flower_transform",
+        "furniture":[
+          {
+            "result": [ [ "PSY_magi_f_honey_random", 3 ],[ "f_mutpoppy", 5 ],[ "f_dandelion", 5 ],[ "f_flower_tulip", 5 ],[ "f_flower_spurge", 5 ],[ "f_sunflower", 5 ],[ "f_datura", 5 ] ],
+            "valid_furniture": [ 
+              "f_mutpoppy",
+              "f_dandelion",
+              "f_flower_tulip",
+              "f_flower_spurge",
+              "f_sunflower",
+              "f_datura"
+           ]    
+          },
+          {
+            "result": [ [ "f_null", 300 ],[ "f_mutpoppy", 3 ],[ "f_dandelion", 3 ],[ "f_flower_tulip", 3 ],[ "f_flower_spurge", 3 ],[ "f_sunflower", 3 ],[ "f_datura", 3 ] ],
+            "valid_furniture": [ "f_null" ]    
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_flower_garden_transform",
+        "furniture":[
+          {
+            "result": [ [ "f_mutpoppy", 5 ],[ "f_dandelion", 5 ],[ "f_flower_tulip", 5 ],[ "f_flower_spurge", 5 ],[ "f_sunflower", 5 ],[ "f_datura", 5 ] ],
+            "valid_furniture": [ 
+              "f_mutpoppy",
+              "f_dandelion",
+              "f_flower_tulip",
+              "f_flower_spurge",
+              "f_sunflower",
+              "f_datura"
+           ]    
+          },
+          {
+            "result": [ [ "f_mutpoppy", 3 ],[ "f_dandelion", 3 ],[ "f_flower_tulip", 3 ],[ "f_flower_spurge", 3 ],[ "f_sunflower", 3 ],[ "f_datura", 3 ] ],
+            "valid_furniture": [ "f_null" ]    
+          }
+        ]
+      },
+
+      {
+        "type": "ter_furn_transform",
+        "id": "PSY_magi_freeze_water_form",
+        "terrain": [
+          {
+            "result": "PSY_magi_t_ice_tile",
+            "valid_terrain": [ 
+              "t_water_sh",
+              "t_water_dp",
+              "t_water_murky",
+              "t_water_moving_sh",
+              "t_water_moving_dp", 
+              "t_swater_sh",
+              "t_swater_dp",
+              "t_sewage",
+              "t_water_pool_outdoors",
+              "t_water_pool_shallow_outdoors"
+            ]
+          },
+
+          {
+            "result": "PSY_magi_t_ice_tile_underground",
+            "valid_terrain": [ 
+              "t_water_pool_shallow",
+              "t_water_sh_underground",
+              "t_water_dp_underground",
+              "t_water_murky_sh_murky_underground",
+              "t_water_moving_sh_underground",
+              "t_water_moving_dp_underground",
+              "t_swater_sh_underground",
+              "t_swater_dp_underground",
+              "t_water_pool"
+            ]
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_honey_treasure_transform",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_honey_treasure_chest_opened",
+            "valid_furniture": [ "PSY_magi_f_honey_treasure_chest_closed" ],
+            "message": "",
+            "message_good": true
+          },
+          {
+            "result": "PSY_magi_f_honey_treasure_chest_event_opened",
+            "valid_furniture": [ "PSY_magi_f_honey_treasure_chest_event_closed" ],
+            "message": "",
+            "message_good": true
+          },
+          {
+            "result": "PSY_magi_f_honey_treasure_chest_potion_opened",
+            "valid_furniture": [ "PSY_magi_f_honey_treasure_chest_potion_closed" ],
+            "message": "",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_ice_crystal_transform",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_ice_magic_crystal_large",
+            "valid_furniture": [ "PSY_magi_f_ice_magic_crystal_medium" ],
+            "message": "",
+            "message_good": true
+          },
+          {
+            "result": "PSY_magi_f_ice_magic_crystal_medium",
+            "valid_furniture": [ "PSY_magi_f_ice_magic_crystal" ],
+            "message": "",
+            "message_good": true
+          },
+          {
+            "result": "PSY_magi_f_ice_magic_crystal",
+            "valid_furniture": [ "f_null" ],
+            "message": "",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_ice_crystal_bomb_transform",
+        "furniture":[
+          {
+            "result": "PSY_magi_f_ice_magic_crystal_bomb3",
+            "valid_furniture": [ "PSY_magi_f_ice_magic_crystal_large" ],
+            "message": "",
+            "message_good": true
+          },
+          {
+            "result": "PSY_magi_f_ice_magic_crystal_bomb2",
+            "valid_furniture": [ "PSY_magi_f_ice_magic_crystal_medium" ],
+            "message": "",
+            "message_good": true
+          },
+          {
+            "result": "PSY_magi_f_ice_magic_crystal_bomb",
+            "valid_furniture": [ "PSY_magi_f_ice_magic_crystal" ],
+            "message": "",
+            "message_good": true
+          }
+        ]
+      },
+
+      {
+        "type":"ter_furn_transform",
+        "id":"PSY_magi_mana_mech_pod_transform",
+        "furniture":[
+          {
+            "result": [ "PSY_magi_f_mana_mech_pod_lv3" ],
+            "valid_furniture": [ 
+              "PSY_magi_f_mana_mech_pod_lv2"
+           ]    
+          },
+
+          {
+            "result": [ [ "PSY_magi_f_mana_mech_pod_lv2", 100 ],[ "PSY_magi_f_mana_mech_pod_lv3", 1 ] ],
+            "valid_furniture": [ 
+              "PSY_magi_f_mana_mech_pod_lv1"
+           ]    
+          },
+
+          {
+            "result": [ [ "PSY_magi_f_mana_mech_pod_lv1", 200 ],[ "PSY_magi_f_mana_mech_pod_lv2", 5 ],[ "PSY_magi_f_mana_mech_pod_lv3", 1 ] ],
+            "valid_furniture": [ "f_null" ]    
+          }
+        ]
+      }
+
+]

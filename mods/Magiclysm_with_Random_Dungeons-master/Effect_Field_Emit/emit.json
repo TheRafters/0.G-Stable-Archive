@@ -1,0 +1,168 @@
+[
+
+    {
+        "id": "PSY_magi_emit_hp_healing",
+        "type": "emit",
+        "field": "fd_PSY_magi_heal_air1",
+        "intensity": 1,
+        "qty": 60,
+        "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_speed_rising",
+      "type": "emit",
+      "field": "fd_PSY_magi_speed_air1",
+      "intensity": 1,
+      "qty": 60,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_stamina_recovery",
+      "type": "emit",
+      "field": "fd_PSY_magi_stamina_recovery_air1",
+      "intensity": 1,
+      "qty": 60,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_cursed",
+      "type": "emit",
+      "field": "fd_PSY_magi_cursed_air1",
+      "intensity": 1,
+      "qty": 60,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_flying_eye",
+      "type": "emit",
+      "field": "fd_clairvoyant",
+      "intensity": 1,
+      "qty": 3000,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_extinguisher_gas",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "fd_extinguisher",
+      "intensity": 3,
+      "qty": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_extinguisher_gas_normal",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "fd_extinguisher",
+      "intensity": 3,
+      "qty": 10
+    },
+
+    {
+      "id": "PSY_magi_emit_quick_gas_normal",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "fd_PSY_magi_Accelerator_field",
+      "intensity": 1,
+      "qty": 10
+    },
+
+    {
+      "id": "PSY_magi_emit_acid_splash_normal",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "fd_acid",
+      "intensity": 1,
+      "qty": 2
+    },
+
+    {
+      "id": "PSY_magi_emit_sludge_trail_normal",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "PSY_fd_sludge",
+      "intensity": 1,
+      "qty": 1
+    },
+
+    {
+      "id": "PSY_magi_emit_healing_hot_water",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "fd_PSY_magi_heal_water1",
+      "intensity": 1,
+      "qty": 1
+    },
+
+    {
+      "id": "PSY_magi_emit_tiamat_normal",
+      "type": "emit",
+      "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+      "field": "fd_PSY_magi_tiamat_cold_mist",
+      "intensity": 3,
+      "qty": 10
+    },
+
+    {
+      "id": "PSY_magi_emit_clairvoyance_one",
+      "type": "emit",
+      "//": "clairvoyant for stairs",
+      "field": "fd_clairvoyant",
+      "intensity": 1,
+      "qty": 9,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_icy_air",
+      "type": "emit",
+      "field": "fd_PSY_magi_icy_air1",
+      "intensity": 1,
+      "qty": 240,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_icy_air2",
+      "type": "emit",
+      "field": "fd_PSY_magi_icy_air2",
+      "intensity": 1,
+      "qty": 420,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_icy_air3",
+      "type": "emit",
+      "field": "fd_PSY_magi_icy_air3",
+      "intensity": 1,
+      "qty": 600,
+      "chance": 100
+    },
+
+
+    {
+      "id": "PSY_magi_emit_icy_air_mage",
+      "type": "emit",
+      "field": "fd_PSY_magi_icy_air1",
+      "intensity": 1,
+      "qty": 9,
+      "chance": 100
+    },
+
+    {
+      "id": "PSY_magi_emit_darkness_weak",
+      "type": "emit",
+      "field": "PSY_fd_darkness",
+      "intensity": 1,
+      "qty": 24,
+      "chance": 100
+    }
+
+
+]

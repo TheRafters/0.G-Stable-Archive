@@ -1,0 +1,102 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": ["retrodays", "neodays"],
+    "tiles-new": [
+      {
+        "file": "TileSet_Additions/bombsandbandits_neodays_tiles.png",
+        "tiles": [
+          {
+            "id": [
+              "mon_bandits_looter",
+              "mon_bandits_scrapper",
+              "mon_bandits_glock",
+              "mon_bandits_m1911",
+              "mon_bandits_smg",
+              "mon_bandits_alpha",
+              "mon_bandits_melee",
+              "mon_bandits_pyro",
+              "mon_bandits_super_psycho",
+              "mon_bandits_suicide_bomber",
+              "mon_bandits_shotgun",
+              "mon_bandits_raider",
+              "mon_bandits_rifle",
+              "mon_bandits_super_sniper"
+            ],
+            "fg": 0,
+            "rotates": false
+          },
+          {
+            "id": [
+              "mon_bandits_high_explosive_bomb",
+              "mon_bandits_incendiary_bomb",
+              "bandits_high_explosive_bomb"
+            ],
+            "fg": 1,
+            "rotates": false
+          }
+        ],
+        "sprite_width": 10,
+        "sprite_height": 10,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+    ]
+  },
+  {
+    "type": "mod_tileset",
+    "compatibility": [
+      "Chibi_Ultica",
+      "UltimateCataclysm",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE",
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE_LEGACY",
+      "UlticaShell",
+      "MshockXottoplus12",
+      "MSX++DEAD_PEOPLE",
+      "MXplus12_for_cosmetics",
+      "MSXotto+"
+    ],
+    "tiles-new": [
+      {
+        "file": "TileSet_Additions/bombsandbandits_undeadpeople_tiles.png",
+        "tiles": [
+          {
+            "id": [
+              "mon_bandits_looter",
+              "mon_bandits_scrapper",
+              "mon_bandits_glock",
+              "mon_bandits_m1911",
+              "mon_bandits_smg",
+              "mon_bandits_alpha",
+              "mon_bandits_melee",
+              "mon_bandits_pyro",
+              "mon_bandits_super_psycho",
+              "mon_bandits_suicide_bomber",
+              "mon_bandits_shotgun",
+              "mon_bandits_raider",
+              "mon_bandits_rifle",
+              "mon_bandits_super_sniper"
+            ],
+            "fg": 0,
+            "rotates": false
+          },
+          {
+            "id": [
+              "mon_bandits_high_explosive_bomb",
+              "mon_bandits_incendiary_bomb",
+              "bandits_high_explosive_bomb"
+            ],
+            "fg": 1,
+            "rotates": false
+          }
+        ],
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+    ]
+  }
+]

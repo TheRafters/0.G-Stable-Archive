@@ -1,0 +1,207 @@
+[
+    
+  {
+    "name": "GROUP_DISTURBED_EARTH",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_graboid", "weight": 300, "starts": "7 days" },
+      { "monster": "mon_halfworm", "weight": 400 },
+      { "monster": "mon_worm_small", "weight": 270 },
+      
+      { "monster": "mon_centipede_giant", "weight": 250, "starts": "14 days" },
+      { "monster": "mon_centipede_mom", "weight": 50, "starts": "30 days" },
+      { "monster": "mon_centipede_mega", "weight": 100, "starts": "60 days" },
+      
+      { "monster": "mon_ant_larva", "weight": 40, "ends": "8 days" },
+      { "monster": "mon_ant_soldier", "weight": 90, "starts": "8 days" },
+      { "monster": "mon_ant_queen", "weight": 1, "cost_multiplier": 10, "starts": "12 days" },
+      { "monster": "mon_ant_small", "weight": 270 },
+      { "monster": "mon_ant_acid_larva", "weight": 35, "starts": "18 days" },
+      { "monster": "mon_ant_acid_soldier", "weight": 10, "starts": "18 days" },
+      { "monster": "mon_ant_acid_queen", "weight": 1, "cost_multiplier": 10, "starts": "36 days" },
+      { "monster": "mon_ant_acid_small", "weight": 165 },
+      
+      { "monster": "mon_wasp_queen", "weight": 1, "cost_multiplier": 50, "starts": "15 days" },
+      { "monster": "mon_wasp_mega", "weight": 1, "cost_multiplier": 50, "starts": "30 days" },
+      { "monster": "mon_wasp_guard", "weight": 50, "cost_multiplier": 5, "pack_size": [ 3, 12 ] },
+      { "monster": "mon_wasp", "weight": 250 },
+      
+      { "monster": "mon_fungal_tendril", "weight": 55, "starts": "10 days" },
+      { "monster": "mon_fungaloid", "weight": 10, "starts": "20 days" },
+      { "monster": "mon_fungaloid_shambler", "weight": 30, "starts": "30 days" },
+      { "monster": "mon_fungaloid_young", "weight": 30, "starts": "40 days" },
+      { "monster": "mon_fungaloid_tower", "weight": 1, "cost_multiplier": 30, "starts": "50 days" },
+      
+      { "monster": "mon_dermatik", "weight": 100, "starts": "30 days" },
+      { "monster": "mon_dermatik_incubator_spider", "weight": 50, "starts": "15 days" },
+      { "monster": "mon_dermatik_incubator_dog", "weight": 100, "starts": "7 days" },
+      { "monster": "mon_dermatik_incubator_deer", "weight": 200 },
+      
+      { "monster": "mon_large_cockroach", "weight": 275, "starts": "18 days" },
+      { "monster": "mon_pregnant_giant_cockroach", "weight": 5, "cost_multiplier": 2 },
+      { "monster": "mon_giant_cockroach_nymph", "weight": 20, "ends": "18 days" },
+      { "monster": "mon_skittering_plague", "weight": 275, "starts": "8 days" },
+      { "monster": "mon_plague_vector", "weight": 5, "cost_multiplier": 2, "starts": "14 days" },
+      { "monster": "mon_plague_nymph", "weight": 20, "ends": "18 days" },
+      
+      { "monster": "mon_black_ratkin", "weight": 100, "starts": "21 days" },
+      { "monster": "mon_lab_ratkin", "weight": 200, "starts": "21 days" },
+      { "monster": "mon_big_rat", "weight": 20, "starts": "21 days" },
+      { "monster": "mon_zap_rat", "weight": 80, "starts": "21 days" },
+      { "monster": "mon_tunnel_rat", "weight": 280 },
+      { "monster": "mon_pack_rat", "weight": 170, "starts": "21 days" },
+      { "monster": "mon_teke_mouse", "weight": 60, "starts": "21 days" },
+      { "monster": "mon_mausketeer", "weight": 90, "starts": "21 days" },
+      
+      { "monster": "mon_blob_small", "weight": 200, "ends": "21 days" },
+      { "monster": "mon_blob_small", "weight": 50, "cost_multiplier": 2, "pack_size": [ 2, 12 ], "starts": "3 days" },
+      { "monster": "mon_blob", "weight": 100, "cost_multiplier": 3, "pack_size": [ 5, 10 ], "starts": "7 days"},
+      { "monster": "mon_blob_large", "weight": 5, "cost_multiplier": 6, "pack_size": [ 5, 10 ], "starts": "14 days" },
+      { "monster": "mon_blob_brain", "weight": 1, "cost_multiplier": 10, "starts": "100 days" },
+      { "monster": "mon_shoggoth", "weight": 1, "cost_multiplier": 10, "starts": "60 days" }
+    ]
+    },
+    {
+        "type": "field_type",
+        "id": "fd_disturbed_earth",
+        "intensity_levels": 
+        [ 
+            {   "name": "vibration",
+                "sym": "0",
+                "color": "blue",
+                "transparent": false,
+                "dangerous": false,
+                "move_cost": 0,
+                "monster_spawn_chance": 450,
+                "monster_spawn_count": 1,
+                "monster_spawn_radius": 1,
+                "monster_spawn_group": "GROUP_DISTURBED_EARTH"
+            },
+            {   "name": "tremor",
+                "sym": "0",
+                "color": "yellow",
+                "transparent": false,
+                "dangerous": false,
+                "move_cost": 5,
+                "monster_spawn_chance": 450,
+                "monster_spawn_count": 2,
+                "monster_spawn_radius": 2,
+                "monster_spawn_group": "GROUP_DISTURBED_EARTH"
+            },
+               {   "name": "shaking",
+                "sym": "0",
+                "color": "red",
+                "transparent": false,
+                "dangerous": false,
+                "move_cost": 0,
+                "monster_spawn_chance": 250,
+                "monster_spawn_count": 3,
+                "monster_spawn_radius": 3,
+                "monster_spawn_group": "GROUP_DISTURBED_EARTH"
+            }
+        ],
+        "decay_amount_factor": 2,
+        "half_life": "300 seconds",
+        "percent_spread": 80,
+        "phase": "gas",
+        "dirty_transparency_cache": true,
+        "display_items": true,
+        "display_fields": true,
+        "decrease_intensity_on_contact": true
+    },
+
+  {
+    "id": "crater_bomb",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "active alien bomb" },
+    "description": "This item is used to make a hole for a crater.  It should not otherwise appear in game.",
+    "weight": "4400 g",
+    "volume": "10 L",
+    "price": 0,
+    "to_hit": -5,
+    "bashing": 20,
+    "material": [ "steel" ],
+    "symbol": "(",
+    "color": "light_red",
+    "initial_charges": 1,
+    "max_charges": 1,
+    "turns_per_charge": 1,
+    "explode_in_fire": true,
+    "explosion": { "power": 25000, "max_noise": 0 },
+    "use_action": {
+      "type": "explosion",
+      "no_deactivate_msg": "You've already activated the bomb - clear the area immediately!",
+      "explosion": { "power": 25000, "max_noise": 0 },
+      "fields_radius": 10,
+      "fields_type": "fd_disturbed_earth",
+      "fields_min_intensity": 1,
+      "fields_max_intensity": 3
+    },
+    "flags": [ "BOMB", "TRADER_AVOID" ]
+  },
+  {
+    "om_terrain": "crater_core",
+    "type": "mapgen",
+    "method": "json",
+    "object": {
+      "rows": [
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........00000000........",
+        "........00000000........",
+        "........00000000........",
+        "........00000000........",
+        "........00000000........",
+        "........00000000........",
+        "........00000000........",
+        "........00000000........",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................"
+      ],
+      "//": "It's important that the bombs get placed on tiles without wreckage, otherwise they can get destroyed before they explode",
+      "place_item": [
+        { "item": "crater_bomb", "x": [ 8, 11 ], "y": [ 8, 11 ], "amount": 1, "custom-flags": [ "ACTIVATE_ON_PLACE" ] },
+        {
+          "item": "crater_bomb",
+          "x": [ 8, 11 ],
+          "y": [ 12, 15 ],
+          "amount": 1,
+          "custom-flags": [ "ACTIVATE_ON_PLACE" ]
+        },
+        {
+          "item": "crater_bomb",
+          "x": [ 12, 15 ],
+          "y": [ 8, 11 ],
+          "amount": 1,
+          "custom-flags": [ "ACTIVATE_ON_PLACE" ]
+        },
+        {
+          "item": "crater_bomb",
+          "x": [ 12, 15 ],
+          "y": [ 12, 15 ],
+          "amount": 1,
+          "custom-flags": [ "ACTIVATE_ON_PLACE" ]
+        }
+      ],
+      "place_items": [ { "item": "wreckage", "repeat": 3, "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
+      "rubble": { ".": { "rubble_type": "f_rubble_rock" } },
+      "terrain": {
+        ".": [ [ "t_region_groundcover_barren", 10 ], "t_region_groundcover" ],
+        "0": [ [ "t_region_groundcover_barren", 10 ], "t_region_groundcover" ]
+      }
+    }
+  }
+]

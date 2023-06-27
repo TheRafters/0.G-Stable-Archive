@@ -1,0 +1,189 @@
+[
+  {
+    "id": "art_sphere",
+    "type": "ARMOR",
+    "name": { "str": "sphere necklace" },
+    "description": "a necklace with a sphere pendant, it has a smooth surface and made out of some sort of stone.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "O",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+        "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "head" ] } ]
+  },
+  {
+    "id": "art_rod",
+    "type": "ARMOR",
+    "name": { "str": "slim bracelet" },
+    "description": "a some sort of slim metal rod curved into it's current shape to fit a wrist.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "|",
+    "weight": "100 g",
+    "volume": "50 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+        "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_wrist_l", "hand_wrist_r" ] } ]
+  },
+  {
+    "id": "art_teardrop",
+    "type": "ARMOR",
+    "name": { "str": "teardrop necklace" },
+    "description": "a necklace with a teardrop pendant, it is made out of some sort of gem.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "O",
+    "volume": "35 ml",
+    "weight": "50 g",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+        "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "head" ] } ]
+  },
+  {
+    "id": "art_lamp",
+    "type": "ARMOR",
+    "name": { "str": "hollow ring" },
+    "description": "a cube with a hollow middle, it looks like a giant cube of ice but seems to never melt nor emit any cold.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+        "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_wrist_l", "hand_wrist_r" ] } ]
+  },
+  {
+    "id": "art_snake",
+    "type": "ARMOR",
+    "name": { "str": "flexible bracelet" },
+    "description": "a some sort of flexible rod that looks like a slinky.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+        "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_wrist_l", "hand_wrist_r" ] } ]
+  },
+  {
+    "id": "art_disc",
+    "type": "ARMOR",
+    "name": { "str": "disc necklace" },
+    "description": "a disc of some sort of old cd player, sadly someone bore a hole on it and inserted a string to it to turn it into a necklace.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+        "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "head" ] } ]
+  },
+  {
+    "id": "art_beads",
+    "type": "ARMOR",
+    "name": { "str": "beaded necklace", "str_pl": "beaded necklace" },
+    "description": "a necklace with a sphere pendant, it has a smooth surface and made out of some sort of stone.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+        "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "head" ] } ]
+  },
+  {
+    "id": "art_napkin",
+    "type": "ARMOR",
+    "name": { "str": "sheet ring" },
+    "description": "a ring made out of some sort of very thing sheet of paper but is durable enough not to tear easily.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+       "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ] } ]
+  },
+  {
+    "id": "art_urchin",
+    "type": "ARMOR",
+    "name": { "str": "spiked ring" },
+    "description": "a ring with a spiked sphere decor.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+       "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ] } ]
+  },
+  {
+    "id": "art_jelly",
+    "type": "ARMOR",
+    "name": { "str": "malleable blob" },
+    "description": "a piece of malleable blob, it feels alive whenever you poke your finger in it.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+       "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ] } ]
+  },
+  {
+    "id": "art_spiral",
+    "type": "ARMOR",
+    "name": { "str": "spiraling ring" },
+    "description": "a ring that has a spiraling shape.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+       "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ] } ]
+  },
+  {
+    "id": "art_pin",
+    "type": "ARMOR",
+    "name": { "str": "small ring" },
+    "description": "a small ring that somehow always fit the wearer despite of how small it is.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+       "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ] } ]
+  },
+  {
+    "id": "art_tube",
+    "type": "ARMOR",
+    "name": { "str": "small hollow tube" },
+    "description": "a piece of tube cut into a piece and seemingly fits your finger.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+       "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ] } ]
+  },
+  {
+    "id": "art_pyramid",
+    "type": "ARMOR",
+    "name": { "str": "tetrahedron ring" },
+    "description": "a ring with a pyramid decor.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+       "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ] } ]
+  },
+  {
+    "id": "art_crystal",
+    "type": "ARMOR",
+    "name": { "str": "crystal ring" },
+    "description": "a ring that looks like a wedding ring but the gem inlaid looks more clearer than it should.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+       "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "hand_l", "hand_r" ], "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ] } ]
+  },
+  {
+    "id": "art_knot",
+    "type": "ARMOR",
+    "name": { "str": "knotted cord" },
+    "description": "noose.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+        "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "head" ] } ]
+  },
+  {
+    "id": "art_crescent",
+    "type": "ARMOR",
+    "name": { "str": "crescent necklace" },
+    "description": "a necklace with a crescent-shaped pendant.\nlt is the only one of its kind.\nIt feel like it has some sort of mysterious powers.",
+    "symbol": "C",
+    "weight": "50 g",
+    "volume": "25 ml",
+        "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE"  ],
+        "armor": [ { "encumbrance": 1, "coverage": 15, "covers": [ "head" ] } ]
+  }
+]

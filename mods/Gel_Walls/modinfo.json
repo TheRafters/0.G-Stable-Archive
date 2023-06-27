@@ -1,0 +1,12 @@
+[
+  {
+    "id": "bsa_gel_wall",
+    "type": "MOD_INFO",
+    "name": "Broken Admin's Gel Walls",
+    "authors": [ "Broken \"Spaghetti\" Admin" ],
+    "maintainers": [ "Broken \"Spaghetti\" Admin" ],
+    "description": "Allows the player to create wall made of blob glob!",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

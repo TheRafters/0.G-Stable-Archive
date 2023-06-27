@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "xedra_nolimit",
+    "name": "<color_blue>Xedra Unlimited</color>",
+    "authors": [ "Cobweb" ],
+    "maintainers": [ "PlayerUnknown" ],
+    "description": "Remove limits on Xedra Magic classes.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]

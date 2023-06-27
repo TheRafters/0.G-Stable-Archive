@@ -1,0 +1,9 @@
+[
+  {
+    "type": "skill",
+    "id": "metaphysics",
+    "name": { "str": "metaphysics" },
+    "display_category": "display_ranged",
+    "description": "Your ability to manipulate forces of energy often considered supernatural."
+  }
+]

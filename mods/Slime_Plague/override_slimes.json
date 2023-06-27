@@ -1,0 +1,155 @@
+[
+  {
+    "id": "mon_blob_small",
+    "type": "MONSTER",
+    "copy-from": "mon_blob_small",
+
+    "special_attacks": [ [ "ABSORB_ITEMS", 150 ], [ "FORMBLOB", 150 ], [ "SPLIT", 200 ] ],
+
+    "absorb_material": [ "slime", "flesh", "hflesh", "iflesh", "bone", "blood", "hblood", "feces", "fur", "gasoline", "diesel", "biodiesel", "alcohol",  "water", "wood", "plastic", "copper", "nickel", "tin"  ],
+    "absorb_ml_per_hp": 250,
+    "split_move_cost": 900,
+    "absorb_move_cost_min": 150,
+    "absorb_move_cost_per_ml": 0.055,
+
+    "extend": { "flags": [ "HARDTOSHOOT", "CAMOUFLAGE", "WATER_CAMOUFLAGE", "NIGHT_INVISIBILITY", "SEES", "SMELLS", "SWARMS", "PUSH_MON", "ATTACK_LOWER", "GROUP_BASH", "GROUP_MORALE", "FLAMMABLE", "CANPLAY", "STUMBLES" ] },
+
+    "diff": 1,
+    "path_settings": {  "max_length": 2 ,  "bash_strength": 4 },
+    "fear_triggers": [ "FIRE", "HURT" ],
+    "anger_triggers": [ "STALK", "PLAYER_WEAK", "PLAYER_CLOSE" ],
+    "aggression": 100,
+    "aggro_character": false,
+    "morale": 100,
+    "regen_morale": true,
+
+    "volume": "30000 ml",
+    "weight": "40750 g",
+    "hp": 40,
+    "speed": 50,
+
+    "harvest": "exempt",
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+    "death_drops": "mon_blob_small_deathdrops"
+
+ },
+{
+
+    "id": "mon_blob",
+    "type": "MONSTER",
+    "copy-from": "mon_blob",
+
+    "special_attacks": [ [ "ABSORB_ITEMS", 150 ], [ "FORMBLOB", 300 ], [ "SPLIT", 10000 ] ],
+
+    "absorb_material": [ "slime", "flesh", "hflesh", "iflesh", "bone", "blood", "hblood", "feces", "fur", "glass", "iron", "lc_steel", "steel", "stone", "water", "asbestos", "silver", "gold", "lead", "aluminum", "paper" ],
+    "absorb_ml_per_hp": 250,
+    "split_move_cost": 1800,
+    "absorb_move_cost_min": 150,
+    "absorb_move_cost_per_ml": 0.055,
+
+    "extend": { "flags": [ "SEES", "SMELLS", "KEENNOSE", "SWARMS", "VENOM", "DESTROYS", "GROUP_BASH", "GROUP_MORALE", "PUSH_MON", "FLAMMABLE", "PATH_AVOID_FIRE", "PATH_AVOID_FALL", "CANPLAY", "STUMBLES" ] },
+
+    "diff": 5,
+    "path_settings": {  "max_length": 5 ,  "bash_strength": 12 },
+    "fear_triggers": [ "FIRE" ],
+    "anger_triggers": [ "STALK", "HOSTILE_SEEN", "HURT", "PLAYER_WEAK", "PLAYER_CLOSE" ],
+    "aggression": 100,
+    "morale": 100,
+    "regen_morale": true,
+    "vision_day": 4,
+    "vision_night": 4,
+
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 80,
+    "speed": 70,
+
+    "harvest": "exempt",
+    "death_function": {
+      "message": "The %s splits in two!",
+      "corpse_type": "NO_CORPSE",
+      "effect": { "id": "death_blobsplit", "hit_self": true }
+     }
+
+   },
+  {
+
+    "id": "mon_blob_large",
+    "type": "MONSTER",
+    "copy-from": "mon_blob_large",
+    "name": { "str": "big slime" },
+    "default_faction": "anti_slime",
+    "description": "A large black blob of viscous goo, oozing across the ground like a glob of living oil.",
+
+    "special_attacks": [ [ "GRAB", 10 ], [ "GRAB_DRAG", 15 ], [ "EVOLVE_KILL_STRIKE", 20 ], [ "FORMBLOB", 150 ], [ "ABSORB_ITEMS", 150 ], [ "SPLIT", 20000 ] ],
+
+    "absorb_material": [ "flesh", "hflesh", "iflesh", "bone", "blood", "hblood", "feces", "fur", "glass", "iron", "lc_steel", "steel", "stone", "water", "asbestos", "silver", "gold", "lead", "aluminum", "paper", "plutonium", "uranium", "battery", "cement"  ],
+    "absorb_ml_per_hp": 250,
+    "split_move_cost": 3600,
+    "absorb_move_cost_min": 300,
+    "absorb_move_cost_per_ml": 0.055,
+
+    "extend": { "flags": [ "GRABS", "PRIORITIZE_TARGETS", "SEES", "HEARS", "SMELLS", "KEENNOSE", "SWARMS", "BORES", "BASHES", "GROUP_BASH", "GROUP_MORALE", "PUSH_MON", "PUSH_VEH", "FLAMMABLE", "PATH_AVOID_FIRE", "PATH_AVOID_FALL", "STUMBLES", "CLIMBS", "CANPLAY" ] },
+    "grab_strength": 1,
+
+    "diff": 10,
+    "path_settings": {  "max_length": 10 ,  "bash_strength": 20 },
+    "fear_triggers": [ "FIRE" ],
+    "anger_triggers": [ "STALK", "HOSTILE_SEEN", "HURT", "PLAYER_CLOSE" ],
+    "placate_triggers": [ "PLAYER_WEAK", "SOUND" ],
+    "aggression": 100,
+    "aggro_character": false,
+    "morale": 100,
+    "regen_morale": true,
+    "vision_day": 6,
+    "vision_night": 6,
+
+    "volume": "125000 ml",
+    "weight": "163 kg",
+    "hp": 160,
+    "speed": 90,
+    "bleed_rate": 30,
+
+    "upgrades": {
+        "into": "mon_blob_brain",
+        "half_life": 120
+      },
+
+    "biosignature": { "biosig_item": "slime_scrap", "biosig_timer": 10 },
+    "harvest": "exempt",
+    "death_function": {
+      "message": "The %s splits in two!",
+      "corpse_type": "NO_CORPSE",
+      "effect": { "id": "death_blobsplit_large", "hit_self": true }
+     }
+  },
+  {
+    "id": "mon_blob_brain",
+    "type": "MONSTER",
+    "copy-from": "mon_blob_brain",
+    "name": { "str": "brain slime" },
+    "description": "A gigantic black blob of viscous goo, oozing across the ground like a glob of living oil.  Other slimes seem to swarm around it.",
+
+    "diff": 5,
+    "volume": "875000 ml",
+    "weight": "200 kg",
+    "hp": 400,
+    "speed": 100,
+
+    "aggression": 100,
+    "morale": 100,
+    "fear_triggers": [ "FIRE" ],
+    "anger_triggers": [ "STALK", "HOSTILE_SEEN", "HURT", "PLAYER_CLOSE" ],
+    "placate_triggers": [ "PLAYER_WEAK", "SOUND" ],
+
+    "harvest": "exempt",
+    "special_attacks": [ [ "GRAB", 2 ], [ "FLESH_TENDRIL", 15 ], [ "SHRIEK_STUN", 30], [ "STRETCH_BITE", 10] ],
+    "death_function": {
+      "message": "The %s splits in two!",
+      "corpse_type": "NO_CORPSE",
+      "effect": { "id": "death_blob_brain", "hit_self": true }
+    },
+    "death_drops": "slime_sample_huge",
+    "extend": { "flags": [ "SWARMS", "SMELLS" ] }
+  }
+  ]

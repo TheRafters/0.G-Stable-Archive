@@ -1,0 +1,15 @@
+[{
+    "id": "mon_bee",
+    "type":"MONSTER",
+    "copy-from":"mon_bee",
+    "petfood": { "food": [ "BIRDFOOD" ], "feed": "The %s seems to like you!  It lets you pat its torax and seems friendly." },
+    "extend":{"flags": [ "CANPLAY","PET_MOUNTABLE"]}
+  },
+{
+    "id": "mon_bee_mega",
+    "type":"MONSTER",
+    "copy-from":"mon_bee_mega",
+    "speed": 124,
+    "petfood": { "food": [ "BIRDFOOD" ], "feed": "The %s seems to like you!  It lets you pat its torax and seems friendly." },
+    "extend":{"flags": [ "CANPLAY","PET_MOUNTABLE"]}
+  }]

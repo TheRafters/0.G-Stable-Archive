@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "blob_greygoo",
+    "name": "Slime Plague",
+    "authors": [ "Malkeus" ],
+    "description": "Blob faction transformed from a cpu killing nuisance to a city destroying plague with an unnerving desire to BE somewhere in particular. Where are they going? Complete with an incubation period and pockets of infection waiting to burst on intruders.  Work in Progress, don't use on a treasured save without backups. Debug errors about things on roofs falling down are to be expected until I can figure that out. Inspired by Slime Rancher by BlueFlowers. V0.01 tested on cdda-android-x64-2022-08-23-1723.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

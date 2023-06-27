@@ -1,0 +1,27 @@
+ [
+   {
+    "id": "spell_components_druid_bandage",
+    "type": "requirement",
+    "//": "Leaves and bark for the Vegetative Poultice spell",
+    "components": [
+      [ [ "young_leaves", 2 ], [ "leaves", 2], [ "grape_leaves", 2 ], ["fiddlehead_raw", 2], ["cattail_rhizome", 2], ["raw_dandelion", 2], ["juniper", 2 ] ],
+      [ [ "alder_bark", 1 ], [ "tanbark", 1 ], [ "birchbark", 1 ], [ "willowbark", 1 ] ]
+    ]
+   },
+   {
+     "id": "spell_components_druid_arrow",
+     "type": "requirement",
+     "//": "Sticks for the for the Harvest of the Hunter spell",
+     "components": [
+       [ [ "pine_bough", 2 ], [ "stick", 2 ], ["stick_long", 2], ["stick_fiber", 2] ]
+    ]
+   },
+  {
+   "id": "spell_components_druid_bramble_spear",
+   "type": "requirement",
+    "//": "Sticks to turn into a bramble spear",
+   "components": [
+    [ [ "stick", 1 ], ["stick_long", 1] ]
+    ]
+  }
+ ]

@@ -1,0 +1,222 @@
+[
+  {
+    "type": "item_group",
+    "id": "mil_hw",
+	"copy-from": "mil_hw",
+    "extend": { "items": [
+ [ "chickenbot_packed", 2 ] ]
+  }},
+  {
+    "type": "item_group",
+    "id": "military",
+	"copy-from": "military",
+    "extend": { "items": [
+ [ "chickenbot_packed", 4 ] ]
+  }},
+  {
+    "type": "item_group",
+    "id": "helicopter",
+	"copy-from": "helicopter",
+    "extend": { "items": [
+ [ "chickenbot_packed", 2 ] ]
+  }},
+  {
+    "type": "item_group",
+    "id": "lab_dorm",
+	"copy-from": "lab_dorm",
+    "extend": { "items": [
+ [ "walker_schematic", 1 ] ]
+  }},
+  {
+    "type": "item_group",
+    "id": "teleport",
+	"copy-from": "teleport",
+    "extend": { "items": [
+ [ "walker_schematic", 5 ] ]
+  }},
+  {
+    "type": "item_group",
+    "id": "science",
+	"copy-from": "science",
+    "extend": { "items": [
+ [ "walker_schematic", 1 ] ]
+  }},
+  {
+    "type": "item_group",
+    "id": "chickenbotnew",
+	"copy-from": "chickenbotnew",
+    "extend": { "items": [
+      [ "ai_module", 5 ],
+      [ "sensor_module", 5 ],
+      [ "memory_module", 5 ],
+      [ "pathfinding_module", 5 ],
+      [ "identification_module", 5 ],
+      [ "reverse_jointed_legs", 40 ],
+      [ "chickenbot_chassis", 40 ],
+      [ "targeting_module", 5 ],
+      [ "gun_module", 30 ],
+      [ "tazer", 5 ],
+      [ "storage_battery", 5 ],
+      [ "plut_cell", 5 ],
+      [ "556", 8 ],
+      [ "steel_lump", 10 ],
+      [ "40x46mm_m433", 6 ],
+      [ "alloy_plate", 10 ],
+      [ "robot_controls", 5 ]
+    ]
+      }},
+  {
+    "type": "item_group",
+    "id": "bootlegbot",
+	"copy-from": "bootlegbot",
+    "extend": { "items": [
+      [ "ai_module", 5 ],
+      [ "sensor_module", 5 ],
+      [ "memory_module", 5 ],
+      [ "pathfinding_module", 5 ],
+      [ "identification_module", 5 ],
+      [ "reverse_jointed_legs", 40 ],
+      [ "chickenbot_chassis", 40 ],
+      [ "targeting_module", 5 ],
+      [ "gun_module", 30 ],
+      [ "tazer", 5 ],
+      [ "storage_battery", 5 ],
+      [ "plut_cell", 5 ],
+      [ "556", 12 ],
+      [ "steel_lump", 10 ],
+      [ "alloy_plate", 10 ],
+      [ "robot_controls", 5 ]
+    ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "buckshotbot",
+	"copy-from": "buckshotbot",
+    "extend": { "items": [
+      [ "ai_module", 5 ],
+      [ "sensor_module", 5 ],
+      [ "memory_module", 5 ],
+      [ "pathfinding_module", 5 ],
+      [ "identification_module", 5 ],
+      [ "reverse_jointed_legs", 40 ],
+      [ "chickenbot_chassis", 40 ],
+      [ "targeting_module", 5 ],
+      [ "gun_module", 30 ],
+      [ "tazer", 5 ],
+      [ "storage_battery", 5 ],
+      [ "plut_cell", 5 ],
+      [ "shot_00", 12 ],
+      [ "steel_lump", 10 ],
+      [ "alloy_plate", 10 ],
+      [ "robot_controls", 5 ]
+    ]
+  }},
+  {
+    "type": "item_group",
+    "id": "flaregunbot",
+	"copy-from": "flaregunbot",
+    "extend": { "items": [
+      [ "ai_module", 5 ],
+      [ "sensor_module", 5 ],
+      [ "memory_module", 5 ],
+      [ "pathfinding_module", 5 ],
+      [ "identification_module", 5 ],
+      [ "reverse_jointed_legs", 40 ],
+      [ "chickenbot_chassis", 40 ],
+      [ "targeting_module", 5 ],
+      [ "gun_module", 30 ],
+      [ "tazer", 5 ],
+      [ "storage_battery", 5 ],
+      [ "plut_cell", 5 ],
+      [ "signal_flare", 12 ],
+      [ "steel_lump", 10 ],
+      [ "alloy_plate", 10 ],
+      [ "robot_controls", 5 ]
+    ]
+  }},
+  {
+    "type": "item_group",
+    "id": "unarmedbot",
+	"copy-from": "unarmedbot",
+    "extend": { "items": [
+      [ "ai_module", 5 ],
+      [ "sensor_module", 5 ],
+      [ "memory_module", 5 ],
+      [ "pathfinding_module", 5 ],
+      [ "identification_module", 5 ],
+      [ "reverse_jointed_legs", 40 ],
+      [ "chickenbot_chassis", 40 ],
+      [ "storage_battery", 5 ],
+      [ "plut_cell", 5 ],
+      [ "steel_lump", 10 ],
+      [ "alloy_plate", 10 ],
+      [ "robot_controls", 5 ]
+    ]
+  }},
+  {
+    "type": "item_group",
+    "id": "unarmedsuperbot",
+	"copy-from": "unarmedsuperbot",
+    "extend": { "items": [
+      [ "ai_module", 5 ],
+      [ "sensor_module", 5 ],
+      [ "memory_module", 5 ],
+      [ "pathfinding_module", 5 ],
+      [ "identification_module", 5 ],
+      [ "reverse_jointed_legs", 40 ],
+      [ "chickenbot_chassis", 40 ],
+      [ "storage_battery", 5 ],
+      [ "plut_cell", 5 ],
+      [ "steel_lump", 10 ],
+      [ "alloy_plate", 20 ],
+      [ "robot_controls", 5 ]
+    ]
+  }},
+  {
+    "type": "item_group",
+    "id": "superbot",
+	"copy-from": "superbot",
+    "extend": { "items": [
+      [ "ai_module", 5 ],
+      [ "sensor_module", 5 ],
+      [ "memory_module", 5 ],
+      [ "pathfinding_module", 5 ],
+      [ "identification_module", 5 ],
+      [ "reverse_jointed_legs", 40 ],
+      [ "chickenbot_chassis", 40 ],
+      [ "targeting_module", 5 ],
+      [ "gun_module", 30 ],
+      [ "tazer", 5 ],
+      [ "storage_battery", 5 ],
+      [ "plut_cell", 5 ],
+      [ "50bmg", 12 ],
+      [ "steel_lump", 10 ],
+      [ "alloy_plate", 20 ],
+      [ "robot_controls", 5 ]
+    ]
+  }},
+  {
+    "type": "item_group",
+    "id": "flamerbot",
+	"copy-from": "flamerbot",
+    "extend": { "items": [
+      [ "ai_module", 5 ],
+      [ "sensor_module", 5 ],
+      [ "memory_module", 5 ],
+      [ "pathfinding_module", 5 ],
+      [ "identification_module", 5 ],
+      [ "reverse_jointed_legs", 40 ],
+      [ "chickenbot_chassis", 40 ],
+      [ "targeting_module", 5 ],
+      [ "gun_module", 30 ],
+      [ "tazer", 5 ],
+      [ "storage_battery", 5 ],
+      [ "plut_cell", 5 ],
+      [ "napalm", 12 ],
+      [ "steel_lump", 10 ],
+      [ "alloy_plate", 20 ],
+      [ "robot_controls", 5 ]
+    ]
+  }}
+]

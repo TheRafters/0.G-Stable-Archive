@@ -1,0 +1,12 @@
+Make the rubble special, 
+
+drop item that is single use random effect, from beneficial to negative
+    Beneficial: Clear status effects (permanent), Temporarily counter effects (mind attacks, teleglow, etc), adrenaline rush
+    Negatives: Radiation, needs hits (hunger, thirst, weariness), pain, nausea, mood hits
+    
+Single use artifacts that summon a temporary non removable aura item with random effect and duration.
+
+Single use artifacts with unique shapes that give the same effect each time but give no messages. Effects can be randomly good or bad but always affect the same stat.
+    cone, orb, spiral, smooth fractal, cracked fractal, sharp fractal
+
+Talk to Rook on discord.

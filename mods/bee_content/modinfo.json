@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "bee_content",
+    "name": "Bee content",
+    "authors": [ "blueflowers" ],
+    "description": "Adds friendly bee related content.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]

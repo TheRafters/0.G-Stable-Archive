@@ -1,0 +1,126 @@
+[
+  {
+    "type": "ter_furn_transform",
+    "id": "pit_talisman",
+    "fail_message": "The earth here does not listen to your command to move.",
+    "terrain": [
+       {
+        "result": "t_pit_shallow",
+        
+        "valid_terrain": [
+          "t_grave",
+          "t_dirt",
+          "t_sand",
+          "t_clay",
+          "t_dirtmound",
+          "t_grass",
+          "t_grass_long",
+          "t_grass_tall",
+          "t_grass_dead",
+          "t_grass_white",
+          "t_dirtfloor",
+          "t_fungus_floor_in",
+          "t_fungus_floor_sup",
+          "t_fungus_floor_out",
+          "t_sandbox"
+        ],
+        "message": "The earth moves out of the way for you."
+      }
+      ]
+
+},
+
+{
+    "type": "ter_furn_transform",
+    "id": "wall_talisman",
+    "fail_message": "The barrier shreds out of existence.",
+    "furniture": [ { "result": "f_paper_barrier", "valid_furniture": [ "f_null" ] } ]
+  },
+{
+    "type": "ter_furn_transform",
+    "id": "raise_earth",
+    "fail_message": "The magic fades out of existence.",
+    "furniture": [ { "result": "f_wall_raised_earth", "valid_furniture": [ "f_null" ] } ]
+  },
+
+{
+    "type": "ter_furn_transform",
+    "id": "shallow_pond",
+    "fail_message": "The magic fades out of existence.",
+     "terrain": [
+       {
+        "result": "t_water_sh",
+        
+        "valid_terrain": [
+          "t_grave",
+          "t_dirt",
+          "t_sand",
+          "t_clay",
+          "t_dirtmound",
+          "t_grass",
+          "t_grass_long",
+          "t_grass_tall",
+          "t_grass_dead",
+          "t_grass_white",
+          "t_dirtfloor",
+          "t_fungus_floor_in",
+          "t_fungus_floor_sup",
+          "t_fungus_floor_out",
+          "t_sandbox"
+        ],
+        "message": "The water flows out."
+      }
+
+      ]    
+
+
+  },
+
+{
+    "type": "ter_furn_transform",
+    "id": "raise_pole",
+    "fail_message": "The magic fades out of existence.",
+     "terrain": [
+       {
+        "result": "t_pole",
+        
+        "valid_flags": [
+        "FLAT"
+              
+        ],
+        "message": "The pole raises."
+      }
+
+      ]    
+
+
+  },
+
+{
+    "type": "ter_furn_transform",
+    "id": "mine_wall",
+    "fail_message": "The magic fades out of existence.",
+     "terrain": [
+       {
+        "result": "t_rock_floor_no_roof",
+        
+        "valid_flags": [
+        "MINEABLE"
+              
+        ],
+        "message": "The wall crumbles."
+      }
+
+      ]    
+
+
+  }
+
+
+
+
+
+
+
+
+]

@@ -1,0 +1,22 @@
+{
+    "result": "beefood",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "skills_required": [ "survival", 1 ],
+    "time": "10 m",
+    "autolearn": true,
+    "components": [
+      [
+        [ "hops", 5 ],
+        [ "lotus", 5 ],
+        [ "spurge", 5 ],
+        [ "sunflower", 1],
+        [ "seed_flower", 60],
+        [ "raw_dandelion", 5]
+       ]
+    ]
+  }

@@ -1,0 +1,245 @@
+[
+	{
+		"name": "GROUP_NETHER",
+		"type": "monstergroup",
+		"default": "mon_blank",
+    "monsters": [
+	  { "group": "GROUP_MAGES", "weight": 115, "cost_multiplier": 2 },
+	  { "group": "GROUP_DEMONS", "weight": 115, "cost_multiplier": 1 },
+	   { "group": "GROUP_GHOSTS", "weight": 115, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "name": "GROUP_MIL_STRONG",
+    "type": "monstergroup",
+    "monsters": [
+	  { "group": "GROUP_GHOSTS", "weight": 25, "cost_multiplier": 1 },
+	  { "group": "GROUP_MAGES", "weight": 25, "cost_multiplier": 3 },
+	  { "group": "GROUP_DEMONS", "weight": 25, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "name": "GROUP_MIL_BASE",
+    "type": "monstergroup",
+    "monsters": [
+	  { "group": "GROUP_GHOSTS", "weight": 25, "cost_multiplier": 3 },
+	  { "group": "GROUP_MAGES", "weight": 25, "cost_multiplier": 7 },
+	  { "group": "GROUP_DEMONS", "weight": 25, "cost_multiplier": 5 }
+    ]
+  },
+  {
+    "name": "GROUP_AIRCRAFT_CARRIER",
+    "type": "monstergroup",
+    "//": "no children, 40% tech personel 20% civilian personel (med, fire, cook, clercs etc), 20% uniformed zombie, 10% army pilots, and 10% military zeds",
+    "monsters": [
+		 { "group": "GROUP_GHOSTS", "weight": 20 },
+		 { "group": "GROUP_DEMONS", "weight": 40, "pack_size": [ 1, 2 ] },
+		 { "group": "GROUP_MAGES", "weight": 25, "pack_size": [ 1, 3 ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE",
+   "monsters": [
+	  { "group": "GROUP_GHOSTS", "weight": 2, "cost_multiplier": 2, "starts": "15 days" },
+	   { "group": "GROUP_MAGES", "weight": 10, "cost_multiplier": 10, "starts": "30 days" },
+	    { "group": "GROUP_DEMONS", "weight": 20, "cost_multiplier": 2, "pack_size": [ 1, 3 ], "starts": "15 days" }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_NETHER_FATIGUE_FIELD",
+    "default": "mon_blank",
+    "monsters": [
+	  { "group": "GROUP_MAGES", "weight": 100, "cost_multiplier": 0, "starts": "15 days" },
+	  { "group": "GROUP_DEMONS", "weight": 100, "cost_multiplier": 0 },
+	  { "group": "GROUP_GHOSTS", "weight": 100, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_NETHER_PORTAL",
+    "default": "mon_gracke",
+    "monsters": [
+	  { "group": "GROUP_MAGES", "weight": 200, "cost_multiplier": 0, "starts": "30 days" },
+	  { "group": "GROUP_DEMONS", "weight": 200, "cost_multiplier": 0 },
+	  { "group": "GROUP_GHOSTS", "weight": 200, "cost_multiplier": 0 }
+    ]
+  },
+   {
+    "type": "monstergroup",
+    "name": "GROUP_NETHER_CAPTURED",
+    "default": "mon_gracke",
+    "monsters": [
+	  { "group": "GROUP_MAGES", "weight": 250, "cost_multiplier": 0, "starts": "15 days" },
+	  { "group": "GROUP_DEMONS", "weight": 250, "cost_multiplier": 0 },
+	  { "group": "GROUP_GHOSTS", "weight": 250, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_FOREST",
+    "monsters": [
+      {
+        "monster": "mon_loup_garou",
+        "weight": 4,
+        "cost_multiplier": 5,
+        "conditions": [ "NIGHT" ],
+        "pack_size": [ 2, 4 ],
+        "starts": 750
+      },
+	  { "group": "GROUP_DEMONS", "weight": 2, "cost_multiplier": 8, "pack_size": [ 1, 5 ] }
+    ]
+  },
+   {
+    "type": "monstergroup",
+    "name": "GROUP_CAVE",
+    "monsters": [
+	  { "group": "GROUP_DEMONS", "weight": 100, "cost_multiplier": 10, "pack_size": [ 1, 4 ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_CENTRAL_LAB",
+    "default": "mon_zombie_scientist",
+    "monsters": [
+	  { "group": "GROUP_GHOSTS", "weight": 25, "cost_multiplier": 1 },
+	  { "group": "GROUP_MAGES", "weight": 20, "cost_multiplier": 4 },
+	  { "group": "GROUP_DEMONS", "weight": 25, "cost_multiplier": 2 },
+	  { "monster": "mon_ortiel", "weight": 1, "cost_multiplier": 100 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_LAB",
+    "default": "mon_zombie_scientist",
+    "monsters": [
+	  { "monster": "mon_ortiel", "weight": 1, "cost_multiplier": 50 },
+	  { "group": "GROUP_MAGES", "weight": 50, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+	  { "group": "GROUP_DEMONS", "weight": 50, "cost_multiplier": 2, "pack_size": [ 1, 4 ] },
+	  { "group": "GROUP_GHOSTS", "weight": 50, "cost_multiplier": 2 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_DISTORTED_MICROLAB",
+    "default": "mon_zombie_scientist",
+    "monsters": [
+	  { "monster": "mon_ortiel", "freq": 5, "cost_multiplier": 10 },
+	  { "group": "GROUP_MAGES", "freq": 55, "cost_multiplier": 10 },
+	  { "group": "GROUP_DEMONS", "freq": 25, "cost_multiplier": 5 },
+	  { "group": "GROUP_GHOSTS", "freq": 65, "cost_multiplier": 3 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_LAB_RESEARCHERS",
+    "monsters": [
+	  { "group": "GROUP_DEMONS", "weight": 5, "pack_size": [ 1, 3 ] },
+	   { "group": "GROUP_MAGES", "weight": 50, "pack_size": [ 1, 2 ] },
+	  { "group": "GROUP_CIRCLES", "weight": 5 },
+	  { "group": "GROUP_GHOSTS", "weight": 5 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_LAB_FEMA",
+    "default": "mon_zombie_scientist",
+    "//": "Mostly scientists, lab personnel and regular zombies.",
+    "monsters": [
+	  { "group": "GROUP_DEMONS", "weight": 5, "pack_size": [ 1, 3 ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_LAB_SURFACE",
+    "default": "mon_zombie_scientist",
+    "monsters": [
+	  { "group": "GROUP_DEMONS", "weight": 20, "pack_size": [ 1, 3 ], "cost_multiplier": 0 },
+	   { "group": "GROUP_MAGES", "weight": 10, "cost_multiplier": 2 },
+	  { "group": "GROUP_CIRCLES", "weight": 5, "cost_multiplier": 0 },
+	  { "group": "GROUP_GHOSTS", "weight": 5, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_LAB_SECURITY",
+    "default": "mon_zombie_labsecurity",
+    "monsters": [
+	  { "group": "GROUP_DEMONS", "weight": 5, "pack_size": [ 1, 3 ], "cost_multiplier": 0 },
+	   { "group": "GROUP_MAGES", "weight": 5, "cost_multiplier": 2 },
+	  { "group": "GROUP_CIRCLES", "weight": 5, "cost_multiplier": 0 },
+	  { "group": "GROUP_GHOSTS", "weight": 5, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MICROLAB",
+    "monsters": [
+	  { "group": "GROUP_DEMONS", "weight": 25, "pack_size": [ 1, 3 ], "cost_multiplier": 0 },
+	   { "group": "GROUP_MAGES", "weight": 10, "cost_multiplier": 2 },
+	  { "group": "GROUP_CIRCLES", "weight": 5, "cost_multiplier": 0 },
+	  { "group": "GROUP_GHOSTS", "weight": 5, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_TOWER_GOLEM",
+    "//": "Cheap golems used to defend the average wizard's tower.",
+    "monsters": [
+	  { "group": "GROUP_DEMONS", "weight": 5, "pack_size": [ 1, 3 ] },
+	   { "group": "GROUP_MAGES", "weight": 5 },
+	  { "group": "GROUP_CIRCLES", "weight": 5 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_CIRCLES",
+    "monsters": [
+      { "monster": "mon_magic_circle_blood", "weight": 25 },
+	  { "monster": "mon_magic_circle_smoke", "weight": 25 },
+	  { "monster": "mon_magic_circle_flame", "weight": 25 },
+	  { "monster": "mon_magic_circle_bile", "weight": 25 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_DEMONS",
+    "monsters": [
+      { "monster": "mon_hemor", "weight": 30 },
+	  { "monster": "mon_dunebroodnephilim", "weight": 30 },
+	  { "monster": "mon_lilimp", "weight": 30 },
+	   { "group": "GROUP_CIRCLES", "weight": 5 },
+	  { "monster": "mon_ortiel", "weight": 1 },
+	  { "monster": "mon_atraxa", "weight": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_GHOSTS",
+    "monsters": [
+      { "monster": "mon_mage_ghost", "weight": 20 },
+	  { "monster": "mon_widow_ghost", "weight": 20 },
+	  { "monster": "mon_child_ghost", "weight": 20 },
+	  { "monster": "mon_fusion_ghost", "weight": 20 },
+	  { "monster": "mon_business_ghost", "weight": 20 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MAGES",
+    "monsters": [
+      { "monster": "mon_nethermage", "weight": 20 },
+	  { "monster": "mon_nethermage_cold", "weight": 20 },
+	  { "monster": "mon_nethermage_bile", "weight": 20 },
+	  { "monster": "mon_nethermage_fire", "weight": 20 },
+	  { "monster": "mon_mage_ghost", "weight": 20 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_GOBLIN_STANDARD",
+    "monsters": [
+	  { "monster": "mon_goblin_mage", "weight": 65, "pack_size": [ 1, 3 ] }    ]
+  }
+]

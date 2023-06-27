@@ -1,0 +1,11 @@
+[
+  {
+    "type": "item_group",
+    "id": "conjure_furniture_results",
+    "subtype": "collection",
+    "entries": [
+      { "item": "paperbarrier_aftermath", "count": [ 0, 1 ] }
+    ]
+  }
+
+]

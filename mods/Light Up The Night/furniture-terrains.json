@@ -1,0 +1,286 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_street_light",
+    "name": "street light",
+    "looks_like": "f_utility_pole",
+    "description": "A raised light source which illuminates streets and their surrounding area, the LED bulb is dim and seems to be running on low power. There is an access cover at the bottom labeled 'Authorized Access Only' ",
+    "symbol": "Y",
+    "color": "light_gray",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": 20,
+    "rotates_to": "PAVEMENT",
+    "light_emitted": 47,
+    "flags": [ "TRANSPARENT", "NO_SELF_CONNECT", "BLOCKSDOOR", "PLACE_ITEM", "MOUNTABLE", "SEEN_FROM_ABOVE", "THIN_OBSTACLE" ],
+    "examine_action": { "type": "appliance_convert", "furn_set": "f_null", "item": "street_light" },
+    "deconstruct": { "items": [ { "item": "street_light", "count": 1 } ] },
+    "bash": {
+      "str_min": 30,
+      "str_max": 100,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "pipe", "count": [ 1, 7 ] },
+        { "item": "scrap_aluminum", "count": [ 3, 12 ] },
+        { "item": "amplifier", "count": [ 1, 3 ] },
+        { "item": "e_scrap", "count": [ 0, 4 ] },
+        { "item": "light_bulb", "count": [ 0, 3 ] },
+        { "item": "cable", "charges": [ 1, 2 ] },
+        { "item": "plastic_chunk", "count": [ 2, 4 ] },
+        { "item": "solar_cell", "count": [0, 8 ] }
+      ]
+    }
+  },
+  
+  {
+    "type": "furniture",
+    "id": "f_traffic_light",
+    "name": "traffic light",
+    "looks_like": "f_utility_pole",
+    "description": "Signaling device positioned at road intersections and pedestrian crossings to control flows of traffic with a light shining down, the LED bulb is dim and seems to be running on low power. There is an access cover at the bottom labeled 'Authorized Access Only'.",
+    "symbol": "P",
+    "color": "white",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": 23,
+    "rotates_to": "PAVEMENT",
+    "light_emitted": 47,
+    "flags": [ "TRANSPARENT", "NO_SELF_CONNECT", "BLOCKSDOOR", "PLACE_ITEM", "MOUNTABLE", "SEEN_FROM_ABOVE", "THIN_OBSTACLE" ],
+    "examine_action": { "type": "appliance_convert", "furn_set": "f_null", "item": "traffic_light" },
+    "deconstruct": { "items": [ { "item": "traffic_light", "count": 1 } ] },
+    "bash": {
+      "str_min": 30,
+      "str_max": 100,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "pipe", "count": [ 1, 7 ] },
+        { "item": "scrap_aluminum", "count": [ 3, 12 ] },
+        { "item": "amplifier", "count": [ 1, 3 ] },
+        { "item": "e_scrap", "count": [ 0, 4 ] },
+        { "item": "light_bulb", "count": [ 0, 3 ] },
+        { "item": "cable", "charges": [ 1, 2 ] },
+        { "item": "plastic_chunk", "count": [ 2, 4 ] },
+        { "item": "solar_cell", "count": [0, 8 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "f_flagpole",
+    "name": "flagpole",
+    "description": "A 6m high metal flagpole is firmly anchored here. You could hoist up a flag here. A small solar powered spot light illuminates the pole. The lighting unit is sealed with epoxy for long life and durabilty against the elements, but not possible to repair or alter.",
+    "symbol": "F",
+    "color": "light_gray",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "max_volume": "2 L",
+    "light_emitted": 10,
+    "flags": [ "TRANSPARENT","BLOCKSDOOR", "PLACE_ITEM", "SEEN_FROM_ABOVE", "THIN_OBSTACLE" ],
+    "bash": {
+      "str_min": 30,
+      "str_max": 100,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "steel_chunk", "count": [ 6, 15 ] },
+        { "item": "scrap", "count": [ 5, 20 ] },
+        { "item": "e_scrap", "count": [ 1, 3 ] },
+        { "item": "epoxy_chunk", "count": [ 1, 3 ] },
+        { "item": "rope_6", "count": [ 1, 3 ] },
+        { "item": "solar_cell", "count": [1, 2 ] }
+      ]
+    }
+  },
+
+  
+  {
+    "type": "GENERIC",
+    "id": "street_light",
+    "name": { "str": "street light" },
+    "description": "A raised light source which illuminates streets and their surrounding area, the LED bulb is dim and seems to be running on low power. There is an access cover at the bottom labeled 'Authorized Access Only'. The pole has been folded in half for ease of transport.",
+    "weight": "525 kg",
+    "to_hit": -1,
+    "material": [ "plastic", "aluminum" ],
+    "volume": "30 L",
+    "longest_side": "500 cm",
+    "price": 20000,
+    "price_postapoc": 100,
+    "symbol": "L",
+    "color": "white",
+    "looks_like": "f_street_light"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "traffic_light",
+    "name": { "str": "traffic light" },
+    "description": "Signaling device positioned at road intersections and pedestrian crossings to control flows of traffic with a light shining down, the LED bulb is dim and seems to be running on low power. There is an access cover at the bottom labeled 'Authorized Access Only'. The pole has been folded in half for ease of transport.",
+    "weight": "550 kg",
+    "to_hit": -1,
+    "material": [ "plastic", "aluminum" ],
+    "volume": "30 L",
+    "longest_side": "500 cm",
+    "price": 20000,
+    "price_postapoc": 100,
+    "symbol": "L",
+    "color": "white",
+    "looks_like": "f_street_light"
+  },
+  
+  
+  {
+    "type": "construction_group",
+    "id": "place_street_light",
+    "name": "Setup Street Light in grid mode."
+  },
+  
+  {
+    "type": "construction_group",
+    "id": "place_traffic_light",
+    "name": "Setup Traffic Light in grid mode."
+  },
+  
+  {
+    "type": "construction_group",
+    "id": "activate_low_power_mode_street_light",
+    "name": "Setup Street Light in low power mode."
+  },
+  
+  {
+    "type": "construction_group",
+    "id": "activate_low_power_mode_traffic_light",
+    "name": "Setup Traffic Light in low power mode."
+  },
+  
+  
+  {
+    "type": "construction",
+    "id": "ap_street_light",
+    "group": "place_street_light",
+    "category": "APPLIANCE",
+    "required_skills": [ [ "fabrication", 2 ], [ "electronics", 2 ] ],
+    "qualities": [ [ { "id": "WRENCH", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
+    "time": "6 m",
+    "components": [ [ [ "street_light", 1 ] ] ],
+    "pre_special": "check_empty",
+    "post_special": "done_appliance",
+    "activity_level": "LIGHT_EXERCISE"
+  },
+  
+  {
+    "type": "construction",
+    "id": "ap_traffic_light",
+    "group": "place_traffic_light",
+    "category": "APPLIANCE",
+    "required_skills": [ [ "electronics", 2 ], [ "fabrication", 2 ] ],
+    "qualities": [ [ { "id": "WRENCH", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
+    "time": "6 m",
+    "components": [ [ [ "traffic_light", 1 ] ] ],
+    "pre_special": "check_empty",
+    "post_special": "done_appliance",
+    "activity_level": "LIGHT_EXERCISE"
+  },
+  
+  {
+    "type": "construction",
+    "id": "f_street_light",
+    "group": "activate_low_power_mode_street_light",
+    "category": "OTHER",
+    "required_skills": [ [ "electronics", 2 ], [ "fabrication", 2 ] ],
+    "qualities": [ [ { "id": "WRENCH", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
+    "time": "6 m",
+    "components": [ [ [ "street_light", 1 ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_street_light",
+    "activity_level": "LIGHT_EXERCISE"
+  },
+  
+  {
+    "type": "construction",
+    "id": "f_traffic_light",
+    "group": "activate_low_power_mode_traffic_light",
+    "category": "OTHER",
+    "required_skills": [ [ "electronics", 2 ], [ "fabrication", 2 ] ],
+    "qualities": [ [ { "id": "WRENCH", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
+    "time": "6 m",
+    "components": [ [ [ "traffic_light", 1 ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_traffic_light",
+    "activity_level": "LIGHT_EXERCISE"
+  },
+  
+  
+  {
+    "id": "app_street_light",
+    "type": "vehicle_part",
+    "name": { "str": "street light" },
+    "item": "street_light",
+    "symbol": "*",
+    "broken_symbol": "-",
+    "categories": [ "lighting" ],
+    "color": "white",
+    "broken_color": "blue",
+    "durability": 500,
+    "description": "A raised light source which illuminates streets and their surrounding area, the LED bulb is dim and seems to be running on low power. There is an access cover at the bottom labeled 'Authorized Access Only'.",
+    "epower": -30,
+    "bonus": 400,
+    "damage_modifier": 10,
+    "looks_like": "f_street_light",
+    "breaks_into": [
+        { "item": "pipe", "count": [ 1, 7 ] },
+        { "item": "scrap_aluminum", "count": [ 3, 12 ] },
+        { "item": "amplifier", "count": [ 1, 3 ] },
+        { "item": "e_scrap", "count": [ 0, 4 ] },
+        { "item": "light_bulb", "count": [ 0, 3 ] },
+        { "item": "cable", "charges": [ 1, 2 ] },
+        { "item": "plastic_chunk", "count": [ 2, 4 ] },
+        { "item": "solar_cell", "count": [0, 8 ] }
+    ],
+    "flags": [ "CIRCLE_LIGHT", "APPLIANCE", "ENABLED_DRAINS_EPOWER", "CTRL_ELECTRONIC", "MOUNTABLE", "OBSTACLE", "HALF_BOARD" ],
+    "requirements": { "removal": { 
+      "time": "60 m", 
+      "using": [
+      [ "vehicle_wrench_2", 1 ]
+      ]
+      
+    } }
+  },
+  
+  {
+    "id": "app_traffic_light",
+    "type": "vehicle_part",
+    "name": { "str": "traffic light" },
+    "item": "traffic_light",
+    "symbol": "*",
+    "broken_symbol": "-",
+    "categories": [ "lighting" ],
+    "color": "white",
+    "broken_color": "blue",
+    "durability": 500,
+    "description": "Signaling device positioned at road intersections and pedestrian crossings to control flows of traffic with a light shining down, the LED bulb is dim and seems to be running on low power. There is an access cover at the bottom labeled 'Authorized Access Only'.",
+    "epower": -40,
+    "bonus": 400,
+    "damage_modifier": 10,
+    "looks_like": "f_traffic_light",
+    "breaks_into": [
+        { "item": "pipe", "count": [ 1, 7 ] },
+        { "item": "scrap_aluminum", "count": [ 3, 12 ] },
+        { "item": "amplifier", "count": [ 1, 3 ] },
+        { "item": "e_scrap", "count": [ 0, 4 ] },
+        { "item": "light_bulb", "count": [ 0, 3 ] },
+        { "item": "cable", "charges": [ 1, 2 ] },
+        { "item": "plastic_chunk", "count": [ 2, 4 ] },
+        { "item": "solar_cell", "count": [0, 8 ] }
+    ],
+    "flags": [ "CIRCLE_LIGHT", "APPLIANCE", "ENABLED_DRAINS_EPOWER", "CTRL_ELECTRONIC", "MOUNTABLE", "OBSTACLE", "HALF_BOARD" ],
+
+    "pseudo_tools": [ { "id": "pseudo_tree_butchery" } ],
+    "requirements": { "removal": { "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] } }
+  }
+
+
+  ]

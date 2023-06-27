@@ -1,0 +1,38 @@
+ [{
+    "result": "capturing_talisman",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "skills_required": [ "fabrication", 1 ],
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 },{ "id": "SEW", "level": 1 } ],
+    "tools": [ [ [ "survival_marker", -1 ],[ "permanent_marker",-1], [ "feather", -1 ]] ],
+    "components": [
+      [ [ "blank_talisman", 1 ]  ]
+   ]
+     },
+{"result": "tali_candle_off",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 },{ "id": "SEW", "level": 1 } ],
+    "tools": [ [ [ "survival_marker", -1 ],[ "permanent_marker",-1], [ "feather", -1 ]] ],
+    "components": [
+      [ [ "blank_talisman", 1 ] ],
+      [ [ "candle", 1 ],[ "flashlight", 1 ],[ "reading_light", 1 ]],
+      [ [ "light_disposable_cell", 1 ],[ "light_battery_cell", 3 ],[ "light_minus_disposable_cell", 3 ],[ "light_minus_battery_cell", 6 ] ]
+    ]
+    
+
+
+}
+
+
+]

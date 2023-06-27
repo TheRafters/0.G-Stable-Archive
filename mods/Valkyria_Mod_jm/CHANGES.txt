@@ -1,0 +1,6 @@
+gun item groups - 
+  too numerous for me to bother cross checking so I just made them all extend just in case. jfc this thing adds a lot of items. And i happen to know the items are junk because the armor offers "negligible protection" which is fun.
+
+Removed "iv_mutagen" use_action as it's deprecated and causes a debug message on load. Stop gap until I can look into how mutation works now, I get the 2 part system but haven't read up on how the vitamins are defined beyond knowing it wasn't in the medicine with the rest of the vitamins... Homework!
+
+Overmap Specials occurences reduced to sane levels. It was adding a minimum of 18 specials to each overmap. I made most of them have 0 for a minimum and reduced the maximum occurences by 2/3 in most cases. You might need to travel a bit to find them all, but now this mod won't crowd out other mods.

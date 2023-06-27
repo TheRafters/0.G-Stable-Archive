@@ -1,0 +1,30 @@
+  Everything is for version 0.G. All mods are sourced from Kenan's Modpack unless noted otherwise. UDP tileset files are included where available, if they weren't already present.
+
+NOTE: I haven't updated this in quite awhile, I kind of forgot. *shrugs* Several of the individual mods got more detailed CHANGES.TXT in them.
+
+ADoO -
+    My personal changes to coremod. Un-nerfs, QoL, cheaty stuff and anything neat salvaged from otherwise terrible and broken mods goes here.
+
+Project Kawaii -
+    Updated the climate control on the Maid Uniform to work with new code changes. No checks for balance done :P
+
+Merchant -
+    Removed tihar and helsing from smith shop, as they don't exist.
+
+Miscellaneous Magiclysm Expansion - 
+    Change to vehicle part data format required to load, I believe I had to drop the unit and just use the number or vice versa.
+
+Modular Turrets with no blacklist -
+    The gnome-pocalypse is hereby cancelled.
+
+Mutant Animals -
+  Removed reproduction field from the glue horse, it was just there to increase the glue spawns and caused an error on load due to inheritence from mon_horse. KISS in action.
+
+Mutant NPCs -
+  Removed TRIGGERHAPPY trait as it's deprecated and makes Cataclysm unhappy.
+
+Valkyria Mod -
+  gun item groups extend instead of overwrite. Overmap special occurences reduced.
+
+World on Fire -
+  Itemgroup additions changed to extend instead of overwrite.

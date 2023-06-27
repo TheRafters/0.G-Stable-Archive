@@ -1,0 +1,21 @@
+[
+  {
+    "type": "MONSTER_FACTION",
+    "name": "slime",
+    "base_faction": "nether",
+    "neutral": [ "nether", "passive_machine" ],
+    "by_mood": [ "fungus" ],
+    "hate": [ "insect", "small_animal",  "zombie", "mi-go", "ant", "acid_ant", "bee" ],
+    "friendly": [ "player" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "anti_slime",
+    "base_faction": "nether",
+    "neutral": [ "nether", "passive_machine" ],
+    "by_mood": [ "fungus" ],
+    "hate": [ "slime", "zombie" ],
+    "friendly": [ "player" ]
+  }
+
+]

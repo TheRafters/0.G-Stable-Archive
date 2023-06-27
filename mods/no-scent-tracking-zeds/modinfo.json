@@ -1,0 +1,63 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "no_scent_tracking_zombies",
+    "name": "No scent tracking zombies",
+    "authors": [ "Get used to" ],
+    "description": "Most zombies can't track the player by smell.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  },
+ {
+    "type": "scent_type",
+    "id": "sc_human",
+    "receptive_species": [
+      "MAMMAL",
+      "BIRD",
+      "AMPHIBIAN",
+      "REPTILE",
+      "FISH",
+      "MUTANT",
+      "NETHER",
+      "SLIME",
+      "FUNGUS",
+      "INSECT",
+      "CENTIPEDE",
+      "SPIDER",
+      "PLANT",
+      "MOLLUSK",
+      "WORM",
+      "HORROR",
+      "ABERRATION",
+      "HALLUCINATION",
+      "UNKNOWN"
+    ]
+  },
+  {
+    "type": "scent_type",
+    "id": "sc_fetid",
+    "receptive_species": [
+      "MAMMAL",
+      "BIRD",
+      "AMPHIBIAN",
+      "REPTILE",
+      "FISH",
+      "MUTANT",
+      "NETHER",
+      "SLIME",
+      "FUNGUS",
+      "INSECT",
+      "CENTIPEDE",
+      "SPIDER",
+      "PLANT",
+      "MOLLUSK",
+      "WORM",
+      "ROBOT",
+      "HORROR",
+      "ABERRATION",
+      "HALLUCINATION",
+      "HUMAN",
+      "UNKNOWN"
+    ]
+  }
+]

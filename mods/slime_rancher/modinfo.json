@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "slime_ranch",
+    "name": "Slime Ranching",
+    "authors": [ "blueflowers" ],
+    "description": "Makes taking care of slimes more worthwhile.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]

@@ -1,0 +1,30 @@
+[{
+    "id": "wheel_armor",
+    "type": "vehicle_part",
+    "name": { "str": "armored wheel" },
+    "item": "wheel_armor",
+    "location": "under",
+    "looks_like": "wheel",
+    "symbol": "0",
+    "broken_symbol": "x",
+    "categories": [ "movement" ],
+    "color": "green",
+    "durability": 800,
+    "description": "A very strong, armored metal wheel.",
+    "damage_modifier": 50,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 2, 3 ] },
+      { "item": "steel_chunk", "count": [ 2, 3 ] },
+      { "item": "scrap", "count": [ 2, 3 ] }
+    ],
+    "rolling_resistance": 0.6,
+    "wheel_type": "off-road",
+    "contact_area": 480,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 0 ] ], "time": "20 m", "using": [ [ "vehicle_fasten", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "20 m", "using": [ [ "vehicle_fasten", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "20 m", "using": [ [ "adhesive", 1 ], [ "plastics", 1 ] ] }
+    },
+    "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_HEAVY", "STABLE", "ARMOR", "STEERABLE" ],
+    "damage_reduction": { "all": 60, "cut": 30, "stab": 16 }
+  }]

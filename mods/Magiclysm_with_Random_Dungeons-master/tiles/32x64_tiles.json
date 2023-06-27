@@ -1,0 +1,37 @@
+[
+    {
+      "type": "mod_tileset",
+      "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
+      "tiles-new": [
+        {
+          "file": "./tiles/32x64_pictures.png",
+          "sprite_height":64,
+          "sprite_width":32,
+          "sprite_offset_x": 0, 
+          "sprite_offset_y": -32,
+          "tiles": [
+            { "id": "PSY_magi_rnd_mon_chess_pawn","fg": 0 },
+            { "id": "PSY_magi_rnd_mon_chess_rook" ,"fg": 1 },
+            { "id": "PSY_magi_rnd_mon_chess_knight" ,"fg": 2},
+            { "id": "PSY_magi_rnd_mon_chess_bishop" ,"fg": 3},
+            { "id": "PSY_magi_rnd_mon_chess_queen" ,"fg": 4},
+            { "id": "PSY_magi_rnd_mon_chess_king" ,"fg": 5},
+            {"id": "corpse_PSY_magi_rnd_mon_chess_pawn", "fg": 6, "rotates": false},
+            {"id": "corpse_PSY_magi_rnd_mon_chess_rook", "fg": 6, "rotates": false},
+            {"id": "corpse_PSY_magi_rnd_mon_chess_knight", "fg": 6, "rotates": false},
+            {"id": "corpse_PSY_magi_rnd_mon_chess_bishop", "fg": 6, "rotates": false},
+            {"id": "corpse_PSY_magi_rnd_mon_chess_queen", "fg": 6, "rotates": false},
+            {"id": "corpse_PSY_magi_rnd_mon_chess_king", "fg": 6, "rotates": false},
+            {"id": "PSY_magi_rnd_mon_statue_swamp", "fg": 7, "rotates": false},
+            {"id": "PSY_magi_rnd_mon_statue_horn", "fg": 8, "rotates": false},
+            {"id": "PSY_magi_rnd_mon_statue_cleric", "fg": 9, "rotates": false},
+            {"id": "PSY_magi_rnd_mon_statue_mysterious", "fg": 11, "rotates": false},
+            {"id": "PSY_magi_f_statue_swamp", "fg": 12, "rotates": false},
+            {"id": "PSY_magi_f_statue_horn", "fg": 13, "rotates": false},
+            {"id": "PSY_magi_f_statue_cleric", "fg": 14, "rotates": false},
+            {"id": "PSY_magi_f_statue_mysterious", "fg": 15, "rotates": false}
+          ]
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "MMAdditions",
+    "type": "MOD_INFO",
+    "name": "Movement Mode Additions",
+    "authors": [ "Malkeus" ],
+    "description": "Be the persistance hunter you always wanted to be. Introduces jogging movement mode, about half the speed of running at a stamina cost that lets you keep going 3x longer. Needs feedback for balancing.  For fun, you can moonwalk to recover stamina, beware it's very slow and noisy way to travel. Timestop now available (the super speed, poor man's version). Let me know if JOGGING is too OP, the other two are completely cheaty. [Tested on cdda-android-x64-2022-08-23-1723]",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

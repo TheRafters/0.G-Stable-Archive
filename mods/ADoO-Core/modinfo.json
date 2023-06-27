@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ADoO",
+    "name": "<color_yellow>A Difference of Opinion</color> Core Overrides and Additions",
+    "authors": [ "Malkeus" ],
+    "maintainers": [ "PlayerUnknown" ],
+    "description": "My personal changes for core cdda based on QoL, sanity or just plain stubborness.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]

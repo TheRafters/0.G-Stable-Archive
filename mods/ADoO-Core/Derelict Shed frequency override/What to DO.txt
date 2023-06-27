@@ -1,0 +1,1 @@
+Create region_overlay per the file in mod main directory. Set map extras weight for derelict shed for EACH and EVERY instance, 20?, Profit.

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "TDG_SKYISLAND_COMPAT",
+    "name": "Compatibility Patch - The Daily Grind and Sky Island",
+    "authors": [ "Malkeus" ],
+    "description": "Combines the crafting category changes these mods conflict over.",
+    "category": "total_conversion",
+    "dependencies": [ "dda", "skyisland", "TDG_mod" ],
+    "path": ""
+  }
+]

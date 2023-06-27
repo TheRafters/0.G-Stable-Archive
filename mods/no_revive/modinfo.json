@@ -1,0 +1,16 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "no_revive",
+    "name": "No Zombie Revivification",
+    "authors": [ "Cthae" ],
+    "description": "Makes it so that zombies don't revive.",
+    "category": "balance",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ZOMBIE",
+    "flag": { "name": "REVIVES", "value": false }
+  }
+]

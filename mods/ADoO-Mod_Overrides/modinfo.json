@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ADoO_mod",
+    "name": "<color_yellow>A Difference of Opinion</color> Mod Overrides and Additions",
+    "authors": [ "Malkeus" ],
+    "maintainers": [ "PlayerUnknown" ],
+    "description": "My personal mod changes based on QoL, sanity or just plain stubborness. Will tend to focus on mainline mods, but third party changes may start here.",
+    "category": "misc_additions",
+    "dependencies": [ "dda", "aftershock", "magiclysm", "MMA", "PSY_magi_spells" ]
+  }
+]

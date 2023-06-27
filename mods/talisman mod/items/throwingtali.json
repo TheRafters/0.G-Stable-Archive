@@ -1,0 +1,44 @@
+[
+   {
+    "id": "glowtalisman",
+    "type": "TOOL",
+    "name": "glow talisman",
+    "description": "This is a disposable glowing talisman, using it with iluminate the are for a time",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "price": 100,
+    "price_postapoc": 100,
+    "to_hit": -1,
+    "material": "paper",
+    "symbol": ";",
+    "color": "white",
+    "initial_charges": 300,
+    "max_charges": 300,
+    "flags": ["ACT_ON_RANGED_HIT"],
+    "use_action": {
+      "target": "glowtalisman_lit",
+      "msg": "You activate the talisman.",
+      "active": true,
+      "menu_text": "Activate",
+      "type": "transform"
+    }
+  },
+ 
+  {
+    "id": "glowtalisman_lit",
+    "type": "TOOL",
+    "name": "glowing talisman",
+    "description": "This is an active glowing talisman and is producing light.  It will last for a few hours before burning out.",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "material": "plastic",
+    "symbol": ";",
+    "color": "white",
+    "initial_charges": 300,
+    "max_charges": 300,
+    "turns_per_charge": 1,
+    "revert_to": "glass_shard",
+    "revert_msg": "The glow fades out.",
+    "flags": [ "LIGHT_100", "TRADER_AVOID","ACT_ON_RANGED_HIT", "SLEEP_IGNORE" ]
+  }
+]

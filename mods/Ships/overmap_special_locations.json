@@ -1,0 +1,7 @@
+[
+  {
+    "id": "deep_water",
+    "type": "overmap_location",
+    "terrains": [ "river_center", "river_ne", "river_nw", "river_se", "river_sw" ]
+  }
+]

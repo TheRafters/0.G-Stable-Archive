@@ -1,0 +1,47 @@
+[
+ {
+    "type": "furniture",
+    "id": "f_wall_raised_earth",
+    "name": "raised earth wall",
+    "description": "A solid wall of compressed dirt, sturdy enough to support a roof with enough walls and keep out some unwanted visitors.",
+    "symbol": "LINE_OXOX",
+    "color": "brown",
+    "move_cost_mod": -2,
+    "coverage": 100,
+    "required_str": 60,
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "connects_to": "WALL",
+    "bash": {
+      "str_min": 50,
+      "str_max": 200,
+      "sound": "heavy rumbling!",
+      "sound_fail": "thump",
+      "ter_set": "t_null",
+      "items": "conjure_furniture_results"
+    }
+
+ },
+ {
+    "type": "terrain",
+    "id": "t_pole",
+    "name": "pole leading up",
+    "description": "A rock pole.  You could use it to climb .",
+    "symbol": "l",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "GOES_UP","GOES_DOWN", "DIFFICULT_Z" ]
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+]

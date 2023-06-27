@@ -1,0 +1,11 @@
+[
+  {
+    "id": "Mad-Cyber-Science",
+    "type": "MOD_INFO",
+    "name": "Mad Cyber Science",
+    "authors": [ "Maddremor" ],
+    "description": "Mad-Cyber-Science - Adds 2 CBMS Light and Heavy Bionic Toolsets. Haven't compared to integrated toolset, they don't appear to be added to spawn lists...",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "lansca_begin",
+    "type": "GENERIC",
+    "name": "landscaping letter",
+    "description": "A paper containing magical runes, teaches spells for landsacping.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "color": "brown",
+    "use_action": { "type": "learn_spell", "spells": [ "water_shallow","wall_feller" ] }
+  },
+{
+    "id": "bui_begin",
+    "type": "GENERIC",
+    "name": "Basics of building",
+    "description": "A rock containing magical runes, teaches spells for building.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "color": "brown",
+    "use_action": { "type": "learn_spell", "spells": [ "earth_wall","rock_pole","wall_feller" ] }
+  },
+{
+    "id": "def_begin",
+    "type": "GENERIC",
+    "name": "Tower defense for beginners",
+    "description": "A book with ways to protect your dungeon",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "color": "brown",
+    "use_action": { "type": "learn_spell", "spells": [ "spikecrys_summon","sparkcrys_summon","dazzcrys_summon" ] }
+  }
+
+
+
+
+
+ ]

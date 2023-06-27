@@ -1,0 +1,58 @@
+[
+  
+  {
+    "id": "spellbook_tier_0",
+    "type": "item_group",
+    "copy-from": "spellbook_tier_0",
+    "extend": {
+    "//": "These are spellbooks that a beginner would have, or scrolls that would have this tier or one tier higher of spells.",
+    "items": [ [ "lansca_begin", 30 ], [ "bui_begin", 30 ], [ "def_begin", 30 ] ]
+}
+  },
+  {
+    "id": "spellbook_tier_1",
+    "type": "item_group",
+    "copy-from": "spellbook_tier_1",
+    "extend": {
+    "items": [ [ "lansca_begin", 50 ], [ "bui_begin", 50 ], [ "def_begin", 50 ] ]
+}
+  },
+ 
+ 
+  {
+    "id": "spellbook_loot_0",
+    "type": "item_group",
+    "copy-from": "spellbook_loot_0",
+    "extend": {
+    "//": "the difference between tiers and loot are that loot should be easy to",
+    "//": "drop into an itemgroup or mapgen without having multiple entries for higher tier spellbooks.",
+    "//": "and loot tiers will not always have the lower tier spellbook tiers.",
+    "items": [
+      { "group": "spellbook_tier_0", "prob": 60 },
+      { "group": "spellbook_tier_1", "prob": 30 }
+    ]
+}
+  },
+  {
+    "id": "spellbook_loot_1",
+    "type": "item_group",
+    "copy-from": "spellbook_loot_1",
+    "extend": {
+    "items": [
+      { "group": "spellbook_tier_0", "prob": 30 },
+      { "group": "spellbook_tier_1", "prob": 50 }
+    ]
+}
+  },
+  {
+    "id": "spellbook_loot_2",
+    "type": "item_group",
+    "copy-from": "spellbook_loot_2",
+    "extend": {
+    "items": [
+      { "group": "spellbook_tier_0", "prob": 5 },
+      { "group": "spellbook_tier_1", "prob": 30 }
+    ]
+}
+  }
+]

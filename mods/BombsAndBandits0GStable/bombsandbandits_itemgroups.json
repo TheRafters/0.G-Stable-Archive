@@ -1,0 +1,481 @@
+[
+  {
+    "id": "grenades",
+    "type": "item_group",
+    "copy-from": "grenades",
+    "extend": { "items": [["bandits_high_explosive_bomb", 10]] }
+  },
+  {
+    "id": "military",
+    "type": "item_group",
+    "copy-from": "military",
+    "extend": { "items": [["bandits_high_explosive_bomb", 10]] }
+  },
+  {
+    "id": "mil_hw",
+    "type": "item_group",
+    "copy-from": "mil_hw",
+    "extend": { "items": [["bandits_high_explosive_bomb", 10]] }
+  },
+  {
+    "id": "helicopter",
+    "copy-from": "helicopter",
+    "type": "item_group",
+    "extend": { "items": [["bandits_high_explosive_bomb", 10]] }
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "bandits_survivor_death_drops",
+    "magazine": 100,
+    "ammo": 50,
+    "entries": [
+      { "group": "clothing_outdoor_set", "damage": [0, 3] },
+      {
+        "distribution": [
+          { "group": "book_survival", "prob": 10 },
+          { "group": "gear_survival", "prob": 25, "damage": [0, 3] },
+          { "group": "survivor_knife", "prob": 40, "damage": [0, 3] },
+          { "group": "survivor_grenades", "prob": 15, "damage": [0, 3] },
+          { "group": "stash_food", "prob": 50 }
+        ]
+      },
+      { "item": "cash_card", "charges-min": 20000, "charges-max": 300000 },
+      {
+        "distribution": [
+          { "group": "full_survival_kit", "damage": [0, 3] },
+          { "group": "used_survival_kit", "damage": [0, 3] }
+        ],
+        "prob": 5
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_looter_drops",
+    "entries": [
+      { "item": "stick", "prob": 10 },
+      { "item": "spear_rebar", "prob": 10 },
+      { "item": "pointy_stick", "prob": 5 },
+      { "item": "q_staff", "prob": 5 },
+      { "item": "spear_wood", "prob": 5 },
+      { "item": "spear_forked", "prob": 5 },
+      { "item": "bwirebat", "prob": 3 },
+      { "item": "i_staff", "prob": 2 },
+      { "item": "canister_empty", "prob": 2 },
+      { "item": "sword_wood", "prob": 2 },
+      { "item": "hammer_sledge", "prob": 2 },
+      { "item": "knife_butter", "prob": 1 },
+      { "item": "baton-extended", "prob": 1 },
+      { "item": "spike", "prob": 1 },
+      { "item": "torch_done", "prob": 1 },
+      { "item": "rock", "prob": 1 },
+      { "item": "sharp_rock", "prob": 1 },
+      { "item": "pipe", "prob": 1 },
+      { "item": "golf_club", "prob": 1 },
+      { "item": "longsword_inferior", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_looter",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "bandits_looter_drops", "damage": [0, 4] },
+      { "group": "bags", "damage": [0, 3], "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_m1911",
+    "entries": [
+      { "item": "m1911", "prob": 90, "damage": [0, 4] },
+      {
+        "item": "m1911mag",
+        "prob": 50,
+        "ammo-item": "reloaded_45_acp",
+        "charges": [0, 4]
+      },
+      {
+        "item": "m1911mag",
+        "prob": 50,
+        "ammo-item": "reloaded_45_acp",
+        "charges": [0, 7]
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_highway",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "bandits_m1911" },
+      { "group": "bags", "damage": [0, 3], "prob": 25 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_ninemm",
+    "entries": [
+      { "item": "glock_19", "prob": 90, "damage": [0, 4] },
+      {
+        "item": "glockmag",
+        "prob": 50,
+        "ammo-item": "reloaded_9mm",
+        "charges": [0, 10]
+      },
+      {
+        "item": "glockmag",
+        "prob": 50,
+        "ammo-item": "reloaded_9mm",
+        "charges": [0, 15]
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_glock",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "bandits_ninemm" },
+      { "group": "bags", "damage": [0, 3], "prob": 25 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_psycho_melee",
+    "entries": [
+      { "item": "stick", "prob": 5 },
+      { "item": "spear_rebar", "prob": 10 },
+      { "item": "pointy_stick", "prob": 5 },
+      { "item": "q_staff", "prob": 5 },
+      { "item": "spear_wood", "prob": 5 },
+      { "item": "spear_forked", "prob": 5 },
+      { "item": "spear_steel", "prob": 5 },
+      { "item": "spear_copper", "prob": 3 },
+      { "item": "sword_crude", "prob": 3 },
+      { "item": "homewrecker", "prob": 3 },
+      { "item": "halberd_fake", "prob": 9 },
+      { "item": "javelin_iron", "prob": 3 },
+      { "item": "bwirebat", "prob": 9 },
+      { "item": "i_staff", "prob": 2 },
+      { "item": "lajatang", "prob": 7 },
+      { "item": "canister_empty", "prob": 2 },
+      { "item": "sword_wood", "prob": 2 },
+      { "item": "hammer_sledge", "prob": 10 },
+      { "item": "knife_butter", "prob": 1 },
+      { "item": "baton-extended", "prob": 5 },
+      { "item": "mace", "prob": 10 },
+      { "item": "spike", "prob": 5 },
+      { "item": "torch_done", "prob": 1 },
+      { "item": "rock", "prob": 1 },
+      { "item": "sharp_rock", "prob": 1 },
+      { "item": "pipe", "prob": 1 },
+      { "item": "golf_club", "prob": 10 },
+      { "item": "glass_macuahuitl", "prob": 10 },
+      { "item": "longsword_inferior", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_psycho",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "bandits_psycho_melee", "damage": [0, 3] },
+      { "group": "bags", "damage": [0, 3], "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_raider_gun",
+    "entries": [
+      { "item": "shotgun_d", "damage": [0, 4], "prob": 20, "charges": [0, 2] },
+      {
+        "item": "remington_870",
+        "damage": [0, 4],
+        "prob": 10,
+        "charges": [0, 2]
+      },
+      {
+        "item": "mossberg_930",
+        "damage": [0, 4],
+        "prob": 10,
+        "charges": [0, 6]
+      },
+      {
+        "item": "mossberg_500",
+        "damage": [0, 4],
+        "prob": 10,
+        "charges": [0, 6]
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_raider_ammo",
+    "entries": [
+      { "item": "shot_00", "prob": 5 },
+      { "item": "reloaded_shot_00", "prob": 8 },
+      { "item": "shot_slug", "prob": 5 },
+      { "item": "reloaded_shot_slug", "prob": 8 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_raider",
+    "entries": [
+      { "group": "bandits_survivor_death_drops" },
+      { "group": "bandits_raider_gun" },
+      { "group": "bandits_raider_ammo", "count": [1, 4] },
+      { "group": "bags", "damage": [0, 3], "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_remington_700",
+    "entries": [
+      {
+        "item": "remington_700",
+        "damage": [0, 4],
+        "prob": 20,
+        "charges": [0, 4]
+      },
+      { "item": "m1903", "damage": [0, 4], "prob": 20, "charges": [0, 5] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_rifle",
+    "entries": [
+      { "group": "bandits_survivor_death_drops" },
+      { "group": "bandits_remington_700" },
+      { "item": "3006", "prob": 20, "count": [1, 4] },
+      { "group": "bags", "damage": [0, 3], "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_scrapper_drops",
+    "entries": [
+      { "item": "stick", "prob": 10 },
+      { "item": "spear_rebar", "prob": 10 },
+      { "item": "pointy_stick", "prob": 5 },
+      { "item": "q_staff", "prob": 5 },
+      { "item": "spear_wood", "prob": 5 },
+      { "item": "spear_forked", "prob": 5 },
+      { "item": "spear_steel", "prob": 5 },
+      { "item": "spear_copper", "prob": 3 },
+      { "item": "sword_crude", "prob": 3 },
+      { "item": "homewrecker", "prob": 3 },
+      { "item": "halberd_fake", "prob": 3 },
+      { "item": "javelin_iron", "prob": 3 },
+      { "item": "bwirebat", "prob": 3 },
+      { "item": "i_staff", "prob": 2 },
+      { "item": "lajatang", "prob": 2 },
+      { "item": "hammer_sledge", "prob": 2 },
+      { "item": "baton-extended", "prob": 1 },
+      { "item": "mace", "prob": 1 },
+      { "item": "spike", "prob": 1 },
+      { "item": "torch_done", "prob": 1 },
+      { "item": "rock", "prob": 1 },
+      { "item": "sharp_rock", "prob": 1 },
+      { "item": "pipe", "prob": 1 },
+      { "item": "golf_club", "prob": 1 },
+      { "item": "longsword_inferior", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_scrapper",
+    "entries": [
+      { "group": "bandits_survivor_death_drops" },
+      { "group": "bandits_scrapper_drops", "damage": [0, 4] },
+      { "group": "grenades", "prob": 5 },
+      { "group": "bags", "damage": [0, 3], "prob": 25 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_shot_gun",
+    "entries": [
+      {
+        "item": "pipe_shotgun",
+        "damage": [0, 4],
+        "prob": 25,
+        "charges": [0, 2]
+      },
+      { "item": "shotgun_s", "damage": [0, 4], "prob": 20, "charges": [0, 1] },
+      { "item": "shotgun_d", "damage": [0, 4], "prob": 10, "charges": [0, 2] },
+      { "item": "mossberg_500", "damage": [0, 4], "prob": 5, "charges": [0, 2] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_shot_ammo",
+    "entries": [
+      { "item": "shot_scrap", "prob": 8 },
+      { "item": "reloaded_shot_bird", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_shotgun",
+    "entries": [
+      { "group": "bandits_survivor_death_drops" },
+      { "group": "bandits_shot_gun" },
+      { "group": "bandits_shot_ammo", "count": [1, 6] },
+      { "group": "bags", "damage": [0, 3], "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_uzi",
+    "entries": [
+      { "item": "uzi", "prob": 90, "damage": [0, 4] },
+      { "item": "uzimag", "prob": 50, "ammo-item": "9mm", "charges": [0, 16] },
+      { "item": "uzimag", "prob": 50, "ammo-item": "9mm", "charges": [0, 32] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_smg",
+    "entries": [
+      { "group": "bandits_survivor_death_drops" },
+      { "group": "bandits_uzi" },
+      { "group": "bags", "damage": [0, 3], "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_hkg36",
+    "entries": [
+      { "item": "hk_g36", "prob": 60, "damage": [0, 4] },
+      {
+        "item": "stanag30",
+        "prob": 30,
+        "ammo-item": "223",
+        "charges": [0, 15]
+      },
+      { "item": "stanag30", "prob": 30, "ammo-item": "223", "charges": [0, 30] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_alpha",
+    "entries": [
+      { "group": "bandits_survivor_death_drops" },
+      { "group": "bandits_hkg36" },
+      { "group": "grenades", "prob": 5 },
+      { "group": "bags", "damage": [0, 3], "prob": 35 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_super_psycho_drop",
+    "entries": [
+      { "item": "chainsaw_off", "prob": 30 },
+      { "item": "elec_chainsaw_off", "prob": 30 },
+      { "item": "combatsaw_off", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_super_psycho",
+    "entries": [
+      { "group": "bandits_survivor_death_drops" },
+      { "group": "bandits_super_psycho_drop", "damage": [0, 3] },
+      { "group": "bags", "damage": [0, 3], "prob": 35 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 30,
+    "id": "bandits_super_rifle",
+    "entries": [
+      { "group": "bandits_survivor_death_drops" },
+      {
+        "item": "savage_111f",
+        "damage": [0, 4],
+        "prob": 30,
+        "charges": [0, 3]
+      },
+      { "item": "308", "prob": 20, "count": [1, 3] },
+      { "group": "grenades", "prob": 5 },
+      { "group": "bags", "damage": [0, 3], "prob": 35 }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+Update the valkyrur mutation, will first need to study the new system. Looks like it's currently debug only if you don't choose it at the start rn.
+
+Add actual protection values to the armor. Everything is at negligible, maybe the material isn't correct?
+
+Also this...the fuck do i do with this? :
+ DEBUG    : nest gal_battlefield_wired6_u within mapgen GAL_BATTLEFIELD1_3 can place something at y = 25, which is in a different OMT from the smallest nest origin (0, 14), and could lead to an out of bounds placement
+
+ FUNCTION : virtual void jmapgen_nested::check(const std::string &, const mapgen_parameters &, const jmapgen_int &, const jmapgen_int &) const
+ FILE     : /home/runner/work/Cataclysm-DDA/Cataclysm-DDA/android/app/jni/src/../../../../src/mapgen.cpp
+ LINE     : 3499
+ VERSION  : d6ec466

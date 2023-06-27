@@ -1,0 +1,130 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_makeshift_light_pole",
+    "name": "makeshift light pole",
+    "looks_like": "f_street_light",
+    "description": "A mass of jointed poles extends for meters into the air, with a wide base and several ropes anchoring it to ground. An extension cord hangs loosely from the cluster of floodlights positioned to illuminate the surroundings. 'e'xamine to plug in this device.",
+    "symbol": "Y",
+    "color": "light_gray",
+    "move_cost_mod": 300,
+    "coverage": 40,
+    "required_str": 12,
+    "rotates_to": "PAVEMENT",
+    "light_emitted": 47,
+    "flags": [ "TRANSPARENT", "NO_SELF_CONNECT", "BLOCKSDOOR", "PLACE_ITEM", "MOUNTABLE", "SEEN_FROM_ABOVE", "THIN_OBSTACLE" ],
+    "examine_action": { "type": "appliance_convert", "furn_set": "f_null", "item": "makeshift_light_pole" },
+    "deconstruct": { "items": [ { "item": "makeshift_light_pole", "count": 1 } ] },
+    "bash": {
+      "str_min": 15,
+      "str_max": 100,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "pipe", "count": [ 1, 14 ] },
+        { "item": "scrap", "count": [ 3, 12 ] },
+        { "item": "amplifier", "count": [ 1, 3 ] },
+        { "item": "e_scrap", "count": [ 0, 4 ] },
+        { "item": "light_bulb", "count": [ 0, 4 ] },
+        { "item": "cable", "charges": [ 2, 3 ] },
+        { "item": "rope_30", "charges": [ 0, 4] },
+        { "item": "plastic_chunk", "count": [ 2, 4 ] },
+        { "item": "duct_tape", "count": [ 0, 8 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "GENERIC",
+    "id": "makeshift_light_pole",
+    "name": { "str": "makeshift light pole" },
+    "description": "A mass of jointed poles extends for meters into the air, with a wide base and several ropes anchoring it to ground. An extension cord hangs loosely from the cluster of floodlights positioned to illuminate the surroundings. 'e'xamine to plug in this device.",
+    "weight": "45 kg",
+    "to_hit": -1,
+    "material": [ "plastic", "steel" ],
+    "volume": "66 L",
+    "longest_side": "200 cm",
+    "price": 20000,
+    "price_postapoc": 100,
+    "symbol": "L",
+    "color": "white",
+    "looks_like": "bundle_pipe"
+  },
+  
+  {
+    "result": "makeshift_light_pole",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "activity_level": "MODERATE_EXERCISE",
+    "time": "1 h",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "autolearn": true,
+    "skills_required": [ [ "electronics", 1 ] ],
+    "tools": [ [ [ "soldering_iron", 5 ] ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 2 }, { "id": "SAW_M", "level": 2 } ],
+    "components": [
+      [ [ "pipe", 16 ] ],
+      [ [ "rope_30", 4 ] ],
+      [ [ "amplifier", 3 ] ],
+      [ [ "light_bulb", 4 ] ],
+      [ [ "plastic_chunk", 6 ] ],
+      [ [ "long_extension_cable", 1 ] ],
+      [ [ "e_scrap", 6 ] ],
+      [ [ "scrap", 14 ] ],
+      [ [ "duct_tape", 50 ] ]
+    ]
+  },
+  {
+    "type": "construction_group",
+    "id": "place_makeshift_light_pole",
+    "name": "Place Makeshift Light Pole"
+  },
+
+  {
+    "type": "construction",
+    "id": "ap_makeshift_light_pole",
+    "group": "place_makeshift_light_pole",
+    "category": "APPLIANCE",
+    "required_skills": [ [ "fabrication", 2 ], [ "electronics", 1 ] ],
+    "qualities": [ [ { "id": "WRENCH", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
+    "time": "15 m",
+    "components": [ [ [ "makeshift_light_pole", 1 ] ] ],
+    "pre_special": "check_empty",
+    "post_special": "done_appliance",
+    "activity_level": "NO_EXERCISE"
+  },
+
+  {
+    "id": "app_makeshift_light_pole",
+    "type": "vehicle_part",
+    "name": { "str": "makeshift light pole" },
+    "item": "makeshift_light_pole",
+    "symbol": "*",
+    "broken_symbol": "-",
+    "categories": [ "lighting" ],
+    "color": "white",
+    "broken_color": "blue",
+    "durability": 200,
+    "description": "A mass of jointed poles extends for meters into the air, with a wide base and several ropes attached to weights used as anchors. An extension cord hangs loosely from the cluster of floodlights positioned to illuminate the surroundings. 'e'xamine to plug in this device.",
+    "epower": -45,
+    "bonus": 400,
+    "damage_modifier": 10,
+    "looks_like": "f_street_light",
+      "breaks_into": [
+        { "item": "pipe", "count": [ 1, 14 ] },
+        { "item": "scrap", "count": [ 3, 12 ] },
+        { "item": "amplifier", "count": [ 1, 3 ] },
+        { "item": "e_scrap", "count": [ 0, 4 ] },
+        { "item": "light_bulb", "count": [ 0, 4 ] },
+        { "item": "long_extension_cable", "count": [ 2, 3 ] },
+        { "item": "rope_30", "count": [ 0, 4] },
+        { "item": "plastic_chunk", "count": [ 2, 4 ] },
+        { "item": "duct_tape", "count": [ 0, 8 ] }
+      ],
+    "flags": [ "CIRCLE_LIGHT", "APPLIANCE", "ENABLED_DRAINS_EPOWER", "CTRL_ELECTRONIC", "MOUNTABLE", "OBSTACLE", "HALF_BOARD" ],
+    "requirements": { "removal": { "time": "15 m" } }
+  }
+  
+]

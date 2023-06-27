@@ -1,0 +1,94 @@
+[
+    {
+      "type": "mod_tileset",
+      "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
+      "tiles-new": [
+        {
+          "file": "./tiles/64x64_pictures.png",
+          "sprite_width": 64, 
+          "sprite_height": 64,
+          "sprite_offset_x": -16, 
+          "sprite_offset_y": -32,
+          "tiles": [
+            { "id": "PSY_magi_mon_mystical_bird" ,"fg": 0 },
+            { "id": "PSY_magi_mon_chimera" ,"fg": 1 },
+            { "id": "PSY_magi_mon_scorching_samurai_trader" ,"fg": 2 },
+            { "id": "PSY_magi_mon_tree_shaman" ,"fg": 6 },
+            { "id": "PSY_magi_mon_Sprit_Great_tree" ,"fg": 7 },
+            { "id": "PSY_magi_mon_mecha_guard_heavy" ,"fg": 14 },
+            { "id": "PSY_magi_mon_chimera_afterimage" ,"fg": 16 },
+            { "id": "PSY_magi_mon_mecha_guard_purple" ,"fg": 17 },
+            { "id": "PSY_magi_mon_mecha_guard_blue" ,"fg": 18 },
+            { "id": "PSY_magi_mon_mecha_floting_armor" ,"fg": 19 },
+            { "id": "PSY_magi_mon_mecha_guard_orange" ,"fg": 20 },
+            { "id": "PSY_magi_mon_fire_element" ,"fg": 25 },
+            { "id": "PSY_magi_mon_water_element" ,"fg": 26 },
+            { "id": "PSY_magi_mon_earth_element" ,"fg": 27 },
+            { "id": "PSY_magi_mon_air_element" ,"fg": 28 },
+            { "id": "PSY_magi_mon_magic_tower" ,"fg": 31 },
+            { "id": "PSY_magi_mon_beehive_normal" ,"fg": 63 },
+            {
+              "id": "vp_PSY_magi_mounted_fake_cannon_gun", 
+              "fg": 70,
+              "rotates": false, 
+              "multitile": true,
+              "additional_tiles": [
+                {"id": "broken", "fg": 70},
+                {
+                  "id": "center",
+                  "fg": [
+                    71, 71,70, 70
+                  ]
+                },
+                {
+                  "id": "corner",
+                  "fg": [
+                    70, 71,71, 70
+                  ]
+                }
+
+              ]
+            },
+            { "id": "PSY_magi_mon_mutant_bee_red", "rotates": true,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":64},
+            {"weight": 10, "sprite":73},
+            {"weight": 10, "sprite":76},
+            {"weight": 10, "sprite":73}
+            ]
+            },
+            { "id": "PSY_magi_mon_mutant_bee_yellow", "rotates": true,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":65},
+            {"weight": 10, "sprite":74},
+            {"weight": 10, "sprite":77},
+            {"weight": 10, "sprite":74}
+            ]
+            },
+
+            { "id": "PSY_magi_mon_mutant_bee_green", "rotates": true,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":66},
+            {"weight": 10, "sprite":75},
+            {"weight": 10, "sprite":78},
+            {"weight": 10, "sprite":75}
+            ]
+            },
+            { "id": "PSY_magi_f_honey_treasure_chest_closed" ,"fg": 80 },
+            { "id": "PSY_magi_f_honey_treasure_chest_opened" ,"fg": 81 },
+            { "id": "PSY_magi_f_honey_treasure_chest_event_closed" ,"fg": 82 },
+            { "id": "PSY_magi_f_honey_treasure_chest_event_opened" ,"fg": 83 },
+            { "id": "PSY_magi_f_honey_treasure_chest_potion_closed" ,"fg": 84 },
+            { "id": "PSY_magi_f_honey_treasure_chest_potion_opened" ,"fg": 85 },
+            { "id": "PSY_magi_f_ice_magic_crystal_large", "rotates": true,"animated": true,"fg":
+            [
+            {"weight": 100, "sprite":87},
+            {"weight": 100, "sprite":88}
+            ]
+            }
+
+          ]
+        }
+      ]
+    }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "hauling_space",
+    "name": "Hauling Space",
+    "authors": [ "Cthae", "Ava" ],
+    "description": "Returns the Hauling Space exactly as it was in Aftershock. For those who don't like their hauling spaces disappearing from the game",
+    "category": "vehicles",
+    "dependencies": [ "dda" ]
+  }
+]

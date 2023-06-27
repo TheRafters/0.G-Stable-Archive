@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "OG_Drugs",
+    "name": "Original Drug Names",
+    "authors": [ "Entity-y" ],
+    "description": "Restores original drug names. Is in the proper format to overwrite base game for some reason. Run as a mod, don't overwrite your game.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]

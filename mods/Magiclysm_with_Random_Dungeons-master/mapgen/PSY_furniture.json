@@ -1,0 +1,947 @@
+[
+
+    {
+        "type": "furniture",
+        "id": "PSY_magi_f_huge_blue_crystal",
+        "name": "huge mana crystal",
+        "description": "This is a mana crystal that juts from the ground as if it had sprouted up like a weed.  It pulses with a delicate blue energy, occasionally bursting with flashes of pent-up light.",
+        "symbol": "]",
+        "color": "white_yellow",
+        "move_cost_mod": -1,
+        "coverage": 75,
+        "required_str": -1,
+        "looks_like": "f_boulder_large",
+        "flags": [ "TRANSPARENT" ],
+        "emissions": [ "PSY_magi_emit_speed_rising" ],
+        "light_emitted": 12,
+        "bash": {
+          "str_min": 25,
+          "str_max": 35,
+          "sound": "glass shattering!",
+          "sound_fail": "mana crackling!",
+          "items": [
+            { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+            { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+            { "item": "glass_shard", "count": [ 8, 12 ] }
+          ]
+        }
+    },
+
+    {
+        "type": "furniture",
+        "id": "PSY_magi_f_huge_red_crystal",
+        "name": "huge mana crystal",
+        "description": "This is a mana crystal that juts from the ground as if it had sprouted up like a weed.  It pulses with a delicate red energy, occasionally bursting with flashes of pent-up light.",
+        "symbol": "]",
+        "color": "white_yellow",
+        "move_cost_mod": -1,
+        "coverage": 75,
+        "required_str": -1,
+        "looks_like": "f_boulder_large",
+        "flags": [ "TRANSPARENT" ],
+        "emissions": [ "PSY_magi_emit_hp_healing" ],
+        "light_emitted": 12,
+        "bash": {
+          "str_min": 25,
+          "str_max": 35,
+          "sound": "glass shattering!",
+          "sound_fail": "mana crackling!",
+          "items": [
+            { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+            { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+            { "item": "glass_shard", "count": [ 8, 12 ] }
+          ]
+        }
+    },
+
+    {
+      "type": "furniture",
+      "id": "PSY_magi_f_huge_bloody_crystal",
+      "name": "huge mana crystal",
+      "description": "This is a mana crystal that juts from the ground as if it had sprouted up like a weed.  It pulses with a delicate dark-red energy, occasionally bursting with flashes of pent-up light.",
+      "symbol": "]",
+      "color": "white_yellow",
+      "move_cost_mod": -1,
+      "coverage": 75,
+      "required_str": -1,
+      "looks_like": "f_boulder_large",
+      "flags": [ "TRANSPARENT" ],
+      "emissions": [ "PSY_magi_emit_cursed" ],
+      "light_emitted": 12,
+      "bash": {
+        "str_min": 25,
+        "str_max": 35,
+        "sound": "glass shattering!",
+        "sound_fail": "mana crackling!",
+        "items": [
+          { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+          { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+          { "item": "glass_shard", "count": [ 8, 12 ] }
+        ]
+      }
+  },
+
+  {
+      "type": "furniture",
+      "id": "PSY_magi_f_huge_green_crystal",
+      "name": "huge mana crystal",
+      "description": "This is a mana crystal that juts from the ground as if it had sprouted up like a weed.  It pulses with a delicate green energy, occasionally bursting with flashes of pent-up light.",
+      "symbol": "]",
+      "color": "white_yellow",
+      "move_cost_mod": -1,
+      "coverage": 75,
+      "required_str": -1,
+      "looks_like": "f_boulder_large",
+      "flags": [ "TRANSPARENT" ],
+      "emissions": [ "PSY_magi_emit_stamina_recovery" ],
+      "light_emitted": 12,
+      "bash": {
+        "str_min": 25,
+        "str_max": 35,
+        "sound": "glass shattering!",
+        "sound_fail": "mana crackling!",
+        "items": [
+          { "item": "crystallized_mana", "charges": [ 0, 20 ] },
+          { "item": "small_mana_crystal", "count": [ 0, 1 ] },
+          { "item": "glass_shard", "count": [ 8, 12 ] }
+        ]
+      }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_treasure",
+    "name": "huge treasure",
+    "description": "This is a mana crystal that juts from the ground as if it had sprouted up like a weed.  It pulses with a delicate green energy, occasionally bursting with flashes of pent-up light.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_stamina_recovery" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 100 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 3 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_huge_treasure_opened",
+    "name": "opened huge treasure",
+    "description": "This is a mana crystal that juts from the ground as if it had sprouted up like a weed.  It pulses with a delicate green energy, occasionally bursting with flashes of pent-up light.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_stamina_recovery" ],
+    "light_emitted": 12,
+    "bash": {
+      "str_min": 25,
+      "str_max": 35,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 100 ] },
+        { "item": "small_mana_crystal", "count": [ 0, 3 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_treasure_chest_opened",
+		"name":"Opened Treasure chest",
+		"description":"It's an opened treasure chest. Attack again to get the item!",
+    "symbol": "C",
+    "color": "yellow",
+		"light_emitted":1,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_tresure_box_drops"}
+        ]
+      }
+	},
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_treasure_chest_opened_empty",
+		"name":"Opened Empty Treasure chest",
+		"description":"It's an opened empty treasure chest. Attack again to get nothing!",
+    "symbol": "C",
+    "color": "yellow",
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!"
+      }
+	},
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_treasure_chest_opened_mid",
+		"name":"Opened Treasure chest",
+		"description":"It's an opened treasure chest. Attack again to get the item!",
+    "symbol": "C",
+    "color": "yellow",
+		"light_emitted":5,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_tresure_box_drops"}
+        ]
+      }
+	},
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_treasure_chest_opened_big",
+		"name":"Opened Treasure chest",
+		"description":"It's an opened treasure chest. Attack again to get the item!",
+    "symbol": "C",
+    "color": "yellow",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_big_tresure_box_drops"}
+        ]
+      }
+	},
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_treasure_chest_opened_harden",
+		"name":"Opened Treasure chest",
+    "looks_like": "PSY_magi_f_treasure_chest_opened_big",
+		"description":"It's an opened treasure chest. Attack again to get the item!",
+    "symbol": "C",
+    "color": "yellow",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":99,
+      "str_max":99,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_tresure_box_drops"}
+        ]
+      }
+	},
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_statue_swamp",
+    "name": "Statue",
+    "description": "A Statue of the Queen of the Swamp that has lost its luster.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "BLOCKSDOOR", "MINEABLE"],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 16,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "rock", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_statue_horn",
+    "name": "Statue",
+    "description": "A Statue of the Horned creature that has lost its luster.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "BLOCKSDOOR", "MINEABLE"],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 16,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "rock", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_statue_cleric",
+    "name": "Statue",
+    "description": "A Statue of the cleric that has lost its luster.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "BLOCKSDOOR", "MINEABLE"],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 16,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "rock", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_statue_mysterious",
+    "name": "Statue",
+    "description": "A Statue of the mysterious that has lost its luster.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "BLOCKSDOOR", "MINEABLE"],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 16,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "splinter", "charges": [ 0, 20 ] },
+        { "item": "rock", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_thread",
+    "name": "thread",
+    "description": "thread",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": 1,
+    "coverage": 0,
+    "required_str": -1,
+    "looks_like": "thread",
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "TINY","NOCOLLIDE" ],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 0,
+      "str_max": 0,
+      "sound": "",
+      "sound_fail": "",
+      "items": [
+        { "item": "thread", "charges": 1 }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_gun_random",
+    "name": "gun",
+    "description": "gun",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": 1,
+    "coverage": 0,
+    "required_str": -1,
+    "looks_like": "m9",
+    "flags": [ "TRANSPARENT", "TINY","NOCOLLIDE" ],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 0,
+      "str_max": 0,
+      "sound": "",
+      "sound_fail": "",
+      "items": [
+        {"group":"PSY_guns_pistol_common"}
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_rifle_random",
+    "name": "gun",
+    "description": "gun",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": 1,
+    "coverage": 0,
+    "required_str": -1,
+    "looks_like": "m9",
+    "flags": [ "TRANSPARENT", "TINY","NOCOLLIDE" ],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 0,
+      "str_max": 0,
+      "sound": "",
+      "sound_fail": "",
+      "items": [
+        {"group":"PSY_guns_rifle_common"}
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_honey_random",
+    "name": "honey",
+    "description": "honey",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": 1,
+    "coverage": 0,
+    "required_str": -1,
+    "looks_like": "f_dandelion",
+    "flags": [ "TRANSPARENT", "TINY","NOCOLLIDE" ],
+    "light_emitted": 0,
+    "bash": {
+      "str_min": 0,
+      "str_max": 0,
+      "sound": "",
+      "sound_fail": "",
+      "items": [
+        {"group":"PSY_honey_terrain_flower_drops"}
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_dungeon_exit_teleport",
+    "name": "Teleport stone statue",
+    "description": "It is an unusual looking stone statue. Once activated, it is possible to return to the vicinity of the stone statue with an item obtained from defeating a boss.",
+    "symbol": "S",
+    "color": "dark_gray",
+	  "looks_like": "f_statue",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": 1,
+    "crafting_pseudo_item": "fakeitem_statue",
+    "flags": [ "NOCOLLIDE", "NO_PICKUP_ON_EXAMINE", "TRANSPARENT" ],
+	  "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_teleport_stone"]
+    }
+  },
+
+  {
+    "type": "terrain",
+    "id": "PSY_t_door_metal_c",
+    "name": "closed metal door",
+    "description": "An extremely resilient door made of assorted steel, carved and pounded into shape.",
+    "symbol": "+",
+    "looks_like": "t_door_metal_c",
+    "color": "cyan",
+    "move_cost": 0,
+    "coverage": 95,
+    "roof": "t_metal_roof",
+    "flags": [ "NOITEM", "DOOR", "CONNECT_WITH_WALL", "BLOCK_WIND", "SUPPORTS_ROOF" ],
+    "open": "PSY_t_door_metal_o",
+    "oxytorch": {
+      "result": "t_mdoor_frame",
+      "duration": "14 seconds",
+      "byproducts": [ { "item": "steel_plate", "count": [ 0, 1 ] }, { "item": "steel_chunk", "count": [ 3, 8 ] } ]
+    },
+    "bash": {
+      "str_min": 240,
+      "str_max": 250,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_mdoor_frame",
+      "items": [
+        { "item": "scrap", "count": [ 12, 24 ] },
+        { "item": "steel_plate", "prob": 75 },
+        { "item": "hinge", "count": [ 1, 3 ] }
+      ]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_teleport_stone"]
+    }
+  },
+
+  {
+    "type": "terrain",
+    "id": "PSY_t_door_metal_o",
+    "name": "open metal door",
+    "description": "An extremely resilient door made of assorted steel, carved and pounded into shape.  It's open, so no tools are needed to break in.",
+    "symbol": "'",
+    "looks_like": "t_door_metal_o",
+    "color": "cyan",
+    "move_cost": 2,
+    "roof": "t_metal_roof",
+    "flags": [ "TRANSPARENT", "FLAT", "CONNECT_WITH_WALL", "ROAD", "SUPPORTS_ROOF" ],
+    "close": "PSY_t_door_metal_c",
+    "bash": {
+      "str_min": 240,
+      "str_max": 250,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_mdoor_frame",
+      "items": [
+        { "item": "scrap", "count": [ 12, 24 ] },
+        { "item": "steel_plate", "prob": 75 },
+        { "item": "hinge", "count": [ 1, 3 ] }
+      ]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_teleport_stone"]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_honey_treasure_chest_closed",
+    "name": "Gorgeous big treasure chest",
+    "description": "It is a very large and gorgeous treasure chest. You can open it by pressing the `E` button. After opening it, you need to destroy that treasure chest.",
+    "symbol": "S",
+    "color": "dark_gray",
+	  "looks_like": "f_statue",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": 1,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":99,
+      "str_max":99,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_tresure_box_drops"}
+        ]
+    },
+	  "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_open"]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_honey_treasure_chest_event_closed",
+    "name": "Gorgeous big treasure chest",
+    "description": "It is a very large and gorgeous treasure chest. You can open it by pressing the `E` button. After opening it, you need to destroy that treasure chest.",
+    "symbol": "S",
+    "color": "dark_gray",
+	  "looks_like": "f_statue",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": 1,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":99,
+      "str_max":99,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_tresure_box_drops"}
+        ]
+    },
+	  "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_open"]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_honey_treasure_chest_potion_closed",
+    "name": "Gorgeous big treasure chest",
+    "description": "It is a very large and gorgeous treasure chest. You can open it by pressing the `E` button. After opening it, you need to destroy that treasure chest.",
+    "symbol": "S",
+    "color": "dark_gray",
+	  "looks_like": "f_statue",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": 1,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{
+      "str_min":99,
+      "str_max":99,
+      "sound_vol":2,
+      "sound":"basssh!",
+      "sound_fail":"shh!",
+      "items":[
+        {"group":"PSY_magi_tresure_box_drops"}
+        ]
+    },
+	  "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_open"]
+    }
+  },
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_honey_treasure_chest_opened",
+		"name":"Opened Treasure chest",
+		"description":"You opened treasure chest!　When you hit them, you can acquire the contents of the treasure chest.",
+		"symbol":"n",
+		"color":"cyan",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_magi_big_tresure_box_drops"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+    
+	},
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_honey_treasure_chest_event_opened",
+		"name":"Opened Treasure chest",
+		"description":"You opened treasure chest!　When you hit them, you can acquire the contents of the treasure chest.",
+		"symbol":"n",
+		"color":"cyan",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_magi_big_tresure_box_drops"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+	},
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_honey_treasure_chest_potion_opened",
+		"name":"Opened Treasure chest",
+		"description":"You opened treasure chest!　When you hit them, you can acquire the contents of the treasure chest.",
+		"symbol":"n",
+		"color":"cyan",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_magi_big_tresure_box_drops"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+	},
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal",
+    "name": "Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air" ],
+    "light_emitted": 8,
+    "bash": {
+      "str_min": 6,
+      "str_max": 12,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 1 ] },
+        { "item": "glass_shard", "count": [ 8, 12 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_medium",
+    "name": "Medium Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 7 tiles by 20°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air2" ],
+    "light_emitted": 16,
+    "bash": {
+      "str_min": 18,
+      "str_max": 36,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 0, 2 ] },
+        { "item": "glass_shard", "count": [ 16, 24 ] }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_large",
+    "name": "Large Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 9 tiles by 30°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "f_boulder_large",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air3" ],
+    "light_emitted": 24,
+    "bash": {
+      "str_min": 60,
+      "str_max": 120,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "crystallized_mana", "charges": [ 1, 3 ] },
+        { "item": "glass_shard", "count": [ 32, 48 ] }
+      ]
+    }
+  },
+
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_bomb",
+    "name": "Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "PSY_magi_f_ice_magic_crystal",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air" ],
+    "light_emitted": 8,
+    "bash": {
+      "str_min": 1,
+      "str_max": 1,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "PSY_magi_item_crystal_bomb_act_EX1", "prob": 100 }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_bomb2",
+    "name": "Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "PSY_magi_f_ice_magic_crystal",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air" ],
+    "light_emitted": 8,
+    "bash": {
+      "str_min": 1,
+      "str_max": 1,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "PSY_magi_item_crystal_bomb_act_EX2", "prob": 100 }
+      ]
+    }
+  },
+
+  {
+    "type": "furniture",
+    "id": "PSY_magi_f_ice_magic_crystal_bomb3",
+    "name": "Ice Crystal",
+    "description": "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C.",
+    "symbol": "]",
+    "color": "white_yellow",
+    "move_cost_mod": -1,
+    "coverage": 75,
+    "required_str": -1,
+    "looks_like": "PSY_magi_f_ice_magic_crystal",
+    "flags": [ "TRANSPARENT" ],
+    "emissions": [ "PSY_magi_emit_icy_air" ],
+    "light_emitted": 8,
+    "bash": {
+      "str_min": 1,
+      "str_max": 1,
+      "sound": "glass shattering!",
+      "sound_fail": "mana crackling!",
+      "items": [
+        { "item": "PSY_magi_item_crystal_bomb_act_EX3", "prob": 100 }
+      ]
+    }
+  },
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_mana_mech_pod_lv1",
+		"name":"Mana Mecha Pod LV1",
+		"description":"It is a huge pod LV1 containing one mana mecha. It can be opened by pressing the `E` button.\n it is randomly selected from 18 different types, and very rarely, it may contain a strong mecha.",
+		"symbol":"M",
+		"color":"blue",
+		"light_emitted":10,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_all_mana_mech_lv1"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+	},
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_mana_mech_pod_lv2",
+		"name":"Mana Mecha Pod LV2",
+		"description":"It is a huge pod LV2 containing one mana mecha. It can be opened by pressing the `E` button.\n it is randomly selected from 13 different types, and may even, it may contain a strong mecha.",
+		"symbol":"M",
+		"color":"blue",
+		"light_emitted":20,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_all_mana_mech_lv2"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+	},
+
+  {
+		"type":"furniture",
+    "id": "PSY_magi_f_mana_mech_pod_lv3",
+		"name":"Mana Mecha Pod LV3",
+		"description":"It is a huge pod LV3 that contains one mana mecha. You can open it by pressing the `E` button\n it is randomly selected from 9 different types and always contains a strong mecha.",
+		"symbol":"M",
+		"color":"blue",
+		"light_emitted":20,
+		"move_cost_mod":3,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{
+      "str_min":0,
+      "str_max":0,
+      "sound_vol":2,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items":[{"group":"PSY_all_mana_mech_lv3"}]
+    },
+    "examine_action": {
+      "type": "effect_on_condition",
+      "effect_on_conditions": ["EOC_PSY_treasure_bash"]
+    }
+	}
+
+]

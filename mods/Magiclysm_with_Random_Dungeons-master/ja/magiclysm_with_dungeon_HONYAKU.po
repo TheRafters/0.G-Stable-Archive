@@ -1,0 +1,4457 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cataclysm-dda 0.E\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2022-11-18 08:50+0900\n"
+"Last-Translator: Pigmentblue15, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/cataclysm-dda-translators/teams/2217/ja/)\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2\n"
+
+msgid "Stormshaper Runes"
+msgstr "ストームシェイパー・ルーンズ"
+
+msgid "Mental cracking"
+msgstr "精神操作"
+
+msgid "Control an enemy under 180 MAX HP and change to our side for short of period."
+msgstr "敵の精神の隙間に入り込み、最大HP180以下の対象の敵を一時的に味方として戦わせる"
+
+msgid "Mass Mindcontrol"
+msgstr "集団マインドコントロール"
+
+msgid "This aoe spell Control enemies under the 100 MAXHP and force to fight for our side."
+msgstr "敵の精神の一部を書き換え、最大HP100以下の範囲内の敵を一時的に味方として戦わせる"
+
+msgid "Push Force"
+msgstr "押し出し波動"
+
+msgid "You channel the magical force to push an enemy backward."
+msgstr "魔法の力を手に籠めて強力な気力を敵にぶつけて後方に押しやる"
+
+msgid "Push Force Cone"
+msgstr "押し出しウェーブ"
+
+msgid "Vacuum Collect"
+msgstr "吸引回収"
+
+msgid "Vacuum Collect "
+msgstr "吸引回収"
+
+msgid ""
+"Distort space-time for a moment and collect surrounding items in the target area.\n"
+" This effects ignore walls"
+msgstr "一瞬の間時空を歪めて、収納されていない周囲のアイテムを目の前に引き寄せる。この効果は壁越しのアイテムにも発動する"
+
+msgid ""
+"Distort space-time for a moment and collect surrounding items in the target area.\n"
+" This effects ignore walls."
+msgstr "一瞬の間時空を歪めて、収納されていない周囲のアイテムを目の前に引き寄せる。この効果は壁越しのアイテムにも発動する"
+
+msgid "Magnetic Field"
+msgstr "磁場フィールド"
+
+msgid "Distort the magnetic field and collect all object at the target point."
+msgstr "少しの間磁場を歪めて、生物やフィールドを含む周囲のオブジェクトを全てを対象地点に引き寄せる"
+
+msgid "Phase trick"
+msgstr "位相トリック"
+
+msgid ""
+"Swaps you and target positions in a short distance, \n"
+"  also slow target movement for a short of period."
+msgstr "短い範囲にいる対象と自分の位置を交換する。その対象は少しの間移動速度が低下する"
+
+msgid "long Phase trick"
+msgstr "広範囲位相トリック"
+
+msgid "Swaps you and target positions in a long distance,   also slow target movement for a short of period.     This spell requires a lot time for casting."
+msgstr "遠くにいる対象と自分の位置を交換してその対象の移動速度を少しの間低下させる。この魔法には長い詠唱時間が必要です。"
+
+msgid "Head Knocking"
+msgstr "脳震盪光線"
+
+msgid "This spell stuns enemy in short distance for a short time."
+msgstr "敵に脳に直接ダメージを与える見えない光線を放ち、一定の間動けなくする。"
+
+msgid "Sweep"
+msgstr "マジカル足払い"
+
+msgid "Sweeping with magical legs around and knock down units to the ground for a short time."
+msgstr "霊的な足を召喚し周囲の敵の脚にあたるものを払い、地面に叩きつけてノックダウンさせる。"
+
+msgid "Remove Tainted effect"
+msgstr "睨み汚染除去"
+
+msgid ""
+"Remove Tainted effect caused by flaming eye and immune for 1-3 hours.\n"
+" This spell also removes nausea symptoms."
+msgstr "フレーミングアイから睨まれたことで起きるデバフを取り除き、そのあと１～3時間の間睨みに耐性がある透明な膜を張る。また、それによる吐き気も抑える。"
+
+msgid "Create floating earth"
+msgstr "創造：浮遊する大地"
+
+msgid "This spell condenses surrounding substances to create floating earth on air or fills water and lava with soil."
+msgstr "周辺に漂う物質を凝縮し、空中に留まる踏める大地を召喚する。　水上や溶岩の上にも召喚することができる。"
+
+msgid "Necrotic Calamity"
+msgstr "ネクロティック・カラミティ"
+
+msgid ""
+"You sacrifice your own blood to amplify necrotic power into your fingertips, damaging the target you point at.\n"
+" Summon Skeleton snake for 10 minutes at target location if target is killed by this spell."
+msgstr "自分の鮮血を糧にし、指先に邪悪なる力を増幅させる。指を指した対象にバイオ属性のダメージを与え、この魔法により倒れた場合、対象の魂を生贄にしてスケルトンスネークを召喚する。"
+
+msgid "Tangled Vine"
+msgstr "絡みつく蔓"
+
+msgid ""
+"Conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n"
+" Monsters who steps on the vine will move slower."
+msgstr "対象の地点まで魔力によって作られた蔓を這わせ、到達すると同時に爆発的にその場所一面を絡みつく蔓を繁茂させる。絡みつく蔓は少しの時間フィールドに残り続け、少量のダメージを与え、敵の移動速度を低下させる."
+
+msgid "Create Accelerating fields"
+msgstr "召喚：加速フィールド"
+
+msgid "This spell creates magical field up to the target location, those fields greatly increase the movement those who step on ."
+msgstr "対象の地点まで速度が大幅に上がるフィールドを召喚する。このフィールドは少しの間残り続け、敵味方構わず乗る者の移動速度を上げる。"
+
+msgid "Create Sanctuary"
+msgstr "召喚：聖域"
+
+msgid ""
+"Create a sanctuary that lasts about 2 minutes at the target tile.\n"
+" while you are on it, gain greatly status buffs, recover some stamina every seconds and immune from dazed and stunned."
+msgstr "対象の地点に2分ほど続く聖域を召喚する。聖域の中にいる者はステータスが大幅に上がり、スタンと朦朧を無効化し毎秒スタミナが回復する。"
+
+msgid "Create orchard fields"
+msgstr "インスタント果樹園"
+
+msgid ""
+"Instantly fills some of target tiles with orchard.\n"
+" Those who step on those fields gain status bonus, quench some thirst and greatly recover stamina."
+msgstr "対象のエリアにすぐに採取できる果樹園を作る。果樹園に入ったものは採取した後すぐにその果物を食べて少量の喉の渇きをいやし、スタミナを大幅に回復させて食べた果実の種類によってさまざまなバフを得ることができる。"
+
+msgid "Scatter poisonous caltrops"
+msgstr "有毒マキビシ"
+
+msgid ""
+"Scatter a lot of poisonous caltrops on target area. \n"
+" Those who step on it will be poisoned and decreased movement speed for a while. "
+msgstr "対象エリアに沢山の毒が塗られたマキビシを撒く。踏んだ者は毒に侵されダメージを受け、移動速度が低下する。"
+
+msgid "<color_light_green>Magiclysm with Spells</color>"
+msgstr "<color_light_green>追加-: マジクリズムwithスペル</color>"
+
+msgid "Create a Bomb of spider web "
+msgstr "召喚：蜘蛛の巣爆弾"
+
+msgid "Conjure an Magic bomb of spider web,     after conjured this magic bomb, Use this item to arm it.  In five seconds it will begin to expel spider web.<color_light_red>required components have to in inventry or hands!</color>"
+msgstr "魔法の力により蜘蛛の巣爆弾を作る。蜘蛛の巣爆弾はピンを抜いてから5秒後に蜘蛛の巣をまき散らす爆発を起こす。　このアイテム作成には素材が必要です。"
+
+msgid "Conjure Throwing Blade"
+msgstr "召喚：投げナイフ"
+
+msgid "conjures a throwing knives"
+msgstr "投げナイフを召喚する"
+
+msgid "conjures 3 throwing knives"
+msgstr "３つの投げナイフを召喚する"
+
+msgid "Conjure Throwing Bat"
+msgstr "召喚：投げバット"
+
+msgid "conjures a throwing bat"
+msgstr "投げ野球バットを召喚する"
+
+msgid "Random Polymorph"
+msgstr "変化の術"
+
+msgid "Transform target enemy into random monster."
+msgstr "対象の敵を別のモンスターに変化させる。"
+
+msgid "Cause a tornado "
+msgstr "召喚：竜巻"
+
+msgid "Summon a tornado that push nearest enemy far away."
+msgstr "対象の地点に近くの敵を遠くに吹き飛ばす竜巻を召喚する。"
+
+msgid "Fire a Guided missile "
+msgstr "召喚：誘導ミサイル"
+
+msgid "Summon a Guided missile that lock on nearest enemy and  KaBooooooooom! ."
+msgstr "自分の隣接したタイルにミサイルを召喚する。ミサイルは最も近くの敵を追跡し、対象に当たると自爆して大ダメージを与える。"
+
+msgid "Decoy replacement "
+msgstr "変わり身の術"
+
+msgid "This spell for Emergency avoidance,   Summon a wooden decoy to target location and teleport you to random tile, then gives you invisible aura for short period of time,   This aura also increases your movement speed by 100."
+msgstr "近くの対象地点に自分に瓜二つの丸太を召喚した後、ランダムな地点にテレポートする。　テレポートした後は少しの間移動速度が上がり、敵から見つからなくなる。"
+
+msgid "Summon the black hole "
+msgstr "召喚：ブラックホール"
+
+msgid "Cause space-time distortion to target location and summon a black hole that swallows everything."
+msgstr "対象の地点の時空を歪ませ、全てを飲み込むブラックホールを召喚する。"
+
+msgid "Call a lighting tornado "
+msgstr "召喚：荒れ狂う竜巻"
+
+msgid ""
+"Call a lightning tornado at target location.\n"
+" Move while shooting many lightning toward enemies and swallow nearby objects."
+msgstr "対象の地点に、近くの敵を吸い寄せ遠くの敵に沢山の雷を放つ黒い竜巻を召喚する。"
+
+msgid "Conjure a vine tentacle "
+msgstr "召喚：蔓の触手"
+
+msgid "Summon a plant tentacle at target location, it pull nearby enemy and attack with its long body"
+msgstr "対象の地点に植物でできた触手を召喚する。触手は少し遠くの敵を引っ張ることができ、長い胴体のおかげで2タイル離れた敵を攻撃できる。"
+
+msgid "Conjure a sentry plant "
+msgstr "召喚：植物タレット"
+
+msgid "Summon a sentry-plant that shoots seeds to nearest enemy."
+msgstr "対象の地点に植物でできたタレットを召喚する。威力は低いが沢山の種を一度に飛ばして攻撃することができる。"
+
+msgid "Summon a flying skul "
+msgstr "召喚：空飛ぶ頭蓋骨"
+
+msgid "Summon a flying skul that deals cold damage to enemies while keeping a certain distance ."
+msgstr "対象の地点に空飛ぶ頭蓋骨を召喚する。頭蓋骨は敵と一定の距離を保ちながら遠くの敵に冷却属性のダメージを与える連射攻撃と近くの敵に範囲攻撃をする。範囲攻撃には吸い込むと少しの間移動速度を下げる霧を発生させる"
+
+msgid "Summon an Animated Utensil"
+msgstr "アニメーテッド・食器"
+
+msgid "Summon an animated utensil to target location using your blood and a steel utensil not suitable for combat."
+msgstr "魔力によって戦闘にはあまり向かない食器に少しの魂を分け与え、自分の敵を襲わせる動く凶器に変える。"
+
+msgid "Summon 5 Animated Utensils EX"
+msgstr "アニメーテッド・食器　X5"
+
+msgid "Summon 5 animated utensil to target locations using your blood and 5 steel utensil not suitable for combat."
+msgstr ""
+"強化版[アニメーテッド・食器]　\n"
+" 5本の戦闘にあまり向かない食器に全てに魂を分け与え、自分の敵を集団で襲わせる動く災害に変える。"
+
+msgid "Fallen Resurrection "
+msgstr "堕落した復活"
+
+msgid "Summon many orbs that resurrect non destroyed revive-able creatures.  it soon after being resurrected are weak, but these creatures don't disappear with time."
+msgstr "対象のエリアに沢山の人魂を召喚し、近くの復活可能な生物の体に乗り移る。　生き返ったすぐ後の生物はHPが減っていて弱いが、時間経過で消えることなくその場に居続ける。"
+
+msgid "Emergency call"
+msgstr "緊急招集"
+
+msgid "This spell for Emergency avoidance,     Summon 8 of wisps to distract enemies attension and gives you invisible aura for short period of time,   This aura also increases your movement speed by 100."
+msgstr "これは緊急回避に適した魔法であり、詠唱後すぐに敵意を逸らすための8匹のウィスプを自分の周囲に召喚し、少しの間自分の移動速度を１００上昇させてステルスになる。"
+
+msgid "Create Summon Gate"
+msgstr "召喚:サモンゲート"
+
+msgid ""
+"Create summon gate at target location.\n"
+" it lasts about 3 minutes and Many monsters will come out from it until the gate closes."
+msgstr "対象の地点にアビスへ続く門を召喚する。この門はおよそ3分ほどその場に留まり持続的にモンスターを召喚し続ける"
+
+msgid "Summon a fear Totem "
+msgstr "召喚:恐怖のトーテム"
+
+msgid "Summon a Totem that frighten nearby enemies(max range:6 tiles)."
+msgstr "対象の地点に周囲6タイル以内の敵を恐れさせ逃走させるトーテムを召喚する。"
+
+msgid "Summon a Mindcontrol Totem "
+msgstr "召喚:精神操作のトーテム"
+
+msgid "Summon a Totem that Mindcontrol random enemy(maxHP 180 or under) within 5 tiles."
+msgstr "対象の地点に周囲5タイル以内の最大HP180以下の敵の精神を少しの間操り、こちらに寝返させるトーテムを召喚する。"
+
+msgid "Summon a blind Totem "
+msgstr "召喚：盲目のトーテム"
+
+msgid "Summon a Totem that blind nearest enemies(max range:8 tiles)."
+msgstr "対象の地点に周囲8タイル以内の敵の視界を一次的に奪い、盲目にさせるトーテムを召喚する。"
+
+msgid "Summon UFO"
+msgstr "乗り物召喚:UFO"
+
+msgid ""
+"Are you ready to fly high? Magic UFO is waiting for your riding.\n"
+" Maneuvering skills are required to maneuver."
+msgstr ""
+"風を感じる準備はできたかい？　UFOはいつもあなたが操縦するのを待っている！\n"
+" 対象の地点に３ｘ５タイルの思うがままに空飛べる乗り物を召喚する。飛行するには操縦士のスキルが必要です。"
+
+msgid "Summon Vine Wall"
+msgstr "召喚:蔓の壁"
+
+msgid ""
+"Summon 5x5 vine walls around the target tile.\n"
+" Those inside can't get out unless they destroy the wall or walls disappears by time"
+msgstr "対象の地点の周囲を囲うように５ｘ５タイルの蔓の壁を召喚する。この壁は時間経過で消えるのを待つか、破壊するまで中にいる者は脱出することができない。"
+
+msgid "Meteor Strike"
+msgstr "メテオストライク"
+
+msgid "You hurl a pea-sized glowing orb that when reaches its target or an obstacle produces a pressure-less blast of searing heat."
+msgstr "対象地点の上空に小型の隕石を召喚し地面に勢いよくぶつける。衝突範囲内の全てに致命的な炎ダメージを与え、その地点にクレーターが残る。"
+
+msgid "Synthetic Spell books"
+msgstr "本の合成"
+
+msgid "Synthetic 2 of [magiclysm_with_spell] spell books to 1 random its spell book."
+msgstr "二つの同じ[マジクリズムwithスペル]の呪文書をかけ合わせ、ランダムなmodの呪文書を手に入れる"
+
+msgid "A Beginner's Guide to Control enemies"
+msgstr "呪文書：敵の精神支配：序盤"
+
+msgid "copies of A Beginner's Guide to Control enemies"
+msgstr "呪文書：敵の精神支配：序盤"
+
+msgid "The mystery of the universe"
+msgstr "呪文書：宇宙の神秘"
+
+msgid "copies of The mystery of the universe"
+msgstr "呪文書：宇宙の神秘"
+
+msgid "The Book of [Vegetable Paradox]"
+msgstr "呪文書：植物パラドックス"
+
+msgid "copies of The Book of [Vegetable Paradox]"
+msgstr "呪文書：植物パラドックス"
+
+msgid "The Tome [Trickstar]"
+msgstr "呪文書：トリックスター"
+
+msgid "copies of The Tome [Trickstar]"
+msgstr "呪文書：トリックスター"
+
+msgid "The Fear of Disaster"
+msgstr "呪文書：恐怖の大災害"
+
+msgid "copies of The Fear of Disaster"
+msgstr "呪文書：恐怖の大災害"
+
+msgid "A Treatise on Magical Summons"
+msgstr "呪文書：魔法召喚についての論文"
+
+msgid "copies of A Treatise on Magical Summons"
+msgstr "呪文書：魔法召喚についての論文"
+
+msgid "The Ninja instruction Book"
+msgstr "呪文書：忍術指南書"
+
+msgid "copies of The Ninja instruction Book"
+msgstr "呪文書：忍術指南書"
+
+msgid "The benefits of unholy summoning"
+msgstr "呪文書：邪悪なる召喚による利益"
+
+msgid "copies of The benefits of unholy summoning"
+msgstr "呪文書：邪悪なる召喚による利益"
+
+msgid "Book of Magic Creation"
+msgstr "呪文書：魔法創造"
+
+msgid "Book of Totem Creation"
+msgstr "呪文書：トーテム創造"
+
+msgid "copies of Book of Totem Creation"
+msgstr "呪文書：トーテム創造"
+
+msgid "Slow[2]"
+msgstr "鈍足[2]"
+
+msgid "Slow[3](max)"
+msgstr "鈍足[3]"
+
+msgid "Decreased your movement for a short period."
+msgstr "少しの間、あなたの移動速度が低下します。"
+
+msgid "No more slowed."
+msgstr "鈍足ではなくなりました"
+
+msgid "slowed."
+msgstr "鈍足になりました"
+
+msgid "Remove Taint"
+msgstr "汚染除去"
+
+msgid "Disables the polluting effect of floating eyes"
+msgstr "フローティングアイによる汚染効果を無効します"
+
+msgid "No more immune from taint."
+msgstr "これ以上フローティングアイの汚染効果を防ぐことができなくなりました。"
+
+msgid "Remove Nausea"
+msgstr "吐き気無効"
+
+msgid "You removed Nausea effect"
+msgstr "吐き気効果を無効化します"
+
+msgid "Cold Slow"
+msgstr "霜焼け"
+
+msgid "cold mist"
+msgstr "冷たい霧"
+
+msgid "Emagency Invisible"
+msgstr "緊急退避"
+
+msgid "You are invisible and haste your movement by 100."
+msgstr "あなたは透明状態になっており、移動速度が１００上がります"
+
+msgid "Emagency haste"
+msgstr "緊急加速"
+
+msgid "haste your movement by 200."
+msgstr "移動速度が200上昇します"
+
+msgid "entangled in ivy"
+msgstr "ツタの絡まり"
+
+msgid "You are entangled in ivy!"
+msgstr "ツタに絡まりました"
+
+msgid "The vines restrict your movement."
+msgstr "ツタがあなたの動きを阻害しています"
+
+msgid "Accelerating"
+msgstr "加速"
+
+msgid "Your movement is accelerating by the field!"
+msgstr "あなたの動きはフィールドの効果で加速しています。"
+
+msgid "Sanctuary"
+msgstr "聖域"
+
+msgid "You are in sanctuary ! While you're in it, immune to stunned and dazed, also buffed all status then recover 50 of stamina every second."
+msgstr "あなたは聖域の中にいます！　その中にいる限り気絶と呆然効果を無効化し、すべてのステータスを強化します。またスタミナが毎秒５０回復します。"
+
+msgid "Foods:INT UP"
+msgstr "食べ物：賢さアップ"
+
+msgid "Foods:STR UP"
+msgstr "食べ物：力アップ"
+
+msgid "Foods:DEX UP"
+msgstr "食べ物：器用さアップ"
+
+msgid "Foods:PER UP"
+msgstr "食べ物：知覚アップ"
+
+msgid "Foods:SPEED UP"
+msgstr "食べ物：速度アップ"
+
+msgid "You ate a picked apple and gained int buff."
+msgstr "あなたは落ちている悪魔リンゴを食べ、賢さが上がった"
+
+msgid "You ate a picked strawberries and gained str buff."
+msgstr "あなたは落ちているイチゴを食べ、力が上がった"
+
+msgid "You ate a picked banana and gained dex buff."
+msgstr "あなたは落ちているバナナを食べ、器用さが上がった"
+
+msgid "You ate a picked blueberries and gained per buff."
+msgstr "あなたは落ちているブルーベリーを食べ、知覚が上がった"
+
+msgid "You ate a picked lemon and gained speed buff."
+msgstr "あなたは落ちているレモンを食べ、速度が上がった"
+
+msgid "Injured by a caltrop"
+msgstr "マキビシを踏んでケガをした"
+
+msgid "Your legs are hurting, Decreased your movement be continuous damaged from it's effect."
+msgstr "あなたの脚は傷ついた！。移動速度が低下し、継続的にダメージを受けます"
+
+msgid "Plague"
+msgstr "伝染病"
+
+msgid "You got plague from totem. Decreased your movement and be continuous damaged from it's effect."
+msgstr "トーテムにより伝染病にかかった。移動速度が低下し、継続的にダメージを受けます"
+
+msgid "You got plague from totem."
+msgstr "トーテムにより伝染病に罹った"
+
+msgid "Plague has healed."
+msgstr "伝染病が治った"
+
+msgid "Strengthening"
+msgstr "強化祝福"
+
+msgid "You are Strengthened by totem ! immune to stunned, buffed all status then recover 25 of stamina every seconds."
+msgstr "あなたは強化の祝福をトーテムから授かった。気絶効果を無効化し、全てのステータスが強化される。また毎秒25のスタミナが回復する。"
+
+msgid "Aura of Healing"
+msgstr "回復のオーラ"
+
+msgid "My body is healed by being near the crystal."
+msgstr "近くのクリスタルにより、体の回復が早まっている。"
+
+msgid "Aura of Speed rising"
+msgstr "俊敏のオーラ"
+
+msgid "The effect of the nearby crystal has increased your movement speed."
+msgstr "近くのクリスタルにより、移動速度が上がっている。"
+
+msgid "Aura of Stamina Recovery"
+msgstr "スタミナ回復のオーラ"
+
+msgid "I feel like I could run forever."
+msgstr "永遠に走れそうな気分です。"
+
+msgid "Aura of Cursed"
+msgstr "呪いのオーラ"
+
+msgid "You are cursed because of the crystal. Hurry up and destroy the crystal or leave the place!"
+msgstr "クリスタルのせいであなたは呪われています。すぐその場から離れるか、クリスタルを破壊することで効果を防ぐことができます。"
+
+msgid "minor wand of random polymorph"
+msgid_plural "minor wands of random polymorph"
+msgstr[0] "下級：変化の杖"
+
+msgid "lesser wand of random polymorph"
+msgid_plural "lesser wands of random polymorph"
+msgstr[0] "中級：変化の杖"
+
+msgid "greater wand of random polymorph"
+msgid_plural "greater wands of random polymorph"
+msgstr[0] "上級：変化の杖"
+
+msgid "A slender wooden wand with a mana crystal socket at the base that casts a spell when activated.  This wand casts [random polymorph] that polymorphs target enemy has MAXHP equal 100 or less."
+msgstr "根元にマナクリスタルのソケットがある細長い木製の杖で、起動すると呪文を唱えることができる。 この杖は、MAXHPが100以下の敵を変化する[ランダム変化]を唱える"
+
+msgid "A slender wooden wand with a mana crystal socket at the base that casts a spell when activated.  This wand casts [random polymorph] that polymorphs target enemy has MAXHP equal 150 or less."
+msgstr "根元にマナクリスタルのソケットがある細長い木製の杖で、起動すると呪文を唱えることができる。 この杖は、MAXHPが150以下の敵を変化する[ランダム変化]を唱える"
+
+msgid "A slender wooden wand with a mana crystal socket at the base that casts a spell when activated.  This wand casts [random polymorph] that polymorphs target enemy has MAXHP equal 200 or less."
+msgstr "根元にマナクリスタルのソケットがある細長い木製の杖で、起動すると呪文を唱えることができる。 この杖は、MAXHPが200以下の敵を変化する[ランダム変化]を唱える"
+
+msgid "wand of insects"
+msgid_plural "wands of insects"
+msgstr[0] "蟲の召喚杖"
+
+msgid "wand of insects+1"
+msgid_plural "wands of insects+1"
+msgstr[0] "蟲の召喚杖+1"
+
+msgid "wand of insects+2"
+msgid_plural "wands of insects+2"
+msgstr[0] "蟲の召喚杖+2"
+
+msgid ""
+"This is magic wand that has been wriggling all along. When you wave this wand, friendly insects will appear out of nowhere for a short time!\n"
+"Upgrades will increase summoned insect of duration."
+msgstr "この魔法の杖はずっと蠢いています。この杖を振るとどこからともなく友好的な虫が少しの間現れます。アップグレードすることにより蟲の召喚時間が伸びます。"
+
+msgid "Clone of compressed cells."
+msgstr "圧縮されたクローン人間"
+
+msgid "It is a clone of you. Use this to make a clone that will follow you and support you in your life."
+msgstr "それは、あなたのクローンです。これを使って、あなたに付いていきあなたの生活をを支えてくれるクローンを作ってください。"
+
+msgid "spider web canister"
+msgstr "蜘蛛糸爆弾"
+
+msgid "This is a magic bomb that uses mana. After equipping this item, pull out the pin. After five seconds, it will start spitting out spider webs."
+msgstr "マナを使った魔法爆弾です。 このアイテムを装備したあとピンを抜きます。 5秒後に蜘蛛の巣を吐き出し始めます。"
+
+msgid "active spider web canister"
+msgstr "蜘蛛糸爆弾(アクティブ)"
+
+msgid "Magic moon light"
+msgstr "マジックムーン・ライト"
+
+msgid "A magic wand that attacks by emitting a strong light on the target. The ammunition will fill up as time passes."
+msgstr "対象に強い光を放ち攻撃する魔法の杖です。時間経過により弾薬が充填されます"
+
+msgid "Woodskin"
+msgstr "ウッドスキン"
+
+msgid "Creates a thick layer of bark that covers caster's skin. the layer affords some protections againist stub, cut and bash. "
+msgstr "厚い樹皮の層は、物理攻撃からある程度保護することができます。"
+
+msgid "golem crystal"
+msgstr "ゴーレムクリスタル"
+
+msgid "It is an inactive golem. Activate it to summon a golem with a variety of attack methods!"
+msgstr "これは不活性のゴーレムです。発動させると、多彩な攻撃方法を持つゴーレムを召喚することができます"
+
+msgid "broken golem crystal"
+msgstr "壊れたゴーレムクリスタル"
+
+msgid "This is an broken golem crystal.You can repair it from the Craft menu."
+msgstr "壊れたゴーレムクリスタルです。クラフトメニューから修復できます。"
+
+msgid "Great Blessing"
+msgstr "大いなる祝福"
+
+msgid "You got great blessing and covered by protect aura that reduce all received damage by half and increase your HP,STAMINA and MANA by 20%. This aura also heal your hp every 10 minutes"
+msgstr "あなたは大いなる祝福を受け、受けた全てのダメージを半減し、HPとSTAMINAとMANAを20%増加させるプロテクトオーラに守られている。また、このオーラは10分ごとにあなたのHPを回復させる。"
+
+msgid "Rice ball"
+msgstr "大きなおにぎり"
+
+msgid "These rice balls are large and nutritious. Some people only eat these."
+msgstr "このおにぎりは大きく、栄養価が高いです。ある者はこれしか食べないとか,,,"
+
+msgid "Grilled rice ball"
+msgstr "焼きおにぎり"
+
+msgid "These grilled rice balls have a savory soy sauce flavor. It also recovers HP mysteriously."
+msgstr "このおにぎりは醤油でこんがりと焼かれています。食べると不思議とHPも回復するようです"
+
+msgid "thunder bird egg"
+msgstr "雷鳥の卵"
+
+msgid "blaze bird egg"
+msgstr "炎鳥の卵"
+
+msgid "Nutritious egg laid by a thunder bird."
+msgstr "雷鳥により産み落とされた卵です"
+
+msgid "Nutritious egg laid by a blaze bird."
+msgstr "炎鳥により産み落とされた卵です"
+
+msgid "enhance potion:ManaUP500"
+msgstr "強化ポーション：マナアップ５００"
+
+msgid "enhance potion:ManaUP1000"
+msgstr "強化ポーション：マナアップ１０００"
+
+msgid "enhance potion:ManaUP1500"
+msgstr "強化ポーション：マナアップ１５００"
+
+msgid "Drinking this will permanently increase your Max MP by 500!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にマナの最大値を500増やす。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your Max MP by 1000!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にマナの最大値を1000増やす。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your Max MP by 1500!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にマナの最大値を1500増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:MANA_REGEN1.1"
+msgstr "強化ポーション：マナ回復1.1"
+
+msgid "enhance potion:MANA_REGEN1.2"
+msgstr "強化ポーション：マナ回復1.2"
+
+msgid "enhance potion:MANA_REGEN1.3"
+msgstr "強化ポーション：マナ回復1.3"
+
+msgid "Drinking this will permanently increase your MP regeneration speed by 1.1x!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にマナの回復速度が1.1倍に増加する。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your MP regeneration speed by 1.2x!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にマナの回復速度が1.2倍に増加する。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your MP regeneration speed by 1.3x!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にマナの回復速度が1.3倍に増加する。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:STRUP 1"
+msgstr "強化ポーション：STRUP 1"
+
+msgid "enhance potion:STRUP 2"
+msgstr "強化ポーション：STRUP 2"
+
+msgid "Drinking this will permanently increase your STR by 1!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にSTRの値を1増やす。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your STR by 2!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にSTRの値を2増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:INTUP 1"
+msgstr "強化ポーション：INTUP 1"
+
+msgid "enhance potion:INTUP 2"
+msgstr "強化ポーション：INTUP 2"
+
+msgid "Drinking this will permanently increase your INT by 1!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にINTの値を1増やす。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your INT by 2!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にINTの値を2増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:DEXUP 1"
+msgstr "強化ポーション：DEXUP 1"
+
+msgid "enhance potion:DEXUP 2"
+msgstr "強化ポーション：DEXUP 2"
+
+msgid "Drinking this will permanently increase your DEX by 1!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にDEXの値を1増やす。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your DEX by 2!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にDEXの値を2増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:PERUP 1"
+msgstr "強化ポーション：PERUP 1"
+
+msgid "enhance potion:PERUP 2"
+msgstr "強化ポーション：PERUP 2"
+
+msgid "Drinking this will permanently increase your PER by 1!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にPERの値を1増やす。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your PER by 2!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にPERの値を2増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:STAMINA_REGEN1.1"
+msgstr "強化ポーション：スタミナ回復1.1"
+
+msgid "enhance potion:STAMINA_REGEN1.2"
+msgstr "強化ポーション：スタミナ回復1.2"
+
+msgid "Drinking this will permanently increase your Stamina regeneration speed by 1.1x!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にスタミナの回復速度が1.1倍に増加する。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your Stamina regeneration speed by 1.2x!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にスタミナの回復速度が1.2倍に増加する。各ポーションは1回のみ有効です。"
+
+msgid "Drinking this will permanently increase your Max stamina by 15%!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にスタミナの最大値を15%増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:STAMINA STORE15%"
+msgstr "強化ポーション：スタミナアップ15%"
+
+msgid "enhance potion:SPEED UP5%"
+msgstr "強化ポーション：スピードアップ5%"
+
+msgid "Drinking this will permanently increase your action speed by 5%!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的に速度を5%増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:MAXHP UP10%"
+msgstr "強化ポーション：HPアップ10%"
+
+msgid "Drinking this will permanently increase your MAXHP by 10%!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的にHPの最大値を10%増やす。各ポーションは1回のみ有効です。"
+
+msgid "enhance potion:HARDENSKIN1"
+msgstr "強化ポーション：強化皮膚"
+
+msgid "Drinking this will permanently increase your all parts of armor by 1!.Each potion will only work once."
+msgstr "これを飲むことにより、永続的に皮膚の硬さを１増やす。各ポーションは1回のみ有効です。"
+
+msgid "Random Dungeon"
+msgstr "ランダムダンジョン"
+
+msgid "Random Dungeon -1F"
+msgstr "ランダムダンジョン 地下一階"
+
+msgid "Random Dungeon -2F"
+msgstr "ランダムダンジョン 地下二階"
+
+msgid "Random Dungeon -3F"
+msgstr "ランダムダンジョン 地下三階"
+
+msgid "It's a spellbook on how to manipulate the mind of your opponent."
+msgstr "相手の心を操るための方法が書かれた呪術書"
+
+msgid "It's a spellbook on how to manipulate magnetism and how to deal with it."
+msgstr "磁気を操る方法とその対処法に関する呪術書"
+
+msgid "It is a book covered with plants. It contains instructions on how to grow plants instantly!"
+msgstr "植物で覆われた魔法本。植物を即座に育てる方法が書かれています！"
+
+msgid "It's a spellbook that describes how to exchange positions with your partner."
+msgstr "相手と位置を交換する方法を記した呪文書です"
+
+msgid "It's a spellbook about how to create a disaster easily."
+msgstr "災害を簡単に起こす方法について書かれた呪文書"
+
+msgid "This is a book where you can learn intermediate summoning techniques."
+msgstr "中級の召喚術が学べる本です。"
+
+msgid "This is a spellbook on how to use ninjutsu."
+msgstr "忍術のハウトゥーが学べる本です。"
+
+msgid "This is a spellbook with a suspicious glow. It looks like you could learn a thing or two about summoning..."
+msgstr "怪しい光を放つ呪文書です。召喚術の勉強になりそうだ..."
+
+msgid "This is a spellbook on how to create simple items with magic."
+msgstr "魔法で簡単なアイテムを作る方法を紹介した呪文書です"
+
+msgid "This is a book for beginner spellcasters. It contains information on totems."
+msgstr "初心者の呪術者にお勧めの呪術書です。トーテムの召喚方法が書かれています。"
+
+msgid "Scroll of [Polymorph Totem]"
+msgid_plural "Scrolls of [Polymorph Totem]"
+msgstr[0] "巻物：ポリモーフ・トーテム"
+
+msgid ""
+"You can read this scroll to learn [Polymorph Totem].\n"
+" Polymorph target totem into another form.\n"
+" Fear totem into stun totem that stun nearby enemies.\n"
+"Mindcontrol Totem into Strengthening totem that buffs nearby friendly units.\n"
+"blind Totem into spotting totem that spots and illuminates all nearby enemies.\n"
+"Plague totem into rat totem that summon a lot of plague rats."
+msgstr "この巻物を読むと対象のトーテムを別のトーテムに変えることができる[ポリモーフ・トーテム]を習得できる"
+
+msgid "Scroll of [Repair Totem]"
+msgid_plural "Scrolls of [Repair Totem]"
+msgstr[0] "巻物：修復・トーテム"
+
+msgid ""
+"You can read this scroll to learn [Repair Totem].\n"
+" Repair target totem to full HP . "
+msgstr "この巻物を読むと対象のトーテムの体力を全回復できる[修復・トーテム]を習得できる"
+
+msgid "Scroll of [Summon a skeleton grave]"
+msgid_plural "Scrolls of [Summon a skeleton grave]"
+msgstr[0] "巻物：召喚:スケルトン墓"
+
+msgid ""
+"You can read this scroll to learn [Summon a skeleton grave].\n"
+" Summon a grave that raises lesser skeletons from underground every 8 seconds."
+msgstr "この巻物を読むと8秒ごとに2体のスケルトンを召喚する墓を召喚することができる[召喚・スケルトン墓]を習得できる"
+
+msgid "Fear Totem"
+msgstr "恐怖のトーテム。"
+
+msgid "A totem that scares nearby enemies into running away."
+msgstr "近くの敵を怖がらせて逃げさせるトーテム。"
+
+msgid "Mindcontrol Totem"
+msgstr "精神支配のトーテム。"
+
+msgid "A totem that can take control of the mind of a nearby enemy and change sides for a short period of time."
+msgstr "近くにいる敵の精神を支配し、短時間の間、敵を寝返らせるトーテム。"
+
+msgid "Blind Totem"
+msgstr "盲目のトーテム。"
+
+msgid "A totem that eliminates the vision of nearby enemies."
+msgstr "近くにいる敵の視界を無くすトーテム。"
+
+msgid "Plague Totem"
+msgstr "伝染病のトーテム。"
+
+msgid "A totem that spreads plagues to nearby enemies."
+msgstr "近くの敵に疫病を撒き散らすトーテム"
+
+msgid "Tauntotem"
+msgstr "タウントーテム。"
+
+msgid "Totems that taunt nearby enemies"
+msgstr "近くの敵を挑発するトーテム"
+
+msgid "Stun Totem"
+msgstr "気絶のトーテム"
+
+msgid "A totem that stun nearby enemies"
+msgstr "近くの敵を気絶させるトーテム"
+
+msgid "Spotting Totem"
+msgstr "敵探知のトーテム"
+
+msgid "A totem that detect nearby enemies"
+msgstr "近くの敵を探知するトーテム"
+
+msgid "Strengthening Totem"
+msgstr "強化祝福のトーテム"
+
+msgid "A totem that strengthening nearby friendly units."
+msgstr "近くの味方のステータスを強化するトーテム"
+
+msgid "Plague Rat Totem"
+msgstr "毒ネズミのトーテム"
+
+msgid "A totem that Summons 2 of plague rats every 10 seconds."
+msgstr "二匹の毒ネズミを10秒毎に召喚するトーテム"
+
+msgid "A totem that Summons 1 of plague rats every 10 seconds."
+msgstr "1匹の毒ネズミを10秒毎に召喚するトーテム"
+
+msgid "hurricane"
+msgstr "ハリケーン"
+
+msgid "hurricane that pushes nearest enemy far away."
+msgstr "近くの敵を押しのけるハリケーン"
+
+msgid "Plant tentacle"
+msgstr "植物触手"
+
+msgid "Big plant tentacle that pulls nearby enemy and attack with its long body."
+msgstr "近くの敵を引っ張り、長い胴体で遠くの敵を攻撃する植物で出来た触手"
+
+msgid "Sentry plant"
+msgstr "セントリープラント"
+
+msgid "sentry-plant that shoots seeds to nearest enemy."
+msgstr "近くの敵に種を飛ばす植物のセントリーガン"
+
+msgid "Resurrect orb"
+msgstr "リザレクションオーブ"
+
+msgid "This flying orb will bring back the zombies."
+msgstr "近くの復活可能のゾンビを甦らせるオーブ"
+
+msgid "Flying skul"
+msgstr "フライング頭蓋骨"
+
+msgid "flying skul that deals cold damage to enemies while keeping a certain distance."
+msgstr "一定の距離を保ちながら氷結ブレスを敵に吐き続ける頭蓋骨"
+
+msgid "Black hole"
+msgstr "ブラックホール"
+
+msgid "black hole that swallows everything."
+msgstr "全てを飲み込むブラックホール"
+
+msgid "Ethereal laser turret"
+msgstr "エーテル・レーザータレット"
+
+msgid "A laser turret created by magic."
+msgstr "魔法により作られたレーザータレットです。"
+
+msgid "Guided Missile"
+msgstr "誘導ミサイル"
+
+msgid "KaBooooooooom!."
+msgstr "BOOOOOOOOOOOM!ブーーーム!!!"
+
+msgid "Skeleton Snake"
+msgstr "スケルトンスネーク"
+
+msgid "Skeleton snake that sprays acid on nearby enemies."
+msgstr "近くの敵に酸を吹きかける骨の蛇です。"
+
+msgid "Wooden decoy"
+msgstr "木の身代わり人形"
+
+msgid ""
+"This wood seems like you! \n"
+" Everyone doesn't doubt."
+msgstr "あなたにそっくりの木で出来た身代わり人形です。だれも疑ったりしませんよ？"
+
+msgid "Lightning Tornado"
+msgstr "ライトニングトルネード"
+
+msgid "Conjured lightning Tornado that moves while shooting many lightning toward enemies and swallow nearby objects."
+msgstr "雷を敵に放ちながら近くの敵を吸い込むトルネード"
+
+msgid "Blight Box"
+msgstr "光り輝く箱"
+
+msgid "This box emits weakly light continuously."
+msgstr "この箱はずっと弱い光を放ち続けています。"
+
+msgid "plague rat"
+msgstr "毒ネズミ"
+
+msgid "The plague rat, an omnivorous rodent with sheer black fur and a long, rough tail.  Harbinger of pestilence, famine, and mange, it will sometimes swarm over the dead or dying."
+msgstr "黒い見た目で長いしっぽを持ったネズミです。伝染病を感染させることに特化しています。"
+
+msgid "Skeleton Grave"
+msgstr "スケルトン墓"
+
+msgid "Summon 2 of lesser skeletons every 8 seconds."
+msgstr "8秒毎にレッサースケルトンを召喚します。"
+
+msgid "A lesser skeleton, raised from grave."
+msgstr "墓から蘇ったばかりの骨の中身がかっすかすのスケルトンです。"
+
+msgid "Crystal golem"
+msgstr "クリスタルゴーレム"
+
+msgid "A golem made of mana crystal. It has a variety of attack methods."
+msgstr "マナクリスタルで作られたゴーレムです。多彩な攻撃方法を持っています"
+
+msgid "Shock Wave"
+msgstr "衝撃波"
+
+msgid "animated spoon"
+msgstr "アニメーテッド・スプーン"
+
+msgid "A moving spoon that doesn't try to bend itself."
+msgstr "自分自身を曲げようとしない動くスプーンです。"
+
+msgid "It's a butter knife that spreads the enemy's blood on the bread without permission."
+msgstr "返り血を勝手にパンに塗ってくるバターナイフです。"
+
+msgid "It's a moving fork that loves to poke out the eyes of its enemies."
+msgstr "敵の目を突くことが大好きな動くフォークです"
+
+msgid "I'm a spork who learned to attack from a distance so that I don't have to share the role with a spoon and fork."
+msgstr "スプーンとフォークと役割が被らないように遠距離攻撃を覚えたスポークです。"
+
+msgid "animated butter knife"
+msgstr "アニメーテッド・バターナイフ"
+
+msgid "animated fork"
+msgstr "アニメーテッド・フォーク"
+
+msgid "animated spork"
+msgstr "アニメーテッド・スポーク"
+
+msgid "animated pizza cutter"
+msgstr "アニメーテッド・ピザカッター"
+
+msgid "The pizza cutter that stopped cutting pizza is on a journey to find a tougher opponent."
+msgstr "ピザを切るのをやめたピザカッターです、今はもっと硬くて手ごわい相手を探す旅をしています"
+
+msgid "An animated frying pan. It's floating in the air.If you get close enough, you can even float in the air for a little while."
+msgstr "動くフライパンです。宙に浮いており、近寄ると少しの間ですがあなたも宙に浮くことができます。"
+
+msgid "animated frying pan"
+msgstr "アニメーテッド・フライパン"
+
+msgid "babble"
+msgstr "バブル"
+
+msgid "This cute and lovable creature is a bubble! Why don't you up your dog food?."
+msgstr "このキュートでラブリーな生物はバブルです！。ドッグフードを与えてみませんか？"
+
+msgid "hole babble"
+msgstr "あなぐらバブル"
+
+msgid "Yes, the different colored monsters in this bubble! It's a hole-in-the-wall bubble! looks like it likes dog food."
+msgstr "イエス！！この色違いのバブルはあなぐらバブルです！。ドッグフードが好きそうな顔をしていますね。"
+
+msgid "cave babble"
+msgstr "洞窟バブル"
+
+msgid "Whoa! This purple bubble seems to have a harder skin than it looks! it still seems to like dog food."
+msgstr "ワオォ！　この紫色のバブルは見た目以上に硬い皮膚を持っているようです。まだドッグフードが好きそうです。"
+
+msgid "Insect Summoner"
+msgstr "蟲術師"
+
+msgid "summoner who excels in the art of summoning insects."
+msgstr "蟲術に精通している召喚士です。"
+
+msgid "Flying mask"
+msgstr "浮遊する仮面"
+
+msgid "An animated mask, it seems to be staring at you the whole time."
+msgstr "宙に漂っている動く仮面です。ずっとあなたのことを見つめているようです。"
+
+msgid "masked human"
+msgstr "仮面をしたヒトガタ"
+
+msgid "It is a human-like creature whose mind is controlled by a mask."
+msgstr "仮面に精神を乗っ取られた人の形をした生物です。"
+
+msgid "thunder bird chick"
+msgstr "雷鳥の雛"
+
+msgid "It is an electrified bird of chick. Would you like to touch it?"
+msgstr "静電気を放つ鳥の雛です。少し触ってみませんか？"
+
+msgid "thunder bird"
+msgstr "雷鳥"
+
+msgid "It is an electrified bird with large wings and two tails. Touching it is a good stimulus! Would you like to touch it?"
+msgstr "長い羽と二つのしっぽを持つ電気をまとっている成鳥です。触ってみると良い刺激を得ることができます。触れてみませんか？"
+
+msgid "blaze bird chick"
+msgstr "炎鳥の雛"
+
+msgid "It is an blaze bird of chick. It is releasing heat."
+msgstr "熱気を放つ鳥の雛です。空飛ぶ暖房器具です。"
+
+msgid "blaze bird"
+msgstr "炎鳥"
+
+msgid "It is a blaze bird with large wings and two tails. It's so hot that you can sweat even from a distance."
+msgstr "長い羽と二つのしっぽを持つ炎をまとっている成鳥です。遠くにいても汗を掻くほどの熱気を出しています。"
+
+msgid "shaman who excels at summoning totems."
+msgstr "トーテム召喚に精通しているシャーマンです。"
+
+msgid "Slow Totem"
+msgstr "鈍足のトーテム"
+
+msgid "slow nearby enemies."
+msgstr "近くの敵を鈍足にするトーテム"
+
+msgid "Healing red Fairy"
+msgstr "回復妖精：レッド"
+
+msgid "She is a fairy who will take a stand and heal your hp."
+msgstr "身を挺してあなたの体力を回復してくれる妖精さんです。"
+
+msgid "Healing blue Fairy"
+msgstr "回復妖精：ブルー"
+
+msgid "She is a fairy who will take a stand and heal your mp."
+msgstr "身を挺してあなたのMPを回復してくれる妖精さんです。"
+
+msgid "Enchanter"
+msgstr "エンチャンター"
+
+msgid "enchanter who excels in the art of enchanting and healing."
+msgstr "近くの味方の移動速度を上昇させ、体力を少量回復するエンチャンターです。"
+
+msgid "Magical Botanist"
+msgstr "マジカル植物学者"
+
+msgid "botanist with access to nature-related magic."
+msgstr "自然魔法に精通している植物学者です。"
+
+msgid "wandering spirit"
+msgstr "ただよう魂"
+
+msgid "It is a wandering spirit. It doesn't seem dangerous, but it's very quick."
+msgstr "ただよう魂です。危険には見えませんがすごくすばしっこいです。"
+
+msgid "One-eyed bat"
+msgstr "一つ目コウモリ"
+
+msgid "One-eyed turret"
+msgstr "一つ目タレット"
+
+msgid "One-eyed Gate"
+msgstr "一つ目の門"
+
+msgid "Golem turret"
+msgstr "ゴーレムタレット"
+
+msgid "Invoke crystal golem "
+msgstr "ゴーレムを呼び出す"
+
+msgid "Command Golem:Charge"
+msgstr "コマンド ゴーレム：突撃"
+
+msgid "Command Golem:Retreat"
+msgstr "コマンド ゴーレム：撤退"
+
+msgid "Command the golem to assault the enemy."
+msgstr "ゴーレムに命令を出し、敵に突撃させる。"
+
+msgid "Command the golem to withdraw from the enemy to recover from the bad situation."
+msgstr "ゴーレムに命令を出し、一時的に敵から撤退させ、劣勢な状況から回復させる。"
+
+msgid "Repair Golem"
+msgstr "修復：ゴーレム"
+
+msgid "Repair some HP of the target golem ."
+msgstr "ゴーレムの体力をいくつか回復させる。"
+
+msgid "Moon light"
+msgstr "月光"
+
+msgid "A magic that condenses the power of moonlight and releases it as a laser."
+msgstr "月光の力を凝縮し、それをレーザーとして放つ魔法。"
+
+msgid "Onigiri heal"
+msgstr "おにぎりヒール"
+
+msgid "You are full of energy after eating a grilled rice ball."
+msgstr "焼きおにぎりを食べて元気いっぱいです。"
+
+msgid "You recover some hp."
+msgstr "いくつかのHPを回復します。"
+
+msgid "Summon insects"
+msgstr "蟲招来"
+
+msgid "Summons a random insect."
+msgstr "ランダムな虫を召喚します。"
+
+msgid "Acid rain."
+msgstr "アシッドレイン"
+
+msgid "Totem Polymorph:Plague rat"
+msgstr "トーテム変化：毒ネズミ"
+
+msgid "Polymorph target totem into plague rat totem that summons 2 of plague rats every 8 seconds."
+msgstr "対象のトーテムを毒ネズミトーテムに変化させます"
+
+msgid "Polymorph Totem"
+msgstr "変化：トーテム"
+
+msgid ""
+"Polymorph target totem into another form.\n"
+" Fear totem into stun totem that stun nearby enemies.\n"
+"Mindcontrol Totem into Strengthening totem that buffs nearby friendly units.\n"
+"blind Totem into spotting totem that spots and illuminates all nearby enemies.\n"
+"Plague totem into rat totem that summon a lot of plague rats."
+msgstr ""
+"対象のトーテムを別の姿に変化させます。\n"
+"恐怖のトーテムを近くの敵を気絶するトーテムに\n"
+"精神支配のトーテムを味方を強化する祝福のトーテムに\n"
+"盲目のトーテムを近くの敵を探知するトーテムに\n"
+"伝染病のトーテムを毒ネズミを召喚するトーテムに変化させます。"
+
+msgid "Repair Totem"
+msgstr "修復：トーテム"
+
+msgid "Repair target totem to full HP ."
+msgstr "対象のトーテムのHPを最大まで回復させます。"
+
+msgid "Summon a Tauntotem "
+msgstr "召喚：タウントーテム"
+
+msgid "Summon a Totem that Taunt nearby enemies(max range:5 tiles)."
+msgstr "5タイル以内の敵を挑発して攻撃を引き受けるトーテムを召喚する。"
+
+msgid "Summon a plague Totem "
+msgstr "召喚：伝染病のトーテム"
+
+msgid "Summon a Totem that inflicts plague(slowing and Dot) nearby enemies(max range:12 tiles)."
+msgstr "12タイル以内の敵に移動速度と継続ダメージを与える毒を放つトーテムを召喚する。"
+
+msgid "Summon a Totem that blind nearest enemies(max range:15 tiles)."
+msgstr "15タイル以内の敵の視界を奪うトーテムを召喚する。"
+
+msgid "Summon blight box "
+msgstr "召喚：光り輝く箱"
+
+msgid "Summon a box that emits weakly light continuously, this box doesn't attack anything nor is considered as your ally."
+msgstr "光を放つ箱を召喚する。箱は敵として召喚され、その場を動くことも攻撃することもない"
+
+msgid "Tiamat breath"
+msgstr "ティアマト・ブレス"
+
+msgid "Shoots a very large ice laser to the target point. It takes a while to recharge, but it's powerful enough to create a pool of water in the path of the laser."
+msgstr "対象の地点までものすごく大きい氷のレーザーを放つ。チャージに時間はかかるが、威力は申し分なく、レーザーの通り道に水のたまり場ができる"
+
+msgid "Mega Cure wounds"
+msgstr "大いなる回復術"
+
+msgid "It consumes a lot of time and heals a lot of your HP."
+msgstr "多くの時間を消費し、自分のHPを大量に治癒する。"
+
+msgid "Conjure a Magic Moon Light "
+msgstr "召喚：月光の魔法杖"
+
+msgid "Conjure a magic wand of moonlight that can continue to cast laser-spell until it disappears."
+msgstr "消えるまでずっとレーザー魔法を放ち続けることができる月光の魔法杖を召喚する"
+
+msgid "This spell enchants you with great blessing and covered by protect aura that reduce all received damage by half and increase your HP,STAMINA and MANA by 20%, strengthen all status by 15. This aura also heal your hp every 10 minutes"
+msgstr "この魔法はあなたに大いなる祝福を与え、受けた全てのダメージを半減し、HPとSTAMINAとMANAを20%増加させ、全てのステータスを15%強化するプロテクトオーラに覆われる. また、このオーラは10分ごとにあなたのHPを回復します。"
+
+msgid "Mask's acceleration"
+msgstr "マスク・オ・加速"
+
+msgid "This spell overclock yourself for a short time."
+msgstr "一瞬だがあなたの速度を急上昇させる。"
+
+msgid "mask of acceleration"
+msgid_plural "masks of acceleration"
+msgstr[0] "加速せし奇妙なマスク"
+
+msgid "mask of acceleration+1"
+msgid_plural "masks of acceleration+1"
+msgstr[0] "加速せし奇妙なマスク+1"
+
+msgid "mask of acceleration+2"
+msgid_plural "masks of acceleration+2"
+msgstr[0] "加速せし奇妙なマスク+2"
+
+msgid "magical vine seeds"
+msgstr "魔法の蔓の種"
+
+msgid "Seeds that grow friendly vines as soon as they are planted."
+msgstr "植えるとすぐに友好的な蔓が生えてくる魔法の種。"
+
+msgid "Magical Coin"
+msgstr "魔法のコイン"
+
+msgid "magical sentry-plant seeds"
+msgstr "魔法のセントリープラントの種"
+
+msgid "Seeds that grow friendly sentry-plants as soon as they are planted."
+msgstr "植えるとすぐに友好的なセントリープラントが生えてくる魔法の種。"
+
+msgid "low-ranking ninja"
+msgstr "下忍"
+
+msgid "middle-ranking ninja"
+msgstr "中忍"
+
+msgid "My ninjutsu skills are not yet up to par, but I am still a ninja!"
+msgstr "忍術の腕はまだまだですが、それでも私は忍者です！"
+
+msgid "He is a ninja who excels in ninjutsu. He will definitely make you confused!"
+msgstr "忍術に精通している中忍です。彼の術に錯乱させられること間違いなしです！"
+
+msgid "Dark Fairy"
+msgstr "ダークフェアリー"
+
+msgid "Thunder Snake"
+msgstr "サンダースネーク"
+
+msgid "Summon a thunder snake that jumps from enemy to enemy in the target area and dealing damage to them."
+msgstr "対象範囲内の敵から敵へと飛び回りながらダメージを与える雷の蛇を召喚する"
+
+msgid "Summon a skeleton grave"
+msgstr "召喚：スケルトン墓"
+
+msgid "Summon a grave that raises lesser skeletons from underground every 8 seconds."
+msgstr "対象地点に墓を召喚する。その墓は8秒毎に2体のレッサースケルトンを召喚し続ける。"
+
+msgid "Acid rain"
+msgstr "アシッドレイン"
+
+msgid "A spell that causes acid rain to fall on a target location."
+msgstr "対象範囲に酸の雨を降らしダメージを与える。その範囲内に沢山の酸のフィールドを残す。"
+
+msgid "Search Field"
+msgstr "探知フィールド"
+
+msgid "Visualize all organisms at the target location for a short while."
+msgstr "対象地点にいるすべての生物を少しの間可視化する。"
+
+msgid "Create Your Clone"
+msgstr "クローン作成"
+
+msgid "Create your own clone with your blood,clone has random traits and support your life."
+msgstr "自分の血液を使い、あなたの生活をより豊かにするクローンをつくる。"
+
+msgid "Magiclysm with Random Dungeons"
+msgstr "マジクリズム　with ランダムダンジョン"
+
+msgid ""
+"Unofficial Expansion of magiclysm.\n"
+"Conquer randomly generated dungeons to get lots of spellbooks, wands, and treasures!"
+msgstr "非公式のマジクリズムの拡張modです。ランダムに生成されるダンジョンを制覇して沢山の魔法書や魔法杖、お宝を手に入れましょう!"
+
+msgid "Babble's tail"
+msgstr "バブルの尻尾"
+
+msgid "The Babble's tail are bouncy and taste good."
+msgstr "弾力があり、味も良く、生で食べることができるバブルの大きな尻尾です。"
+
+msgid "Frog Polymorpher"
+msgstr "カエルの変化術師"
+
+msgid "Polymorpher who excels in the art of Polymophing frogs."
+msgstr "カエルの変化術師です。近くのカエルを変化させる魔法に精通しています。"
+
+msgid "Healing ally"
+msgstr "仲間回復"
+
+msgid "Scroll of the Big Room"
+msgstr "大部屋の巻物"
+
+msgid "Remove all stone walls from random dungeons."
+msgstr "読むとランダムダンジョンの全ての石壁を取り除く巻物です。"
+
+msgid "Scroll of clairvoyance"
+msgstr "透視の巻物"
+
+msgid "You'll be able to see through the entire terrain for a little while."
+msgstr "読むと広範囲のエリアを短い間、透視することができる巻物です。"
+
+msgid "Scroll of Hasten"
+msgstr "加速の巻物"
+
+msgid ""
+"A spell scroll that affects a wide area.\n"
+" Greatly increases the movement speed of all affected units."
+msgstr "読むと広範囲のエリアにいる全てのユニットの速度を短い間、大幅に上げる巻物です。"
+
+msgid "Scroll of Frighten"
+msgstr "恐怖の巻物"
+
+msgid "A spell scroll that, when read, will briefly terrify all units in a wide area and cause them to flee."
+msgstr "読むと広範囲のエリアにいる全てのユニットを短い間、恐怖に陥れ、逃げるようにさせる巻物です。"
+
+msgid "Scroll of Freese"
+msgstr "硬直の巻物"
+
+msgid "A spell scroll that, when read, causes all units in a wide area to become stiff and unable to act for a short period of time!."
+msgstr "読むと広範囲のエリアにいる全てのユニットを短い間、硬直させ、行動不能にさせる巻物です。"
+
+msgid "Scroll of Summoning"
+msgstr "召喚の巻物"
+
+msgid ""
+"This is a scroll of summoning.\n"
+" When you read it, it will summon many dungeon creatures around you for 10 minutes, either enemies or allies."
+msgstr "これは召喚の巻物です。読むと周囲にたくさんのモンスターを10分間呼びます。敵が呼ばれるか味方が呼ばれるかはランダムです。"
+
+msgid "Scroll of Collect items"
+msgstr "アイテム収集の巻物"
+
+msgid ""
+"This is a scroll of collect items.\n"
+" When you read it, collect surrounding items in the target area.\n"
+" This effects ignore walls."
+msgstr "これはアイテム収集の巻物です。読むと壁を無視して、周囲のアイテムを対象地点に集めます。吸い寄せることができないアイテムもあります。"
+
+msgid "Scroll of Sanctuary"
+msgstr "聖域の巻物"
+
+msgid ""
+"This is a scroll of Sanctuary.\n"
+" When you read it, Create a sanctuary field at the target location. While in the sanctuary, all stats will be enhanced."
+msgstr "これは聖域の巻物です。読むと対象地点に聖域を作ります。聖域内にいる限り全てのステータスが大幅に上がります。"
+
+msgid "Scroll of summon gate"
+msgstr "召喚ゲートの巻物"
+
+msgid ""
+"This is a scroll of summon gate.\n"
+" When you read it, Create a summon gate field at the target location. A lot of hostiles appear from that field."
+msgstr "これは召喚ゲートの巻物です。読むと対象地点に召喚の門を作ります。その門からは沢山のモンスターが出現し、カオスになること間違いないでしょう。"
+
+msgid "Scroll of Thunder snake"
+msgstr "サンダースネークの巻物"
+
+msgid ""
+"This is a scroll of thunder snake.\n"
+" When you read it, Summon a thunder snake that jumps from enemy to enemy in the target area and dealing damage to them."
+msgstr "これはサンダースネークの巻物です。読むと対象範囲内の敵から敵へと飛び回りながらダメージを与える雷の蛇を召喚する。"
+
+msgid "Scroll of Orchard"
+msgstr "果樹園の巻物"
+
+msgid ""
+"This is a scroll of Scroll of Orchard.\n"
+" When you read it, Instantly fills some of target tiles with orchard.\n"
+" Those who step on those fields gain status bonus, quench some thirst and greatly recover stamina."
+msgstr "これは果樹園の巻物です。読むと、瞬時に対象のタイルの一部が果樹園で満たされ、その上に乗るとスタミナが回復し、果物の種類により様々なバフが獲得できます。"
+
+msgid "Scroll of Upgrade"
+msgstr "進化の巻物"
+
+msgid ""
+"This is a scroll of Scroll of Orchard.\n"
+" When you read it, Upgrade upgradeable monsters in a large AOE."
+msgstr "これは進化の巻物です。読むと広範囲の進化可能なモンスターを一段階成長させます。"
+
+msgid "Scroll of Monster House"
+msgstr "モンスターハウスの巻物"
+
+msgid ""
+"This is the scroll of the Monster House.\n"
+" When you read it, it summons a lot of enemies around you. These monsters won't disappear until they die!."
+msgstr "これはモンスターハウスの巻物です。読むと部屋一面にモンスターで溢れます。それらのモンスターは死ぬまで消えることはありません。"
+
+msgid "Scroll of Nothing Written"
+msgstr "白紙の巻物"
+
+msgid ""
+"This is the scroll of the Nothing Written.\n"
+" When you read it, you know what is blank!."
+msgstr "これは白紙の巻物です。読むと空白が何かを理解することができます。"
+
+msgid "Call babble"
+msgstr "バブル招集"
+
+msgid "Call babble+1"
+msgstr "バブル招集+1"
+
+msgid "Call babble+2"
+msgstr "バブル招集+2"
+
+msgid "The Sword of Babble"
+msgstr "バブルの剣"
+
+msgid "The Sword of Babble+1"
+msgstr "バブルの剣+1"
+
+msgid "The Sword of Babble+2"
+msgstr "バブルの剣+2"
+
+msgid ""
+"This is a rare weapon dropped by a babble.\n"
+"On rare occasions when attacking, babbles will come to your aid for a short while."
+msgstr "これはバブルの剣です。偶に攻撃時に味方のバブルが加勢に来てくれます。"
+
+msgid ""
+"This is a rare weapon dropped by a babble.\n"
+"On rare occasions when attacking, babbles will come to your aid for a short while.\n"
+"The upgrades increase the power of the weapon and the chance of it coming to your aid."
+msgstr ""
+"これはバブルの剣+1です。偶に攻撃時に味方のバブルが加勢に来てくれます。\n"
+"強化により、武器の威力と加勢に来る確率が上がっています。"
+
+msgid ""
+"This is a rare weapon dropped by a babble.\n"
+"On rare occasions when attacking, babbles will come to your aid for a short while.\n"
+"Further upgrades increase the power of the weapon and the chance of it coming to your aid."
+msgstr ""
+"これはバブルの剣+2です。偶に攻撃時に味方のバブルが加勢に来てくれます。\n"
+"さらなる強化により、武器の威力と加勢に来る確率が上がっています。"
+
+msgid "The Shield of Babble"
+msgstr "バブルの盾"
+
+msgid "The Shield of Babble+1"
+msgstr "バブルの盾+1"
+
+msgid "The Shield of Babble+2"
+msgstr "バブルの盾+2"
+
+msgid ""
+"This is a rare shield dropped by a babble.\n"
+"On rare occasions when attacked by an enemy, babbles will come to your aid for a short while."
+msgstr "これはバブルの盾です。偶に被攻撃時に味方のバブルが加勢に来てくれます。"
+
+msgid ""
+"This is a rare shield dropped by a babble.\n"
+"On rare occasions when attacked by an enemy, babbles will come to your aid for a short while.\n"
+"The upgrades increase the defence of the shield and the chance of it coming to your aid."
+msgstr "これはバブルの盾+1です。偶に被攻撃時に味方のバブルが加勢に来てくれます。強化により、盾の防御力と加勢に来る確率が上がっています"
+
+msgid ""
+"This is a rare shield dropped by a babble.\n"
+"On rare occasions when attacked by an enemy, babbles will come to your aid for a short while.\n"
+"Further upgrades increase the defence of the shield and the chance of it coming to your aid."
+msgstr "これはバブルの盾+2です。偶に被攻撃時に味方のバブルが加勢に来てくれます。さらなる強化により、盾の防御力と加勢に来る確率が上がっています"
+
+msgid ""
+"Hello one of me!\n"
+"Do you want to travel with me?"
+msgstr "やあ、私たちの一人よ！ 一緒に旅行しないか？"
+
+msgid "That's exactly my thought. We have so much in common, let's travel together!!"
+msgstr "もちろんよ！私たちは共通点が多いんだから一緒に旅に出るべきだわ。"
+
+msgid "Hey, I'm you! I was made from you."
+msgstr "私はあなたよ！　あなたから作られたの！"
+
+msgctxt "profession_male"
+msgid "CHEAT UNIT FOR MOD"
+msgstr "magiclysm_with_dungeonデバッグ用のキャラ"
+
+msgctxt "profession_female"
+msgid "CHEAT UNIT FOR MOD"
+msgstr "magiclysm_with_dungeonデバッグ用のキャラ"
+
+msgctxt "prof_desc_male"
+msgid "This is a character for debugging. It is not a bug even if this is displayed."
+msgstr "これはマジクリズムwithランダムダンジョンのデバッグ用のキャラです。これが表示されていてもバグではございません。"
+
+msgctxt "prof_desc_female"
+msgid "This is a character for debugging. It is not a bug even if this is displayed."
+msgstr "これはマジクリズムwithランダムダンジョンのデバッグ用のキャラです。これが表示されていてもバグではございません。"
+
+msgctxt "profession_male"
+msgid "[Magiclysm_with_Random_Dungeons] Alien Pilot"
+msgstr "[Magiclysm_with_Random_Dungeons]異星人パイロット"
+
+msgctxt "profession_female"
+msgid "[Magiclysm_with_Random_Dungeons] Alien Pilot"
+msgstr "[Magiclysm_with_Random_Dungeons]異星人パイロット"
+
+msgctxt "profession_male"
+msgid "[PSY] Alien Pilot"
+msgstr "[PSY]異星人パイロット"
+
+msgctxt "profession_female"
+msgid "[PSY] Alien Pilot"
+msgstr "[PSY]異星人パイロット"
+
+msgctxt "prof_desc_male"
+msgid "After getting your dream license as a UFO pilot, you were making a living by flying businessmen and tourists. One day, however, the cataclysm occurs and your UFO malfunctions, sending you here to Earth."
+msgstr "念願のUFOパイロットの免許を取得し、あなたはビジネスマンや観光客を乗せて生計を立てて生活していました。 しかしあるときに天変地異が起きUFOに誤作動が起き、ここ地球まで飛ばされました."
+
+msgctxt "prof_desc_female"
+msgid "After getting your dream license as a UFO pilot, you were making a living by flying businessmen and tourists. One day, however, the cataclysm occurs and your UFO malfunctions, sending you here to Earth."
+msgstr "念願のUFOパイロットの免許を取得し、あなたはビジネスマンや観光客を乗せて生計を立てて生活していました。 しかしあるときに天変地異が起きUFOに誤作動が起き、ここ地球まで飛ばされました."
+
+msgctxt "profession_male"
+msgid "[Magiclysm_with_Random_Dungeons] Magical botanist"
+msgstr "[Magiclysm_with_Random_Dungeons]魔法の植物学者"
+
+msgctxt "profession_female"
+msgid "[Magiclysm_with_Random_Dungeons] Magical botanist"
+msgstr "[Magiclysm_with_Random_Dungeons]魔法の植物学者"
+
+msgctxt "profession_male"
+msgid "[PSY] Magical botanist"
+msgstr "[PSY]魔法の植物学者"
+
+msgctxt "profession_female"
+msgid "[PSY] Magical botanist"
+msgstr "[PSY]魔法の植物学者"
+
+msgctxt "prof_desc_male"
+msgid "You are an advanced botanist and know how to grow plants instantly from the seeding."
+msgstr "あなたは上級の植物学者で、種まきから即座に植物を育てる方法を知っています。"
+
+
+msgctxt "prof_desc_female"
+msgid "You are an advanced botanist and know how to grow plants instantly from the seeding."
+msgstr "あなたは上級の植物学者で、種まきから即座に植物を育てる方法を知っています。"
+
+msgctxt "profession_male"
+msgid "[Magiclysm_with_Random_Dungeons] Totemancer"
+msgstr "[Magiclysm_with_Random_Dungeons]トーテム術師"
+
+msgctxt "profession_female"
+msgid "[Magiclysm_with_Random_Dungeons] Totemancer"
+msgstr "[Magiclysm_with_Random_Dungeons]トーテム術師"
+
+
+msgctxt "profession_male"
+msgid "[PSY] Totemancer"
+msgstr "[PSY]トーテム術師"
+
+msgctxt "profession_female"
+msgid "[PSY] Totemancer"
+msgstr "[PSY]トーテム術師"
+
+
+msgctxt "prof_desc_male"
+msgid "You are a shaman familiar with totems."
+msgstr "あなたはトーテムに精通するシャーマンです。"
+
+msgctxt "prof_desc_female"
+msgid "You are a shaman familiar with totems."
+msgstr "あなたはトーテムに精通するシャーマンです。"
+
+msgctxt "profession_male"
+msgid "[PSY] Disaster bringer"
+msgstr "[PSY]災害をもたらす者"
+
+msgctxt "profession_female"
+msgid "[PSY] Disaster bringer"
+msgstr "[PSY]災害をもたらす者"
+
+msgctxt "profession_male"
+msgid "[Magiclysm_with_Random_Dungeons] Disaster bringer"
+msgstr "[Magiclysm_with_Random_Dungeons]災害をもたらす者"
+
+msgctxt "profession_female"
+msgid "[Magiclysm_with_Random_Dungeons] Disaster bringer"
+msgstr "[Magiclysm_with_Random_Dungeons]災害をもたらす者"
+
+
+msgctxt "prof_desc_male"
+msgid "You were drawn to Earth by a natural cataclysm and came to visit."
+msgstr "あなたは天変地異に引き寄せられ地球に遊びに来たヒトガタです。"
+
+msgctxt "prof_desc_female"
+msgid "You were drawn to Earth by a natural cataclysm and came to visit."
+msgstr "あなたは天変地異に引き寄せられ地球に遊びに来たヒトガタです。"
+
+msgctxt "profession_male"
+msgid "[Magiclysm_with_Random_Dungeons] All for one"
+msgstr "[Magiclysm_with_Random_Dungeons]  オールフォーワン"
+
+msgctxt "profession_female"
+msgid "[Magiclysm_with_Random_Dungeons] All for one"
+msgstr "[Magiclysm_with_Random_Dungeons]  オールフォーワン"
+
+msgctxt "profession_male"
+msgid "[PSY] All for one"
+msgstr "[PSY]  オールフォーワン"
+
+msgctxt "profession_female"
+msgid "[PSY] All for one"
+msgstr "[PSY]  オールフォーワン"
+
+msgctxt "prof_desc_male"
+msgid ""
+"You have the unique property of being able to create clones.\n"
+"Let's make this world full of you!"
+msgstr "あなたはクローンを作成できる唯一無二の特性を持っています。この世界をあなたで満ち溢れさせましょう!"
+
+msgctxt "prof_desc_female"
+msgid ""
+"You have the unique property of being able to create clones.\n"
+"Let's make this world full of you!"
+msgstr "あなたはクローンを作成できる唯一無二の特性を持っています。この世界をあなたで満ち溢れさせましょう!"
+
+msgctxt "profession_male"
+msgid "[Magiclysm_with_Random_Dungeons] Unholy summoner"
+msgstr "[Magiclysm_with_Random_Dungeons]邪悪なる召喚士"
+
+msgctxt "profession_female"
+msgid "[Magiclysm_with_Random_Dungeons] Unholy summoner"
+msgstr "[Magiclysm_with_Random_Dungeons]邪悪なる召喚士"
+
+msgctxt "profession_male"
+msgid "[PSY] Unholy summoner"
+msgstr "[PSY]邪悪なる召喚士"
+
+msgctxt "profession_female"
+msgid "[PSY] Unholy summoner"
+msgstr "[PSY]邪悪なる召喚士"
+
+
+msgctxt "prof_desc_male"
+msgid "You are one of the beings who have been waiting for this moment. A summoner who uses a great deal of dark magic."
+msgstr "あなたはこの時を待っていた存在の一人で、多彩な黒魔術を使う召喚士です。"
+
+msgctxt "prof_desc_female"
+msgid "You are one of the beings who have been waiting for this moment. A summoner who uses a great deal of dark magic."
+msgstr "あなたはこの時を待っていた存在の一人で、多彩な黒魔術を使う召喚士です。"
+
+msgid "Mana Pocket 500"
+msgstr "マナ容量500"
+
+msgid "Mana Pocket 1000"
+msgstr "マナ容量1000"
+
+msgid "Mana Pocket 1500"
+msgstr "マナ容量1500"
+
+msgid "Mana Regeneration 1.1"
+msgstr "マナ回復1.1x"
+
+msgid "Mana Regeneration 1.2"
+msgstr "マナ回復1.2x"
+
+msgid "Mana Regeneration 1.3"
+msgstr "マナ回復1.3x"
+
+msgid "Your natural mana regeneration is 1.1x faster than normal."
+msgstr "マナ回復速度が1,1倍に増えます。"
+
+msgid "Your natural mana regeneration is 1.2x faster than normal."
+msgstr "マナ回復速度が1,2倍に増えます。"
+
+msgid "Your natural mana regeneration is 1.3x faster than normal."
+msgstr "マナ回復速度が1,3倍に増えます。"
+
+msgid "Plant Smell"
+msgstr "植物の匂い"
+
+msgid "You smell like a plant,  So triffids won't hostile against you."
+msgstr "あなたは植物と同じ匂いがします。トリフィドたちはあなたに敵対しません。"
+
+msgid "Stamina Regeneration 1.1"
+msgstr "スタミナ回復1.1x"
+
+msgid "Stamina Regeneration 1.2"
+msgstr "スタミナ回復1.2x"
+
+msgid "Your natural stamina regeneration is 1.1x faster than normal."
+msgstr "スタミナ回復速度が1,1倍に増えます。"
+
+msgid "Your natural stamina regeneration is 1.2x faster than normal."
+msgstr "スタミナ回復速度が1.2倍に増えます。"
+
+msgid "Stamina Capacity 1.15"
+msgstr "スタミナ容量15%UP"
+
+msgid "Your stamina capacity has been increased by 15%."
+msgstr "あなたのスタミナの容量が15%増えました。"
+
+msgid "MAX HP +10%"
+msgstr "MAXHP10%UP"
+
+msgid "It takes a lot to bring you down!  You get a 10% bonus to all hit points."
+msgstr "あなたが倒されるまでの時間がより多く必要です。全パーツのMAXHPに10%のボーナス"
+
+msgid "HARDEN SKIN 1"
+msgstr "強化皮膚 1"
+
+msgid "Your skin is tough.  Cutting and bashing damage is slightly reduced for you.  All parts of armor +1."
+msgstr "あなたの皮膚は少し硬くなりました。カットとバッシュダメージを少し減らします。全てのパーツに装甲+１"
+
+msgid "animated pawn of chess"
+msgstr "動くチェス駒：ポーン"
+
+msgid "A moving pawn of chess that will come closer to you step by step."
+msgstr "一歩一歩、あなたに近づいてくる動くチェス駒のポーン。"
+
+msgid "animated rook of chess"
+msgstr "動くチェス駒：ルーク"
+
+msgid "A moving rook of chess that draws you in and delivers a powerful blow."
+msgstr "敵を引き込み、強烈な一撃を放つ動くチェス駒のルーク。"
+
+msgid "animated knight of chess"
+msgstr "動くチェス駒：ナイト"
+
+msgid "A moving chess knight that charges at you and deals damage."
+msgstr "遠方からあなたに向かって突撃しダメージを与える、動くチェス駒の騎士。"
+
+msgid "animated bishop of chess"
+msgstr "動くチェス駒：ビショップ"
+
+msgid "A moving bishop of chess that uses a variety of magic to provide support."
+msgstr "様々な魔法を駆使してサポートする動くチェス駒のビショップ。"
+
+msgid "animated queen of chess"
+msgstr "動くチェス駒：クイーン"
+
+msgid "A moving queen of chess that can revive her fellow chess pieces."
+msgstr "仲間のチェスの駒を復活させることができる、動くチェス駒の女王。"
+
+msgid "animated king of chess"
+msgstr "動くチェス駒：キング"
+
+msgid "A moving king of chess that can summon his fellow chess pieces."
+msgstr "仲間の駒を呼び出すことができる、動くチェスの王。"
+
+msgid "wand of upgrade"
+msgid_plural "wands of upgrade"
+msgstr[0] "進化の魔法杖"
+
+msgid "This is magic wand that upgrades target upgradeable monster,It has no effect on monsters that cannot be upgraded."
+msgstr "これは進化可能なモンスターを一段階上のランクに進化させることができる魔法の杖です。進化不可のモンスターには効果がありません。"
+
+msgid "wand of tangled vines"
+msgid_plural "wands of tangled vines"
+msgstr[0] "絡まる蔦の魔法杖"
+
+msgid "wand of tangled vines+1"
+msgid_plural "wands of tangled vines+1"
+msgstr[0] "絡まる蔦の魔法杖+1"
+
+msgid "wand of tangled vines+2"
+msgid_plural "wands of tangled vines+2"
+msgstr[0] "絡まる蔦の魔法杖+2"
+
+msgid ""
+"This is magic wand that conjure Crawling magical vines up to the target location, then flourish many tangled vines after reaching there.\n"
+" Monsters who steps on the vine will move slower.\n"
+"Upgrades will increase damage and range."
+msgstr ""
+"この魔法の杖は、魔法でツタを目的地まで伸ばしそこに到達した後にたくさんのツタを繁茂させて敵にダメージを与えて対象の移動を阻害させる魔法を放つことができます。\n"
+"アップグレードすることによりダメージと射程が増えます。"
+
+msgid "wand of healing"
+msgid_plural "wand of healing"
+msgstr[0] "回復の魔法杖"
+
+msgid "wand of healing+1"
+msgid_plural "wand of healing+1"
+msgstr[0] "回復の魔法杖+1"
+
+msgid "wand of healing+2"
+msgid_plural "wand of healing+2"
+msgstr[0] "回復の魔法杖+2"
+
+msgid ""
+"A magic wand that heals all allies within 10 tiles except yourself and temporarily increases your movement speed.\n"
+"Upgrades will increase healing power."
+msgstr ""
+"これは10タイル以内にいるすべての仲間モンスターの体力を回復させ、一時的に移動速度を上げる魔法の杖です。自分自身には効果がありません。\n"
+"アップグレードすることにより回復力が上がる。"
+
+msgid "wand of resurrection"
+msgid_plural "wands of resurrection"
+msgstr[0] "堕落復活の魔法杖"
+
+msgid "wand of resurrection+1"
+msgid_plural "wands of resurrection+1"
+msgstr[0] "堕落復活の魔法杖+1"
+
+msgid "wand of resurrection+2"
+msgid_plural "wands of resurrection+2"
+msgstr[0] "堕落復活の魔法杖+2"
+
+msgid ""
+"A magic wand that compleatly reanimates the corpse of a resurrectable zombie as your side./n That zombie will turn again as an enemy in 24 hours.\n"
+"Upgrades will decrease casting cost."
+msgstr ""
+"復活可能なゾンビの死体を完全に味方として生き返らせる魔法の杖。\n そのゾンビは24時間後に再び敵として寝返る。\n"
+"アップグレードすることにより消費コストが下がる。"
+
+msgid ""
+"A magic wand that compleatly reanimates the corpse of a resurrectable zombie as your side.\n That zombie will turn again as an enemy in 24 hours.\n"
+"Upgrades will decrease casting cost."
+msgstr ""
+"復活可能なゾンビの死体を完全に味方として生き返らせる魔法の杖。\n そのゾンビは24時間後に再び敵として寝返る。\n"
+"アップグレードすることにより消費コストが下がる。"
+
+
+msgid "wand of pulling"
+msgid_plural "wands of pulling"
+msgstr[0] "引き寄せの魔法杖"
+
+msgid "wand of pulling+1"
+msgid_plural "wands of pulling+1"
+msgstr[0] "引き寄せの魔法杖+1"
+
+msgid "wand of pulling+2"
+msgid_plural "wands of pulling+2"
+msgstr[0] "引き寄せの魔法杖+2"
+
+msgid ""
+"A magic wand that attempts to pull the target towards the caster in a straight line.\n"
+"Upgrades will increase range."
+msgstr ""
+"対象モンスターを一直線にキャスターの元へ引き寄せる魔法の杖。\n"
+"アップグレードすることにより射程が伸びる。"
+
+msgid "wand of dashing"
+msgid_plural "wands of dashing"
+msgstr[0] "突撃の魔法杖"
+
+msgid "wand of dashing+1"
+msgid_plural "wands of dashing+1"
+msgstr[0] "突撃の魔法杖+1"
+
+msgid "wand of dashing+2"
+msgid_plural "wands of dashing+2"
+msgstr[0] "突撃の魔法杖+2"
+
+msgid ""
+"A magic wand that shoots a magic bullet at the target and causes the caster to move to it in a straight line.\n"
+"Upgrades will increase range."
+msgstr ""
+"目標に向かって魔弾を発射し、使用者をその目標に一直線に移動させる魔法の杖。\n"
+"アップグレードすることにより射程が伸びる。"
+
+msgid "wand of swapping"
+msgid_plural "wands of swapping"
+msgstr[0] "入れ替えの魔法杖"
+
+msgid "wand of swapping+1"
+msgid_plural "wands of swapping+1"
+msgstr[0] "入れ替えの魔法杖+1"
+
+msgid "wand of swapping+2"
+msgid_plural "wands of swapping+2"
+msgstr[0] "入れ替えの魔法杖+2"
+
+msgid ""
+"A magic wand that shoots a magic bullet at the target and swaps you and target positions in a long distance,   also slow target movement for a short of period.\n"
+"Upgrades will increase range and duration."
+msgstr ""
+"目標に魔法の弾丸を発射し、当たった対象モンスターと自分の位置が入れ替え、短時間対象の動きを遅くする魔法の杖です。\n"
+"アップグレードすることにより射程と効果時間が伸びる。"
+
+msgid "wand of chess of king"
+msgid_plural "wands of chess of king"
+msgstr[0] "チェスキングの魔法杖"
+
+msgid "wand of chess of king+1"
+msgid_plural "wands of chess of king+1"
+msgstr[0] "チェスキングの魔法杖+1"
+
+msgid "wand of chess of king+2"
+msgid_plural "wands of chess of king+2"
+msgstr[0] "チェスキングの魔法杖+2"
+
+msgid "A magic wand that summons 2 chess of pawns to the target location."
+msgstr "チェスの駒:ポーンを2体、目標地点に召喚する魔法の杖。"
+
+msgid "A magic wand that summons 4 chess of pawns to the target location."
+msgstr "チェスの駒:ポーンを2体、目標地点に召喚する魔法の杖。"
+
+msgid "A magic wand that summons 6 chess of pawns to the target location."
+msgstr "チェスの駒:ポーンを2体、目標地点に召喚する魔法の杖。"
+
+msgid "Summons 2(+ 2*enhancement value) chess of pawns to the target location."
+msgstr "チェスの駒:ポーンを2体+(2xプラス値)、目標地点に召喚する魔法の杖。"
+
+msgid "Summon chess of pawns"
+msgstr "召喚:チェスの駒:ポーン"
+
+msgid "dungeon map"
+msgstr "ダンジョンマップ"
+msgid "forest dungeon map"
+msgstr "森ダンジョンマップ"
+
+msgid ""
+"A mask that emits an eerie glow that, when activated, will rapidly increase your movement speed and make everything appear to have temporarily stopped in time!\n"
+"Upgrades will reduce charging time and increase charge pocket size."
+msgstr "不気味な光を放つマスクで、起動するとあなたの移動速度を急激に上げ、すべてのものが一時的に時間が止まったよう見えるようになります。アップグレードすることによりチャージ速度の短縮と充電容量が増えます。"
+
+msgid "Cursed"
+msgstr "呪い"
+
+msgid "Curse of blood"
+msgstr "血の呪い"
+
+msgid "Statue"
+msgstr "石像"
+
+msgid "You are cursed with the curse of blood."
+msgstr ""
+
+msgid "Pleasant hot water temperature"
+msgstr "快適な湯温"
+
+msgid "The water is soaked at a comfortable temperature."
+msgstr "心地よい温度のお湯に浸かっています。"
+
+msgid "Blessing of mysterious"
+msgstr "神秘の祝福"
+
+msgid "You have received the blessing of the stone statue of the mysterious. All your status are increased."
+msgstr "神秘の石像の加護を受け、全てのステータスが上昇しています。"
+
+msgid "Blessing of Cleric"
+msgstr "クレリックの祝福"
+
+msgid "You have received the blessing of the stone statue of cleric. You are immune from most conditions."
+msgstr "あなたはクレリックの石像の祝福を受けています。あなたはほとんどの状態異常から免れることができます。"
+
+msgid "Blessing of Horn"
+msgstr "角獣の祝福"
+
+msgid "You have received the blessing of the stone statue of the horn.Increased movement speed and resistance to bleeding."
+msgstr "角獣の石像の祝福を受け、移動速度と出血への耐性が増加しています。"
+
+msgid "Blessing of Swamp"
+msgstr "湿地の恵み"
+
+msgid "You have received the blessing of the stone statue of the swamp. Increased stamina recovery speed, and resistance to stunned."
+msgstr "沼地の石像の加護を受けた。スタミナ回復速度、気絶耐性が上昇します。"
+
+msgid "Deadly Cursed"
+msgstr "死霊の呪い"
+
+msgid "You are under the curse of death."
+msgstr "あなたは死の呪いにかかっています。"
+
+msgid "Bloody Curse"
+msgstr "ブラッディカース"
+
+msgid "You are under the curse of blood."
+msgstr "あなたは血の呪いにかかっています。"
+
+msgid "Attack Tempo"
+msgstr "アタックテンポ"
+
+msgid "Your movement speed is increased by the blessing of a mystical bird!"
+msgstr "神秘の鳥の加護により、移動速度がアップしています!"
+
+msgid "Your movement speed is increased by someone's wish."
+msgstr "誰かの歪んだ願いによりあなたの移動速度が上がっています。"
+
+msgid "Bird Accelerating"
+msgstr "バード・アクセラレーター"
+
+msgid "wand of Create Darkness Field"
+msgstr "ダークネスフィールドの魔法ワンド"
+
+msgid "wands of Create Darkness Field"
+msgstr "ダークネスフィールドの魔法ワンド"
+
+msgid "Create a field of darkness in the area of the target point."
+msgstr "目標地点の周辺に暗黒のフィールドを作る。"
+
+msgid "wand of Create Stunning Field"
+msgstr "電磁波フィールドの魔法ワンド"
+
+msgid "wands of Create Stunning Field"
+msgstr "電磁波フィールドの魔法ワンド"
+
+msgid "wand of blood rain"
+msgstr "血の雨の杖"
+
+msgid "wands of blood rain"
+msgstr "血の雨の杖"
+
+msgid "all-immune resistance aura"
+msgstr "オールイミューンレジスタンスオーラ"
+
+msgid "An all-encompassing, invisible layer of protection against all damage effect."
+msgstr "あらゆるダメージ効果から守る、目に見えないオーラ。"
+
+msgid "Guardian of the Elements"
+msgstr "エレメントの守護者"
+
+msgid "The Guardian of the Elements is a shield that appears in the Tale of King Walilnorth.This shield is said that the holder of this shield can manipulate the power of the four elements.The holder of this shield is said to be able to manipulate the power of the four elements. It is also said that the bearer of this shield never loses heart and never loses hope in any situation.The shield is rectangular in shape, with red, blue, yellow, and green gems embedded in the shield's handle.The gems are then filled with light of the four colors."
+msgstr "エレメントの守護者とは、ワリルノース王物語に登場する盾である。"
+"この盾は、"
+"精霊界と人間界を繋ぐ門番として、人間に害をなす魔物たちを討伐する役目を担っており、この盾を持つものは四元素"
+"の力を操ることができるとされている。また、この盾を持つ者は、どんな時でも決して心が折れることがなく、どのような状況でも希望を失わないという。"
+"盾の形状は長方形で、盾の持ち手には赤・青・黄・緑の宝石が埋め込まれている。"
+"そしてその宝石から、四色の光が溢れ出るようになっている。"
+
+msgid "Noble and luminous shield"
+msgstr "高貴なる光り輝く盾"
+
+msgid "The Noble and luminous shield is the shield that appears in the Tale of King Walilnorth.This shield was worn by King Walilnorth in his battle against the demon tribe.It is said to be so beautiful that enemy soldiers mistook it for the sun because of its brilliance.It is said that if anyone attacked a person equipped with this shield, he or she would be blinded by the dazzling light that was emitted.For this reason, it is said that the demon tribe could not attack the king who possessed this shield.It is also said that this shield contains powerful magical power, and when struck with it, even if the opponent is a demon king, it can create a momentary opening."
+msgstr "高貴なる光り輝く盾とは、ワリルノース王物語に登場する盾である。"
+"この盾は、"
+"ワリルノース王が魔族との戦いにおいて身に着けていたもので、その輝きから敵兵からは太陽と間違われたという逸話があるほどに美しいものであるとされている。"
+"そして、この盾を装備する者に攻撃をすると、眩い光が放たれて目を潰されてしまうらしい。"
+"そのため、魔族はこの盾を持つ王に対し攻撃することができなかったと言われている。"
+"また、この盾には強力な魔力が秘められており、その盾で殴られると、例え相手が魔王であっても一瞬の隙を作ることができると言われている。"
+
+msgid "The Great Shield of the Neutral End"
+msgstr "中立なる終わりの大盾"
+
+msgid "The Great Shield of the Neutral End is a shield that appears in the Tale of King Walilnorth.This shield has the effect of equalizing any damage it takes. Whether it is dragon fire or powerful acid, all damage blocked by this shield is reduced to 3.There is an anecdote about a man who, with this shield in his hand, was able to survive all the attacks of an oncoming dragon.However, the man was killed shortly thereafter by a large number of low-grade monsters."
+msgstr "中立なる終わりの大盾とは、ワリルノース王物語に登場する盾である。"
+"この盾は、受けるあらゆるダメージを均一にする効果を持つ。たとえ相手がドラゴンの炎であろうが、強力な酸であろうが、この盾に防がれたダメージはすべて3になるのだ。"
+"とある男が、この盾を持って迫りくるドラゴンの攻撃をすべて受け切ったという逸話がある。"
+"しかし、その男はその後すぐに大量に発生した低級モンスターによって命を落としてしまったという……。"
+
+msgid "Shield of Stories and Fraternity"
+msgstr "物語と友愛の盾"
+
+msgid "The Shield of Tales and Fraternity is a shield that appears in the Tales of King Walilnorth.This shield was The hero king Walilnorth risked his life to create it for the woman he loved, who later became the first queen.It is said that this shield has two powers.One is the power to protect those we love, and the other is the power to destroy those who are evil.It is said that these two powers have not disappeared even after King Walilnorth's death, and they continue to reside in the shield to this day."
+msgstr "物語と友愛の盾とは、ワリルノース王物語に登場する盾である。"
+"この盾は、"
+"英雄王ワリルノースが、愛した女性のために命を懸けて作り上げたもので、その女性は後に初代女王となった。"
+"この盾には、二つの力が備わっていると言われている。"
+"一つは、愛する者を守るための力であり、もう一つは、悪しき者を滅する力だ。"
+"この二つの力は、ワリルノース王が死してなお消えず、今も盾に宿り続けているとされている。"
+
+msgid "Shield of futile wishes"
+msgstr "無益な願いの盾"
+
+msgid "The Shield of Futile Wishes is a shield that appears in the Tale of King Walilnorth.This shield belonged to a certain male merchant, and was apparently placed in a coffin with him when he died. There is a curse on the shield, and if what you wish for comes true to your disadvantage, it will come true, but if what you wish for comes true to your disadvantage, it will not come true.But if the wish is for one's own benefit, it will not come true.Therefore, it is said that the person who obtains this shield will spend his life being driven by the greed of others.Due to the effect of this shield, the man kept failing in business and finally went bankrupt.The descendant of the merchant who owned the shield is said to have been involved in the founding of the Kingdom of Walil North.The descendant of the merchant is said to have been very lucky and became a wealthy man as his country developed greatly."
+msgstr "無益な願いの盾とは、ワリルノース王物語に登場する盾である。この盾はとある男商人が持っていた物で、男が死んだ時に一緒に棺桶に入れられていたらしい。その盾には呪いがかけられており、願った事が自分の不利益になる場合は叶うが、願った事が自分の利益に繋がると、それを叶えない性質を持っている。そのため、この盾を手に入れた者は、他人の欲に振り回される人生を送る事になるという。この盾の効果によって、この男は商売に失敗し続け最後には破産したそうだ。そんな逸話を持つ盾だが、この盾を持っていた男商人の子孫が、ワリルノース王国を建国に関わった者と云われている。この商人の子孫は、非常に幸運だったらしく、国が大きく発展すると共に大富豪となったようだ。"
+
+msgid "Shield of limpid filth"
+msgstr "清冽な汚物の盾"
+
+msgid "A shield of limpid filth is a shield that It is a shield that can disperse filth when it blocks an attack from an enemy.Its effect can also block the enemy's vision.It is also possible to attack a wide area by scattering the filth around the shield."
+msgstr "清冽な汚物の盾とは、敵からの攻撃を防いだ際に汚物をばら撒くことができる盾である。その効果で、敵の視界を封じることもできる。また、盾の周囲に汚物を巻き散らかすことで、広範囲を攻撃できる。"
+
+msgid "Shield of thought and Awakening"
+msgstr "思考と不覚の盾"
+
+msgid "The Shield of Thought and Awakening is when magical power is put into the shield, the shield itself has a will and periodically heals the person's wounds.However, if the person acts or thinks in a way that does not conform to the shield's will, it will attack back.The shield is also said to be cursed with a powerful curse, and even a single attack on the shield is said to cause extreme pain to the point of death."
+msgstr "思考と不覚の盾は"
+"魔力を込めると盾そのものが意思を持ち、その人物の傷を周期的に癒してくれるというものである。"
+"ただし、盾の意思にそぐわない行動や考えをすると、逆に攻撃してくる。"
+"そして、その盾には強力な呪いがかけられており、一度でも攻撃をくらってしまうと、死ぬほどの激痛を伴うという"
+
+msgid "The Shield of Decision and Wrath"
+msgstr "決断と怒りの盾"
+
+msgid "The Shield of Decision and Wrath is a shield that appears in the Tales of King Walilnorth.This shield was used by King Walilnorth when he slayed the evil dragon, and an anecdote has it that it protected him from the fireballs and flames that the dragon unleashed.King Walilnorth later won the battle against the evil entity, but it is said that he lost his life in the battle.The shield is inscribed with words of praise for his victory over the evil entity, and the feelings behind these words remain to this day."
+msgstr "決断と怒りの盾とは、ワリルノース王物語に登場する盾である。"
+"この盾は、ワリルノース王が邪悪なドラゴンを退治した時に使われた盾で、ドラゴンが放った火球や炎から守ったという逸話がある。"
+"ワリルノース王はその後、邪悪なる存在との戦いに勝利したが、その際に命を落としたと伝えられている。"
+"盾には邪悪なる存在に対する勝利を称える言葉が刻まれており、その言葉に込められた思いは今もなお残っている。"
+
+msgid "The Shield of the Hidden World"
+msgstr "隠された世界の盾"
+
+msgid "The shield of the hidden world is It has the ability to block any attack by releasing the power hidden in the shield, causing the world to be hidden.The shield of the hidden world also has another power, which is the power to create and change the world itself.With this ability, the shield of the hidden world can re-create the world itself."
+msgstr "隠された世界の盾は、"
+"盾に秘められた力を解放することで、世界が隠されてしまい、あらゆる攻撃を遮断するという能力を持っている。"
+"また、隠された世界の盾にはもう1つの力があり、それは世界そのものを創り変える力である。"
+"この能力により、隠された世界の盾は世界そのものを創造し直すことができる。"
+
+msgid "The Shield of Envy and Hatred"
+msgstr "妬み憎しみの盾"
+
+msgid "The Shield of Envy and Hatred is said to have the ability to amplify negative emotions such as jealousy and hatred that its owner harbors toward other human beings.Therefore, it is said that the negative emotions amplified by the shield of envy and hatred can be used to inflict damage on the other person.However, this ability is so powerful that it can become a double-edged sword that can cause pain to some users."
+msgstr "妬み憎しみの盾とは、持ち主が他の人間に対して抱く嫉妬や憎しみといった負の感情を増幅させる能力があるとされる。"
+"そのため、妬み憎しみの盾で増幅させた負の感情を相手にぶつけることで、相手にダメージを与えることができるという。"
+"しかし、この能力はあまりにも強力すぎるため、使い手によっては自分を苦しめる諸刃の剣と化してしまう。"
+
+msgid "The Sword of the Merciful and Relentless"
+msgstr "慈悲深き無頼の剣"
+
+msgid "The Sword of the Merciful and Relentless is a sword that appears in the Tales of King Walilnorth.It is said that this sword is a magical sword that changes its appearance depending on its wielder, and that it displays various abilities depending on the wielder.It is also said that its ability is dependent on the quality of the wielder, so even if the same person uses it, it will have a completely different ability.However, it is said that the true power of the sword is only demonstrated when the wielder becomes a truly powerful person, and no one has yet demonstrated its true power.Incidentally, when King Walilnorth used it, it was said to be a holy sword that healed its user."
+msgstr "慈悲深き無頼の剣とは、ワリルノース王物語に登場する剣である。"
+"この剣は持ち主によって姿を変える魔剣であり、使い手に応じて様々な能力を発揮すると言われている。"
+"また、その能力は使い手の素質に左右されるらしく、同じ人間が使っても全く別の能力になるらしい。"
+"だが、真の力を発揮するのは、持ち主が真の強者になった時だと言われており、まだ誰も真の力を発揮した事はない。"
+"ちなみに、ワリルノース王が使用した時は、使用者を癒す聖剣だったそうだ。"
+
+msgid "Deadly Sword of No-Rayu"
+msgstr "ノ・ラーユの死霊剣"
+
+msgid "The Deadly Sword of No-Rayu is a sword that appears in the Tales of King Walilnorth.It is said to have the power to manipulate the souls of the dead and make them repeat their actions in life.Using this power, King Walil North is said to have destroyed his enemies many times.After his death, however, the sword was sealed in the royal cemetery and is said to be guarded by the tomb guard dogs."
+msgstr "ノ・ラーユの死霊剣とは、ワリルノース王物語に登場する剣である。"
+"死者の魂を操り、生前の行動を繰り返させる力を持っているとされる。"
+"この力を用いて、ワリルノース王は敵国を何度も滅ぼしたとされている。"
+"しかし、その死後、王家の墓地にてこの剣は封印され、墓守の番犬が守護していると伝えられている。"
+
+msgid "The Sword of Termination and Waste"
+msgstr "終了と廃物の剣"
+
+msgid "The Sword of Termination and Waste is a sword that appears in the Tales of King Walilnorth.This sword is said to have been made by an enemy witch who cast a spell on King Walilnorth when he and his entourage of knights fought at the Alamo fortress.The sword is imbued with powerful magical powers and has the ability to read the minds and memories of those who touch it.It also has the terrifying power to force those touched by its blade to remember the fears within their own hearts."
+msgstr "終了と廃物の剣とは、ワリルノース王物語に登場する剣である。"
+"この剣はワリルノース王が側近の騎士と共にアラモの砦で戦った際に、敵の魔女が魔法をかけて作った物であると言われている。"
+"この剣には強力な魔力が宿っており、触れた者の心や記憶を読み取る力を持っている。"
+"また、その刃に触れた者は、己の心の中にある恐怖を強制的に思い出してしまうという恐ろしい力を持つ。"
+
+msgid "Thirteenth Needle of Resentment Slaughter"
+msgstr "怨念の十三針惨劇の剣"
+
+msgid "Thirteenth Needle of Resentment Slaughter is a cursed magical sword wielded by a knight trapped in a grudge.It is said that those who are wounded by the sword die, with blood spurting from their entire body.This sword was once used by the knights of the Warilnorth nation to cover the heroes in the battle between the heroes and the Demon King.However, the hero was taken in by a grudge, went out of control, and in the end wounded his comrades.As a result, the hero is said to have taken his own life."
+msgstr "怨念の十三針惨劇の剣とは、"
+"怨念に囚われた騎士が振るう呪いの魔剣である。"
+"その剣で傷つけられたものは、全身から血を吹き出しながら死ぬという。"
+"この剣は、かつて勇者と魔王の戦いにおいて、ワリルノース国の騎士が勇者を援護するために使われたものである。"
+"しかし、勇者は怨念に取り込まれて暴走し、最後には仲間を傷つけてしまった。"
+"その結果、勇者は自らの命を絶ったと伝えられている。"
+
+msgid "Acrobat's Rainbow Sword"
+msgstr "曲芸師の虹の剣"
+
+msgid "The acrobat's rainbow sword is a sword that is controlled by a circus acrobat.Acrobats specialize in aerial trapeze, juggling, and other acrobatic feats, of which the rainbow sword is the most difficult and dangerous, and failure to perform it can result in serious injury.The acrobat's Rainbow Sword is performed on a rope that is strung higher than the acrobat's own height, and during the performance, the acrobat makes a slashing gesture with the sword in his hand toward the Audience (performer posing as audience). During the performance, the acrobat makes a slashing gesture toward the audience with the sword in his hand, which causes blood to spray from the audience's neck, and when the juggler swings his sword again, the spectator falls directly to the ground, a terrifying sight.This performance is now banned because of an incident in which a person was actually decapitated, and people who witnessed it were so horrified that they stopped watching the circus afterwards. However, even today, however, some acrobats still seem to perform this performance."
+msgstr "曲芸師の虹の剣とは、サーカス団の曲芸師が操る剣のことである。"
+"曲芸師は空中ブランコやジャグリングなどの曲技を得意とし、その中でも虹の剣は最も難易度が高く、失敗すれば大怪我をしてしまう危険な演目である。"
+"曲芸師の虹の剣は、曲芸師が自身の身長よりも高くに張られた綱の上で行う演技であり、その演技中に曲芸師は手にした剣で観客(を装った演者)に向かって斬るような仕草をする。すると観客の首元から血飛沫が上がり、曲芸師がもう一度剣を振りかざすと観客はそのまま地面に落下するという恐ろしいものである。"
+"この演出は実際に首を切断された人間がいて、それを目撃した人間が恐怖し、それ以降サーカスを見なくなったという事件があったため、現在では禁止となっている。しかし現在でも、曲芸師の中には未だにこの演目を行っている者もいるようだ。"
+
+msgid "High Sword of the Sorcerer"
+msgstr "ハイソード オブ ソーサラー"
+
+msgid "It is a magic sword whose blade has been dyed black by the power of an unusual ability.It is said to be so sharp that it can cut through even the hardest of objects as easily as tofu.However, there is a disadvantage: when cut by this weapon, the part of the sword that is cut is also dyed black."
+msgstr "異能の力によって刀身が黒く染まった魔法剣である。"
+"その切れ味は凄まじく、どんなに硬いものでも豆腐のようにスッと切ることができるという。"
+"しかし、この武器で斬られると、その部分も同じように黒く染まってしまうというデメリットがある。"
+
+msgid "The Sword of Confusion and Starlight"
+msgstr "混迷と星影の剣"
+
+msgid "The Sword of Confusion and Starlight is a sword that appears in the Tales of King Walilnorth.This sword was It is said that the sword has two effects.The first is that the light emitted from the blade, which is charged with magic power, confuses the opponent.The second is that the wind generated when the sword is swung blows the opponent away."
+msgstr "混迷と星影の剣とは、ワリルノース王物語に登場する剣である。この剣には、魔力を帯びた刃から放たれる光によって相手を混乱させる効果と、剣を振るう際に発生する風によって相手を吹き飛ばす効果があると言われています。"
+
+msgid "The Spirit Sword of Alamoa"
+msgstr "アラモアの霊剣"
+
+msgid "The Alamoa Spirit Sword is named after the fairy king who is said to have joined King Walilnose in the battle of Fort Alamo. When the sword is swung, an invisible spirit makes an additional attack on another target."
+msgstr "アラモアの霊剣は、アラモ砦の戦いでワリルノース王に加勢したとされる妖精王の名前から取られたものです。剣を振ると、目に見えない精霊が別の対象に追加攻撃をします。"
+
+msgid "Yaeza's death straight sword"
+msgstr "ヤエザの死の直剣"
+
+
+
+msgid "The King's Sword of Walilnorth"
+msgstr "ワリルノースの王者の剣"
+
+msgid "The King's Sword of Walilnorth is a sword that appears in the Tales of the Kings of Walilnorth.This sword has been passed down from generation to generation in the royal family of Walilnorth, and is a treasure that serves as a symbol of the royal family.Legend has it that long ago, when an evil dragon attacked Waril North, the wielder of this champion's sword fought bravely and vanquished the evil dragon, and from this legend, it is said that it became a reminder that the wielder of this sword must have both courage and strength.However, the sword itself is not particularly powerful.It is a legendary weapon and has no special power."
+msgstr "ワリルノースの王者の剣とは、ワリルノース王物語に登場する剣である。"
+"この剣は、ワリルノースの王家に代々受け継がれてきたもので、王家の象徴ともなる宝物である。"
+"その昔、邪竜がワリルノースに攻め込んできた時に、この王者の剣を持つ者が勇敢に戦い邪竜を退治したという伝説があり、その伝説から、この剣を持つ者は勇気と力を兼ね備えていなければならないという戒めとなったと言われている。"
+"しかし、この剣自体は特に強い力を持っているわけではない。"
+"あくまで伝説の武器であり、特別な力などはないのだ。"
+
+msgid "Cactus minigun"
+msgstr "サボテンミニガン"
+
+msgid "This is a minigun made of cactus. The power is incredibly low, but the bullets refill on their own."
+msgstr "サボテンでできたミニガンです。威力はとてつもなく低い針を飛ばしますが、時間によって自動的に補充されます。"
+
+msgid "Zineke's ice spear+1"
+msgstr "ジネケの氷槍+1"
+
+msgid "Zineke's ice spear+2"
+msgstr "ジネケの氷槍+2"
+
+msgid "Zineke's ice spear"
+msgstr "ジネケの氷槍"
+
+msgid "The tip of this lance is as cold as ice. It is possible to send the illusion of the ice lance far and wide for long-range attacks."
+msgstr "氷で覆われたランスです。先端は、氷山の如く冷たくなっています。また氷のランスの幻影を遠くまで飛ばして遠距離攻撃をすることが可能。"
+
+msgid "The Knife of Mystical Bird"
+msgstr "神秘の鳥のナイフ"
+
+msgid "The Knife of Mystical Bird+1"
+msgstr "神秘の鳥のナイフ+1"
+
+msgid "The Knife of Mystical Bird+2"
+msgstr "神秘の鳥のナイフ+2"
+
+msgid "This is a very light knife made from mystical bird material.Your movement speed increases with each attack."
+msgstr "神秘の鳥を素材にした、とても軽いナイフです。このナイフで攻撃するたびに移動速度が上昇します。"
+
+msgid "Chimera Gun: CLAIRVOYANT"
+msgstr "キメラガン:千里眼"
+
+msgid "Chimera Gun: DAZZLING"
+msgstr "キメラガン:眩暈"
+
+msgid "Chimera Gun: SHADOW"
+msgstr "キメラガン:常闇"
+
+msgid "Chimera Gun: EXTINGUISHER"
+msgstr "キメラガン:消火"
+
+msgid "Chimera Gun: SLUDGE"
+msgstr "キメラガン:ヘドロ"
+
+msgid "The gun is made of a chimeric material that releases various fluids and can emit a clairvoyant field that does pure damage."
+msgstr "様々な液体を放出するキメラ素材を使用した銃で、純粋なダメージを与える千里眼フィールドを放出することができます。"
+
+msgid "The gun is made of a chimeric material that releases various liquids and can emit a dizzying field that causes flame damage."
+msgstr "様々な液体を放出するキメラ素材を使用した銃で、炎ダメージを与える眩暈フィールドを放出することができます。"
+
+msgid "The gun is made of a chimeric material that releases various liquids and can emit a field of shadows that cause cut damage."
+msgstr "様々な液体を放出するキメラ素材を使用した銃で、カットダメージを与える影のフィールドを放出することができます。"
+
+msgid "The gun is made of a chimeric material that releases various liquids and can release a field of cold damaging extinguishing fire."
+msgstr "様々な液体を放出するキメラ素材を使用した銃で、コールドダメージを与える消火のフィールドを放出することができます。"
+
+msgid "The gun is made of a chimeric material that releases various fluids and can emit a sludge field that causes biological damage."
+msgstr "この銃は様々な液体を放出するキメラ素材でできており、バイオロジカルのダメージを与えるヘドロフィールドを発することができます。"
+
+msgid "Magic 3D printer of [Turret]"
+msgstr "魔法の3Dプリンター[タレット]"
+
+msgid "Magic 3D printers of [Turret]"
+msgstr "魔法の3Dプリンター[タレット]"
+
+msgid "This is a magical 3D printer that produces turrets when you start it up after putting 15 magic coins in it!"
+msgstr "魔法のコインを15枚入れて起動すると、瞬時にタレットが出来上がる魔法の3Dプリンターです!残念ながら弾はついてきません"
+
+msgid "This is stored in a small glass box with a minuscule fairy that makes two coins each day, which are stored in a cellar that can be opened and closed."
+msgstr "これは極小の妖精がいる小さなガラス箱です。その妖精は毎日2枚ずつ魔法のコインを作ってくれます。"
+
+msgid "The Straight Sword of Death of Yaeza is a sword that appears in the Tales of King Walilnoth.This sword is also known as the 'Sword of Reincarnation,' which derives from the fact that those who are buried by this sword will be reincarnated.The straight sword of death of Yaeza belonged to one of the four swordsmen that King Walilnose chose as his companions when he set out on his adventurous journey.The swordsman's name was Yaeza, who was not only an outstanding swordsman, but also a man of outstanding character, and King Walilnorth trusted him deeply.However, Yaeza lost his life during the journey.The sword, which remained in his hand even after Yaeza's death, had a mysterious power: it could guide mortals to their destiny.It is also said that those who are buried with this sword can be reborn into a new life."
+msgstr "ヤエザの死の直剣とは、ワリルノース王物語に登場する剣である。この剣は別名で、輪廻の剣と呼ばれることもあり、その由来は、この剣により葬られた者は転生することに由来する。"
+"ヤエザの死の直剣は、ワリルノース王が冒険の旅に出掛ける際にお供として選んだ四人の剣士のうちの一人が所有していたものである。その剣士の名はヤエザといい、彼は卓越した剣の腕前を持つだけでなく、人格的にも優れた人物であり、ワリルノース王は彼を深く信頼していた。"
+"しかしヤエザは旅の途中で命を落としてしまう。"
+"ヤエザの死後も彼の手から放れることのなかったこの直剣には不思議な力が備わっており、それは死すべき運命にある人間の元へと導くというものであった。そして、この直剣によって葬られた者は、新たなる生へと生まれ変わることができるとも云われている。"
+
+msgid "Blade of Air"
+msgstr "エアブレード"
+
+msgid "Continuously summons blades of air that slices the target for a certain period of time."
+msgstr "一定期間の間、対象を切り刻む空気の刃を召喚し続けます"
+
+msgid "Boomerang"
+msgstr "ブーメラン"
+
+msgid "A boomerang is a throwing weapon. It consists of a curved wooden or metal body with a feather ornament attached to the end.Usually they are made to fly in a straight line, but rarely they fly in an irregular trajectory, which is called a boomerang trajectory. Boomerangs have the property of flying in an arc away from the thrower's hand and then returning to the thrower's hand."
+msgstr "ブーメランは投擲用の武器である。通常は直線的に飛ぶように作られているが、まれに不規則な軌道で飛ぶことがあり、これをブーメラン軌道と呼ぶ。ブーメランは、投げる人の手から離れる方向に弧を描いて飛び、投げる人の手に戻ってくる性質がある。"
+
+msgid "Returning Boomerang"
+msgstr "リターン　ブーメラン"
+
+msgid "Sharp compressed air slices through the enemy."
+msgstr "圧縮した鋭い空気が敵を切り刻みます!"
+
+msgid "Summon Element"
+msgstr "サモン　エレメント"
+
+msgid "Summons a random element from among the four attributes."
+msgstr "4元素の中からランダムな要素を召喚する。"
+
+msgid "Summons a random element from among the four elements."
+msgstr "4元素の中からランダムな要素を召喚する。"
+
+msgid "Noble and luminous"
+msgstr "高貴な輝き"
+
+msgid "Shines a dazzling light on the enemy."
+msgstr "眩い光を敵に放ちます"
+
+msgid "Summons compressed, sharp air that slices the target"
+msgstr "対象を切り刻む圧縮した鋭い空気を召喚します"
+
+msgid "You blast a cone of dizzling light toward the target."
+msgstr "対象に向かって円錐状の眩しい光を放つ。"
+
+msgid "All attacks you receive will do 3 damage."
+msgstr "あなたは全ての受ける攻撃が3ダメージになります"
+
+msgid "heal your enemy and haste it"
+msgstr "敵に回復とヘイストを与える"
+
+msgid "futile wishes"
+msgstr "無益な願い"
+
+msgid "Limpid filth"
+msgstr "腐敗した汚物"
+
+msgid "Create a field of vomit in the area of the target point."
+msgstr "対象地点の周辺に嘔吐のフィールドを作る。"
+
+msgid "Hidden World"
+msgstr "隠された世界"
+
+msgid "Mutates the surrounding terrain."
+msgstr "周囲の地形を変異させる。"
+
+msgid "Force Fear"
+msgstr "強制恐怖"
+
+msgid "Create a field of fear in the area of the target point."
+msgstr "対象地点の周辺に恐怖のフィールドを作る。"
+
+msgid "You blast a cone of Fear toward the target."
+msgstr "恐怖を引き起こす攻撃を円錐状の範囲に向けて放つ。"
+
+msgid "reincarnation"
+msgstr "転生"
+
+msgid "Starlight Confusion"
+msgstr "スターライト・コンフュージョン"
+
+msgid "Throw Ice Lance"
+msgstr "投擲　アイスランス"
+
+msgid "Create Stunning Field"
+msgstr "電磁波フィールド"
+
+msgid "Create a field of stunning in the area of the target point."
+msgstr "目標地点の周辺に電磁波フィールドを作る。"
+
+msgid "Create Death Field"
+msgstr "デスフィールド"
+
+msgid "Create a field of death in the area of the target point."
+msgstr "目標地点の周辺に死のフィールドを作る。"
+
+msgid "Create Darkness Field"
+msgstr "ダークネス　フィールド"
+
+msgid "Create Bloody Cloud Field"
+msgstr "ブラッディ　クラウド"
+
+msgid "Create a field of bloody cloud in the area of the target point."
+msgstr "目標地点の周辺に血の雲のフィールドを作成する。"
+
+msgid "Summon Apple Tree Monster"
+msgstr "悪魔リンゴの木召喚"
+
+msgid "Scroll of [Summon Apple Tree Monster]"
+msgid_plural "Scroll of [Summon Apple Tree Monster]"
+msgstr[0] "【悪魔リンゴの木召喚】の巻物"
+
+msgid "Scroll of [Chimera Breath]"
+msgid_plural "Scrolls of [Chimera Breath]"
+msgstr[0] "【キメラブレス】の巻物"
+
+msgid "Scroll of [Summon Feather]"
+msgid_plural "Scrolls of [Summon Feather]"
+msgstr[0] "【サモン　フェザー】の巻物"
+
+msgid "Scroll of [Mega Cure wounds]"
+msgid_plural "Scrolls of [Mega Cure wounds]"
+msgstr[0] "【メガキュアウーンド】の巻物"
+
+msgid "Scroll of [Bug Swarm]"
+msgid_plural "Scrolls of [Bug Swarm]"
+msgstr[0] "【バグスウォーム】の巻物"
+
+msgid "Scroll of [Dead End]"
+msgid_plural "Scrolls of [Dead End]"
+msgstr[0] "【デッドエンド】の巻物"
+
+msgid "Scroll of [Tiamat breath]"
+msgid_plural "Scrolls of [Tiamat breath]"
+msgstr[0] "【ティアマトブレス】の巻物"
+
+msgid "Scroll of [Meteor Strike]"
+msgid_plural "Scrolls of [Meteor Strike]"
+msgstr[0] "【メテオストライク】の巻物"
+
+msgid "Scroll of [Summon Element]"
+msgid_plural "Scrolls of [Summon Element]"
+msgstr[0] "【サモン　エレメント】の巻物"
+
+msgid "Scroll of [Blade of Air]"
+msgid_plural "Scrolls of [Blade of Air]"
+msgstr[0] "【エアブレード】の巻物"
+
+msgid "You can read this scroll to learn [Blade of Air].\n Continuously summons blades of air that slices the target for a certain period of time."
+msgstr "この巻物を読むと[エアブレード]を習得できる。一定期間の間、対象を切り刻む空気の刃を召喚し続けます"
+
+
+msgid "You can read this scroll to learn [Summon Apple Tree Monster].\n Summons a Monster Apple Tree that produces many monsters that at first glance appear to be nothing more than an apple tree."
+msgstr "この巻物を読むと[悪魔リンゴの木召喚]を習得できる。多数の悪魔りんごを生む、悪魔リンゴの木のモンスターを召喚します。"
+
+msgid "You can read this scroll to learn [Chimera Breath].\n Spell acquired by defeating the Chimera boss.Breath of random attributes is released toward the target point.Increasing the spell level increases the number of breaths released up to 10!"
+msgstr "この巻物を読むと[キメラブレス]を習得できる。キメラのボスを倒すと手に入る呪文。ターゲット地点に向かってランダムな属性のブレスを数回放ちます。呪文のレベルを上げるごとにブレス回数が増え、最大10回発動できます。"
+
+msgid "You can read this scroll to learn [Summon Feather].\n Spell acquired by defeating the Bird boss.Summons two bird feathers that deal pure damage to nearby targets and your movement speed increases for a short while. can be stacked up to 10 times!"
+msgstr "この巻物を読むと[サモン　フェザー]を習得できる。鳥のボスを倒すと手に入る呪文。近くのターゲットにピュアダメージを与える神秘的な鳥の羽根を2枚召喚し、あなたは10回スタック可能な移動速度バフを獲得します。"
+
+msgid "You can read this scroll to learn [Mega Cure wounds].\n Mega cure wounds is a recovery magic that requires a huge amount of MP and chanting time, and can almost completely recover HP from a near-death state. However, the long chanting time is so long that the dying person is likely to pass out from the pain during the chanting, so it is sometimes better not to use it. This spell cannot be used on party members, but only on oneself.It can only heal HP, not poison, disease, or curses."
+msgstr "この巻物を読むと[メガキュアウーンド]を習得できる。メガキュアウーンドとは、膨大なMPと詠唱時間が必要な回復魔法で、HPを瀕死状態からほぼ完全に回復できる。ただし、その長い詠唱時間のあまり、瀕死状態の者は詠唱中に苦痛によって気絶しそうになるため、逆に使わない方がマシなこともある。この呪文の効果はパーティメンバーには使用できず、あくまで自分ひとりを対象としたもの。またHPのみしか回復できず、毒・病気・呪いなどは回復できない。"
+
+msgid "Mega cure wounds is a recovery magic that requires a huge amount of MP and chanting time, and can almost completely recover HP from a near-death state. However, the long chanting time is so long that the dying person is likely to pass out from the pain during the chanting, so it is sometimes better not to use it. This spell cannot be used on party members, but only on oneself.It can only heal HP, not poison, disease, or curses."
+msgstr "メガキュアウーンドとは、膨大なMPと詠唱時間が必要な回復魔法で、HPを瀕死状態からほぼ完全に回復できる。ただし、その長い詠唱時間のあまり、瀕死状態の者は詠唱中に苦痛によって気絶しそうになるため、逆に使わない方がマシなこともある。この呪文の効果はパーティメンバーには使用できず、あくまで自分ひとりを対象としたもの。またHPのみしか回復できず、毒・病気・呪いなどは回復できない。"
+
+
+msgid "You can read this scroll to learn [Bug Swarm].\n Bug Swarm is a magic that summons a large number of insects through magical power. There are various types of bugs, ranging from monsters such as worms and beetles to cockroach-like insects. The summoned insects can be controlled to some extent, so those who are not good at group battles must be especially wary of them. Some of the insects have powerful poisons or can fly, so one cannot be too careful when fighting them."
+msgstr "この巻物を読むと[バグスウォーム]を習得できる。バグスウォームとは、魔力によって大量の虫を召喚する魔法。その種類は様々であり、ワームやビートルといったモンスターからゴキブリのような虫まで幅広いラインナップが揃っている。召喚した虫のコントロールもある程度は可能であるため、集団戦を苦手とする者は特に警戒しなければならない。また、一部の虫には強力な毒を持っていたり飛行可能だったりする者もいるため、それらとの戦闘においては油断はできないだろう。"
+
+msgid "Bug Swarm is a magic that summons a large number of insects through magical power. There are various types of bugs, ranging from monsters such as worms and beetles to cockroach-like insects. The summoned insects can be controlled to some extent, so those who are not good at group battles must be especially wary of them. Some of the insects have powerful poisons or can fly, so one cannot be too careful when fighting them."
+msgstr "バグスウォームとは、魔力によって大量の虫を召喚する魔法。その種類は様々であり、ワームやビートルといったモンスターからゴキブリのような虫まで幅広いラインナップが揃っている。召喚した虫のコントロールもある程度は可能であるため、集団戦を苦手とする者は特に警戒しなければならない。また、一部の虫には強力な毒を持っていたり飛行可能だったりする者もいるため、それらとの戦闘においては油断はできないだろう。"
+
+
+msgid "You can read this scroll to learn [Dead End].\n Dead End is a magic that takes the life of a target in exchange for the user's magical power.Because of its nature, it is effective against large creatures, but its long chanting time makes it a double-edged sword that carries the risk of the user's own death."
+msgstr "この巻物を読むと[デッドエンド]を習得できる。デッドエンドとは、使用者の魔力を対価に対象の生命を奪う魔法のこと。その性質から対大型生物に対して効果を発揮するが、その詠唱時間の長さゆえに、使用者自身も死亡するリスクがある諸刃の剣。"
+
+msgid "Dead End is a magic that takes the life of a target in exchange for the user's magical power.Because of its nature, it is effective against large creatures, but its long chanting time makes it a double-edged sword that carries the risk of the user's own death."
+msgstr "デッドエンドとは、使用者の魔力を対価に対象の生命を奪う魔法のこと。その性質から対大型生物に対して効果を発揮するが、その詠唱時間の長さゆえに、使用者自身も死亡するリスクがある諸刃の剣。"
+
+
+msgid "You can read this scroll to learn [Tiamat breath].\n Tiamat Breath is a water-attributed breath attack that consumes magical power and borrows the power of Tiamat, a magical beast of the sea dragon species.It is said to be so powerful that it can pierce the earth, but it consumes an enormous amount of magical power to activate, so it is a technique that is selective in its use.It is said to be so powerful that those who are hit by it cannot escape death, but it takes time before it is activated, making it difficult to use."
+msgstr "この巻物を読むと[ティアマトブレス]を習得できる。ティアマトブレスは、海竜種の魔獣ティアマトの力を借りた、魔力を消費する水属性のブレス攻撃です。大地を貫くほどの威力があると言われていますが、発動までに膨大な魔力を消費するので、使いどころを選ぶ技です。受けた者は死を免れないと言われていますが、発動までに時間がかかり、使いどころが難しくなっています。"
+
+msgid "Tiamat Breath is a water-attributed breath attack that consumes magical power and borrows the power of Tiamat, a magical beast of the sea dragon species.It is said to be so powerful that it can pierce the earth, but it consumes an enormous amount of magical power to activate, so it is a technique that is selective in its use.It is said to be so powerful that those who are hit by it cannot escape death, but it takes time before it is activated, making it difficult to use."
+msgstr "ティアマトブレスは、海竜種の魔獣ティアマトの力を借りた、魔力を消費する水属性のブレス攻撃です。大地を貫くほどの威力があると言われていますが、発動までに膨大な魔力を消費するので、使いどころを選ぶ技です。受けた者は死を免れないと言われていますが、発動までに時間がかかり、使いどころが難しくなっています。"
+
+
+msgid "You can read this scroll to learn [Meteor Strike].\n Meteor Strike is an attack that consumes magic power and borrows the power of the stars.It creates a small meteorite mass in the sky above the target location, and inflicts heavy fire damage to the area where the meteorite falls.One drawback of this magic, however, is that the user is defenseless until the meteorite falls.In most cases, the user's MP is depleted after using this magic, so it is necessary to be judicious in its use."
+msgstr "この巻物を読むと[メテオストライク]を習得できる。メテオストライクとは、魔力を消費して発動する、星の力を借りた攻撃である。"
+"対象地点の上空に小型隕石の塊を作り、その落下地点の範囲に対して炎属性の大ダメージを与える。"
+"ただし、この魔法の欠点として、使用者は隕石が落下するまでの間は無防備になるということが挙げられる。"
+"また、この魔法の使用後のMPはほとんどの場合枯渇しており、使いどころを見極める必要性がある。"
+
+msgid "Meteor Strike is an attack that consumes magic power and borrows the power of the stars.It creates a small meteorite mass in the sky above the target location, and inflicts heavy fire damage to the area where the meteorite falls.One drawback of this magic, however, is that the user is defenseless until the meteorite falls.In most cases, the user's MP is depleted after using this magic, so it is necessary to be judicious in its use."
+msgstr "メテオストライクとは、魔力を消費して発動する、星の力を借りた攻撃である。"
+"対象地点の上空に小型隕石の塊を作り、その落下地点の範囲に対して炎属性の大ダメージを与える。"
+"ただし、この魔法の欠点として、使用者は隕石が落下するまでの間は無防備になるということが挙げられる。"
+"また、この魔法の使用後のMPはほとんどの場合枯渇しており、使いどころを見極める必要性がある。"
+
+msgid "You can read this scroll to learn [Summon Element].\n Summons one of the four elements."
+msgstr "この巻物を読むと[サモン　エレメント]を習得できる。4元素エレメントの中からランダムに召喚する。"
+
+msgid "Blade Dance"
+msgstr "剣の舞"
+
+msgid "Scatter a number of daggers that cut surrounding enemies at different times."
+msgstr "周囲の敵を異なるタイミングで斬りかかるダガーを多数ばら撒く。"
+
+msgid "magic dagger that attacks nearby enemies after a certain period of time."
+msgstr "一定時間たつと近くの敵を攻撃する魔法のダガーです"
+
+msgid "Throw Boomerang"
+msgstr "投擲：ブーメラン"
+
+msgid "Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
+msgstr "自分に戻ってくる魔法のブーメランを敵に投げます。返ってきたブーメランを攻撃すると、また敵の元へ飛んでいきます。"
+
+
+msgid "Summons a Monster Apple Tree that produces many monsters that at first glance appear to be nothing more than an apple tree."
+msgstr "多数の悪魔りんごを生む、悪魔リンゴの木のモンスターを召喚します。"
+
+msgid "Summon Feather"
+msgstr "サモン　フェザー"
+
+msgid "Spell acquired by defeating the Bird boss.Summons two bird feathers that deal pure damage to nearby targets and your movement speed increases for a short while. can be stacked up to 10 times!"
+msgstr "鳥のボスを倒すと手に入る呪文。近くのターゲットにピュアダメージを与える神秘的な鳥の羽根を2枚召喚し、あなたは10回スタック可能な移動速度バフを獲得します。"
+
+msgid "Chimera Breath"
+msgstr "キメラブレス"
+
+msgid "Spell acquired by defeating the Chimera boss.Breath of random attributes is released toward the target point.Increasing the spell level increases the number of breaths released up to 10!"
+msgstr "キメラのボスを倒すと手に入る呪文。ターゲット地点に向かってランダムな属性のブレスを数回放ちます。呪文のレベルを上げるごとにブレス回数が増え、最大10回発動できます。"
+
+msgid "Conjure extinguisher bomb"
+msgstr "作成：消火器爆弾"
+
+msgid "Trader:Samurai"
+msgstr "サムライ商人"
+
+msgid "He is a mysterious samurai surrounded by a blazing fire.  Apparently, they are willing to do business with us if you give him a riceball(except burned one)."
+msgstr "燃え盛る炎に包まれた謎の侍。 おにぎり（焼いたのは除く）を渡せば取引してくれるらしい。"
+
+msgid "Guard Mecha"
+msgstr "ガードメカ"
+
+msgid "Soldiers made of steals that run on their own power.Equipped with a blade that radiates energy."
+msgstr "自家発電で動く鋼鉄製の兵士で、エネルギーを放射する刃を装備しています。"
+
+msgid "Heavy Guard Mecha"
+msgstr "重ガードメカ"
+
+msgid "Soldiers made of steals that run on their own power.Equipped with a large scissors-like weapon and hooks."
+msgstr "自家発電で動く鋼鉄製の兵士で、大きなハサミのような武器とフックを装備しています。"
+
+msgid "Floting Armor"
+msgstr "空飛ぶ鎧"
+
+msgid "This is a moving armor that has no legs and floats in the air. It shoots lasers from three holes in its chest."
+msgstr "足がなく、浮遊しながら動く鎧です。胸にある3つの穴からレーザーを発射します。"
+
+msgid "Welcome! What would you like?"
+msgstr "ようこそ！何をお望みですか？"
+
+
+
+msgid "[I need some kind of spells.]"
+msgstr "呪文が必要だ"
+
+msgid "[other]"
+msgstr "その他"
+
+msgid "[I need some kind of magic item.]"
+msgstr "魔法アイテムが必要だ"
+
+msgid "[I need some kind of weapon.]"
+msgstr "武器が必要だ"
+
+msgid "[I'd like to try my luck.]"
+msgstr "運試しをしたい"
+
+msgid "Please select the item you want."
+msgstr "ご希望の商品をお選びください。"
+
+msgid "[I don't want any right now.]"
+msgstr "今は何も必要ない"
+
+msgid "Thank you very much. Is there anything else you need?"
+msgstr "ありがとうございました。他に何か必要なものはありますか？"
+
+msgid "Maybe there is."
+msgstr "あるかも"
+
+msgid "You don't have enough currency."
+msgstr "通貨が足りません。"
+
+msgid "Magical Forest Core"
+msgstr "魔法コア：森"
+
+msgid "Magical Forest Coin"
+msgstr "魔法硬貨：森"
+
+msgid "These coins are used in the crafting menu to enhance your body and acquire magic."
+msgstr "これらのコインはクラフトメニューで使用し、身体の強化や魔法の習得などが可能です。"
+
+msgid "a rare item that can be obtained from monsters in the forest dungeon by chance.These coins are used in the crafting menu to enhance your body and acquire magic."
+msgstr "森のダンジョンでモンスターから偶に入手できるレアアイテム。これらのコインはクラフトメニューで使用し、身体の強化や魔法の習得などが可能です。"
+
+msgid "[30 Magical Forest Coin] a longsword +2"
+msgstr "[魔法硬貨：森30枚]ロングソード+2"
+
+msgid "[35 Magical Forest Coin] a sledge hammer +2"
+msgstr "[魔法硬貨：森35枚]スレッジハンマー+2"
+
+msgid "[40 Magical Forest Coin] a halberd +2"
+msgstr "[魔法硬貨：森40枚]ハルバード+2"
+
+msgid "[30 Magical Forest Coin] a morningstar +2"
+msgstr "[魔法硬貨：森30枚]モーニングスター+2"
+
+msgid "[40 Magical Forest Coin] a rapier +2"
+msgstr "[魔法硬貨：森40枚]レイピア+2"
+
+msgid "[1 Magical Forest Core] a Magus battle staff"
+msgstr "[魔法コア：森1個]メイガスバトルスタッフ"
+
+msgid "[1 Magical Forest Core] a ring of mana recovery"
+msgstr "[魔法コア：森1個]魔法使いの指輪"
+
+msgid "[1 Magical Forest Core] an eel ring"
+msgstr "[魔法コア：森1個]ウナギの指輪"
+
+msgid "[1 Magical Forest Core] a lesser storage ring"
+msgstr "[魔法コア：森1個]小収納リング"
+
+msgid "[1 Magical Forest Core] a Scroll of [Blade Dance]"
+msgstr "[魔法コア：森1個]【剣の舞】の巻物"
+
+msgid "You can read this scroll to learn [Blade Dance].\n Scatter a number of daggers that cut surrounding enemies at different times."
+msgstr "この巻物を読むと[剣の舞]を習得できる。周囲の敵をタイミングよく斬るダガーを多数ばら撒く。"
+
+msgid "[1 Magical Forest Core] a Scroll of [Blade of Air]"
+msgstr "[魔法コア：森1個]【エアブレード】の巻物"
+
+msgid "Scroll of [Throw Boomerang]"
+msgstr "【投擲：ブーメラン】の巻物"
+
+msgid "[1 Magical Forest Core] a Scroll of [Throw Boomerang]"
+msgstr "[魔法コア：森1個]【投擲：ブーメラン】の巻物"
+
+msgid "You can read this scroll to learn [Throw Boomerang].\n Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
+msgstr "この巻物を読むと[投擲：ブーメラン]を習得できる。自分に戻ってくる魔法のブーメランを敵に投げます。返ってきたブーメランを攻撃すると、また敵の元へ飛んでいきます。"
+
+msgid "[50 Magical Forest Coin] a Magical Forest Core"
+msgstr "[魔法硬貨：森50枚]魔法コア：森1個"
+
+msgid "[10 Magical Coin] 15 Magical Forest Coin"
+msgstr "[魔法のコイン10枚】魔法硬貨：森15個"
+
+msgid "[1 Magical Forest Core] a ring of wizardry"
+msgstr "[魔法コア：森1個】魔力の指輪Lv3"
+
+msgid "conjures a bomb that disperse fire extinguishers"
+msgstr "消火剤をまき散らす爆弾を作る"
+
+msgid "Random Dungeon<Forest>"
+msgstr "ランダムダンジョン<森>"
+
+msgid "Random Dungeon<Forest> -1F"
+msgstr "ランダムダンジョン<森> -1F"
+
+msgid "Random Dungeon<Forest> -2F"
+msgstr "ランダムダンジョン<森> -2F"
+
+msgid "Random Dungeon<Forest> -3F"
+msgstr "ランダムダンジョン<森> -3F"
+
+msgid "Mystical Giant Bird"
+msgstr "神秘の巨鳥"
+
+msgid "A bird of light. It has a sharp beak, feathers that never cease to glow, and it looks at you with a piercing gaze!"
+msgstr "光の鳥。鋭いくちばし、絶えることのない光を放つ羽、そして鋭い眼差しであなたを見つめています！"
+
+msgid "Mystical bird's feather"
+msgstr "神秘的な鳥の羽根"
+
+msgid "A feather that emits light. It flies toward us at high speed."
+msgstr "光を放つ羽根。高速でこちらに向かって飛んできます。"
+
+msgid "A chimera, of what organism it is composed of, is unknown. There are at least three pairs of eyes, all seemingly staring back at us."
+msgstr "どのような生物で構成されているかは不明なキメラである。少なくとも3対の目があり、すべてこちらを見つめているように見える。"
+
+msgid "Chimera's afterimage"
+msgstr "キメラの残像"
+
+msgid "Sprit of Great Tree"
+msgstr "大いなる樹の精霊"
+
+msgid "A large tree that emits some kind of eerie light at regular intervals. This creature seems to produce numerous fruits."
+msgstr "定期的に何やら不気味な光を放つ大木の精霊です。この生物は多数の不気味な実を実らせています。"
+
+msgid "Monster of Apple"
+msgstr "悪魔リンゴ"
+
+msgid "An apple monster."
+msgstr "リンゴのモンスターです。"
+
+msgid "Monster of poisonous Apple"
+msgstr "悪魔毒リンゴ"
+
+msgid "Monster of Alien Apple"
+msgstr "エイリアン悪魔リンゴ"
+
+msgid "Tree Shaman"
+msgstr "ツリーシャーマン"
+
+msgid "This shaman has a spherical head and a body made of wood. Numerous natural magic will keep you at the mercy of the elements."
+msgstr "球体の頭部と木でできた体を持つシャーマン。数々の自然魔術で敵を翻弄します。"
+
+msgid "Red mushroom"
+msgstr "赤キノコ"
+
+msgid "This poisonous mushroom is red and look delicious. Would you like to take a look at the poison?"
+msgstr "このキノコは赤くておいしそうです。試しに毒見してみませんか？"
+
+msgid "Swarm of red mushroom"
+msgstr "赤キノコの群れ"
+
+msgid "It's a swarm of red mushrooms. It's got enough nutrients for a day."
+msgstr "赤いキノコの大群です。一日分の栄養があります。"
+
+msgid "Big mushroom"
+msgstr "ビッグシュルーム"
+
+msgid "It is a large mushroom, about the same size as a person. At first glance, it appears to be non-poisonous."
+msgstr "人と同じぐらいの大きさの動くキノコです。見た目では毒はないように見えます。"
+
+msgid "Big Bad mushroom"
+msgstr "ビックバッドシュルーム"
+
+msgid "It is a large mushroom, about the same size as a person. its skin seems to be in bad shape."
+msgstr "人と同じぐらいビックでバッドなキノコ。肌の調子が悪いようです。"
+
+msgid "Stump ghost"
+msgstr "切り株お化け"
+
+msgid "It's a ghost with a soul in a stump.He has a sturdy body, and even heavy objects seem to be smash away lightly!."
+msgstr "切り株に魂が宿った幽霊です。頑丈な体をしていて、重い物も軽々と打ち砕いてしまいそう！？"
+
+msgid "Red stump ghost"
+msgstr "レッド切り株ゴースト"
+
+msgid "It's a ghost with a lot of resentment and hatred in a stump.\nHe seems to be itching to push something away."
+msgstr "怨念や憎悪の念が沢山取り込まれた切り株の幽霊です。何かをぶっ飛ばしたくてウズウズしているような雰囲気がします。"
+
+msgid "Seedling"
+msgstr "シードリング"
+
+msgid "She is a charming little seed fairy. What will grow when you plant them?"
+msgstr "彼女はチャーミングな小さな種の妖精です。植えたら何が育つかな？"
+
+msgid "Flower Seedling"
+msgstr "フラワーシードリング"
+
+msgid "It is a small seed fairy with a charming flower growing out of it. It smells a little sweet and nice."
+msgstr "小さな種の妖精から、愛嬌のある花が生えています。ちょっと甘くていい香りがします。"
+
+msgid "Stinger Seedling"
+msgstr "スティンガーシードリング"
+
+msgid "It's a seed fairy with a poisonous needle. If you mess with it, you might regret it."
+msgstr "毒針を持った種の妖精です。手を出すと後悔するかもしれませんよ？"
+
+msgid "Ear Worm"
+msgstr "耳ワーム"
+
+msgid "A worm with large ears. There's a lot of noise around here, and it doesn't look like it's working very well."
+msgstr "大きな耳を持つワームです。いつも周りのモンスターが騒がしいので、その耳はあまり意味がなさそうです。"
+
+msgid "Red ear Worm"
+msgstr "赤耳ワーム"
+
+msgid "A red worm with large ears. There's a lot of noise around here, and it doesn't look like it's working very well."
+msgstr "大きくて、耳を持つ赤いワームです。いつも周りのモンスターが騒がしいので、その耳はあまり意味がなさそうです。"
+
+msgid "A blue worm with large ears. There's a lot of noise around here, and it doesn't look like it's working very well."
+msgstr "大きくて、耳を持つ青いワームです。いつも周りのモンスターが騒がしいので、その耳はあまり意味がなさそうです。"
+
+msgid "Blue ear Worm"
+msgstr "青耳ワーム"
+
+msgid "Cactus"
+msgstr "サボテン"
+
+msgid "It is a cactus. It sends many thorns flying at once."
+msgstr "サボテンです。一度に沢山の棘を飛ばしてきます。"
+
+msgid "Old cactus"
+msgstr "爺サボテン"
+
+msgid "An old cactus. It sends many thorns flying at once."
+msgstr "サボテンです。一度に沢山の棘を飛ばしてきます。"
+
+msgid "Carnivorous plant"
+msgstr "肉食プラント"
+
+msgid "It's a carnivorous plant that can even swallow people!\nIf you get too close to it, it looks very dangerous, so attack it from a distance or leave it alone!"
+msgstr "人を飲み込むこともある肉食植物です。あまり近づくと危険だから、遠くから攻撃するか、そっとしておくのが良いでしょう。"
+
+msgid "Aged carnivorous plant"
+msgstr "熟成された肉食プラント"
+
+msgid "It's an carnivorous plant that has swallowed many people over the years!\nEven if you're not near it, it will try to draw you in and swallow you up."
+msgstr "数多の人を飲み込んできた肉食植物です。近くにいなくても、引き寄せて飲み込もうとします。"
+
+msgid "flying turnip"
+msgstr "空飛ぶカブ"
+
+msgid "It's a turnip floating in the air. He's doing his best to fly."
+msgstr "宙に浮いているカブです。がんばって飛んでいます。"
+
+msgid "heavy turnip"
+msgstr "重カブ"
+
+msgid "It's a turnip that can't fly anymore. He seems to have gained weight since he quit flying."
+msgstr "飛べなくなった凄く重いカブです。飛ぶのをやめてから太ったようです。"
+
+msgid "flying nepenthes"
+msgstr "空飛ぶウツボカズラ"
+
+msgid "An insectivorous plant that has grown wings from eating too many insects."
+msgstr "昆虫を食べ過ぎておかげで、虫の羽が生えた食虫植物です。"
+
+msgid "flying red nepenthes"
+msgstr "レッド・フライング・ウツボカズラ"
+
+msgid "An insectivorous plant that has turned red and grown wings from eating too many spicy insects!"
+msgstr "スパイシーな虫を食べ過ぎて真っ赤になり、羽が生えた食虫植物です。"
+
+msgid "Shadow Snail"
+msgstr "シャドウスネイル"
+
+msgid "It's just a snail. Except for the secretions."
+msgstr "ただのカタツムリです。分泌物を除けば。"
+
+msgid "Haste snail"
+msgstr "ヘイストスネイル"
+
+msgid "Tiamat snail"
+msgstr "ティアマトスネイル"
+
+msgid "Treasure Chest"
+msgstr "宝箱"
+
+msgid "A treasure chest that may contain treasure. Let's get closer and open it!"
+msgstr "お宝が入っていそうな宝箱。近づいて開けてみよう!"
+
+msgid "Mimic"
+msgstr "ミミック"
+
+msgid "It's a monster that turns into a treasure chest. It has a terrifying appearance."
+msgstr "宝箱に変身していたモンスターです。おどろおどろしい姿をしています。"
+
+msgid "Statue of the Queen of the Swamp. If you attack the statue, you will get a buff."
+msgstr "沼地の女王の像。この像を攻撃すると、バフを得ることができます。"
+
+msgid "Statue of the Horned monster. If you attack the statue, you will get a buff."
+msgstr "角の生えたモンスターの像。この像を攻撃すると、バフを得ることができます。"
+
+msgid "Statue of the mysterious. If you attack the statue, you will get a buff."
+msgstr "神秘の像です。像を攻撃すると、バフを得ることができます。"
+
+msgid "Statue of cleric. If you attack the statue, you will get a buff."
+msgstr "クレリックの像。この像を攻撃するとバフを得ることができます。"
+
+msgid "Boss Statue"
+msgstr "ボスの石像"
+
+msgid "Statue of the boss. Approaching this stone statue summons the boss."
+msgstr "ボスの石像。この石像に近づくとランダムなボスが召喚されます。"
+
+msgid "penetrating thrust"
+msgstr "貫きスラスト"
+
+msgid "slash effect"
+msgstr "斬撃エフェクト"
+
+msgid "Moves instantly to the target point, piercing and damaging enemies in its path."
+msgstr "対象の地点まで一瞬で移動して、通り道にいる敵を貫き、ダメージを与えます。"
+
+msgctxt "profession_male"
+msgid "[PSY] Sword Mancer"
+msgstr "[PSY]ソードマンサー"
+
+msgctxt "profession_female"
+msgid "[PSY] Sword Mancer"
+msgstr "[PSY]ソードマンサー"
+
+msgctxt "prof_desc_male"
+msgid "You are a wizard with excellent swordsmanship."
+msgstr "あなたは剣術に優れた魔法使いです。"
+
+msgctxt "prof_desc_female"
+msgid "You are a wizard with excellent swordsmanship."
+msgstr "あなたは剣術に優れた魔法使いです。"
+
+
+msgid "Thrust dagger"
+msgstr "スラストダガー"
+
+msgid "Thrust dagger:MANA"
+msgstr "貫きのダガー：マナ"
+
+msgid "a dagger made of a very light magic material.It can recover a small amount of mana with a normal attack, and can also use a skill that allows it to move instantly to a target point, piercing and damaging enemies in its path."
+msgstr "凄く軽い素材で出来た魔法のダガーです。通常攻撃で少量のマナを回復することができ、また、対象の地点まで一瞬で移動して通り道にいる敵を貫き、ダメージを与えるスキルを使うことができます。"
+
+msgid "Mana Heal"
+msgstr "マナ回復"
+
+msgid "Summon a flying eye"
+msgstr "サモン　フライングアイ"
+
+msgid "Summon a flying eye at target location, It has the ability to share its vision with you without moving from its spot"
+msgstr "対象地点に動かずにあなたと視界を共有する能力を持つフライングアイを召喚する。"
+
+msgid "Spell Token"
+msgstr "スペルトークン"
+
+msgid "This token is used to learn normal magic in the crafting menu. They are sold by merchants on the ground floor of the forest dungeon."
+msgstr "このトークンは、クラフトメニューでノーマル魔法の習得に使用されます。森のダンジョンの地上階にいる商人が販売しています。"
+
+msgid "Scroll of [Summon a flying eye]"
+msgid_plural "Scrolls of [Summon a flying eye]"
+msgstr[0] "【サモン　フライングアイ】の巻物"
+
+msgid "You can read this scroll to learn [Summon a flying eye].\n Throw a boomerang that returns to you.When you attack the returning boomerang, it will fly back to the enemy."
+msgstr "この巻物を読むと[サモン　フライングアイ]を習得できる。対象地点に動かずにあなたと視界を共有する能力を持つフライングアイを召喚する。"
+
+msgid "[1 Magical Forest Core] a Spell Token"
+msgstr "[魔法コア：森1個]スペルトークン1個"
+
+msgid "[30 Magical Coin] a Spell Token"
+msgstr "[魔法のコイン30枚]スペルトークン1個"
+
+msgid "CSC_MAGI_EQUIPMENT"
+msgstr "装備"
+
+msgid "CSC_MAGI_UPGRADE"
+msgstr "強化"
+
+msgid "CSC_MAGI_ENHANCEMENT"
+msgstr "エンハンスメント"
+
+msgid "CSC_MAGI_NORMALSPELLS"
+msgstr "通常魔法"
+
+msgid "CSC_MAGI_ULTIMATESPELLS"
+msgstr "究極魔法"
+
+msgid "CSC_MAGI_SCROLL"
+msgstr "巻物"
+
+msgid "MAGI"
+msgstr "ダンジョン"
+
+msgid "EQUIPMENT"
+msgstr "装備"
+
+msgid "UPGRADE"
+msgstr "強化"
+
+msgid "ENHANCEMENT"
+msgstr "エンハンスメント"
+
+msgid "NORMALSPELLS"
+msgstr "通常魔法"
+
+msgid "ULTIMATESPELLS"
+msgstr "究極魔法"
+
+msgid "SCROLL"
+msgstr "巻物"
+
+msgid "HONEY"
+msgstr "はちみつ"
+
+msgid "Scroll of [Blade Dance]"
+msgstr "【剣の舞】の巻物"
+
+msgid "minor ring of mana recovery"
+msgid_plural "minor rings of mana recovery"
+msgstr[0] "小マナ回復のリング"
+
+msgid "ring of mana recovery"
+msgid_plural "rings of mana recovery"
+msgstr[0] "中マナ回復のリング"
+
+msgid "greater ring of mana recovery"
+msgid_plural "greater ring of mana recovery"
+msgstr[0] "大マナ回復のリング"
+
+msgid "ring of boomerang"
+msgid_plural "rings of boomerang"
+msgstr[0] "ブーメランのリング"
+
+
+msgid "ring of healing"
+msgid_plural "rings of healing"
+msgstr[0] "回復のリング"
+
+
+msgid "A thin copper band ring, It is imbued with magic power, and mana is restored at regular intervals."
+msgstr "銅製の細いバンドリング。魔力を帯びており、一定時間ごとにマナが回復する。"
+
+msgid "An ornate silver ring engraved with fire that conjures boomerang on activation."
+msgstr "起動時にブーメランを呼び出す、炎が刻まれた装飾的なシルバーリング。"
+
+msgid "An ornate silver ring engraved with fire that can restore a small amount of HP upon activation."
+msgstr "起動時に少量のHPを回復することができる、炎が刻まれた装飾的なシルバーリング。"
+
+msgid "luminescent ring"
+msgstr "発光のリング"
+
+msgid "A thin silver band ring,  Allows you to luminate yourself."
+msgstr "細いシルバーのバンドリング。 自分自身を照らすことができる。"
+
+msgid "Ring of Physical Beauty"
+msgstr "肉体美のリング"
+
+msgid "A thin gold band ring, wearing this ring increases maximum HP by 15"
+msgstr "細いゴールドのバンドリング。この指輪をはめると、最大HPが15増える"
+
+msgid "ring of stamina"
+msgstr "スタミナのリング"
+
+msgid "A golden ring that increases the maximum value of stamina when you wear it."
+msgstr "身につけるとスタミナの最大値が上がる黄金の指輪。"
+
+msgid "ring of bionic power"
+msgstr "バイオ電力のリング"
+
+msgid "A golden ring that increases the maximum value of bionic power when you wear it."
+msgstr "装着するとバイオニック電力の最大値が増加する黄金の指輪。"
+
+msgid "ring of resting"
+msgstr "休息のリング"
+
+msgid "A golden ring that increases stamina recovery when you wear it."
+msgstr "身につけるとスタミナの回復量がアップする黄金の指輪。"
+
+msgid "ring of archmage"
+msgstr "大賢者のリング"
+
+msgid "A ring made of platinum that, when worn, significantly increases maximum mana and mana recovery instead of halving maximum HP."
+msgstr "プラチナ製のリングで、装着すると最大HPが半分になる代わりに、最大マナとマナ回復量が大幅に増加します。"
+
+msgid "A Statue of the mysterious that has lost its luster."
+msgstr "輝きを失った神秘の像。"
+
+msgid "A Statue of the cleric that has lost its luster."
+msgstr "輝きを失ったクレリックの像。"
+
+msgid "A Statue of the Horned creature that has lost its luster."
+msgstr "輝きを失った角の生えた生物の像。"
+
+msgid "A Statue of the Queen of the Swamp that has lost its luster."
+msgstr "輝きを失った沼の女王の像。"
+
+msgid "It's an opened treasure chest. Attack again to get the item!"
+msgstr "開いた宝箱です。もう一度攻撃して、アイテムを手に入れよう"
+
+msgid "It's an opened empty treasure chest. Attack again to get nothing!"
+msgstr "開いた空の宝箱です。もう一度攻撃しても、何も出てきません"
+
+msgid "Charm Spear"
+msgstr "チャームスピア"
+
+msgid "It is a spear that does little damage. If the target's HP is below a certain level at the time of the attack, it can be seduced for a short while."
+msgstr "与えるダメージが少ない槍である。攻撃時に対象のHPが一定以下の場合は少しの間、寝返らすことができます。"
+
+msgid "Metal Vine Whip"
+msgstr "メタル蔓の鞭"
+
+msgid "It is an inflexible vine whip made of steel.The vines entangle at the point of attack."
+msgstr "鋼鉄製のしなやかではない蔓の鞭です。攻撃した地点に蔓が絡みます"
+
+msgid "Comfortable temperature hot spring. Soaking in it helps to heal your body."
+msgstr "快適な温度の温泉。浸かると体が癒されます。"
+
+msgid "Magic Tower"
+msgstr "マジックタワー"
+
+msgid "Summon Magic Tower"
+msgstr "召喚：マジックタワー"
+
+msgid "Summons a magic tower that works by placing two of them."
+msgstr "2つ置くことで機能する魔法の塔を召喚する。"
+
+msgid "This tower will be made functional by the presence of another set of towers."
+msgstr "このタワーは、もう一組のタワーが存在することよって機能するようになる"
+
+msgid "Laser Damage"
+msgstr "レーザーダメージ"
+
+msgid "The laser is irradiated. Movement speed is reduced and periodic damage"
+msgstr "レーザーに照射されています。移動速度低下と定期的なダメージを受けます"
+
+msgid "Laser irradiation"
+msgstr "レーザー照射"
+
+msgid "Summons a magic tower that keeps irradiating lasers at the target enemy. Each time that enemy continues to be irradiated by the laser, the damage it takes is increased and its movement speed is reduced."
+msgstr "対象の敵にレーザーを照射し続ける魔法の塔を召喚する。その敵がレーザー照射を受け続けるたびに、受けるダメージがアップし、移動速度が低下する"
+
+msgid "Magic tower that keeps irradiating lasers at the target enemy. Each time that enemy continues to be irradiated by the laser, the damage it takes is increased and its movement speed is reduced."
+msgstr "対象の敵にレーザーを照射し続ける魔法の塔です。その敵がレーザー照射を受け続けるたびに、受けるダメージがアップし、移動速度が低下する"
+
+msgid "Scroll of [Summon Magic Tower]"
+msgid_plural "Scrolls of [Summon Magic Tower]"
+msgstr[0] "【召喚：マジックタワー】の巻物"
+
+msgid "You can read this scroll to learn [Summon Magic Tower].\n Summons a magic tower that keeps irradiating lasers at the target enemy. Each time that enemy continues to be irradiated by the laser, the damage it takes is increased and its movement speed is reduced."
+msgstr "この巻物を読むと[召喚：マジックタワー]を習得できる。対象の敵にレーザーを照射し続ける魔法の塔を召喚します。その敵がレーザー照射を受け続けるたびに、受けるダメージがアップし、移動速度が低下する"
+
+msgid "PSY_MAGI"
+msgstr "ダンジョン"
+
+msgid "blitzkrieg"
+msgstr "瞬獄殺"
+
+msgid "A magic that attacks enemies in a range of 10 squares around it while moving randomly for a certain period of time. Each attack can inflict 100 bash damage."
+msgstr "一定時間の間、ランダムに瞬間移動しながら周囲10マスの範囲の敵を攻撃する魔法。一回の攻撃につき、100の打撃ダメージを与えることができる。"
+
+msgid "Scroll of [blitzkrieg]"
+msgid_plural "Scrolls of [blitzkrieg]"
+msgstr[0] "【瞬獄殺】の巻物"
+
+msgid "You can read this scroll to learn [blitzkrieg].\n A magic that attacks enemies in a range of 10 squares around it while moving randomly for a certain period of time. Each attack can inflict 100 bash damage."
+msgstr "この巻物を読むと[瞬獄殺]を習得できる。一定時間の間、ランダムに瞬間移動しながら周囲10マスの範囲の敵を攻撃する魔法。一回の攻撃につき、100の打撃ダメージを与えることができる。"
+
+msgid "short blink"
+msgstr "瞬歩"
+
+msgid "Magic that moves instantly to the target point. It can confuse enemies in its path for a short time."
+msgstr "対象地点まで瞬時に移動する魔法。通り道にいる敵を短い間混乱させることができる"
+
+msgid "Scroll of [short blink]"
+msgid_plural "Scrolls of [short blink]"
+msgstr[0] "【瞬歩】の巻物"
+
+msgid "You can read this scroll to learn [short blink].\n Magic that moves instantly to the target point. It can confuse enemies in its path for a short time."
+msgstr "この巻物を読むと[瞬歩]を習得できる。対象地点まで瞬時に移動する魔法。通り道にいる敵を短い間混乱させることができる"
+
+msgid "thread beam"
+msgstr "糸ビーム"
+
+msgid "Magic that scatters threads to the target point.It does no damage and requires 10 threads to use."
+msgstr "対象の地点まで糸をばら撒く魔法。ダメージを与えることはできず、使用には糸が10個必要"
+
+msgid "Scroll of [thread beam]"
+msgid_plural "Scrolls of [thread beam]"
+msgstr[0] "【糸ビーム】の巻物"
+
+msgid "You can read this scroll to learn [thread beam].\n Magic that scatters threads to the target point.It does no damage and requires 10 threads to use."
+msgstr "この巻物を読むと[糸ビーム]を習得できる。対象の地点まで糸をばら撒く魔法。ダメージを与えることはできず、使用には糸が10個必要"
+
+msgid "A magic that scatters threads to the target point. It cannot cause damage and requires 10 threads to use. Threads are not produced where furniture is placed."
+msgstr "対象の地点まで糸をばら撒く魔法。ダメージを与えることはできず、使用には糸が10個必要。家具が置いてある場所には糸は生産されない。"
+
+msgid "Evil stone statue"
+msgstr "邪悪な石像"
+
+msgid "This stone statue has an evil atmosphere. It is better for your own safety not to destroy it."
+msgstr "この石像には邪悪な雰囲気が漂っています。破壊しない方が身のためです。"
+
+msgid "It is the one and only artifact.Equipping it will have beneficial effects for you. Random effects are triggered by activating it."
+msgstr "唯一無二のアーティファクトです。装備することによってあなたにとって有益な効果を得ることができ、使用することによってランダムな有益エフェクトが発動します"
+
+msgid "Create pistol"
+msgstr "作成：ピストル"
+
+msgid "Creates a random pistol at the target location. If you create it in a place where there is furniture, it will fail."
+msgstr "対象の地点にランダムなピストルを作成します。家具がある場所に作ると失敗します。"
+
+msgid "Creates a random pistol and its bullets at the target location. If you create it in a place where there is furniture, it will fail."
+msgstr "対象の地点にランダムなピストルとその弾丸を作成します。家具がある場所に作ると失敗します。"
+
+msgid "Create rifle"
+msgstr "作成：ライフル"
+
+msgid "Creates a random rifle and its bullets at the target location. If you create it in a place where there is furniture, it will fail."
+msgstr "対象の地点にランダムなライフルとその弾丸を作成します。家具がある場所に作ると失敗します。"
+
+msgid "Scroll of Create pistol"
+msgstr "作成：ピストルの巻物"
+
+msgid "This is a scroll of create pistol\n When you read it, Creates a random pistol and its bullets at the target location. If you create it in a place where there is furniture, it will fail."
+msgstr "これはピストル作成の巻物です。これを読むと、目標地点にランダムなピストルとその弾丸を作成します。家具がある場所に作成すると失敗します。"
+
+msgid "Scroll of Create rifle"
+msgstr "作成：ライフルの巻物"
+
+msgid "This is a scroll of create pistol\n When you read it, Creates a random rifle and its bullets at the target location. If you create it in a place where there is furniture, it will fail."
+msgstr "これはライフル作成の巻物です。これを読むと、目標地点にランダムなライフルとその弾丸を作成します。家具がある場所に作成すると失敗します。"
+
+msgid "[30 Magical Forest Coin] a random pistol with its ammo"
+msgstr "[魔法硬貨：森30枚]ガチャ：弾薬付きピストル"
+
+msgid "[40 Magical Forest Coin] a random rifle with its ammo"
+msgstr "[魔法硬貨：森40枚]ガチャ：弾薬付きライフル"
+
+msgid "Cannon"
+msgstr "大砲"
+
+msgid "Summon Cannon"
+msgstr "召喚：大砲"
+
+msgid "Summon a huge cannon at the target point.With this, you can crush any enemy by the balls, right?\n\nTo fire, the cannon must be loaded with cannonballs."
+msgstr "対象地点に巨大な大砲を召喚します。これを使えばどんな敵も玉砕できますね？\n\n発射するには大砲の弾を装填する必要があります。"
+
+msgid "Magic Cannonballs"
+msgstr "魔法の大砲の弾"
+
+msgid "Create Magic Cannonballs"
+msgstr "クリエイト・魔法の大砲の弾"
+
+msgid "These are magically created cannonballs to be loaded into a cannon. Cause a large explosion at the point where the bullet hits."
+msgstr "大砲に装填するための魔法で作られた大砲の弾です。弾が当たった地点に大きな爆発を起こします。"
+
+msgid "Use magic power to create cannonballs to load into the cannon. These bullets can cause a large explosion at the point where they hit."
+msgstr "マナを使用して、大砲に装填するための大砲の弾を作成します。この弾は当たった地点に大きな爆発を引き起こす事が可能です。"
+
+msgid "Mutant bee"
+msgstr "ミュータントハチ"
+
+msgid "A bee whose body is about the same size as a child elephant. You shouldn't get too close."
+msgstr "体が子供の象と同じくらいの大きさのハチです。あまり近づかないほうがよいでしょう。"
+
+msgid "A bee whose body is about the same size as a child elephant. They seem to be wary of us."
+msgstr "体が子供の象と同じくらいの大きさのハチです。こちらに対して警戒しているようです。"
+
+msgid "A bee whose body is as big as a child elephant. As you can see, they are hostile towards you."
+msgstr "体が子供の象と同じくらいの大きさのハチです。見てわかる通り、あなたに対して敵意を向けています。"
+
+msgid "Beehive"
+msgstr "ハチの巣"
+
+msgid "Giant Beehive"
+msgstr "巨大ハチの巣"
+
+msgid "A giant honeybee hive mutated into a It has been destroyed and turned into a machine that produces large numbers of mutated bees."
+msgstr "巨大なミツバチの巣が変異したものです。壊されたことにより大量の変異したハチを生み出す機械と化しています。"
+
+msgid "This is what appears to be a huge beehive. When we looked into the hole, there did not seem to be any bees in particular, but they kept making strange noises."
+msgstr "巨大なミツバチの巣と思われる物です。穴をのぞいてみても特にハチがいる様子はないようですが、奇妙な音を出し続けています。"
+
+msgid "This is what appears to be a huge beehive. When we looked into the hole, there did not seem to be any bees in particular, but they kept making strange noises.It seems quite dangerous to destroy them, so attack from a distance or use good equipment."
+msgstr "巨大なミツバチの巣と思われる物です。穴をのぞいてみても特にハチがいる様子はないようですが、奇妙な音を出し続けています。壊すのは相当危険に思われますので遠距離から攻撃するか良い装備で挑みましょう。"
+
+msgid "Search Stairway"
+msgstr "階段探知"
+
+msgid "The magic is to find the stairs within the range 50 tiles. It is not possible to find some stairs or if they are broken."
+msgstr "範囲50タイル内の階段を見つける魔法です。これを使うことによって階段を周期的に透視できるようになります。一部の階段や、壊されている場合は見つけることが出来ません。"
+
+msgid "Scroll of Search Stairway"
+msgstr "階段探知の巻物"
+
+msgid "Read this scroll to find the stairs within the range 50 tiles. It is not possible to find some stairs or if they are broken."
+msgstr "この巻物を読むと、50タイル内にある階段を見つけることができます。これを使うことによって階段を周期的に透視できるようになります。一部の階段や、階段が壊れている場合は、見つけることができないことがあります。"
+
+msgid "This magic is to find the stairs within the range 50 tiles.This allows you to see the stairway through wall cyclically. It is not possible to find some stairs or if they are broken."
+msgstr "範囲50タイル内の階段を見つける魔法です。これにより、壁を通して階段を周期的に透視することができます。一部の階段や、壊されている場合は見つけることが出来ません。"
+
+msgid "Read this scroll to find the stairs within the range 50 tiles and allows you to see the stairway through wall cyclically. It is not possible to find some stairs or if they are broken."
+msgstr "この巻物を読むと、50タイル内にある階段を見つけることができ、これにより、壁を通して階段を周期的に透視することができます。一部の階段や、階段が壊れている場合は、見つけることができないことがあります。"
+
+msgid "Honey crossbow"
+msgstr "ハニークロスボウ"
+
+msgid "This crossbow smells like sweet honey. It can be loaded with up to 3 bolts!"
+msgstr "甘いはちみつの匂いがするクロスボウです。最大3本のボルトを装填することが可能です"
+
+msgid "Honey bolt"
+msgstr "ハニーボルト"
+
+msgid "These crossbow bolts smell like sweet honey.The target of the shot is covered in honey, which reduces movement speed."
+msgstr "甘いはちみつの匂いがするクロスボウ用のボルトです。撃った対象がハチミツに覆われ、移動速度が低下します。"
+
+msgid "You can come back here with items you earn after defeating the boss."
+msgstr "石像を起動しました。ボスを倒した後に獲得した脱出の巻物を使って、ここにテレポートすることができます。"
+
+msgid "Teleport stone statue"
+msgstr "テレポート石像"
+
+msgid "It is an unusual looking stone statue. Once activated, it is possible to return to the vicinity of the stone statue with an item obtained from defeating a boss."
+msgstr "変わった見た目の石像です。起動すると、ボスを倒したときに獲得できるアイテムで石像の近くに戻ってくることが可能です。"
+
+msgid "Escape Spell"
+msgstr "脱出の呪文"
+
+msgid "It is a magic to escape from the dungeon.It teleports you to the last stone statue you touched."
+msgstr "ダンジョンから脱出する魔法です。最後に触れた石像にテレポートします。"
+
+msgid "Scroll of Escape dungeon"
+msgstr "脱出の巻物"
+
+msgid "This is a scroll of escape dungeon\n When you read it, You able to escape from the dungeon.It teleports you to the last stone statue you touched."
+msgstr "脱出の巻物です。これを読むことにより最後に触れた石像にテレポートし、ダンジョンから脱出することが出来ます。"
+
+msgid "Portal Storm Caller"
+msgstr "ポータル嵐発生器"
+
+msgid "magic that generates portal storms. There is no need to use it at all."
+msgstr "ポータル嵐を発生させる魔法です。使う必要はこれっぽっちもないでしょう。"
+
+msgid "thin sticky honey"
+msgstr "薄いねばねばのはちみつ"
+
+msgid "sticky honey"
+msgstr "ねばねばのはちみつ"
+
+msgid "thick sticky honey"
+msgstr "厚いねばねばのはちみつ"
+
+msgid "Honey"
+msgstr "はちみつ状態"
+
+msgid "Honey[2]"
+msgstr "はちみつ状態[2]"
+
+msgid "Honey[3](max)"
+msgstr "はちみつ状態[3](max)"
+
+msgid "The movement speed is reduced for a short period of time, but recovery from injuries is faster."
+msgstr "移動速度が短時間低下しますが、その間、ケガの回復が早くなります。"
+
+msgid "Honey Assault Rifle"
+msgstr "ハニーアサルトライフル"
+
+msgid "This assault rifle is made from crystallized honey. Covering it with sticky honey can slow down the enemy's movement."
+msgstr "はちみつが結晶化して作られたアサルトライフルです。敵をねばねばのはちみつで覆うことで動きを遅くすることが出来ます。"
+
+msgid "Honey Burst Rifle"
+msgstr "ハニーバーストライフル"
+
+msgid "This burst rifle is made from crystallized honey. Covering it with sticky honey can slow down the enemy's movement."
+msgstr "はちみつが結晶化して作られたバーストライフルです。敵をねばねばのはちみつで覆うことで動きを遅くすることが出来ます。"
+
+msgid "Honey Beam Rifle"
+msgstr "ハニービームライフル"
+
+msgid "This beam rifle is made from crystallized honey. Shoots a beam of sticky honey at the target enemy."
+msgstr "はちみつが結晶化して作られたビームライフルです。対象の敵にねばねばのはちみつのビームを放つことが出来ます。"
+
+msgid "Hot Honey Shotgun"
+msgstr "ホットハニーショットガン"
+
+msgid "This Shotgun is made from crystallized honey. Shoots hot honey at the target enemy. Each shot consumes 5 bullets."
+msgstr "はちみつが結晶化して作られたショットガンです。対象の敵に熱々のはちみつを撃ちます。一回のショットにつき、5つの弾を消費します。"
+
+msgid "Crystallized honey"
+msgstr "結晶化したはちみつ"
+
+msgid "Crystallized honey. It cannot be eaten as is, but can be used in some recipes or as ammunition."
+msgstr "結晶化したはちみつです。そのままでは食べることはできませんが、いくつかのレシピ、または弾薬として使用できます。"
+
+msgid "Honey Hand Cannon"
+msgstr "ハニーハンドキャノン"
+
+msgid "This Hand Cannon is made from crystallized honey. Shoots a lump of exploding honey at the target point. Each shot consumes 20 bullets."
+msgstr "はちみつが結晶化して作られたハンドキャノンです。爆発するハチミツの塊を対象の場所に撃ちます。一回のショットにつき、20つの弾を消費します。"
+
+msgid "Honey Sub Machine Gun"
+msgstr "ハニーサブマシンガン"
+
+msgid "This sub machine gun is made from crystallized honey. Covering it with sticky honey can slow down the enemy's movement."
+msgstr "はちみつが結晶化して作られたサブマシンガンです。敵をねばねばのはちみつで覆うことで動きを遅くすることが出来ます。"
+
+msgid "Healing Honey Syrup"
+msgstr "回復のはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. Drinking it restores HP."
+msgstr "とろけるような甘さのはちみつのシロップです。飲むとHPが回復します。"
+
+msgid "Honey Aura"
+msgstr "ハニーオーラ"
+
+msgid "Honey Aura (on)"
+msgstr "ハニーオーラ(オン)"
+
+msgid "Honicky Body"
+msgstr "ハニッキーボディ"
+
+msgid "Honicky Body (on)"
+msgstr "ハニッキーボディ(オン)"
+
+msgid "Honey Splash Damage"
+msgstr "ハニースプラッシュダメージ"
+
+msgid "Everything around you covers in honey!"
+msgstr "周囲の敵ははちみつでべたべただ!"
+
+msgid "You suppress your honey powers."
+msgstr "ハチミツパワーを抑えた!"
+
+msgid "Your attendance is very dangerous and can make everything around you sticky with honey. You are now suppressing this power."
+msgstr "あなたの能力はとても危険で、周りのものを蜂蜜でべとべとにすることができます。あなたは今、この力を抑えています。"
+
+msgid "Your attendance is very dangerous and can make everything around you sticky with honey."
+msgstr "あなたの能力はとても危険で、周りのものを蜂蜜でべとべとにすることができます。"
+
+msgid "Your attendance is very dangerous and can make everything around you sticky with honey. Each time this effect activates, you take 1 pure damage."
+msgstr "あなたの能力はとても危険で、周りのものを蜂蜜でべとべとにすることができます。この効果が発動するごとにあなたは１のピュアダメージを受けます。"
+
+msgid "Honey in a jar: Honicky Body"
+msgstr "ハチミツ瓶：ハニッキーボディ"
+
+msgid "Drinking this will permanently mutates you."
+msgstr "これを飲むと永久に変異してしまいます。"
+
+msgid "Honey heal"
+msgstr "はちみつヒール"
+
+msgid "The healing honey restores a small amount of HP to you."
+msgstr "治癒効果のあるはちみつによってあなたは少量のHPを回復します。"
+
+msgid "Attracting Honey Syrup"
+msgstr "呼び寄せのはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. Aggressive mutant bees appear out of nowhere when you drink."
+msgstr "とろけるような甘さのはちみつのシロップです。飲むとどこからともなく攻撃的な変異バチが現れます。"
+
+msgid "Freezing Honey Syrup"
+msgstr "凍結のはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. When you drink it, you release such a cold air that you freeze the water around you for a period of time."
+msgstr "とろけるような甘さのはちみつのシロップです。飲むとあなたは一定期間の間、周囲の水を凍らすほどの冷気を放ち続けます。"
+
+msgid "Charming Honey Syrup"
+msgstr "魅惑のはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. Drinking it releases an aura that makes monsters with less than 80 HP in the surrounding area become friends for a certain period of time."
+msgstr "とろけるような甘さのはちみつのシロップです。飲むと、周囲のHP80以下のモンスターを一時的に仲間にするオーラを放ち続けます。"
+
+msgid "Charming Aura"
+msgstr "誘惑のオーラ"
+
+msgid "You continue to emit an aura that temporarily joins monsters with less than 80 HP around you."
+msgstr "あなたは周囲のHP80以下のモンスターを一時的に仲間にするオーラを放ち続けます。"
+
+msgid "Terraforming Honey Syrup"
+msgstr "地形変化のはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. Drinking this transforms the surrounding ground and walls into wax."
+msgstr "とろけるような甘さのはちみつのシロップです。これを飲むと、周囲の地面や壁をワックスに変形させます。"
+
+msgid "Treasure hunting Honey Syrup"
+msgstr "トレジャーハントのはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. When this is drunk, the location of the treasure is marked on a map."
+msgstr "とろけるような甘さのはちみつのシロップです。これを飲むと、お宝のありかが地図に記されます。"
+
+msgid "Boss hunting Honey Syrup"
+msgstr "ボスハントのはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. Drinking this will reveal the boss's lair on the map."
+msgstr "とろけるような甘さのはちみつのシロップです。これを飲むと、ボスの巣窟が地図に記されます。"
+
+msgid "Freezing Aura"
+msgstr "凍結のオーラ"
+
+msgid "Ice floor"
+msgstr "氷の床"
+
+msgid "It's an ice floor created by magic."
+msgstr "魔法によって作られた氷の床です"
+
+msgid "This magic releases an aura that freezes the surface of the water in 3 surrounding tiles."
+msgstr "周囲3タイルの水面を凍らせるオーラを放つ魔法です。"
+
+msgid "Magic that Summons many hostile mutant bees a little far from you."
+msgstr "自分の少し遠い場所に沢山の敵対する変異ハチを召喚する魔法。"
+
+msgid "Flower Gardening Honey Syrup"
+msgstr "花園のはちみつシロップ"
+
+msgid "It is a honey syrup with melting sweetness. Drinking this makes flowers bloom on the ground around you!"
+msgstr "とろけるような甘さのはちみつのシロップです。これを飲むと、周囲の地面に花を咲かせます。"
+
+msgid "magic that makes the surrounding ground bloom."
+msgstr "周囲の地面に花を咲かせる魔法です。"
+
+msgid "Investigate Treasure Location"
+msgstr "宝の在処を調査する"
+
+msgid "Come on!　Let's get the treasure!"
+msgstr "さあ!　宝物を手に入れよう!"
+
+msgid "You opened treasure chest!　When you hit them, you can acquire the contents of the treasure chest."
+msgstr "あなたは宝箱を開けた！　殴ると宝箱の中身を獲得することが出来ます。"
+
+msgid "It is a very large and gorgeous treasure chest. You can open it by pressing the `E` button. After opening it, you need to destroy that treasure chest."
+msgstr "とても大きくて豪華な宝箱です。`E`ボタンを押して開けることが出来ます。開けた後にその宝箱を壊す必要があります。"
+
+msgid "Treasure Hunt"
+msgstr "トレジャーハント"
+
+msgid "Gorgeous big treasure chest"
+msgstr "豪華な大きな宝箱"
+
+msgid "Opened Treasure chest"
+msgstr "開いた宝箱"
+
+msgid "You drank melted sweet honey and your HP was restored."
+msgstr "とろけるような甘い蜜を飲んでHPが回復しました。"
+
+msgid "You drank melted sweet honey and your HP is restored."
+msgstr "とろけるような甘い蜜を飲んでHPが回復しました。"
+
+msgid "Forgeborn Watchdog."
+msgstr "フォージボーンの番犬"
+
+msgid "STR increases for a certain time by eating candy"
+msgstr "飴を食べてSTRが一定時間上昇します"
+
+msgid "PER increases for a certain time by eating candy"
+msgstr "飴を食べてPERが一定時間上昇します"
+
+msgid "INT increases for a certain time by eating candy"
+msgstr "飴を食べてINTが一定時間上昇します"
+
+msgid "DEX increases for a certain time by eating candy"
+msgstr "飴を食べてDEXが一定時間上昇します"
+
+msgid "MAX HP increases for a certain time by eating candy"
+msgstr "飴を食べてHPの最大値が一定時間上昇します"
+
+msgid "MAX MANA increases for a certain time by eating candy"
+msgstr "飴を食べてマナの最大値が一定時間上昇します"
+
+msgid "SPEED increases for a certain time by eating candy"
+msgstr "飴を食べて移動速度が一定時間上昇します"
+
+msgid "MAX STAMINA increases for a certain time by eating candy"
+msgstr "飴を食べてスタミナの最大値が一定時間上昇します"
+
+msgid "Speed Candy"
+msgstr "スピードキャンディー"
+
+msgid "Speed Candy[2]"
+msgstr "スピードキャンディー[2]"
+
+msgid "Speed Candy[3](max)"
+msgstr "スピードキャンディー[3](max)"
+
+msgid "STR Candy"
+msgstr "STRキャンディー"
+
+msgid "STR Candy[2]"
+msgstr "STRキャンディー[2]"
+
+msgid "STR Candy[3](max)"
+msgstr "STRキャンディー[3](max)"
+
+msgid "DEX Candy"
+msgstr "DEXキャンディー"
+
+msgid "DEX Candy[2]"
+msgstr "DEXキャンディー[2]"
+
+msgid "DEX Candy[3](max)"
+msgstr "DEXキャンディー[3](max)"
+
+msgid "PER Candy"
+msgstr "PER キャンディー"
+
+msgid "PER Candy[2]"
+msgstr "PER キャンディー[2]"
+
+msgid "PER Candy[3](max)"
+msgstr "PER キャンディー[3](max)"
+
+msgid "INT Candy"
+msgstr "INT キャンディー"
+
+msgid "INT Candy[2]"
+msgstr "INT キャンディー[2]"
+
+msgid "INT Candy[3](max)"
+msgstr "INT キャンディー[3](max)"
+
+msgid "Candy of Life"
+msgstr "命のキャンディー"
+
+msgid "Candy of Mana"
+msgstr "マナのキャンディー"
+
+msgid "Candy of Stamina"
+msgstr "スタミナのキャンディー"
+
+msgid "Candy of Power"
+msgstr "力のキャンディー"
+
+msgid "Melee damage increases for a certain time by eating candy"
+msgstr "飴を食べて近接攻撃の威力が一定時間上昇します"
+
+msgid "Candy of Diligent"
+msgstr "努力家のキャンディー"
+
+msgid "Reading EXP increases for a certain time by eating candy"
+msgstr "飴を食べて本の読むことで得られる経験値が一定時間上昇します"
+
+msgid "Candy of Focus"
+msgstr "集中力のキャンディー"
+
+msgid "MAX Focus increases for a certain time by eating candy"
+msgstr "飴を食べて集中力の最大値が一定時間上昇します"
+
+msgid "Magic Candy"
+msgstr "魔法の飴"
+
+msgid "A sweet magic candy. When you eat it, you get a random buff that lasts one day. The same buff stacks for up to 3 days."
+msgstr "甘ったるい魔法の飴です。食べると一日続くランダムなバフを獲得します。同じバフは最大3日までスタックします。"
+
+msgid "Eat Magic Candy"
+msgstr "魔法の飴を食べる"
+
+msgid "Eat the magic candy and get a random buff that lasts a day. The same buff stacks for up to 3 days."
+msgstr "魔法の飴を食べて、一日続くランダムなバフを獲得します。同じバフは最大3日までスタックします。"
+
+msgid "Magic that releases cold air all around. It damages surrounding enemies with cold air, immobilizes them for a certain period of time, and freezes the surface of the water."
+msgstr "辺り一面に冷気を放つ魔法です。範囲内の敵に冷気ダメージを与え一定時間動けなくし、周囲の水面を凍らせることが出来ます"
+
+msgid "Create Ice Crystal"
+msgstr "クリエイト・アイスクリスタル"
+
+msgid "Ice Crystal"
+msgstr "アイスクリスタル"
+
+msgid "Ice Crystal Medium"
+msgstr "アイスクリスタル中"
+
+msgid "Ice Crystal Large"
+msgstr "アイスクリスタル大"
+
+msgid "Medium Ice Crystal"
+msgstr "中アイスクリスタル"
+
+msgid "Large Ice Crystal"
+msgstr "大アイスクリスタル"
+
+msgid "A magic crystal that lowers the body temperature of everything within a range of 9 tiles by 30°C."
+msgstr "範囲9タイル内にいるすべてのものの体温を30℃下げる魔法のクリスタルです。"
+
+msgid "A magic crystal that lowers the body temperature of everything within a range of 7 tiles by 20°C."
+msgstr "範囲7タイル内にいるすべてのものの体温を20℃下げる魔法のクリスタルです。"
+
+msgid "A magic crystal that lowers the body temperature of everything within a range of 5 tiles by 10°C."
+msgstr "範囲5タイル内にいるすべてのものの体温を10℃下げる魔法のクリスタルです。"
+
+msgid "icy air"
+msgstr "ひんやり空気"
+
+msgid "freezing wind"
+msgstr "凍える風"
+
+msgid "Extreme cold air"
+msgstr "極寒の空気"
+
+msgid "Summons a magic crystal that substitutes for air conditioning at the target point. It lowers the body temperature of everything within 5 tiles of the crystal's range by 10 degrees Celsius.If furniture is placed at the target location, summoning is impossible."
+msgstr "対象の地点に冷房代わりになる魔法のクリスタルを召喚します。そのクリスタルの範囲5タイル内にいるすべてのものの体温が10℃下がります。対象地点に家具が置いてあると召喚が不可能です。"
+
+msgid "Summons a magic crystal that substitutes for air conditioning at the target point. It lowers the body temperature of everything within 5 tiles of the crystal's range by 10 degrees Celsius.If furniture is placed at the target location, summoning is impossible. It can be enhanced up to twice when used on a location where a crystal has already been placed."
+msgstr "対象の地点に冷房代わりになる魔法のクリスタルを召喚します。そのクリスタルの範囲5タイル内にいるすべてのものの体温が10℃下がります。対象地点に家具が置いてあると召喚が不可能です。クリスタルがすでに置かれている場所に使用すると最大2回強化することが可能です。"
+
+msgid "Icicle Barrage"
+msgstr "アイス・バレッジ"
+
+msgid "Continues to summon many ice thorns around it for a certain period of time. These ice thorns fly toward the surrounding enemies and deal piercing damage damage."
+msgstr "一定時間の間、周囲に沢山の氷の棘を召喚し続けます。それらの氷の棘は近く敵に向かって勢いよく飛んでいき,刺突ダメージを与えます。"
+
+msgid "Ice Creation"
+msgstr "氷の創造"
+
+msgid "Ice Magic"
+msgstr "アイスマジック"
+
+msgid "Ice Golem"
+msgstr "アイスゴーレム"
+
+msgid "Ice Golem:Big Body"
+msgstr "アイスゴーレム：巨体"
+
+msgid "Ice Golem:Swift Body"
+msgstr "アイスゴーレム：迅速"
+
+msgid "Ice Golem:Mage"
+msgstr "アイスゴーレム：魔法使い"
+
+msgid "Ice Golem:Hammer"
+msgstr "アイスゴーレム：ハンマー"
+
+msgid "Ice Golem:Shooter"
+msgstr "アイスゴーレム：シューター"
+
+msgid "Ice Golem:Healer"
+msgstr "アイスゴーレム：ヒーラー"
+
+msgid "Ice Golem:Heavily Armored"
+msgstr "アイスゴーレム：重装甲"
+
+msgid "Golem Gun"
+msgstr "ゴーレムガン"
+
+msgid "A large humanoid golem made of ice. Depending on the individual, they can attack at long range or use magic."
+msgstr "氷でできた大型の人型ゴーレムです。 個体によっては遠距離攻撃をしたり、魔法を使うことが出来ます。"
+
+msgid "Eisbahn"
+msgstr "アイスバーン"
+
+msgid "Creation of Ice Golems"
+msgstr "クリエイト・アイスゴーレム"
+
+msgid "Randomly summon monsters created with ice around you. The number of monsters summoned increases as the level of this magic increases."
+msgstr "あなたの周囲に氷で創られたモンスターをランダムで召喚します。この魔法のレベルが上がると召喚されるモンスターの数が増えていきます。"
+
+msgid "Creates several golems made of ice around you. The number of golems summoned increases with the level of magic."
+msgstr "自分の周りに氷でできたゴーレムを複数作成します。召喚されるゴーレムの数は魔法のレベルに応じて増加していきます。"
+
+msgid "Using large amounts of atmospheric moisture and water in your inventory, you create multiple golems made of ice around you. The number of golems summoned increases with the level of magic."
+msgstr "大量の大気中の水分とインベントリの中にある水を使って、自分の周りに氷でできたゴーレムを複数作成します。召喚されるゴーレムの数は魔法のレベルに応じて増加していきます。"
+
+msgid "Ice Thorn"
+msgstr "氷棘"
+
+msgid "A thorn made of flying sharp ice."
+msgstr "空飛ぶ鋭い氷で出来た棘です。"
+
+msgctxt "profession_male"
+msgid "[PSY] Ice Mage"
+msgstr "[PSY]アイスメイジ"
+
+msgctxt "profession_female"
+msgid "[PSY] Ice Mage"
+msgstr "[PSY]アイスメイジ"
+
+msgctxt "prof_desc_male"
+msgid "You are a mage who excels in ice magic and can release cold air around you to weaken monsters, freeze the surface of water, summon ice golems, and create cooling crystals."
+msgstr "あなたは氷魔法に秀でた魔術師で、周囲に冷気を放ってモンスターの動きを弱めて、水面を凍らせたり、アイスゴーレムの召喚、冷房クリスタルを創造したりできる。"
+
+msgctxt "prof_desc_female"
+msgid "You are a mage who excels in ice magic and can release cold air around you to weaken monsters, freeze the surface of water, summon ice golems, and create cooling crystals."
+msgstr "あなたは氷魔法に秀でた魔術師で、周囲に冷気を放ってモンスターの動きを弱めて、水面を凍らせたり、アイスゴーレムの召喚、冷房クリスタルを創造したりできる。"
+
+msgid "Cold Tolerance -30℃"
+msgstr "耐寒性 -30℃"
+
+msgid "Heat Tolerance +30℃"
+msgstr "耐暑性 +30℃"
+
+msgid "Heat Tolerance +20℃"
+msgstr "耐暑性 +20℃"
+
+msgid "Thanks to your years as an engineer building robots in a small, steamy workshop, you are heat tolerant and can work well in extreme temperatures."
+msgstr "長年の間、エンジニアとして、こじんまりとした蒸し暑い作業場でロボットを作っていたおかげで、あなたは暑さに強く、気温が極度に高い環境でも元気に動けます。"
+
+msgid "Bug Swarm"
+msgstr "バグスウォーム"
+
+msgid "Grave Fall"
+msgstr "墓落とし"
+
+msgid "Thanks to years of researching ice magic, you are very resistant to cold and can move well in extremely cold temperatures."
+msgstr "長年の間、氷の魔法の研究をしていたおかげで、あなたは寒さに強く、気温が極度に低い環境でも元気に動けます。"
+
+msgid "The Glacier Magic Book"
+msgid_plural "copies of The Glacier Magic Book"
+msgstr[0] "氷河の魔術本"
+
+msgid "This is a magic book describing ice magic that has been studied for many years. Touch it with your bare hands and you will get frostbite, okay?"
+msgstr "長年研究されてきた氷の魔法が描かれた魔法の本です。素手で触ると凍傷を負いますよ？"
+
+msgid "Aura of healing"
+msgstr "回復のオーラ"
+
+msgid "Detonate Ice Crystal"
+msgstr "デトネート・アイスクリスタル"
+
+msgid "It instantly transforms the target ice crystal into a bomb and detonates it."
+msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、爆発させます。"
+
+msgid "Magic that instantly transforms the target ice crystal into a bomb and detonates it."
+msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、爆発させる魔法です。"
+
+msgid "This magic turns the target ice crystal into a bomb in an instant and causes a small explosion after a short time. It can also be used as a long-range ignition spell."
+msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、少し時間が経った後に小爆発させる魔法です。遠距離の発火魔法としても使用できます。"
+
+msgid "This magic turns the target ice crystal into a bomb in an instant and causes a small explosion after a short time. It can also be used as a long-range ignition magic. The power and explosion range depend on the size of the crystal."
+msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、少し時間が経った後に小爆発させる魔法です。遠距離の発火魔法としても使用できます。クリスタルの大きさによって、威力と爆発範囲が変わります。"
+
+msgid "This magic turns the target ice crystal into a bomb in an instant and causes a small explosion after a short time. The power and explosion range depend on the size of the crystal. It can also be used as a long-range ignition magic."
+msgstr "対象のアイスクリスタルを一瞬にして爆弾へと変え、少し時間が経った後に小爆発させる魔法です。クリスタルの大きさによって、威力と爆発範囲が変わります。遠距離の発火魔法としても使用できます。"
+
+msgid "Mana Turret"
+msgstr "マナタレット"
+
+msgid "inactive Mana Turret"
+msgstr "マナタレット(停止中)"
+
+msgid "A turret of mana created by magic power. It automatically detects enemies around it and continues to fire bullets at its target."
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾丸を撃ち続けます。"
+
+msgid "Mana Bullet"
+msgstr "マナの弾丸"
+
+msgid "Create Mana Turret"
+msgstr "クリエイト・マナタレット"
+
+msgid "Create Mana Drone"
+msgstr "クリエイト・マナドローン"
+
+msgid "Create Mana Drone Mech"
+msgstr "クリエイト・マナドローンメカ"
+
+msgid "Create a random magic turret with magic power and lots of materials. There are a total of 10 different types of turrets."
+msgstr "魔力と沢山の素材を使ってランダムな魔法のタレットを作ります。タレットは全部で10種類存在します。"
+
+msgid "Create a random magic Drone Mechs with magic power and lots of materials. There are a total of 10 different types of Drone Mechs."
+msgstr "魔力と沢山の素材を使ってランダムな魔法のドローンメカを作ります。ドローンメカは全部で10種類存在します。"
+
+msgid "Mana bullets made by compressing magic power. It is mainly ammunition for mana turrets and mana robots."
+msgstr "魔力を圧縮して作られたマナの弾丸です。主にマナタレットやマナロボットの為の弾薬です。"
+
+msgid "It is a turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets."
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。"
+
+msgid "A turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets."
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。"
+
+msgid "A turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\"HP:30\"MAX-AMMO:50\"RANGE:14\"DAMAGE:18\"TYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\nHP:30\n最大弾薬:50\n射程距離:14\n威力:18\nダメージタイプ:弾丸"
+
+msgid "A turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\n\nHP:30\nMAX-AMMO:50\nRANGE:14\nDAMAGE:18\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます\n弾薬には[マナの弾丸]が必要です。\n\nHP:30\n最大弾薬:50\n射程距離:14\n威力:18\nダメージタイプ:弾丸"
+
+msgid "A turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\n\nHP:30\nMAX-AMMO:50\nrounds per minute:60\nRANGE:0-14\nDAMAGE:18\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます\n弾薬には[マナの弾丸]が必要です。\n\nHP:30\n最大弾薬:50\nRPM:60\n射程距離:0-14\n威力:18\nダメージタイプ:弾丸"
+
+msgid "Turret Gun"
+msgstr "タレットガン"
+
+msgid "A Shotgun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\n\nHP:40\nMAX-AMMO:60\nrounds per minute:2\nRANGE:8\nDAMAGE:32\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのショットガンタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n\nHP:40\n最大弾薬:60\n射程距離:8\n威力:32\nダメージタイプ:弾丸"
+
+msgid "Mana Turret: Shotgun"
+msgstr "マナタレット:ショットガン"
+
+msgid "inactive Mana Turret: Shotgun"
+msgstr "マナタレット:ショットガン(停止中)"
+
+msgid "A turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:30\nMAX-AMMO:50\nRANGE:14\nDAMAGE:18\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます\n弾薬には[マナの弾丸]が必要です。\n\nHP:30\n最大弾薬:50\n射程距離:14\n威力:18\nダメージタイプ:弾丸"
+
+msgid "A Shotgun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:40\nMAX-AMMO:60\nrounds per minute:2\nRANGE:8\nDAMAGE:32\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのショットガンタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:40\n最大弾薬:60\nRPM:2\n射程距離:8\n威力:32\nダメージタイプ:弾丸"
+
+msgid "A Shotgun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:40\nMAX-AMMO:60\nrounds per minute:40\nRANGE:0-8\nDAMAGE:24\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのショットガンタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:40\n最大弾薬:60\nRPM:40\n射程距離:0-8\n威力:24\nダメージタイプ:弾丸"
+
+msgid "Mana Turret: Taser"
+msgstr "マナタレット:テーザー"
+
+msgid "inactive Mana Turret: Taser"
+msgstr "マナタレット:テーザー(停止中)"
+
+msgid "A Taser turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:35\nMAX-AMMO:30\nrounds per minute:60\nRANGE:3\nDAMAGE:22\nTYPE:Electrical"
+msgstr "魔法の力によって作成されたマナのテーザータレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:35\n最大弾薬:30\nRPM:60\n射程距離:3\n威力:22\nダメージタイプ:電撃"
+
+msgid "A Taser turret of mana created by magical power. It automatically detects surrounding enemies and continues to fire electric blasts at the target until it runs out of ammunition.\nFor ammunition you need [Mana Bullets].\n\nHP:35\nMAX-AMMO:30\nrounds per minute:90\nRANGE:0-3\nDAMAGE:18\nTYPE:Electrical"
+msgstr "魔法の力によって作成されたマナのテーザータレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで電撃を放ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:35\n最大弾薬:30\nRPM:90\n射程距離:0-3\n威力:18\nダメージタイプ:電撃"
+
+
+msgid "Mana Turret: Gatling gun"
+msgstr "マナタレット:ガトリングガン"
+
+msgid "inactive Mana Turret: Gatling gun"
+msgstr "マナタレット:ガトリングガン(停止中)"
+
+msgid "A Gatling gun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:55\nMAX-AMMO:200\nrounds per minute:5\nRANGE:15\nDAMAGE:12\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのガトリングガンタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:55\n最大弾薬:200\nRPM:5\n射程距離:15\n威力:12\nダメージタイプ:弾丸"
+
+msgid "A Gatling gun turret of mana created by magical power. It automatically detects enemies in the vicinity and continues to fire bullets at high speed until there are no more bullets left for that target.\nFor ammunition you need [Mana Bullets].\n\nHP:55\nMAX-AMMO:200\nrounds per minute:200\nRANGE:0-15\nDAMAGE:12x5\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのガトリングガンタレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を高速で撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:55\n最大弾薬:200\nRPM:200\n射程距離:0-15\n威力:12x5\nダメージタイプ:弾丸"
+
+
+msgid "Mana Turret: Flamethrower"
+msgstr "マナタレット:火炎放射器"
+
+msgid "inactive Mana Turret: Flamethrower"
+msgstr "マナタレット:火炎放射器(停止中)"
+
+msgid "A Flamethrower turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nrounds per minute:5\nRANGE:5\nDAMAGE:8\nTYPE:HEAT"
+msgstr "魔法の力によって作成されたマナの火炎放射タレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:100\nRPM:5\n射程距離:5\n威力:8\nダメージタイプ:熱"
+
+msgid "A Flamethrower turret of mana created by magical power. It automatically detects surrounding enemies and continues to release flames until there are no more bullets at the target.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nrounds per minute:120\nRANGE:0-5\nDAMAGE:4x2\nTYPE:HEAT"
+msgstr "魔法の力によって作成されたマナの火炎放射タレットです。自動で周囲の敵を検知し、その対象に弾がなくなるまで炎を放ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:100\nRPM:120\n射程距離:0-5\n威力:4x2\nダメージタイプ:熱"
+
+
+msgid "Mana Turret: Rocket launcher"
+msgstr "マナタレット:ロケットランチャー"
+
+msgid "inactive Mana Rocket launcher"
+msgstr "マナタレット:ロケットランチャー(停止中)"
+
+msgid "inactive Mana Turret: Rocket launcher"
+msgstr "マナタレット:ロケットランチャー(停止中)"
+
+msgid "A Rocket launcher turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nrounds per minute:20\nRANGE:6-18\nDAMAGE:8\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのロケットランチャータレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:100\nRPM:20\n射程距離:6-18\n威力:100\nダメージタイプ:弾丸"
+
+msgid "A Rocket launcher turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nrounds per minute:20\nRANGE:6-18\nDAMAGE:100\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのロケットランチャータレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:100\nRPM:20\n射程距離:6-18\n威力:100\nダメージタイプ:弾丸"
+
+msgid "A Rocket launcher turret of mana created by magical power. It automatically detects enemies in the vicinity and continues to fire missiles that explode until there are no more bullets at the target.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nrounds per minute:50\nRANGE:6-18\nDAMAGE:20x5\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナのロケットランチャータレットです。周囲の敵を自動的に検知し、対象に弾がなくなるまで爆発するミサイルを発射し続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:100\nRPM:50\n射程距離:6-18\n威力:20x5\nダメージタイプ:弾丸"
+
+msgid "Mana Turret: Railgun"
+msgstr "マナタレット:超電磁砲"
+
+msgid "inactive Mana Railgun"
+msgstr "マナタレット:超電磁砲(停止中)"
+
+msgid "inactive Mana Turret: Railgun"
+msgstr "マナタレット:超電磁砲(停止中)"
+
+msgid "A Railgun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets at the target until it runs out of bullets.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nrounds per minute:600\nRANGE:8-26\nDAMAGE:65\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナの超電磁砲タレットです。自動で周囲の敵を検知し、その対象に弾が無くなるまで弾丸を撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:100\nRPM:600\n射程距離:8-26\n威力:65\nダメージタイプ:弾丸"
+
+msgid "A Railgun turret of mana created by magical power. It automatically detects enemies around it and continues to fire bullets that can snipe its target from a distance until it runs out of ammunition.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:100\nrounds per minute:60\nRANGE:8-26\nDAMAGE:10x10\nTYPE:BULLET"
+msgstr "魔法の力によって作成されたマナの超電磁砲タレットです。周囲の敵を自動的に検知し、その対象を遠距離から狙撃できる弾丸を弾切れになるまで発射し続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:100\nRPM:60\n射程距離:8-26\n威力:10x10\nダメージタイプ:弾丸"
+
+msgid "Mana Turret: Plasma lance"
+msgstr "マナタレット:プラズマランス"
+
+msgid "inactive Mana Turret: Plasma lance"
+msgstr "マナタレット:プラズマランス(停止中)"
+
+msgid "Mana Turret: Beam bazooka"
+msgstr "マナタレット:ビームバズーカ"
+
+msgid "inactive Mana Turret: Beam bazooka"
+msgstr "マナタレット:ビームバズーカ(停止中)"
+
+msgid "Mana Turret: Charged particle cannon"
+msgstr "マナタレット:荷電粒子砲"
+
+msgid "inactive Mana Turret: Charged particle cannon"
+msgstr "マナタレット:荷電粒子砲(停止中)"
+
+msgid "Mana Turret: Hyper Nova"
+msgstr "マナタレット:ハイパーノヴァ"
+
+msgid "inactive Mana Turret: Hyper Nova"
+msgstr "マナタレット:ハイパーノヴァ(停止中)"
+
+msgid "Mana Turret: 3D vibrational wave"
+msgstr "マナタレット:次元振動波"
+
+msgid "inactive Mana Turret: 3D vibrational wave"
+msgstr "マナタレット:次元振動波(停止中)"
+
+msgid "Mana Turret: Antigravity ray"
+msgstr "マナタレット:反重力光線"
+
+msgid "inactive Mana Turret: Antigravity ray"
+msgstr "マナタレット:反重力光線(停止中)"
+
+msgid "Mana Turret: Mortar"
+msgstr "マナタレット:迫撃砲"
+
+msgid "inactive Mana Turret: Mortar"
+msgstr "マナタレット:迫撃砲(停止中)"
+
+msgid "Mana Turret: Poison bomber"
+msgstr "マナタレット:ポイズンボンバー"
+
+msgid "inactive Mana Turret: Poison bomber"
+msgstr "マナタレット:ポイズンボンバー(停止中)"
+
+msgid "Mana Turret: Toxic Darts"
+msgstr "マナタレット:トキシックダーツ"
+
+msgid "inactive Mana Turret: Toxic Darts"
+msgstr "マナタレット:トキシックダーツ(停止中)"
+
+msgid "Mana Turret: Shadow fang"
+msgstr "マナタレット:シャドウファング"
+
+msgid "inactive Mana Turret: Shadow fang"
+msgstr "マナタレット:シャドウファング(停止中)"
+
+msgid "A Shadow fang turret of mana created by magical power. It automatically detects enemies around it and continues to shoot bullets that generate darkness until it runs out of ammunition.\nFor ammunition you need [Mana Bullets].\n\nHP:25\nMAX-AMMO:50\nrounds per minute:60\nRANGE:0-12\nDAMAGE:5\nTYPE:PURE"
+msgstr "魔法の力によって作成されたマナのシャドウファングタレットです。自動で周囲の敵を検知し、暗闇を発生させる弾丸を弾薬が無くなるまで撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:25\n最大弾薬:50\nRPM:60\n射程距離0-12\n威力:5\nダメージタイプ:純粋"
+
+msgid "You feel cold from inhaling the mist."
+msgstr "ミストを吸い込むと冷たく感じます。"
+
+msgid "Mana Turret: Frost beam"
+msgstr "マナタレット:フロストビーム"
+
+msgid "inactive Mana Turret: Frost beam"
+msgstr "マナタレット:フロストビーム(停止中)"
+
+msgid "A Frost beam turret of mana created by magical power. It automatically detects enemies around it and emits a powerful beam of ice that freezes enemies until it runs out of ammunition.\nFor ammunition you need [Mana Bullets].\n\nHP:40\nMAX-AMMO:120\nrounds per minute:60\nRANGE:0-13\nDAMAGE:4x3\nTYPE:COLD"
+msgstr "魔法の力によって作成されたマナのフロストビームタレットです。自動で周囲の敵を検知し、強力な氷の光線を放出し、敵を凍らせるビームを弾薬が無くなるまで撃ち続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:40\n最大弾薬:120\nRPM:60\n射程距離:0-13\n威力:4x3\nダメージタイプ:冷気"
+
+msgid "Mana Turret: Acid splatter"
+msgstr "マナタレット:アシッドスプラッター"
+
+msgid "inactive Mana Turret: Acid splatter"
+msgstr "マナタレット:アシッドスプラッター(停止中)"
+
+msgid "An Acid splatter turret of mana created by magical power. It automatically detects surrounding enemies and continues to release a powerful acid liquid until it runs out of ammunition.\nFor ammunition you need [Mana Bullets].\n\nHP:50\nMAX-AMMO:120\nrounds per minute:90\nRANGE:0-6\nDAMAGE:3x3\nTYPE:ACID"
+msgstr "魔法の力によって作成されたマナのアシッドスプラッタータレットです。自動で周囲の敵を検知し、強力な酸の液体を弾薬が無くなるまで放出続けます。\n弾薬には[マナの弾丸]が必要です。\n\nHP:50\n最大弾薬:120\nRPM:90\n射程距離:0-6\n威力:3x3\nダメージタイプ:酸"
+
+msgid "Mana Mech: Tazer"
+msgstr "マナメカ:テーザー"
+
+msgid "inactive Mana Mech: Tazer"
+msgstr "マナメカ:テーザー(停止中)"
+
+msgid "Mana Drone: Tazer"
+msgstr "マナドローン:テーザー"
+
+msgid "inactive Mana Drone: Tazer"
+msgstr "マナドローン:テーザー(停止中)"
+
+msgid "Mana Mech: Archangel"
+msgstr "マナメカ:アークエンジェル"
+
+msgid "inactive Mana Mech: Archangel"
+msgstr "マナメカ:アークエンジェル(停止中)"
+
+msgid "Mana Drone: Electro Bat"
+msgstr "マナドローン:エレクトロバット"
+
+msgid "inactive Mana Drone: Electro Bat"
+msgstr "マナドローン:エレクトロバット(停止中)"
+
+msgid "A magic drone that manipulates electric blasts. It can fly at high speed and attack enemies with electric blasts."
+msgstr "電撃を操る魔法ドローン。高速で飛行し、敵を電撃で攻撃することができます。"
+
+msgid "Mana Drone: Magic Eye"
+msgstr "マナドローン:マジックアイ"
+
+msgid "inactive Mana Drone: Magic Eye"
+msgstr "マナドローン:マジックアイ(停止中)"
+
+msgid "A magic drone that can manipulates illusions. It can confuse the enemy or hide its companions. They can also use their magical powers to see remotely and assess their surroundings. Strategic combat is developed through the use of hallucinations."
+msgstr "幻覚を操ることができる魔法ドローン。敵を混乱させたり、仲間を隠すことができます。また、魔法の力で遠隔視や周囲の状況を把握することができます。幻覚を使った戦略的な戦闘を展開します。"
+
+msgid "Mana Drone: Skylock"
+msgstr "マナドローン:スカイロック"
+
+msgid "inactive Mana Drone: Skylock"
+msgstr "マナドローン:スカイロック(停止中)"
+
+msgid "This magic drone has a square metal body with wing-like protrusions. While floating in the air, it can detect enemies and shoot weak lasers from a distance. It features a cool, sophisticated appearance with a silver and green color scheme."
+msgstr "金属製の四角い本体に、翼のような突起物を備えた魔法ドローン。空中で浮遊しながら、敵を探知し、遠距離から弱いレーザーを放つことが出来ます。銀色と緑を基調とした、クールで洗練された外観が特徴です。"
+
+msgid "Mana Drone: Overload Cube"
+msgstr "マナドローン:オーバーロードキューブ"
+
+msgid "inactive Mana Drone: Overload Cube"
+msgstr "マナドローン:オーバーロードキューブ(停止中)"
+
+msgid "A square cube-shaped drone. While levitating, it can cast auxiliary magic that increases the attack power of allies or gives them a small amount of MP. The cube's design features motifs of lightning and thunder, symbolizing its intense attack power.\n\nMagic is only activated when there are enemies around."
+msgstr "四角形のキューブ型のドローン。浮遊しながら、味方の攻撃力を上昇させたり、少量のMPを与えたりする補助魔法をかけることができます。キューブのデザインには、稲妻や雷のモチーフが描かれ、強烈な攻撃力を象徴しています。\n\n周囲に敵が居る場合にしか魔法は発動しません。"
+
+msgid "Mana Mecha: Power Arms"
+msgstr "マナメカ:パワーアームズ"
+
+msgid "inactive Mana Mecha: Power Arms"
+msgstr "マナメカ:パワーアームズ(停止中)"
+
+msgid "A mecha that has gained powerful powers through magic. It has huge arms and can grab and throw things. It can also jump lightly and reach high places with its magical power. It is mainly used for repairing and dismantling buildings and equipment."
+msgstr "魔法で強力な力を得たメカ。腕部に巨大なアームを持ち、物をつかんだり投げたりすることができます。また、魔法の力で軽々とジャンプし、高い場所にも到達することができます。主に建物や装置の修理や解体に使われます。"
+
+msgid "Mana Mecha: Demolisher"
+msgstr "マナメカ:デモリッシャー"
+
+msgid "inactive Mana Mecha: Demolisher"
+msgstr "マナメカ:デモリッシャー(停止中)"
+
+msgid "A mecha that can magically destroy matter. It can generate blasts and disintegrate objects. They also have armor that has been hardened by magic and can withstand enemy attacks. It is mainly used to attack enemy bases and fortresses."
+msgstr "魔法で物質を破壊することができるメカ。爆風を発生させたり、物体を崩壊させたりすることができます。また、魔法の力で硬度を増した装甲を持ち、敵の攻撃にも耐えることができます。主に敵の拠点や要塞の攻撃に使われます。"
+
+msgid "Mana Mecha: Night Stalker"
+msgstr "マナメカ:ナイトストーカー"
+
+msgid "inactive Mana Mecha: Night Stalker"
+msgstr "マナメカ:ナイトストーカー(停止中)"
+
+msgid "A mecha that can magically manipulate darkness. It can see in the dark and attack enemies. It also has sharp claws and can cut through objects. It is specialized for nighttime operations and can surprise the enemy."
+msgstr "魔法で暗闇を操ることができるメカ。暗闇でも視界を確保し、敵を攻撃することができます。また、鋭い爪を持ち、物を切り裂くことができます。夜間の作戦に特化しており、敵を驚かせることができます。"
+
+msgid "Mana Mecha: Blood Storm"
+msgstr "マナメカ:ブラッドストーム"
+
+msgid "inactive Mana Mecha: Blood Storm"
+msgstr "マナメカ:ブラッドストーム(停止中)"
+
+msgid "A mecha that can magically manipulate blood. It can attack enemies and then magically manipulate their blood to heal its allies. It can also heal its own wounds with the power of magic. With its ferocious red and white design, it has the power to lay waste to its enemies."
+msgstr "魔法で血液を操ることができるメカ。敵に攻撃を加え、その血液を魔法の力で操り、味方を回復することができます。また、魔法の力で自分自身の傷を癒すこともできます。赤と白を基調とした凶暴なデザインで、敵を蹂躙する力を持ちます。"
+
+msgid "A mecha that can magically manipulate blood. It can attack enemies, manipulate their blood with its magical power, and summon orbs of recovery around it. It can also heal its own wounds with the power of magic. With its ferocious red and white design, it has the power to lay waste to its enemies."
+msgstr "魔法で血液を操ることができるメカ。敵に攻撃を加え、その血液を魔法の力で操り、周囲に回復のオーブを召喚することができます。また、魔法の力で自分自身の傷を癒すこともできます。赤と白を基調とした凶暴なデザインで、敵を蹂躙する力を持ちます。"
+
+msgid "Mana Mecha: Light Bringer"
+msgstr "マナメカ:ライトブリンガー"
+
+msgid "inactive Mana Mecha: Light Bringer"
+msgstr "マナメカ:ライトブリンガー(停止中)"
+
+msgid "A mecha that is magically imbued with the power of light. It can fire rays of light to attack enemies. It can also use its magical power to illuminate its surroundings, making it useful for nighttime operations. With its clean, white-based appearance, it can boost the morale of allies."
+msgstr "魔法で光の力を宿したメカ。光線を発射して敵を攻撃することができます。また、魔法の力で周囲を明るく照らすことができるため、夜間の作戦にも活躍します。白を基調とした清潔感のある外見で、味方の士気を高めることができます。"
+
+msgid "Mana Mecha: Blaze Ant"
+msgstr "マナメカ:ブレイズアント"
+
+msgid "inactive Mana Mecha: Blaze Ant"
+msgstr "マナメカ:ブレイズアント(停止中)"
+
+msgid "An ant-shaped mecha created by magic. As its name suggests, it excels at flame attacks. It can release the heat stored in its body to burn its enemies and melt the ice around it. They can also withstand hot environments, making them suitable for missions in volcanic regions and deserts."
+msgstr "魔法で作られた蟻型メカ。その名の通り、火炎攻撃が得意です。体内に蓄えた熱を放出して敵を焼き尽くし、周囲の氷を溶かすこともできます。また、熱い環境にも耐えることができるため、火山地帯や砂漠での任務に適しています。"
+
+msgid "Mana Mecha: Icicle Ant"
+msgstr "マナメカ:アイシクルアント"
+
+msgid "inactive Mana Mecha: Icicle Ant"
+msgstr "マナメカ:アイシクルアント(停止中)"
+
+msgid "An ant-shaped mecha that can magically manipulate icicles. It can fire icicles to attack enemies. It can also collect icicles to surround and ice its enemies. It has a simple appearance with white and blue as its base color."
+msgstr "魔法で氷柱を操ることができる蟻型メカ。氷柱を発射して、敵を攻撃することができます。また、氷柱を集めて、敵を囲んで氷漬けにすることもできます。白と青を基調としたシンプルな外観をしています。"
+
+msgid "Mana Mecha: Energy Cube"
+msgstr "マナメカ:エナジーキューブ"
+
+msgid "inactive Mana Mecha: Energy Cube"
+msgstr "マナメカ:エナジーキューブ(停止中)"
+
+msgid "A mecha that can restore the stamina of its surroundings with the power of magic. In appearance, the mecha is angular, box-shaped, bipedal, and has a fluorescent green sheen to its body color. In the center of the mecha is a cube for storing energy, which can be released toward surrounding organisms. The cube also has a magical function to replenish stamina, which can be used to affect nearby humans and animals. The Energy Cube is an ideal mecha to support travelers who have been in battle for a long time or are tired.\n\nMagic is only activated when there are enemies around."
+msgstr "魔法の力で周囲のスタミナを回復することができるメカ。見た目は、角ばった箱型で2足歩行し、体色は蛍光緑色の光沢を帯びています。メカの中央部には、エネルギーを貯めるためのキューブが搭載されており、周囲の生物に向けてエネルギーを放出することができます。また、キューブには、魔法の力でスタミナを補充するための機能があり、近くにいる人間や動物にも効果を発揮します。エナジーキューブは、長時間の戦闘や疲れがたまった旅行者のサポートに最適なメカです。\n\n周囲に敵が居る場合にしか魔法は発動しません。"
+
+msgid "Mana Mecha: Life Generator"
+msgstr "マナメカ:ライフジェネレーター"
+
+msgid "inactive Mana Mecha: Life Generator"
+msgstr "マナメカ:ライフジェネレーター(停止中)"
+
+msgid "This recovery mecha can magically collect energy in the surrounding air and use it to recover HP. It can also activate the surrounding life force, strengthening the natural healing power of all allies.\n\nMagic is only activated when there are enemies around."
+msgstr "この回復メカは、魔法で周囲の空気中にエネルギーを集め、それを使ってHPを回復することができます。また、周囲の生命力を活性化させることもでき、味方全員の自然治癒力を強化することができます。\n\n周囲に敵が居る場合にしか魔法は発動しません。"
+
+msgid "Mana Mecha: Acid Arachnid"
+msgstr "マナメカ:アシッドアラクニッド"
+
+msgid "inactive Mana Mecha: Acid Arachnid"
+msgstr "マナメカ:アシッドアラクニッド(停止中)"
+
+msgid "A mecha has a spider-like appearance and is capable of powerful acid attacks. The acid attack is highly potent and can dissolve all enemies."
+msgstr "蜘蛛のような外見を持ち、強力な酸の攻撃を行うことができるメカ。酸の攻撃力は高く、敵を溶かし尽くすことができます。"
+
+msgid "Mana Mecha: Venom Stinger"
+msgstr "マナメカ:ヴェノムスティンガー"
+
+msgid "inactive Mana Mecha: Venom Stinger"
+msgstr "マナメカ:ヴェノムスティンガー(停止中)"
+
+msgid "A mecha has a spider-like appearance and is armed with numerous poisonous needles. It specializes in poison attacks and can weaken its enemies."
+msgstr "蜘蛛のような外見を持ち、多数の毒針で武装しているメカ。毒の攻撃を得意とし、敵を弱らせることができます。"
+
+msgid "Mana Mecha: Iron Fist"
+msgstr "マナメカ:アイアンフィスト"
+
+msgid "inactive Mana Mecha: Iron Fist"
+msgstr "マナメカ:アイアンフィスト(停止中)"
+
+msgid "A mecha that wields two huge metal fists to strike the enemy. With its strong power, it can push the enemy far away. The powerful design is based on indigo and light blue."
+msgstr "2つの巨大な金属の拳を振るい、敵を殴りつけるメカ。強力なパワーで敵を遠くへ押しやることが出来ます。藍色と水色を基調とした力強いデザインです。"
+
+msgid "Mana Mecha: Chronos Crawler"
+msgstr "マナメカ:クロノス・クロウラー"
+
+msgid "inactive Mana Mecha: Chronos Crawler"
+msgstr "マナメカ:クロノスクロウラー(停止中)"
+
+msgid "This mecha uses time manipulation magic to delay enemy actions and move itself at high speed. It can also quickly locate substances that only appear at certain times of the day. It features a futuristic design based on blue and silver colors."
+msgstr "このメカは時間を操る魔法を使い、敵の行動を遅らせたり、自分自身を高速で動かすことができます。また、特定の時間帯にしか現れない物質を素早く探し出すことができます。青や銀色を基調とした未来的なデザインが特徴です。"
+
+msgid "Mana Mecha: Magic Sphere"
+msgstr "マナメカ:マジックスフィア"
+
+msgid "inactive Mana Mecha: Magic Sphere"
+msgstr "マナメカ:マジックスフィア(停止中)"
+
+msgid "A sphere-shaped, three-legged mecha made of magical energy. The sphere is filled with various kinds of magic and can attack enemies. It features an elegant and mysterious design based on pearl white."
+msgstr "魔法エネルギーで作られた球体型の3足歩行のメカ。球体には様々な魔法が込められ、敵を攻撃することができます。パールホワイトを基調とした、優雅で神秘的なデザインが特徴です。"
+
+msgid "Mana Mecha: Mind Breaker"
+msgstr "マナメカ:マインドブレイカー"
+
+msgid "inactive Mana Mecha: Mind Breaker"
+msgstr "マナメカ:マインドブレイカー(停止中)"
+
+msgid "A mecha that can manipulate mental magic and attack the minds of its enemies. It looks purple and black armored and can confuse or brainwash the consciousness of its enemies."
+msgstr "精神の魔法を操り、敵の心を攻撃することができるメカ。見た目は紫と黒の装甲を持ち、敵の意識を混乱させたり、洗脳したりすることができます。"
+
+msgid "A mecha that can manipulate mental magic and attack the minds of its enemies. It can confuse or brainwash the consciousness of its enemies."
+msgstr "精神の魔法を操り、敵の心を攻撃することができるメカ。敵の意識を混乱させたり、洗脳したりすることができます。"
+
+msgid "Eye Laser"
+msgstr "アイレーザー"
+
+msgid "You are enhanced by the support mech! All statuses are increased."
+msgstr "サポートメカによってあなたは強化されています！全ステータスが上昇しています。"
+
+msgid "hot air"
+msgstr "熱風"
+
+msgid "Summon icicle"
+msgstr "サモン・アイシクル"
+
+msgid "Spit Venom"
+msgstr "ヴェノム吐き"
+
+msgid "Aura of supporting"
+msgstr "補助のオーラ"
+
+msgid "Healing orb"
+msgstr "回復のオーブ"
+
+msgid "Heals the HP of all units within a 3-tile range by 1"
+msgstr "範囲3タイル内にいる全てのユニットのHPを1回復する"
+
+msgid "Heals the HP of all units within a 3-tile range by 2"
+msgstr "範囲3タイル内にいる全てのユニットのHPを2回復する"
+
+msgid "Mana Mecha Pod LV1"
+msgstr "マナメカポッドLV1"
+
+msgid "Mana Mecha Pod LV2"
+msgstr "マナメカポッドLV2"
+
+msgid "Mana Mecha Pod LV3"
+msgstr "マナメカポッドLV3"
+
+msgid "It is a huge pod LV1 containing one mana mecha. It can be opened by pressing the `E` button.\n it is randomly selected from 18 different types, and very rarely, it may contain a strong mecha."
+msgstr "マナメカが1体入っている巨大なポッドLV1です。`E`ボタンを押して開けることが出来ます。\n18種類の中からランダムに選ばれ、極稀に強いメカが入っていることがあります。"
+
+msgid "It is a huge pod LV2 containing one mana mecha. It can be opened by pressing the `E` button.\n it is randomly selected from 13 different types, and may even, it may contain a strong mecha."
+msgstr "マナメカが1体入っている巨大なポッドLV2です。`E`ボタンを押して開けることが出来ます。\n13種類の中からランダムに選ばれ、偶に強いメカが入っていることがあります。"
+
+msgid "It is a huge pod LV3 that contains one mana mecha. You can open it by pressing the `E` button\n it is randomly selected from 9 different types and always contains a strong mecha."
+msgstr "マナメカが1体入っている巨大なポッドLV3です。`E`ボタンを押して開けることが出来ます。\n9種類の中からランダムに選ばれ、必ず強いメカが入っています。"
+
+msgid "Summon a mechapod to the target location using mana and lots of materials. A mechapod can be up to 3LV and can be strengthened with each successive use of this magic.By pressing the 'E' button or destroying the summoned mechapod, a random mana mecha will be obtained.\nThe spell will fail if there is furniture present at the target location."
+msgstr "マナと沢山の素材を使って対象の地点にメカポッドを召喚します。メカポッドは最大3LVまで存在し、この魔法を重ねるごとに強化することが出来ます。召喚したメカポッドを'E'ボタンを押す、または壊すことによってランダムなマナメカを獲得することが出来ます。\n対象地点に家具が存在すると魔法は失敗します"
+
+msgid "Summon Mana Mecha Pod"
+msgstr "召喚:マナメカポッド"
+
+msgid "Create Mana Bullet"
+msgstr "クリエイト・マナの弾丸"
+
+msgid "Creates mana bullets to load into mana turrets. The number of bullets to be created increases with each level of magic and the creation time and mana cost decreases."
+msgstr "マナタレットに装填する為のマナの弾丸を作成します。魔法のレベルが上がるごとに作成する弾丸の数が増え、作成時間とマナコストが短くなります。"
+
+msgctxt "profession_male"
+msgid "[PSY] Magic Engineer"
+msgstr "[PSY]マジックエンジニア"
+
+msgctxt "profession_female"
+msgid "[PSY] Magic Engineer"
+msgstr "[PSY]マジックエンジニア"
+
+msgctxt "prof_desc_male"
+msgid "You have knowledge of magic and mechanics and can combine magic and technology to create new things. For example, you can develop mechas that use mana to move, cannons that can release the power of magic, and defense systems that use magic."
+msgstr "あなたは魔法と機械の知識を持ち、魔法と技術を組み合わせて新しいものを生み出すことができます。例えば、マナを使用して動くメカや、魔力の力を放つことが出来る大砲、魔法を利用した防衛システムなどを開発することができます。"
+
+msgctxt "prof_desc_female"
+msgid "You have knowledge of magic and mechanics and can combine magic and technology to create new things. For example, you can develop mechas that use mana to move, cannons that can release the power of magic, and defense systems that use magic."
+msgstr "あなたは魔法と機械の知識を持ち、魔法と技術を組み合わせて新しいものを生み出すことができます。例えば、マナを使用して動くメカや、魔力の力を放つことが出来る大砲、魔法を利用した防衛システムなどを開発することができます。"
+
+msgid "Magic Wrench"
+msgstr "マジックレンチ"
+
+msgid "This is a wrench imbued with magical power. In addition to being used as a normal wrench, it can also unleash its magical power to heal the robot."
+msgstr "魔法の力を宿したレンチです。通常のレンチとして使用できるほか、魔力を使用してロボットを癒すことができます。"
+
+msgid "Heal Robot"
+msgstr "ヒールロボット"
+
+msgid "heals the robot's HP by 20."
+msgstr "ロボットのHPを20回復させる."
+
+msgid "Energy cube casts spell!"
+msgstr "エナジーキューブは魔法を唱えた!"
+
+msgid "Life Generator casts spell!"
+msgstr "ライフジェネレーターは魔法を唱えた!"
+
+msgid "The macha casts supporting spell!"
+msgstr "そのメカはサポート魔法を唱えた!"
+
+msgid "recover stamina"
+msgstr "スタミナ回復"
+
+msgid "Your stamina has been restored by the mech."
+msgstr "あなたのスタミナはメカによって回復しました。"
+
+msgid "recover mana x2"
+msgstr "マナ回復2倍"
+
+msgid "Your mana resilience has been doubled by the mech."
+msgstr "あなたのマナ回復力はメカによって2倍になった。"
+
+msgid "Temporarily your mana resilience is doubled by the mech."
+msgstr "一時的にあなたのマナ回復力はメカによって2倍になった。"
+
+msgid "CSC_PSY_MAGI_ROBOT"
+msgstr "ロボット"
+
+msgid "ROBOT"
+msgstr "ロボット"
+
+msgid "Mana Mecha Parts"
+msgstr "マナメカパーツ"
+
+msgid "These are parts that drop when mana mechs and mana drones are broken. By collecting them, new mechas can be created."
+msgstr "マナメカとマナドローンが壊れたときにドロップする部品です。集めることにより、新たなメカを作成することが出来ます。"
+
+msgid "These are parts that drop when mana mechs and mana drones are broken. By collecting them, new mechas can be created.\n\nIt can also be created from scrap metal, although this is inefficient."
+msgstr "マナメカとマナドローンが壊れたときにドロップする部品です。集めることにより、新たなメカを作成することが出来ます。\n\nまた、非効率ですが金属屑から作成することも可能です。"
+
+msgid "merchant's greater dimensional toolbelt"
+msgstr "商人の大容量ツールベルト"
+
+msgid "merchant's Cloak of Hidden Treasures"
+msgstr "商人の秘宝マント"
+
+msgid "merchant's Cloaks of Hidden Treasures"
+msgstr "商人の秘宝マント"
+
+msgid "merchant's Lifeline"
+msgstr "商人の命綱"
+
+msgid "ice field"
+msgstr "アイスフィールド"
+
+msgid "Mana Pistol"
+msgstr "マナピストル"
+
+msgid "a pistol made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られたピストルです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
+msgid "Mana Rifle"
+msgstr "マナライフル"
+
+msgid "a rifle made by magic. It can be fired by loading 'mana bullets'."
+msgstr "魔法で作られたライフルです。'マナの弾丸'を装填することで撃つことが出来ます。"
+
+msgid "Mana Sniper Rifle"
+msgstr "マナスナイパーライフル"
+
+msgid "a sniper rifle made by magic. It can be fired by loading 'mana bullets'.\n\nEach shot requires 3 mana bullets."
+msgstr "魔法で作られたスナイパーライフルです。'マナの弾丸'を装填することで撃つことが出来ます。\n\n1回の射撃で3発のマナの弾丸が必要です。"
+
+msgid "Mana Rocket Launcher"
+msgstr "マナロケットランチャー"
+
+msgid "a rocket launcher made by magic. It can be fired by loading 'mana bullets'.\n\nEach shot requires 20 mana bullets."
+msgstr "魔法で作られたロケットランチャーです。'マナの弾丸'を装填することで撃つことが出来ます。\n\n1回の射撃で20発のマナの弾丸が必要です。"
+
+msgid "Fire Element"
+msgstr "ファイアーエレメント"
+
+msgid "A fire element that looks like a mass of burning flames. It is able to control the power of flames and release powerful flames at will. The flames within its body are always ablaze, burning opponents hot just by touching them, and it can protect itself with a shield of flames."
+msgstr "燃え盛る炎の塊のような姿をしたファイアーエレメント。炎の力を自在に操り、強力な炎を放つことができる。体内の炎は常に燃え盛り、触れるだけで相手を熱く燃やし、炎のシールドで自身を守ることができる。"
+
+msgid "Water Element"
+msgstr "ウォーターエレメント"
+
+msgid "The water element has the appearance of clear blue water. It has arm- and leg-like parts and can swim with fluid-like supple movements. It can spew water from its mouth, which can also be used for attacks."
+msgstr "ウォーターエレメントは、青く澄んだ水の姿をしている。腕や足のような部位があり、流体のようなしなやかな動きで泳ぐことができる。口から水を噴き出すことができるため、攻撃にも使える。"
+
+msgid "Earth Element"
+msgstr "アースエレメント"
+
+msgid "An element that manipulates the power of the earth. It specializes in earth-shaking attacks and surprise attacks from underground. In appearance, it has a massive appearance that looks like a stone or rock motif."
+msgstr "地の力を操るエレメント。大地を揺るがすような攻撃や、地中からの奇襲を得意とする。外見は、石や岩をモチーフにしたような重厚感のある姿をしている。"
+
+msgid "Air Element"
+msgstr "エアーエレメント"
+
+msgid "An air element that looks like a typhoon. It constantly manipulates the wind around it and flies through the air. The force of its wind is said to be so strong that it can easily blow away buildings. It has an aggressive character and is a natural disaster, so it must be handled with care."
+msgstr "台風のような姿をしたエアーエレメント。常に周囲の風を操り、空中を舞う。その風の力は強く、建物をも簡単に吹き飛ばすことができるという。攻撃的な性格を持ち、自然災害としての一面もあるため、扱いには注意が必要である。"
+
+msgid "[Fast] Create Mana Bullet"
+msgstr "[早]クリエイト・マナの弾丸"
+
+msgid "Creates mana bullets to load into mana turrets and mana guns. The number of bullets to be created increases with each level of magic and the creation time and mana cost decreases."
+msgstr "マナタレットやマナ銃に装填する為のマナの弾丸を作成します。魔法のレベルが上がるごとに作成する弾丸の数が増え、作成時間とマナコストが短くなります。"
+
+msgid "Create Mana Pistol"
+msgstr "クリエイト・マナピストル"
+
+msgid "Create a mana pistol using magic power.\n\nIt takes mana bullets to shoot.\nWhen this spell reaches level 10, a new gun-creation spell can be learned."
+msgstr "魔力を使用してマナピストルを作成します。\n\n撃つにはマナの弾丸が必要です。\nこの呪文がレベル10に達すると新たな銃作成呪文を覚えることが出来ます。"
+
+msgid "Create Mana Rifle"
+msgstr "クリエイト・マナライフル"
+
+msgid "Create a mana rifle using magic power.\n\nIt takes mana bullets to shoot.\nWhen this spell reaches level 10, a new gun-creation spell can be learned."
+msgstr "魔力を使用してマナライフルを作成します。\n\n撃つにはマナの弾丸が必要です。\nこの呪文がレベル10に達すると新たな銃作成呪文を覚えることが出来ます。"
+
+msgid "Create a mana rifle using magic power.\n\nIt takes mana bullets to shoot.\nWhen this spell reaches level 7, a new gun-creation spell can be learned."
+msgstr "魔力を使用してマナライフルを作成します。\n\n撃つにはマナの弾丸が必要です。\nこの呪文がレベル7に達すると新たな銃作成呪文を覚えることが出来ます。"
+
+msgid "Create Mana Sniper Rifle"
+msgstr "クリエイト・マナライフル"
+
+msgid "Create a mana sniper rifle using magic power.\n\nEach shot requires 3 mana bullets.\nWhen this spell reaches level 10, a new gun-creation spell can be learned."
+msgstr "魔力を使用してマナスナイパーライフルを作成します。\n\n一回の射撃ごとに3つのマナの弾丸が必要です。\nこの呪文がレベル10に達すると新たな銃作成呪文を覚えることが出来ます。"
+
+msgid "Create a mana sniper rifle using magic power.\n\nEach shot requires 3 mana bullets.\nWhen this spell reaches level 5, a new gun-creation spell can be learned."
+msgstr "魔力を使用してマナスナイパーライフルを作成します。\n\n一回の射撃ごとに3つのマナの弾丸が必要です。\nこの呪文がレベル5に達すると新たな銃作成呪文を覚えることが出来ます。"
+
+msgid "Create Mana Rocket Launcher"
+msgstr "クリエイト・マナロケットランチャー"
+
+msgid "Create a mana rocket launcher using magic power.\n\nEach shot requires 20 mana bullets."
+msgstr "魔力を使用してマナロケットランチャーを作成します。\n\n一回の射撃ごとに20つのマナの弾丸が必要です。"
+
+msgctxt "profession_male"
+msgid "[PSY] Magic Gunner"
+msgstr "[PSY]マジックガンナー"
+
+msgctxt "profession_female"
+msgid "[PSY] Magic Gunner"
+msgstr "[PSY]マジックガンナー"
+
+msgctxt "prof_desc_male"
+msgid "Magic gunners are professionals who use their magical powers to manufacture guns and use them in combat. They combine ancient magic with the latest technology to create powerful guns."
+msgstr "マジックガンナーは、魔力を利用して銃を製造し、戦闘に使用する職業です。彼らは、古代の魔法と最新の技術を組み合わせて、強力な銃を作り出すことができます。"
+
+msgctxt "prof_desc_female"
+msgid "Magic gunners are professionals who use their magical powers to manufacture guns and use them in combat. They combine ancient magic with the latest technology to create powerful guns."
+msgstr "マジックガンナーは、魔力を利用して銃を製造し、戦闘に使用する職業です。彼らは、古代の魔法と最新の技術を組み合わせて、強力な銃を作り出すことができます。"
+
+msgid "Create More Mana Bullet"
+msgstr "[大量]クリエイト・マナの弾丸"
+
+msgid "Large amounts of mana and materials are used to create mana bullets to be loaded into mana turrets and mana guns. The number of bullets to be created increases with each level of magic and the creation time and mana cost decreases."
+msgstr "マナタレットやマナ銃に装填する為のマナの弾丸を作成します。魔法のレベルが上がるごとに作成する弾丸の数が増え、作成時間とマナコストが短くなります。"
+
+msgid "The Magic Gun Book"
+msgid_plural "copies of The Magic Gun Book"
+msgstr[0] "魔法銃の魔術本"
+
+msgid "A spell book that describes this and that about magic guns. By reading it, you will be able to create a gun using magic power."
+msgstr "魔法銃に関してあれこれ書かれた呪文書です。これを読むことにより、魔力を利用して銃を作れるようになります。"

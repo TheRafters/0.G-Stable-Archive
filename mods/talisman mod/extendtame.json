@@ -1,0 +1,37 @@
+[
+  {
+    "id": "mon_boar_wild",
+    "type": "MONSTER",
+    "name": "wild boar",
+    "copy-from": "mon_boar_wild",
+    "extend": { "flags": [ "BIRDFOOD" ] }
+  },
+{
+    "id": "mon_moose",
+    "type": "MONSTER",
+    "name": "moose",
+    "copy-from": "mon_moose",
+    "extend": { "flags": [ "BIRDFOOD" ] }
+  },
+{
+    "id": "mon_pig",
+    "type": "MONSTER",
+    "name": "pig",
+    "copy-from": "mon_pig",
+    "extend": { "flags": [ "BIRDFOOD" ] }
+  },
+{
+    "id": "mon_cow",
+    "type": "MONSTER",
+    "name": "cow",
+    "copy-from": "mon_cow",
+    "extend": { "flags": [ "BIRDFOOD" ] }
+  },
+{
+    "id": "mon_horse",
+    "type": "MONSTER",
+    "name": "horse",
+    "copy-from": "mon_horse",
+    "extend": { "flags": [ "BIRDFOOD" ] }
+  }
+]

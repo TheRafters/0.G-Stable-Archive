@@ -1,0 +1,9 @@
+ [{
+    "id": "paperbarrier_aftermath",
+    "copy-from": "spell_base",
+    "type": "GENERIC",
+    "name": "paper barrier aftermath",
+    "description": "Workaround so paper barriers do not leave anything behind.  If you find one of these, it's a bug,",
+    "color": "green"
+  }
+]

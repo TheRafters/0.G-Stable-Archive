@@ -1,0 +1,205 @@
+[
+  {
+    "type": "material",
+    "copy-from": "diamond",
+    "id": "diamond",
+    "name": "Diamond",
+    "//": "REFERENCE ONLY",
+    "density": 3.53,
+    "specific_heat_liquid": 0.52,
+    "specific_heat_solid": 0.52,
+    "latent_heat": 5200,
+    "bash_resist": 5,
+    "cut_resist": 5,
+    "bullet_resist": 2,
+    "acid_resist": 10,
+    "fire_resist": 3,
+    "chip_resist": 100,
+    "dmg_adj": [ "marked", "chipped", "cracked", "shattered" ],
+    "bash_dmg_verb": "chipped",
+    "cut_dmg_verb": "scratched"
+  },
+  {
+    "type": "material",
+    "copy-from": "gemstone",
+    "id": "gemstone",
+    "name": "Gemstone",
+    "//": "Density of Zircon - REFERENCE ONLY",
+    "density": 4.7,
+    "specific_heat_liquid": 0.52,
+    "specific_heat_solid": 0.52,
+    "latent_heat": 5200,
+    "bash_resist": 5,
+    "cut_resist": 5,
+    "bullet_resist": 2,
+    "acid_resist": 10,
+    "fire_resist": 3,
+    "chip_resist": 100,
+    "dmg_adj": [ "marked", "chipped", "cracked", "shattered" ],
+    "bash_dmg_verb": "chipped",
+    "cut_dmg_verb": "scratched"
+  },
+  
+  {
+    "id": "alexandrite",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "alexandrite"
+  },
+  {
+    "id": "amethyst",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "amethyst"
+  },
+  {
+    "id": "aquamarine",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "aquamarine"
+  },
+  {
+    "id": "citrine",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "citrine"
+  },
+  {
+    "id": "emerald",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "emerald"
+  },
+  {
+    "id": "garnet",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "garnet"
+  },
+  {
+    "id": "jade",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "jade"
+  },
+  {
+    "id": "lapis_lazuli",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "lapis_lazuli"
+  },
+  {
+    "id": "moonstone",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "moonstone"
+  },
+  {
+    "id": "morganite",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "morganite"
+  },
+  {
+    "id": "onyx",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "onyx"
+  },
+  {
+    "id": "opal",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "opal"
+  },
+  {
+    "id": "paraiba",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "paraiba"
+  },
+  {
+    "id": "peridot",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "peridot"
+  },
+  {
+    "id": "rubellite",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "rubellite"
+  },
+  {
+    "id": "ruby",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "ruby"
+  },
+  {
+    "id": "sapphire",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "sapphire"
+  },
+  {
+    "id": "spinel",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "spinel"
+  },
+  {
+    "id": "tanzanite",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "tanzanite"
+  },
+  {
+    "id": "topaz",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "topaz"
+  },
+  {
+    "id": "tourmaline",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "tourmaline"
+  },
+  {
+    "id": "turquoise",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "turquoise"
+  },
+  {
+    "id": "zircon",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "zircon"
+  },
+  {
+    "id": "rose_quartz",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "rose quartz"
+  },
+  {
+    "id": "malachite",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "malachite"
+  },
+  {
+    "id": "pearl",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "pearl"
+  },
+  {
+    "id": "blue_topaz",
+    "type": "material",
+    "copy-from": "gemstone",
+    "name": "blue topaz"
+  }
+]

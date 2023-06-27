@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "cbm_slots_disabled",
+    "name": "Bionic Slots - Disable",
+    "authors": [ "Malkeus" ],
+    "description": "Disables the bionic slots system, which removes limits on the number of CBMs you can install in each bodypart. Ex. Usage: Place below Aftershock, currently the only mod I know of that enables the bionic slots system.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ],
+    "path": ""
+  }
+]

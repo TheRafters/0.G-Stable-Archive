@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "healthy_foods",
+    "name": "Healthy Foods",
+    "authors": [ "Cthae"],
+    "description": "Adds some Health modifiers to Meaty Foods",
+    "category": "vehicles",
+    "dependencies": [ "dda" ]
+  }
+]

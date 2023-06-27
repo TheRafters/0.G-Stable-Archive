@@ -1,0 +1,50 @@
+[
+
+{
+    "id": "lesser_talisman",
+    "type": "COMESTIBLE",
+    "category": "tools",
+    "name": "lesser blank talisman",
+    "description": "A lesser blank paper talisman marked with strange glyphs that seems to wildly absorb and pulse energy. Can be used altering the base glyph to give more complex functions ",
+    "price_postapoc": 100,
+    "weight": "3 g",
+    "volume": "5 ml",
+    "material": "paper",
+    "symbol": ",",
+    "color": "blue",
+    
+    "flags": [ "TRADER_AVOID" ]
+  },
+{
+    "id": "summon_talisman",
+    "type": "TOOL",
+    "category": "tools",
+    "name": "summon talisman",
+    "description": "A summoning blank talisman marked with strange glyphs that seems eager to push whatever its drawed in it.",
+    "price_postapoc": 100,
+    "weight": "100 g",
+    "volume": "100 ml",
+    "material": "paper",
+    "symbol": ",",
+    "color": "blue",
+    
+    "flags": [ "TRADER_AVOID" ]
+  },
+
+{
+    "id": "blank_talisman",
+    "type": "TOOL",
+    "category": "tools",
+    "name": "blank talisman",
+    "description": "A blank paper talisman marked with strange glyphs that seems to consistently absorb and pulse energy. Can be used altering the base glyph to give more complex functions ",
+    "price_postapoc": 100,
+    "weight": "100 g",
+    "volume": "100 ml",
+    "material": "paper",
+    "symbol": ",",
+    "color": "blue",
+    "flags": [ "TRADER_AVOID" ]
+  }
+
+]
+

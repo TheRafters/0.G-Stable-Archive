@@ -1,0 +1,225 @@
+[
+    {
+      "type": "mod_tileset",
+      "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles","UltimateCataclysm","Chibi_Ultica" ],
+      "tiles-new": [
+        {
+          "file": "./tiles/48x48_pictures.png",
+          "sprite_height":48,
+          "sprite_width":48,
+          "sprite_offset_x": -12, 
+          "sprite_offset_y": -16,
+          "tiles": [
+            { "id": "PSY_magi_rnd_mon_blaze_bird","fg": 0 },
+            { "id": "PSY_magi_rnd_mon_thunder_bird" ,"fg": 1 },
+            { "id": "PSY_magi_rnd_mon_eye_turret" ,"fg": 2},
+            { "id": "PSY_magi_mon_skeleton_snake" ,"fg": 3},
+            { "id": "PSY_mon_forgeborn_armored_dog","fg":
+            [
+            {"weight": 10, "sprite":21},
+            {"weight": 10, "sprite":22}
+            ]
+            },
+            { "id": "PSY_mon_ice_golem" ,"fg": 37},
+            { "id": "PSY_mon_ice_golem_big_body" ,"fg": 33},
+            { "id": "PSY_mon_ice_golem_swift_body" ,"fg": 34},
+            { "id": "PSY_mon_ice_golem_mage" ,"fg": 35},
+            { "id": "PSY_mon_ice_golem_hammer" ,"fg": 36},
+            { "id": "PSY_mon_ice_golem_shooter" ,"fg": 32},
+            { "id": "PSY_mon_ice_golem_healer" ,"fg": 38},
+            { "id": "PSY_mon_ice_golem_armor" ,"fg": 39}
+          ]
+        },
+        {
+          "file": "./tiles/48x48_pictures.png",
+          "sprite_height":48,
+          "sprite_width":48,
+          "sprite_offset_x": -8, 
+          "sprite_offset_y": -16,
+          "tiles": [
+            { "id": "PSY_magi_rnd_mon_treasure_chest" ,"fg": 4},
+            { "id": "PSY_magi_f_treasure_chest_opened_empty" ,"fg": 5},
+            { "id": "PSY_magi_rnd_mon_treasure_chest_monster" ,"fg": 6},
+            { "id": "PSY_magi_f_treasure_chest_opened_mid" ,"fg": 7},
+            { "id": "PSY_magi_f_treasure_chest_opened_big" ,"fg": 8},
+            { "id": "PSY_magi_f_treasure_chest_opened" ,"fg": 9},
+            { "id": "PSY_magi_f_ice_magic_crystal_medium", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 50, "sprite":23},
+            {"weight": 50, "sprite":24},
+            {"weight": 50, "sprite":25},
+            {"weight": 50, "sprite":24}
+            ]
+            },
+            { "id": "PSY_magi_f_ice_magic_crystal", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 25, "sprite":40},
+            {"weight": 25, "sprite":41},
+            {"weight": 25, "sprite":43},
+            {"weight": 25, "sprite":41},
+            {"weight": 25, "sprite":40},
+            {"weight": 25, "sprite":42},
+            {"weight": 25, "sprite":44},
+            {"weight": 25, "sprite":42}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_taser", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":45},
+            {"weight": 75, "sprite":50}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_gatling", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":46},
+            {"weight": 75, "sprite":51}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_shotgun", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":47},
+            {"weight": 75, "sprite":52}
+            ]
+            },
+            { "id": "PSY_mon_turret_normal", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":48},
+            {"weight": 75, "sprite":53}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_flamethrower", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":49},
+            {"weight": 75, "sprite":54}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_rocket_launcher", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":55},
+            {"weight": 75, "sprite":60}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_railgun", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":56},
+            {"weight": 75, "sprite":61}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_shadowfang", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":58},
+            {"weight": 75, "sprite":63}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_frostbeam", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":59},
+            {"weight": 75, "sprite":64}
+            ]
+            },
+            { "id": "PSY_mon_mana_turret_acidsplatter", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 75, "sprite":85},
+            {"weight": 75, "sprite":90}
+            ]
+            },
+            { "id": "PSY_mon_mana_mech_electro_bat" ,"fg": 105},
+            { "id": "PSY_mon_mana_mech_icicle_ant" ,"fg": 107},
+            { "id": "PSY_mon_mana_mech_acid_arachnid" ,"fg": 110},
+            { "id": "PSY_mon_mana_mech_overload_cube" ,"fg": 111},
+            { "id": "PSY_mon_mana_mech_skylock" ,"fg": 112},
+            { "id": "PSY_mon_mana_mech_blaze_ant" ,"fg": 113},
+            { "id": "PSY_mon_mana_mech_venom_stinger" ,"fg": 116},
+            { "id": "PSY_mon_mana_mech_power_arms" ,"fg": 120},
+            { "id": "PSY_mon_mana_mech_light_bringer" ,"fg": 121},
+            { "id": "PSY_mon_mana_mech_mind_breaker" ,"fg": 122},
+            { "id": "PSY_mon_mana_mech_magic_sphere" ,"fg": 123},
+            { "id": "PSY_mon_mana_mech_demolisher" ,"fg": 124},
+            { "id": "PSY_mon_mana_mech_iron_fist" ,"fg": 125},
+            { "id": "PSY_mon_mana_mech_blood_storm" ,"fg": 126},
+            { "id": "PSY_mon_mana_mech_magic_eye" ,"fg": 128},
+            { "id": "PSY_mon_mana_mech_energy_cube" ,"fg": 129},
+            { "id": "PSY_mon_mana_mech_life_generator" ,"fg": 133},
+            { "id": "PSY_mon_mana_mech_night_stalker" ,"fg": 134},
+            { "id": "PSY_magi_f_mana_mech_pod_lv1", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 40, "sprite":145},
+            {"weight": 10, "sprite":151},
+            {"weight": 10, "sprite":146},
+            {"weight": 10, "sprite":151},
+            {"weight": 40, "sprite":145},
+            {"weight": 10, "sprite":152},
+            {"weight": 10, "sprite":147},
+            {"weight": 10, "sprite":152},
+            {"weight": 40, "sprite":145},
+            {"weight": 10, "sprite":153},
+            {"weight": 10, "sprite":148},
+            {"weight": 10, "sprite":153},
+            {"weight": 40, "sprite":145},
+            {"weight": 10, "sprite":154},
+            {"weight": 10, "sprite":149},
+            {"weight": 10, "sprite":154}
+            ]
+            },
+            { "id": "PSY_magi_f_mana_mech_pod_lv2", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 20, "sprite":155},
+            {"weight": 10, "sprite":161},
+            {"weight": 10, "sprite":156},
+            {"weight": 10, "sprite":161},
+            {"weight": 20, "sprite":155},
+            {"weight": 10, "sprite":162},
+            {"weight": 10, "sprite":157},
+            {"weight": 10, "sprite":162},
+            {"weight": 20, "sprite":155},
+            {"weight": 10, "sprite":163},
+            {"weight": 10, "sprite":158},
+            {"weight": 10, "sprite":163},
+            {"weight": 20, "sprite":155},
+            {"weight": 10, "sprite":164},
+            {"weight": 10, "sprite":159},
+            {"weight": 10, "sprite":164}
+            ]
+            },
+            { "id": "PSY_magi_f_mana_mech_pod_lv3", "rotates": false,"animated": true,"fg":
+            [
+            {"weight": 10, "sprite":170},
+            {"weight": 10, "sprite":165},
+            {"weight": 10, "sprite":170},
+            {"weight": 10, "sprite":171},
+            {"weight": 10, "sprite":166},
+            {"weight": 10, "sprite":171},
+            {"weight": 10, "sprite":172},
+            {"weight": 10, "sprite":167},
+            {"weight": 10, "sprite":172},
+            {"weight": 10, "sprite":173},
+            {"weight": 10, "sprite":168},
+            {"weight": 10, "sprite":173},
+            {"weight": 10, "sprite":174},
+            {"weight": 10, "sprite":169},
+            {"weight": 10, "sprite":174}
+            ]
+            },
+            { "id": "PSY_bot_mana_mech_electro_bat" ,"fg": 185},
+            { "id": "PSY_bot_mana_mech_icicle_ant" ,"fg": 187},
+            { "id": "PSY_bot_mana_mech_acid_arachnid" ,"fg": 190},
+            { "id": "PSY_bot_mana_mech_overload_cube" ,"fg": 191},
+            { "id": "PSY_bot_mana_mech_skylock" ,"fg": 192},
+            { "id": "PSY_bot_mana_mech_blaze_ant" ,"fg": 193},
+            { "id": "PSY_bot_mana_mech_venom_stinger" ,"fg": 196},
+            { "id": "PSY_bot_mana_mech_power_arms" ,"fg": 200},
+            { "id": "PSY_bot_mana_mech_light_bringer" ,"fg": 201},
+            { "id": "PSY_bot_mana_mech_mind_breaker" ,"fg": 202},
+            { "id": "PSY_bot_mana_mech_magic_sphere" ,"fg": 203},
+            { "id": "PSY_bot_mana_mech_demolisher" ,"fg": 204},
+            { "id": "PSY_bot_mana_mech_iron_fist" ,"fg": 205},
+            { "id": "PSY_bot_mana_mech_blood_storm" ,"fg": 206},
+            { "id": "PSY_bot_mana_mech_magic_eye" ,"fg": 208},
+            { "id": "PSY_bot_mana_mech_energy_cube" ,"fg": 209},
+            { "id": "PSY_bot_mana_mech_life_generator" ,"fg": 213},
+            { "id": "PSY_bot_mana_mech_night_stalker" ,"fg": 214}
+          ]
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "bandits_high_explosive_bomb",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "high-explosive bomb" },
+    "description": "A military high-explosive bomb.  Once it has been activated it will explode in 60 seconds, raining fire and steel on everything in sight.",
+    "volume": "120000 ml",
+    "weight": "195000 g",
+    "price": 150000,
+    "to_hit": -6,
+    "bashing": 22,
+    "material": ["steel"],
+    "symbol": "o",
+    "color": "dark_gray",
+    "explode_in_fire": true,
+    "explosion": {
+      "power": 8500000,
+      "shrapnel": { "casing_mass": 15000, "fragment_mass": 800 }
+    },
+    "use_action": {
+      "target": "bandits_high_explosive_bomb_act",
+      "msg": "You activate the timer on the high-explosive bomb. Now clear the area! Instantly!",
+      "target_charges": 60,
+      "active": true,
+      "menu_text": "Activate timer",
+      "type": "transform"
+    },
+    "flags": ["RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB", "ALLOWS_REMOTE_USE"]
+  },
+  {
+    "id": "bandits_high_explosive_bomb_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "high-explosive bomb" },
+    "description": "An active high-explosive bomb!  It will soon explode, delivering its entire destructive power to everything in sight!",
+    "volume": "120000 ml",
+    "weight": "195000 g",
+    "price": 0,
+    "to_hit": -6,
+    "bashing": 22,
+    "material": ["steel"],
+    "symbol": "o",
+    "color": "dark_gray",
+    "initial_charges": 60,
+    "max_charges": 60,
+    "turns_per_charge": 1,
+    "explode_in_fire": true,
+    "explosion": {
+      "power": 8500000,
+      "shrapnel": { "casing_mass": 15000, "fragment_mass": 800 }
+    },
+    "use_action": {
+      "type": "explosion",
+      "fields_type": "fd_fire",
+      "fields_radius": 20,
+      "fields_min_intensity": 7,
+      "fields_max_intensity": 9,
+      "sound_volume": 2,
+      "sound_msg": "Tick.",
+      "no_deactivate_msg": "You've activated the bomb - but there's no way to deactivate it again! Clear this area immediately!!",
+      "explosion": {
+        "power": 8500000,
+        "distance_factor": 0.8,
+        "fire": true,
+        "shrapnel": { "casing_mass": 25000, "fragment_mass": 200 }
+      }
+    },
+    "flags": ["BOMB", "TRADER_AVOID", "DANGEROUS"]
+  }
+]

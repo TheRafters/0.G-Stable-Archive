@@ -1,0 +1,45 @@
+[{
+    "type": "AMMO",
+    "id": "sugar_cube",
+    "category": "spare_parts",
+    "price": 1000,
+    "name": { "str_sp": "sugar cubes" },
+    "symbol": "=",
+    "color": "white",
+    "description": "Some sugar cubes, bees love this stuff.",
+    "flags": [ "TRADER_AVOID", "ZERO_WEIGHT" ],
+    "volume": "100 ml",
+    "ammo_type": "sugar_cube",
+    "material": [ "powder" ],
+    "count": 100,
+    "looks_like": "battery"
+  },
+{
+    "type": "ammunition_type",
+    "id": "sugar_cube",
+    "name": "sugar cubes",
+    "default": "sugar_cube"
+  },
+{
+    "id": "beefood",
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "name": { "str_sp": "bee food" },
+    "description": "What bees like, they love this stuff.  Mainly made of assortment of flowers.",
+    "weight": "60 g",
+    "volume": "250 ml",
+    "price": 20,
+    "price_postapoc": 25,
+    "to_hit": -5,
+    "material": [ "veggy" ],
+    "symbol": ";",
+    "calories": 400,
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 7 ] ],
+    "fun": 5,
+    "freezing_point": -274,
+    "color": "brown",
+    "flags": [ "INEDIBLE", "BIRD", "NUTRIENT_OVERRIDE" ],
+    "use_action": [ "PETFOOD" ],
+    "petfood": [ "BIRDFOOD" ]
+  }
+]

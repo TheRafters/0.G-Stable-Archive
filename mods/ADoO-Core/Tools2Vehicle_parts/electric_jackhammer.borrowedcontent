@@ -1,0 +1,73 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "water_purifier",
+    "name": { "str": "water purifier" },
+    "symbol": "&",
+    "categories": [ "utility" ],
+    "color": "blue",
+    "broken_symbol": "*",
+    "broken_color": "light_blue",
+    "damage_modifier": 40,
+    "durability": 200,
+    "description": "A water purifier, powered by the vehicle's batteries.  You can use it to purify water in a container or in the vehicle's tanks.  'e'xamine the tile with the purifier to use it.",
+    "item": "water_purifier",
+    "location": "anywhere",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "15 m", "using": [ [ "adhesive", 1 ], [ "soldering_standard", 2 ] ] }
+    },
+    "flags": [  ],
+    "pseudo_tools": [ { "id": "pseudo_water_purifier", "hotkey": "p" } ],
+    "breaks_into": [ { "item": "plastic_chunk", "count": [ 1, 2 ] } ],
+    "damage_reduction": { "all": 26 }
+  }
+  {
+    "id": "elec_jackhammer",
+    "type": "TOOL",
+    "name": { "str": "electric jackhammer" },
+    "description": "This is a construction tool for drilling through hard rock or other surfaces.  It runs on a cell compatible with UPS.  Use it to blast a hole in adjacent solid terrain.",
+    "weight": "40000 g",
+    "volume": "10 L",
+    "longest_side": "71 cm",
+    "price": 40000,
+    "price_postapoc": 500,
+    "to_hit": -8,
+    "bashing": 14,
+    "cutting": 6,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "ammo": [ "battery" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 7000 } } ],
+    "charges_per_use": 3500,
+    "use_action": [ "JACKHAMMER" ],
+    "flags": [ "STAB", "DIG_TOOL", "POWERED", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "WATER_BREAK", "ELECTRONIC" ]
+  }
+  {
+    "type": "vehicle_part",
+    "id": "elec_jackhammer",
+    "name": { "str": "electric jackhammer" },
+    "symbol": "&",
+    "categories": [ "utility" ],
+    "color": "blue",
+    "broken_symbol": "*",
+    "broken_color": "light_blue",
+    "damage_modifier": 40,
+    "durability": 200,
+    "description": "This is a construction tool for drilling through hard rock or other surfaces.  It runs on a cell compatible with UPS.  Use it to blast a hole in adjacent solid terrain. 'e'xamine the tile with the electric jackhammer to use it.",
+    "item": "elec_jackhammer",
+    "location": "anywhere",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "3 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "1 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "1 m", "using": [ [ "adhesive", 1 ], [ "soldering_standard", 2 ] ] }
+    },
+    "flags": [  ],
+    "pseudo_tools": [ { "id": "elec_jackhammer", "hotkey": "p" } ],
+    "breaks_into": [ { "item": "plastic_chunk", "count": [ 1, 2 ] } ],
+    "damage_reduction": { "all": 26 }
+  }
+
+]

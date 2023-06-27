@@ -1,0 +1,157 @@
+[ {
+    "id": "summon_pcrane",
+    "type": "TOOL",
+    "copy-from": "summon_talisman",
+    "name": "summon crane talisman",
+    "description": "A talisman with a drawing of a crane, using it will fold the paper into crane.",
+    "price": 100,
+    "price_postapoc": 100,
+    "use_action": {
+      "target": "summon_crane_on",
+      "msg": "The glyph of the talisman gives off a faint glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE","MAGIC_FOCUS" ]
+  },
+  {
+    "id": "summon_crane_on",
+    "type": "TOOL",
+    "copy-from": "summon_talisman",
+    "name": "summoning crane",
+    "description": "A talisman with the drawing of a crane.  Using it will fold the paper into crane.",
+    "price": 100,
+    "price_postapoc": 100,
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "summon_talisman",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_papercrane",
+      "friendly_msg": "The crane floats around ",
+      "moves": 10,
+      "place_randomly": true
+      
+    }
+
+ },
+{
+    "id": "summon_psnake",
+    "type": "TOOL",
+    "copy-from": "summon_talisman",
+    "name": "summon snake talisman",
+    "description": "A talisman with a drawing of a snake, using it will fold the paper into snake.",
+    "price": 100,
+    "price_postapoc": 100,
+    "use_action": {
+      "target": "summon_snake_on",
+      "msg": "The glyph of the talisman gives off a faint glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE","MAGIC_FOCUS" ]
+  },
+  {
+    "id": "summon_snake_on",
+    "type": "TOOL",
+    "copy-from": "summon_talisman",
+    "name": "summoning snake",
+    "description": "A talisman with the drawing of a snake.  Using it will fold the paper into snake.",
+    "price": 100,
+    "price_postapoc": 100,
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "summon_talisman",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_papersnake",
+      "friendly_msg": "The snake slithers around ",
+      "moves": 10,
+      "place_randomly": true
+      
+    }
+
+ },
+{
+    "id": "summon_wgolem",
+    "type": "TOOL",
+    "copy-from": "summon_talisman",
+    "name": "summon wood golem talisman",
+    "description": "A talisman with a humanoid drawing, using it will fold the paper into a golem.",
+    "price": 100,
+    "price_postapoc": 100,
+    "use_action": {
+      "target": "summon_wgolem_on",
+      "msg": "The glyph of the talisman gives off a faint glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE","MAGIC_FOCUS" ]
+  },
+  {
+    "id": "summon_wgolem_on",
+    "type": "TOOL",
+    "copy-from": "summon_talisman",
+    "name": "summoning wood golem talisman",
+    "description": "A talisman with a humanoid drawing.  Using it will fold the paper into a golem.",
+    "price": 100,
+    "price_postapoc": 100,
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "summon_talisman",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_wgolem",
+      "friendly_msg": "The golem walks around ",
+      "moves": 10,
+      "place_randomly": true
+      
+    }
+
+ },
+{
+    "id": "summon_rgolem",
+    "type": "TOOL",
+    "copy-from": "summon_talisman",
+    "name": "summon rock golem talisman",
+    "description": "A talisman with a humanoid drawing, using it will fold the paper into a golem.",
+    "price": 100,
+    "price_postapoc": 100,
+    "use_action": {
+      "target": "summon_rgolem_on",
+      "msg": "The glyph of the talisman gives off a faint glow.",
+      "target_charges": 0,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "NO_SALVAGE","MAGIC_FOCUS" ]
+  },
+  {
+    "id": "summon_rgolem_on",
+    "type": "TOOL",
+    "copy-from": "summon_talisman",
+    "name": "summoning rock golem talisman",
+    "description": "A talisman with a humanoid drawing.  Using it will fold the paper into a golem.",
+    "price": 100,
+    "price_postapoc": 100,
+    "max_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 1,
+    "revert_to": "summon_talisman",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_rgolem",
+      "friendly_msg": "The golem walks around ",
+      "moves": 10,
+      "place_randomly": true
+      
+    }
+
+ }
+]

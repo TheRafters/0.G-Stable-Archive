@@ -1,0 +1,1 @@
+Update item_groups.json due to code changes, now adds to itemgroups instead of replacing them. No more freaky gnome-pocalypses, thanks. That really turned my latest test run in a weird direction, since I thought it was some new feature for a few minutes...Hail the gnomes!

@@ -1,0 +1,102 @@
+[  
+{
+    "abstract": "origami_folded",
+    "type": "TOOL",
+    "name": "origami fold",
+    "description": "A folded origami.",
+    "weight": "5 g",
+    "volume": 0,
+    "price": 100,
+    "material": [ "paper" ],
+    "symbol": "[",
+    "color": "white"
+        
+  },
+
+{
+
+    "type": "TOOL",
+    "copy-from": "origami_folded",
+    "id": "origamifold_sword",
+    "name": "origami fold: sword",
+    "volume": " 100 ml",
+    "material": [ "paper" ],
+    "description": "An origami folded sword",
+    "material_thickness": 3,
+    "use_action": {
+      "type": "transform",
+      "target": "origami_sword",
+      "active": true,
+      "moves": 50,
+      "msg": "You grab the origami and unfold it"
+    }
+  },
+  {
+    "id": "origami_sword",
+    "type": "GENERIC",
+    "category": "weapons",
+    "symbol": "/",
+    "color": "light_gray",
+    "name": "origami sword",
+    "description": "A sword made of paper, is weirdly durable, can be folded for easy storage",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "price": 100,
+    "material": [ "paper" ],
+    "flags": [ "DURABLE_MELEE","NONCONDUCTIVE"],
+    "techniques": [ "WBLOCK_1", "RAPID"],
+    "to_hit": 1,
+    "bashing": 2,
+    "cutting": 20,
+    "use_action": {
+      "type": "transform",
+      "target": "origamifold_sword",
+      "active": false,
+      "moves": 50,
+      "msg": "You fold the sword."
+    }
+},
+{
+
+    "type": "TOOL",
+    "copy-from": "origami_folded",
+    "id": "origamifold_spear",
+    "name": "origami fold: spear",
+    "volume": " 100 ml",
+    "material": [ "paper" ],
+    "description": "An origami folded sword",
+    "material_thickness": 3,
+    "use_action": {
+      "type": "transform",
+      "target": "origami_sword",
+      "active": true,
+      "moves": 50,
+      "msg": "You grab the origami and unfold it"
+    }
+  },
+  {
+    "id": "origami_spear",
+    "type": "GENERIC",
+    "category": "weapons",
+    "symbol": "/",
+    "color": "light_gray",
+    "name": "origami spear",
+    "description": "A spear made of paper, is weirdly durable, can be folded for easy storage",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "price": 100,
+    "material": [ "paper" ],
+    "flags": [ "DURABLE_MELEE", "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE"],
+    "techniques": [ "WBLOCK_1", "WIDE" ],
+    "to_hit": 1,
+    "bashing": 3,
+    "cutting": 18,
+    "use_action": {
+      "type": "transform",
+      "target": "origamifold_spear",
+      "active": false,
+      "moves": 50,
+      "msg": "You fold the spear."
+    }
+}
+]

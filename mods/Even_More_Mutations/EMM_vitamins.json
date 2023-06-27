@@ -1,0 +1,26 @@
+[
+    {
+        "id": "mutagen_crab",
+        "type": "vitamin",
+        "vit_type": "counter",
+        "name": { "str": "Crab Primer" },
+        "excess": "mutagen_crab",
+        "min": 0,
+        "max": 2500,
+        "rate": "1 h",
+        "disease_excess": [ [ 100, 500 ], [ 501, 2199 ], [ 2200, 2500 ] ]
+      },
+      {
+        "id": "mutagen_snake",
+        "type": "vitamin",
+        "vit_type": "counter",
+        "name": { "str": "Snake Primer" },
+        "excess": "mutagen_snake",
+        "min": 0,
+        "max": 2500,
+        "rate": "1 h",
+        "disease_excess": [ [ 100, 500 ], [ 501, 2199 ], [ 2200, 2500 ] ]
+      }
+
+
+]

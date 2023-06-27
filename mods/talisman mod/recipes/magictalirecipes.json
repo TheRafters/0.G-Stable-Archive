@@ -1,0 +1,71 @@
+ [
+{
+    "result": "fireball_talisman",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "skills_required": [ "fabrication", 1 ],
+    "time": "15 m",
+    "autolearn": true,
+    "result_mult": 10,
+    "qualities": [ { "id": "CUT", "level": 1 },{ "id": "SEW", "level": 1 } ],
+    "tools": [ [ [ "survival_marker", -1 ],[ "permanent_marker",-1], [ "feather", -1 ]] ],    
+    "components": [
+      [ [ "lesser_talisman", 100 ] ],
+      [ [ "blank_talisman", 1 ] ],
+      [ [ "candle", 1 ] ],
+      [ [ "water_clean", 1 ] ]      
+   ]
+
+   
+  },
+{
+    "result": "wall_talisman",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "skills_required": [ "fabrication", 1 ],
+    "time": "15 m",
+    "autolearn": true,
+    "result_mult": 10,
+    "qualities": [ { "id": "CUT", "level": 1 },{ "id": "SEW", "level": 1 } ],
+    "tools": [ [ [ "survival_marker", -1 ],[ "permanent_marker",-1], [ "feather", -1 ]] ],    
+    "components": [
+      [ [ "lesser_talisman", 100 ] ],
+      [ [ "blank_talisman", 1 ] ],
+      [ [ "paper", 200 ] ],
+      [ [ "water_clean", 1 ] ]      
+   ]
+
+   
+  },
+{
+    "result": "pit_talisman",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "skills_required": [ "fabrication", 1 ],
+    "time": "15 m",
+    "autolearn": true,
+    "result_mult": 10,
+    "qualities": [ { "id": "CUT", "level": 1 },{ "id": "SEW", "level": 1 } ],
+    "tools": [ [ [ "survival_marker", -1 ],[ "permanent_marker",-1], [ "feather", -1 ]] ],    
+    "components": [
+      [ [ "lesser_talisman", 100 ] ],
+      [ [ "blank_talisman", 1 ] ],
+      [ [ "digging_stick", 10 ] ],
+      [ [ "water_clean", 1 ] ]      
+   ]
+
+   
+  }
+
+
+
+]

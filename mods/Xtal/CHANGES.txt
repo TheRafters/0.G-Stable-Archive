@@ -1,0 +1,4 @@
+update to name strings, no leading capitals plz.
+reduced spawn rates globally, leave some RNG for the rest of the mods, please.
+
+Complete overhaul: transformed into an addon for the Mining Mod, now mining is much more rewarding and craters are...interesting. Materials and gemstones now include new vanilla materials malachite, pearl and blue topaz. Mining stone has very small chance of gemstone drops. They're worth a bit. The rings are worth more. Can you fight for your right to the booty?

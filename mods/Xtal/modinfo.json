@@ -1,0 +1,11 @@
+[
+  {
+    "id": "xtal",
+    "type": "MOD_INFO",
+    "name": "Xtals -> Mining Mod Addon",
+    "authors": [ "DerpDaHonk0Azuresoul", "Cobweb" ],
+    "description": "Gems. Gems everywhere... Xtal short for crystal.. Old toram online habit. (Cobweb here: I've added the xtal's to the terrain from Mining Mod. Now there's more reason than ever to Strike The Earth!)",
+    "category": "items",
+    "dependencies": [ "dda", "Mining_Mod" ]
+  }
+]

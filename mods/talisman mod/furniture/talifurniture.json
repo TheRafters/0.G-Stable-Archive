@@ -1,0 +1,17 @@
+[{
+    "id": "f_paper_barrier",
+    "type": "furniture",
+    "name": "fluttering paper barrier",
+    "description": "A fluttering paper barrier, reforced with energy to make it belie its base material.",
+    "symbol": "#",
+    "looks_like": "paper",
+    "bgcolor": [ "blue" ],
+    "move_cost_mod": -2,
+    "light_emitted": 1,
+    "required_str": -1,
+    "flags": [ "NOITEM", "TRANSPARENT" ],
+    "deployed_item": "paperbarrier_aftermath",
+    "examine_action": "deployed_furniture",
+    "bash": { "str_min": 100, "str_max": 400, "sound": "crash!", "sound_fail": "whump!" }
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "TP_SET_HOME",
+    "//": "This remembers your home location, and teaches you the warp spell if you don't know it.",
+    "effect": [
+      { "u_location_variable": { "global_val": "TP_HOMEPOINT" } },
+      {
+        "u_message": "Home Point set! This is now the spot you'll return home to when going through a portal.",
+        "type": "good"
+      },
+      { "u_add_var": "player_is_away", "value": "1" },
+      { "arithmetic": [ { "u_val": "spell_level", "spell": "townportal" }, "=", { "const": 0 } ] },
+      { "arithmetic": [ { "u_val": "spell_exp", "spell": "townportal" }, "=", { "const": 0 } ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "TP_LEARN_ANCHOR_SPELL",
+    "//": "This teaches you a spell.",
+    "effect": [
+      { "arithmetic": [ { "u_val": "spell_level", "spell": "setTPhome" }, "=", { "const": 0 } ] },
+      { "arithmetic": [ { "u_val": "spell_exp", "spell": "setTPhome" }, "=", { "const": 0 } ] },
+      { "u_message": "You definitely know how to cast this spell now.", "type": "good" }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "TP_TOWNPORTAL",
+    "//": "Checks if you're away from home. If so, warps you home. If not, warps you out.",
+    "condition": { "u_compare_var": "player_is_away", "op": "==", "value": 1 },
+    "effect": [
+      { "u_location_variable": { "global_val": "TP_AWAYPOINT" } },
+      { "u_add_var": "player_is_away", "value": "0" },
+      { "u_teleport": { "global_val": "TP_HOMEPOINT" }, "force": true },
+      {
+        "u_message": "Mysterious spacetime transports you home. Cast this spell again to return to where you just were.",
+        "type": "good"
+      }
+    ],
+    "false_effect": [
+      { "u_add_var": "player_is_away", "value": "1" },
+      { "u_teleport": { "global_val": "TP_AWAYPOINT" }, "force": true },
+      {
+        "u_message": "Mysterious spacetime transports you back to your adventures. Cast this spell again to return home.",
+        "type": "good"
+      }
+    ]
+  },
+  {
+    "type": "TOOL",
+    "id": "TP_spell_teacher",
+    "name": { "str": "Town Portal Scroll" },
+    "color": "magenta",
+    "use_action": {
+      "type": "effect_on_conditions",
+      "description": "No place like home.",
+      "effect_on_conditions": [ "TP_LEARN_ANCHOR_SPELL" ]
+    },
+    "volume": "250 ml",
+    "weight": "10 g",
+    "looks_like": "one_year_old_newspaper",
+    "symbol": ",",
+    "flags": [ "ALLOWS_REMOTE_USE", "UNBREAKABLE" ],
+    "description": "A very easy to conjure scroll that will teach you how to cast Town Portal. Can be pulled out of thin air, somehow."
+  },
+  {
+    "result": "TP_spell_teacher",
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "survival",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "reversible": false,
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "id": "setTPhome",
+    "type": "SPELL",
+    "name": "Set Home",
+    "description": "Marks where you're currently standing as your home, the place the Town Portal spell will return you to. Setting a home location if one already exists will remove your saved away point if it exists.",
+    "valid_targets": [ "self" ],
+    "spell_class": "NONE",
+    "flags": [ "NO_EXPLOSION_SFX", "NO_FAIL", "NO_LEGS", "NO_HANDS", "VERBAL" ],
+    "max_level": 0,
+    "difficulty": 0,
+    "min_damage": 1,
+    "max_damage": 1,
+    "duration_increment": 1,
+    "effect": "effect_on_condition",
+    "effect_str": "TP_SET_HOME",
+    "shape": "blast",
+    "energy_source": "NONE",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "base_casting_time": 100,
+    "final_casting_time": 100
+  },
+  {
+    "id": "townportal",
+    "type": "SPELL",
+    "name": "Town Portal",
+    "description": "This spell will warp you to and from your home base. Cast once to warp home, again to warp back out. Be aware this spell takes a minute to cast and should only be used when in safety.",
+    "valid_targets": [ "self" ],
+    "spell_class": "NONE",
+    "flags": [ "NO_EXPLOSION_SFX", "NO_FAIL", "NO_LEGS", "NO_HANDS", "VERBAL" ],
+    "max_level": 0,
+    "difficulty": 0,
+    "min_damage": 1,
+    "max_damage": 1,
+    "duration_increment": 1,
+    "effect": "effect_on_condition",
+    "effect_str": "TP_TOWNPORTAL",
+    "shape": "blast",
+    "message": "",
+    "energy_source": "NONE",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "base_casting_time": 6000,
+    "final_casting_time": 6000
+  }
+]
