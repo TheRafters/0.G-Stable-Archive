@@ -1,0 +1,1517 @@
+[
+  {
+    "id": "grip",
+    "copy-from": "grip",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://danieldefense.com/daniel-defense-vertical-foregrip-daniel-defense-tornado.html"
+    ],
+
+    "name": {
+      "str": "Daniel Defense Tornado vertical grip"
+    },
+    "description": "A full-sized polymer foregrip.  Allows for better handling of the firearm.  Has ribbed grooves on the front and the back, and two islands of tire-like texture on the sides.",
+
+    "weight": "68 g",
+    "//dimensions": {
+      "length": "4.5 in",
+      "width": "2 in",
+      "height": "1.38 in",
+      "raw": "203 ml",
+      "trim": 0.35
+    },
+    "volume": "132 ml",
+    "longest_side": "114 mm",
+
+    "material": ["plastic", "rubber"],
+
+    "//interfaces": ["Picatinny"],
+
+    "handling_modifier": 7,
+
+    "mod_targets": [
+      "pistol",
+      "smg",
+      "rifle",
+      "shotgun",
+      "launcher",
+      "crossbow"
+    ],
+
+    "price": "34 USD"
+  },
+
+  {
+    "id": "bipod",
+    "copy-from": "bipod",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.harrisbipods.com/product/s-l2p-bipod/"],
+
+    "name": {
+      "str": "Harris Engineering S-L2P bipod"
+    },
+    "description": "This bipod can be attached directly to the bottom Picatinny rail of a firearm.  When prone or standing against an obstacle of sufficient height, such a bipod can be used to stabilize the gun, making aiming and recoil management significantly easier.  The two obvious disadvantages to attaching a bipod is weight and extra volume.  For these reasons, some shooters prefer to carry their bipod in a gun bag or a specialized MOLLE pocket, and attach it in the field when necessary.",
+
+    "weight": "397 g",
+    "//dimensions": {
+      "length": "9 in",
+      "width": "1.75 in",
+      "height": "1.5 in",
+      "raw": "387 ml",
+      "trim": 0.4,
+      "notes": ["dimensions very much eyeballed"]
+    },
+    "volume": "232 ml",
+    "longest_side": "229 mm",
+
+    "material": ["aluminum", "steel", "rubber"],
+
+    "//interfaces": ["Picatinny"],
+
+    "//handling_modifier": 18,
+
+    "//mod_targets": [
+      "rather than use a generic `pistol` target, this bipod should target only longer pistol-caliber firearms known to be used in a marksman capacity",
+      "e.g. Manurhin MR 73, used by GIGN"
+    ],
+    "mod_targets": ["smg", "rifle", "shotgun", "launcher", "crossbow"],
+
+    "price": "129 USD"
+  },
+
+  {
+    "id": "holo_sight",
+    "copy-from": "holo_sight",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.eotechinc.com/eotech-hws-xps3",
+      "https://www.bhphotovideo.com/c/product/1179431-REG/eotech_xps3_0_holographic_weapon_sight.html/specs"
+    ],
+
+    "name": {
+      "str": "EOTech XPS3 holographic sight"
+    },
+    "description": "The next version of a modern classic in sighting devices.  Holographic sights enable quicker and, often, more-precise aiming than iron sights, due to the simplicity of a single-point aim.  They are also an improvement over red dot sights, though the difference is less significant than it is between red-dots and iron sights.  On the other hand, holographic sights heavier, bulkier, and more-expensive than red-dots.",
+
+    "//dimensions": {
+      "length": "3.8 in",
+      "width": "2.1 in",
+      "height": "2.5 in",
+      "raw": "327 ml",
+      "trim": 0.4
+    },
+    "volume": "196 ml",
+    "longest_side": "97 mm",
+
+    "//field_of_view": "29.9m @ 100yd",
+    "field_of_view": 1114,
+    "sight_dispersion": 4,
+    "aim_speed_modifier": 14,
+
+    "mod_targets": [
+      "pistol",
+      "smg",
+      "rifle",
+      "shotgun",
+      "launcher",
+      "crossbow"
+    ],
+
+    "//power": {
+      "source": "CR123",
+      "lifetime": "1000 hours"
+    },
+
+    "price": "735 USD"
+  },
+
+  {
+    "id": "red_dot_sight",
+    "copy-from": "red_dot_sight",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.ncstar.com/optics-acc/reflex-optics/heads-up/d4rgb-dot4retrd-grwvr-mtblk",
+      "https://www.opticsplanet.com/nc-star-d4rgb-tactical-double-illumination-red-dot-sight.html",
+      "https://www.amazon.com/Pinty-Holographic-Tactical-Riflescope-Patterns/dp/B01BF5LYGW"
+    ],
+
+    "//notes": ["comes with a Picatinny mount"],
+
+    "name": {
+      "str": "NcSTAR red dot sight"
+    },
+    "description": "A red dot sight largely made popular by video games.  Average sighting performance, though there are reports of it holding zero very poorly.  Installs directly onto Picatinny rail, since it comes with an embedded adapter.",
+
+    "//dimensions": {
+      "length": "3.25 in",
+      "width": "1.33 in",
+      "height": "2.18 in",
+      "raw": "154 ml",
+      "trim": 0.5,
+      "notes": [
+        "length is known from sources",
+        "other dimensions acquired from visual reference"
+      ]
+    },
+    "volume": "77 ml",
+    "longest_side": "83 mm",
+
+    "material": ["aluminum"],
+
+    "//field_of_view": [
+      "52 feet @ 100 yards",
+      "assumed from a Pinty sight that looks remarkably like the NcSTAR one",
+      "no stats available for the original"
+    ],
+    "field_of_view": 594,
+    "sight_dispersion": 12,
+    "//aim_speed_modifier": 10,
+
+    "mod_targets": [
+      "pistol",
+      "smg",
+      "rifle",
+      "shotgun",
+      "launcher",
+      "crossbow"
+    ],
+
+    "//power": {
+      "source": "CR2032",
+      "lifetime": "???"
+    },
+
+    "price": "73 USD"
+  },
+
+  {
+    "id": "rifle_scope",
+    "copy-from": "rifle_scope",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.leupold.com/mark-6-3-18x44-m5b2-ffp-mil-dot-riflescope"
+    ],
+
+    "name": {
+      "str": "Leupold Mark 6 3-18×44 34mm scope"
+    },
+    "description": "A compact (for its features) 34mm scope with magnification ranging from 3× to 18×.  Quality-made and intended to survive harsh conditions, this scope has earned its popularity fairly.",
+
+    "//volume": "three parts calculated separately, then their volumes combined",
+    "//dimensions": [
+      {
+        "description": "objective",
+
+        "length": "2.7 in",
+        "diameter": "2.1 in",
+        "raw": "153 ml",
+        "trim": 0.2,
+        "volume": "122 ml"
+      },
+      {
+        "description": "mounting space",
+
+        "length": "5.9 in",
+        "diameter": "34 mm",
+        "raw": "136 ml",
+        "trim": -0.25,
+        "volume": "170 ml",
+        "notes": [
+          "the adjustment knobs' volume is reflected in the negative trim value",
+          "angle images of the actual scope reflect the volume the knobs take up"
+        ]
+      },
+      {
+        "description": "eyepiece",
+
+        "length": "3.2 in",
+        "diameter": "1.7 in",
+        "raw": "119 ml",
+        "trim": 0.025,
+        "volume": "122 ml",
+        "notes": [
+          "the zoom dial looks much smaller on angle images than it does on the blueprint in source"
+        ]
+      }
+    ],
+    "volume": "414 ml",
+    "longest_side": "300 mm",
+
+    "material": ["aluminum"],
+
+    "//field_of_view": "36.8 ft @ 100 yards @ 3× magnification",
+    "field_of_view": 421,
+    "sight_dispersion": 1,
+
+    "location": "34mm scope mount",
+
+    "//power": {
+      "source": "CR2032",
+      "lifetime": "???"
+    },
+
+    "price": "73 USD"
+  },
+
+  {
+    "id": "acog_scope",
+    "copy-from": "acog_scope",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.trijicon.com/products/details/ta01-c-100317",
+      "https://www.trijicon.com/products/details/ta01law"
+    ],
+
+    "//notes": [
+      "the second source is a model of ACOG that comes without a mount by default, for dimensions reference"
+    ],
+
+    "name": {
+      "str": "Trijicon ACOG TA01 4×32 scope"
+    },
+    "description": "One of the most popular combat sights in the world and, for the longest time, the primary choice of several branches of the US Armed Forces, the TA01 is a 4× magnified, tritium-illuminated sight.  Though it had been eventually replaced by a more-modern sight, the ACOG continues to be a reliable optic after the end of the world.  Can optionally be augmented with a rear iron sight (forming a complete pair with an embedded front post) or an RM35 mount, allowing installation of a compact RMR red dot sight.",
+
+    "//dimensions": {
+      "length": "5.8 in",
+      "width": "2 in",
+      "height": "2.3 in",
+      "raw": "437 ml",
+      "trim": 0.4
+    },
+    "volume": "262 ml",
+    "longest_side": "147 mm",
+
+    "//field_of_view": "36.8 feet @ 100 yards",
+    "field_of_view": 421,
+    "//sight_dispersion": "0.4 MOA, rounded up",
+    "sight_dispersion": 2,
+    "//aim_speed_modifier": "somewhere between a scope and a red dot sight",
+    "aim_speed_modifier": 4,
+
+    "location": "ACOG mount",
+
+    "//add_mod": "bosses are small mounting arms near viewport, which an RMR mount would attach to",
+    "add_mod": [["ACOG bosses", 1]],
+
+    "//power": {
+      "source": "tritium",
+      "lifetime": "12 y"
+    },
+
+    "price": "1539 USD"
+  },
+
+  {
+    "id": "holo_magnifier",
+    "copy-from": "holo_magnifier",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.eotechinc.com/eotech-magnifier-g43"],
+
+    "name": {
+      "str": "EOTech G43 magnifier"
+    },
+    "description": "This compact sight attaches in front of a present red dot or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.",
+
+    "//dimensions": {
+      "length": "3.1 in",
+      "width": "2.3 in",
+      "height": "3.3 in",
+      "raw": "385 ml",
+      "trim": 0.25
+    },
+    "volume": "289 ml",
+    "longest_side": "84 mm",
+
+    "material": ["aluminum", "glass"],
+
+    "//sight_dispersion": [
+      "3× magnification of a (presumed) 2 MOA dot in front of the magnifier",
+      "ideally it should, of course, coordinate with the sight in magnifies"
+    ],
+    "sight_dispersion": 24,
+    "aim_speed_modifier": 16,
+
+    "price": "649 USD"
+  },
+
+  {
+    "id": "suppressor",
+    "copy-from": "suppressor",
+    "type": "GUNMOD",
+
+    "//sources": ["https://silencerco.com/silencers/hybrid-46/"],
+
+    "name": {
+      "str": "SilencerCo Hybrid 46 suppressor"
+    },
+    "description": "A large and heavy suppressor, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is rated for a very wide range of calibers, from pistol calibers like 9mm and .45 ACP, to rifle calibers like 5.56mm NATO and .45-70 Gov't, and anything in-between.  It cannot be mounted directly onto muzzle threading.  Instead, it mounts onto the Bravo direct thread mount, also from SilencerCo.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+
+    "//weight": "latest weight listed on the SilencerCo page for Hybrid 46 is 14.1 oz ≈ 400 g",
+    "weight": "400 g",
+    "//dimensions": {
+      "length": "7.6 in",
+      "diameter": "1.57 in",
+      "raw": "241 ml",
+      "trim": 0
+    },
+    "volume": "241 ml",
+    "longest_side": "193 mm",
+    "//integral_longest_side": [
+      "to account for the length of mount",
+      "see item: `thread_mount_silencerco_bravo`"
+    ],
+    "integral_longest_side": "185 mm",
+
+    "//material": "also inconel",
+    "material": ["titanium", "steel"],
+
+    "//calibers": [
+      "9mm",
+      "45ACP",
+      "556",
+      "300BLK",
+      "65grendel",
+      "65PRC",
+      "300win",
+      "68SPC",
+      "762soviet",
+      "65creedmoor",
+      "308win",
+      "338LM",
+      "4570govt",
+      "458SOCOM"
+    ],
+
+    "//sound_lower": "130.4 dB w/ 5.56mm",
+
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 2
+    },
+    "loudness_modifier": -50,
+    "handling_modifier": 10,
+
+    "add_mod": [["suppressor cover", 1]],
+
+    "location": "SilencerCo direct thread mount",
+
+    "price": "939 USD"
+  },
+
+  {
+    "id": "suppressor_compact",
+    "copy-from": "suppressor_compact",
+    "type": "GUNMOD",
+
+    "//TODO": [
+      "https://www.reardenmfg.com/product/spb-ht-muzzle-brake/",
+      "https://www.reardenmfg.com/product/atlas-ht-thread-adapter/"
+    ],
+
+    "//sources": [
+      "https://wittmachine.net/product/mod-1-quick-disconnect-ultra-compact-suppressor/",
+      "https://www.watchwpsn.com/videos/witt-machine-mod1-compact-silencer-test-review"
+    ],
+
+    "//notes": [
+      "while we're in the process of adding the muzzle device and the adapter, we pretend the suppressor comes with those inherently, pre-attached"
+    ],
+
+    "name": {
+      "str": "Witt Machine Mod-1 compact suppressor"
+    },
+    "description": "A compact suppressor, it reduces report (i.e., loudness of shot) by a noticable amount, though far from muffling the sound completely.  This model is rated for a variety of calibers, from 9mm to .30 cal..  It comes with an embedded muzzle brake that allows it to be installed directly onto muzzle threading.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+
+    "//weight": "the review says the weight is 15 oz ≈ 425 g",
+    "weight": "425 g",
+    "//dimensions": {
+      "length": "5.25 in",
+      "diameter": "1.625 in",
+      "raw": "178 ml",
+      "trim": 0.025
+    },
+    "volume": "174 ml",
+    "longest_side": "133 mm",
+
+    "material": ["steel"],
+
+    "//calibers": ["9mm", "45ACP", "556", "300BLK"],
+
+    "//sound_lower": "141.3 dB w/ .300 BLK subsonic",
+
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 1
+    },
+    "loudness_modifier": -25,
+    "handling_modifier": 7,
+
+    "price": "499 USD"
+  },
+
+  {
+    "id": "shot_suppressor",
+    "copy-from": "shot_suppressor",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://silencerco.com/silencers/salvo-12/",
+      "https://www.thefirearmblog.com/blog/2016/04/26/review-silencerco-salvo-12-shotgun-suppressor/"
+    ],
+
+    "//notes": [
+      "technically mounts on a choke adapter, but given that the source has no separate information about, we'll pretend it's a direct-thread mount much like a rifle",
+      "assumes the longest variant at 12.5 in.",
+      "theoretically modular, in that it allows adjusting the length of the suppressor, but not in the field"
+    ],
+
+    "name": {
+      "str": "SilencerCo Salvo 12 shotgun suppressor"
+    },
+    "description": "A unique design, this shotgun suppressor reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is also reported to reduce felt recoil significantly.  It comes with an embedded choke adapter that allows it to be installed directly onto muzzle threading.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+
+    "weight": "975 g",
+    "//dimensions": {
+      "length": "12.5 in",
+      "width": "2.21 in",
+      "height": "2.96 in",
+      "raw": "1340 ml",
+      "trim": 0.1
+    },
+    "volume": "1206 ml",
+    "longest_side": "318 mm",
+
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 4
+    },
+
+    "material": ["aluminum", "steel"],
+
+    "//calibers": ["12gauge"],
+
+    "//sound_lower": "136.8 dB w/ 12 gauge",
+    "//sound_without": "160 dB w/ 12 gauge",
+
+    "loudness_modifier": -45,
+    "//handling_modifier": [
+      "reduces recoil significantly, according to the spec sheet and the review",
+      "we hope you appreciate the pun"
+    ],
+    "handling_modifier": 14,
+
+    "price": "1169 USD"
+  },
+
+  {
+    "id": "muzzle_brake",
+    "copy-from": "muzzle_brake",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.surefire.com/procomp/",
+      "https://www.thetruthaboutguns.com/556-muzzle-device-shootout/",
+      "https://www.calguns.net/calgunforum/showthread.php?t=1276996"
+    ],
+
+    "//notes": ["assumes the 5.56mm model"],
+
+    "name": {
+      "str": "SureFire Procomp muzzle brake"
+    },
+    "description": "An unassuming but capable muzzle brake, this one is capable of reducing recoil by almost 60%.  It's rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+
+    "weight": "96 g",
+    "//dimensions": {
+      "length": "2.5 in",
+      "diameter": "0.866 in",
+      "raw": "24 ml",
+      "trim": 0.05,
+      "notes": [
+        "same outer diameter as A2 birdcage, which accepts NATO 22 mm rifle grenades"
+      ]
+    },
+    "volume": "23 ml",
+    "longest_side": "64 mm",
+
+    "//calibers": ["223"],
+
+    "//recoil_reduction": "59.79%",
+    "//recoil_distance": "3.71875 in.",
+    "handling_modifier": 30,
+    "loudness_modifier": 30,
+
+    "price": "99 USD"
+  },
+
+  {
+    "id": "offset_sights",
+    "copy-from": "offset_sights",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://magpul.com/mbus-pro-offset-sight-rear.html",
+      "https://magpul.com/mbus-pro-offset-sight-front.html"
+    ],
+
+    "name": {
+      "str": "Magpul MBUS Pro offset iron sights"
+    },
+    "description": "A pair of offset iron sights that could be flipped down.  Offset iron sights can be used alongside other sights and scopes.",
+
+    "//weight": "2 oz + 1.8 oz = 3.8 oz ≈ 108 g",
+    "weight": "108 g",
+    "//dimensions": "copied from the `iron_sights_abstract` item; actual dimensions not readily available",
+    "volume": "95 ml",
+    "longest_side": "63 mm",
+
+    "material": ["steel"],
+
+    "//sight_dispersion": "move them closer to the default Loadout iron sight balancing",
+    "sight_dispersion": 24,
+
+    "//add_mod": "much like new offset sights, this pair adds a 'slot' for new sights, emulating being offset",
+    "add_mod": [["sights", 1]],
+
+    "//price": "120 + 100 USD",
+    "price": "220 USD"
+  },
+
+  {
+    "id": "rail_laser_sight",
+    "copy-from": "rail_laser_sight",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.leapers.com/utg-combat-tactical-we-adjustable-red-laser-with-rings-scp-ls268.html"
+    ],
+
+    "name": {
+      "str": "Leapers UTG red laser sight"
+    },
+    "description": "A round-body, compact laser sight that mounts on a Picatinny rail, providing the shooter with reliable aim at shorter distances.  This one emits red laser: the most common kind of lasers.  Ineffective at longer ranges and in bright environments.",
+
+    "//weight": "with 4 × LR44s",
+    "weight": "28 g",
+    "//dimensions": {
+      "length": "2.64 in",
+      "diameter": "0.55 in",
+      "raw": "10 ml",
+      "trim": -0.75,
+      "notes": [
+        "negative trim value compensates for Picatinny mount, wires, and activation button"
+      ]
+    },
+    "volume": "18 ml",
+    "longest_side": "67 mm",
+
+    "//laser": {
+      "class": "3R",
+      "power": "3.1 mW",
+      "divergence": "3.581 MOA",
+      "range": {
+        "day": "500 m"
+      }
+    },
+
+    "sight_dispersion": 14,
+
+    "//power": {
+      "source": "LR44 × 4",
+      "lifetime": "80 mins"
+    },
+
+    "price": "40 USD"
+  },
+
+  {
+    "id": "improve_sights",
+    "copy-from": "improve_sights",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://danieldefense.com/ar-15-iron-sight-set.html",
+      "https://www.wingtactical.com/accessories/optics-sights/sights/daniel-defense-ar-15-fixed-iron-sights/"
+    ],
+
+    "name": {
+      "str": "Daniel Defense iron sights"
+    },
+    "description": "A pair of fixed iron sights.  Advertised as \"A1.5\" sights, they combine the best of both worlds: the precision of A1, an earlier model of AR-15 sights, and the adjustability of A2.",
+
+    "weight": "79 g",
+    "//dimensions": {
+      "length": "61 mm",
+      "width": "44 mm",
+      "height": "24 mm",
+      "raw": "64 ml",
+      "trim": 0.3,
+      "notes": [
+        "dimensions given for a pair of corresponding sights stacked together",
+        "height (44 mm) assumed from height of the taller (rear) sight (39 mm) + 5 mm of the base gripping around the rail"
+      ]
+    },
+    "volume": "45 ml",
+    "longest_side": "61 mm",
+
+    "material": ["steel"],
+
+    "//sight_dispersion": "move them closer to the default Loadout iron sight balancing",
+    "sight_dispersion": 24,
+    "//aim_speed_modifier": "minor bonus for better-than-default sights",
+    "aim_speed_modifier": 2,
+
+    "price": "142 USD"
+  },
+
+  {
+    "id": "offset_sight_rail",
+    "copy-from": "offset_sight_rail",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/strike-industries-ambush-45-degree-offset-optic-mount/"
+    ],
+
+    "//notes": [
+      "for now, we pretend that this is a generic Picatinny offset rail",
+      "here is where multi-modality for gunmod slots could really come in handy",
+      "this mount actually offers several common screw locations for popular red dot sights"
+    ],
+
+    "name": {
+      "str": "Strike Industries Ambush offset sight mount"
+    },
+    "description": "A compact adapter that adds a short Picatinny rail at a 45-degree offset from the top rail.  This rail can be used to install a small secondary red dot sight, to be used in conjunction with a larger scope.  Having two sights, each for a different distance, should allow you to engage threats at these distances quicker.",
+
+    "weight": "51 g",
+    "//dimensions": {
+      "length": "2.05 in",
+      "width": "1.05 in",
+      "height": "2.47 in",
+      "raw": "87 ml",
+      "trim": 0.7
+    },
+    "volume": "26 ml",
+    "longest_side": "63 mm",
+
+    "material": ["steel", "aluminum"],
+
+    "price": "75 USD"
+  },
+
+  {
+    "id": "pistol_scope",
+    "copy-from": "pistol_scope",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.burrisoptics.com/riflescopes/handgun-scope-2x20mm"
+    ],
+
+    "name": {
+      "str": "Burris 2×20 handgun scope"
+    },
+    "description": "A compact 1-inch scope with a fixed magnification of 2×.  Though advertised as a handgun scope, it's frequently mounted on stock-less rifles.  Primarily intended for hunting, this rugged, durable scope will stay true no matter which caliber you use.",
+
+    "weight": "199 g",
+    "//dimensions": {
+      "length": "8.9 in",
+      "diameter": "35 mm",
+      "raw": "218 ml",
+      "trim": 0,
+      "notes": ["assumes the excess space covers adjustment knobs etc."]
+    },
+    "volume": "218 ml",
+    "longest_side": "226 mm",
+
+    "sight_dispersion": 1,
+    "//field_of_view": "21 feet @ 100 yards",
+    "field_of_view": 240,
+
+    "location": "1-inch sight mount",
+
+    "price": "312 USD"
+  },
+
+  {
+    "id": "belt_clip",
+    "copy-from": "belt_clip",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.clipdraw.com/product/sa-b-black-s-silver/"],
+
+    "name": {
+      "str": "Clipdraw universal belt clip"
+    },
+    "description": "A belt clip is a metal clip that, when attached to pistol, allows carrying said pistol concealed under your belt, eliminating the need for a holster.  This particular belt clip is unique because it's universal: that is, it can be easily attached to any pistol, regardless of make, model, or size.",
+
+    "//weight": [
+      "Amazon lists weight in 'product dimensions' for a similar product as 0.96 oz ≈ 27 g, which seems appropriate",
+      "https://www.amazon.com/Techna-Clip-LCP-380-Conceal-Right-Side/dp/B014E26Z62",
+      "this may include the Allen wrench that comes with the clip",
+      "according to source, an Allen wrench weighs around 5 g",
+      "https://www.amazon.com/Allen-Wrench-Tool-Stainless-Steel/dp/B0167HI1FA",
+      "assumes the weight of the second (spare) screw is irrelevant for the total grammage"
+    ],
+    "weight": "22 g",
+    "//dimensions": {
+      "length": "3 in",
+      "width": "0.25 in",
+      "height": "0.25 in",
+      "raw": "3 ml",
+      "trim": 0.8,
+      "notes": [
+        "height assumed from visuals",
+        "trim is applied up to a minimum volume of 1 ml"
+      ]
+    },
+    "volume": "1 ml",
+    "//integral_volume": [
+      "while the clip itself is very thin, it arches against the body of the pistol, adding unfillable volume",
+      "uses untrimmed volume, since that's just about how much volume gets added"
+    ],
+    "integral_volume": "3 ml",
+    "longest_side": "76 mm",
+
+    "//mod_targets": "this one is specifically universal and does not require any manipulations specific to a particular model",
+    "mod_targets": ["pistol"],
+    "install_time": "2 m",
+
+    "price": "25 USD"
+  },
+
+  {
+    "id": "brass_catcher",
+    "copy-from": "brass_catcher",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.caldwellshooting.com/range-gear/brass-catchers/universal-brass-catcher/110038.html",
+      "https://www.amazon.com/Caldwell-Universal-Resistant-Convenient-Collection/dp/B07795P5MK",
+      "https://www.midwayusa.com/product/1019605476"
+    ],
+
+    "//notes": [
+      "the nylon catcher part is not technically rigid, but it's shaped enough by the metal skeleton to effectively retain its shape throughout the filling process"
+    ],
+
+    "name": { "str": "Caldwell universal brass catcher" },
+    "description": "A brass catcher is a bag that straps onto a firearm and catches empty casings (which are often made of brass), rather than let them drop on the ground.  On a gun range, it's useful because it means less clean-up.  In a post-apocalyptic survival situation, it means retaining material for reloading your own ammunition.  This catcher can be attached to any large firearm.  It's rated for 100 casings of 5.56mm NATO, which only covers about half the bag; this is so that the casings wouldn't fall back into the ejection port and cause a jam.",
+
+    "weight": "200 g",
+    "//dimensions": {
+      "length": "5 in",
+      "width": "2.75 in",
+      "height": "5 in",
+      "raw": "1127 ml",
+      "trim": 0.4,
+      "notes": [
+        "a review on MidwayUSA says the opening (the window through which spent cases drop into the bag) is about 2.5 × 6 in.",
+        "from these dimensions, we can assume the length of the entire catcher is 6 in.",
+        "we can also assume that height is 2 × 2.5 in. = 5 in.",
+        "width/depth seems to be roughly the height of the opening, so 2.5 in. as well",
+        "we add another 0.25 in. to width to account for the hinge and the straps"
+      ]
+    },
+    "volume": "676 ml",
+    "longest_side": "127 mm",
+
+    "//material": "steel is presumed to be the material for the hinge",
+    "material": ["nylon", "steel"],
+
+    "//mod_targets": [
+      "removes pistols from possible targets because",
+      "(1) the catcher is just too large for a regular pistol",
+      "(2) it would likely prevent a pistol from functioning correctly, given that the slide has to move",
+      "(so either the catcher's nylon latch cuts, or the slide is slowed down, thus not ejecting or chambering correctly)"
+    ],
+    "mod_targets": ["shotgun", "smg", "rifle", "launcher"],
+    "install_time": "10 s",
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "//max_contains_volume": [
+          "this catcher is rated for 100 .223/5.56mm casings",
+          "visually, it seems as though only 45% of the catcher's overall capacity is devoted to the casings",
+          "this would prevent new casins from overflowing back towards the bolt, potentially jamming the gun"
+        ],
+        "max_contains_volume": "304 ml",
+        "max_contains_weight": "1 kg"
+      }
+    ],
+
+    "price": "30 USD"
+  },
+
+  {
+    "id": "laser_sight",
+    "copy-from": "laser_sight",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://sightmark.eu/collections/laser-sights/products/readyfire-lw-r5-red-laser-sight",
+      "https://www.opticsplanet.com/sightmark-readyfire-laser-sight.html"
+    ],
+
+    "name": {
+      "str": "Sightmark ReadyFire red laser sight"
+    },
+    "description": "A boxy, compact laser sight that mounts on a Picatinny rail, providing the shooter with reliable aim at shorter distances.  This one emits red laser: the most common kind of lasers.  Ineffective at longer ranges and in bright environments.",
+
+    "weight": "65 g",
+    "//dimensions": {
+      "length": "2.4 in",
+      "width": "1.1 in",
+      "height": "1.1 in",
+      "raw": "48 ml",
+      "trim": 0.1
+    },
+    "volume": "43 ml",
+    "longest_side": "61 mm",
+
+    "//material": "actually glass-filled nylon",
+    "material": ["plastic"],
+
+    "//laser": {
+      "class": "3R",
+      "power": "5 mW",
+      "divergence": "5.73 MOA",
+      "range": {
+        "day": "20 yards",
+        "night": "300 yards"
+      }
+    },
+
+    "sight_dispersion": 23,
+
+    "//power": {
+      "source": "2 × LR44",
+      "lifetime": "7 hours"
+    },
+
+    "price": "48 USD"
+  },
+
+  {
+    "id": "shoulder_strap",
+    "copy-from": "shoulder_strap",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.amazon.com/Tactical-Hero-Point-Rifle-Sling/dp/B01C6F7NJ2",
+      "https://www.colsontaskforce.org/best-ar-15-slings/"
+    ],
+
+    "name": { "str": "Tactical Hero 2-point rifle sling" },
+    "description": "This nylon sling can be attached to a rifle or other large gun type and let you carry the gun over your shoulder, freeing your hands.  Not the most convenient way to transport a large firearm, but better than nothing.  Being a strap of thin nylon, this sling provides barely any protection; you better pray the bastards don't hit the gun.  Right now, the sling is strapped onto your back.  Activate to move it to the front.",
+
+    "//weight": [
+      "does not appear to be available online, so calculations were made from a different sling",
+      "220 g / 74 in. (70 in. adjustable length + 2 in. on each side) ≈ 3 g / in.",
+      "this one is 60 in. long (56 in. adjustable length + 2 in. on each side), therefore ~180 g",
+      "https://tactx.no/en-eu/products/qd-2-point-sling"
+    ],
+    "weight": "180 g",
+    "//dimensions": {
+      "length": "60 in",
+      "width": "1.2 in",
+      "height": "0.05 in",
+      "raw": "59 ml",
+      "trim": -0.1,
+      "notes": ["negative trim compensates for buckles etc."]
+    },
+    "volume": "65 ml",
+    "//longest_side": [
+      "assumes it's folded three times when carried",
+      "60 in. ≈ 1524 mm / 8 = 190.5 mm ≈ 191 mm"
+    ],
+    "longest_side": "191 mm",
+
+    "material": ["nylon"],
+
+    "install_time": "10 s",
+
+    "use_action": {
+      "type": "transform",
+
+      "msg": "You shift the weapon to the front of your body.",
+      "menu_text": "Adjust",
+
+      "target": "shoulder_strap_front",
+
+      "moves": 120
+    },
+
+    "armor_data": {
+      "armor": [
+        {
+          "covers": ["torso"],
+          "coverage": 5,
+          "encumbrance": 0,
+          "volume_encumber_modifier": 0.33,
+          "specifically_covers": ["torso_hanging_back"]
+        }
+      ]
+    },
+
+    "price": "24 USD"
+  },
+
+  {
+    "id": "shoulder_strap_front",
+    "copy-from": "shoulder_strap",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "Tactical Hero 2-point rifle sling (front)",
+      "str_pl": "Tactical Hero 2-point rifle slings (front)"
+    },
+    "description": "This nylon sling can be attached to a rifle or other large gun type and let you carry the gun over your shoulder, freeing your hands.  Not the most convenient way to transport a large firearm, but better than nothing.  Being a strap of thin nylon, this sling provides barely any protection; you better pray the bastards don't hit the gun.  Right now, the sling is strapped onto your front.  Activate to move it to the back.",
+
+    "use_action": {
+      "type": "transform",
+
+      "msg": "You shift the weapon to the front of your body.",
+      "menu_text": "Adjust",
+
+      "target": "shoulder_strap_front",
+
+      "moves": 120
+    },
+
+    "armor_data": {
+      "armor": [
+        {
+          "covers": ["torso"],
+          "coverage": 5,
+          "encumbrance": 0,
+          "volume_encumber_modifier": 0.33,
+          "specifically_covers": ["torso_hanging_back"]
+        }
+      ]
+    }
+  },
+
+  {
+    "id": "pistol_bayonet",
+    "copy-from": "pistol_bayonet",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.midwayusa.com/product/1978319879"],
+
+    "name": {
+      "str": "LaserLyte pistol bayonet"
+    },
+    "description": "A tiny blade with a mock plastic handle resembling that of a Ka-Bar knife, this \"bayonet\" is intended to be attached to the underbarrel rail of a pistol and serve as a convenient melee weapon in case of a zombie apocalypse.  That's right: the manufacturer of this thing called it on the whole \"zombies everywhere\" thing.  Doesn't make this weapon any more effective, but hey: pistol bayonet, right?",
+
+    "weight": "74 g",
+    "//dimensions": {
+      "length": "5.75 in",
+      "width": "1.71 in",
+      "height": "0.63 in",
+      "raw": "98 ml",
+      "trim": 0.4,
+      "notes": ["width taken from visual reference", "height assumed"]
+    },
+    "volume": "59 ml",
+    "longest_side": "146 mm",
+    "//integral_longest_side": "blade length, assuming the 'handle' is entirely under the barrel",
+    "integral_longest_side": "70 mm",
+
+    "//material": "the plastic part is actually glass-filled nylon",
+    "material": ["steel", "plastic"],
+
+    "//install_time": "looks like it just slides on and is held on by friction",
+    "install_time": "5 s",
+
+    "price": "20 USD"
+  },
+
+  {
+    "id": "pistol_stock",
+    "copy-from": "pistol_stock",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.fab-defense.co.il/en/category-buttstocks/id-2459/quick-deployment-folding-glock-stock.html",
+      "https://www.youtube.com/watch?v=9WivZAVyZFI",
+      "https://israeldefensestore.com/cobra-quick-deployment-folding-glock-stock.html"
+    ],
+
+    "//notes": [
+      "technically the Cobra also comes with 2 adapters (Glock 17- or 19-sized) × 2 variants each, but it comes standard with a latest-gen-fitting adapter pre-installed",
+      "installs folded"
+    ],
+
+    "name": {
+      "str": "FAB Defense Cobra Glock pistol stock (folded)",
+      "str_pl": "FAB Defense Cobra Glock pistol stocks (folded)"
+    },
+    "description": "A folding stock for Glock pistols, by FAB Defense.  Installs into the grip hole behild the magazine well.  It weaves like a snake when unfolded, and -- at least in theory -- should allow you to carry your Glock in a holster when folded.  When unfolded, helps with recoil significantly.  Manufacturer recommends installing Cobra folded.  Activate to unfold.",
+
+    "weight": "328 g",
+    "//dimensions": {
+      "length": "240 mm",
+      "width": "42 mm",
+      "height": "140 mm",
+      "raw": "1411 ml",
+      "trim": 0.9
+    },
+    "volume": "141 ml",
+    "longest_side": "240 mm",
+    "//integral_longest_side": "no matter the model, the stock pokes out of both front and back when folded",
+    "integral_longest_side": "40 mm",
+
+    "//material": "advertised as 'fiberglass reinforced polymer'",
+    "material": ["steel", "plastic"],
+
+    "//mod_targets": "let's pretend for a moment that the Rivtech gun has the same grip slot",
+    "mod_targets": ["glock_17", "glock_19", "glock_22", "glock_31", "rm228"],
+
+    "//install_time": "slides in very tight, so requires a bit of force and a slap",
+    "install_time": "10 s",
+
+    "//handling_modifier": "no bonus while folded",
+    "handling_modifier": 0,
+
+    "//tools": {
+      "to install adapter": "flat screwdriver"
+    },
+
+    "//use_action": "one of the main selling points is the stock's ability to deploy rapidly",
+    "use_action": {
+      "type": "transform",
+
+      "msg": "You unfold the stock.",
+      "menu_text": "Unfold",
+
+      "target": "pistol_stock_unfolded",
+
+      "//moves": "eyeballed from video source",
+      "moves": 100
+    },
+
+    "//price": "prices vary per store, within 40 USD of each other",
+    "price": "113 USD"
+  },
+
+  {
+    "id": "pistol_stock_unfolded",
+    "copy-from": "pistol_stock",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "FAB Defense Glock pistol stock"
+    },
+    "description": "A folding stock for Glock pistols, by FAB Defense.  Installs into the grip hole behild the magazine well.  It weaves like a snake when unfolded, and -- at least in theory -- should allow you to carry your Glock in a holster when folded.  Currently unfolded and, when installed, helps with recoil significantly.  Activate to fold again.",
+
+    "//dimensions": {
+      "length": "332 mm",
+      "width": "42 mm",
+      "height": "153 mm",
+      "raw": "2133 ml",
+      "trim": 0.9
+    },
+    "volume": "213 ml",
+    "longest_side": "332 mm",
+    "//integral_longest_side": "shaved off a few millimeters for the fact that a tiny part of the length is always under the grip, thus not affecting the overall length of the pistol",
+    "integral_longest_side": "322 mm",
+
+    "handling_modifier": 10,
+
+    "//use_action": "rapid collapse is not required, thus we afford the player character the time to fold the stock back in",
+    "use_action": {
+      "type": "transform",
+
+      "msg": "You fold the stock.",
+      "menu_text": "Fold",
+
+      "target": "pistol_stock",
+
+      "moves": 300
+    }
+  },
+
+  {
+    "id": "arredondo_chute",
+    "copy-from": "arredondo_chute",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.arredondoaccessories.com/product/speed-loader-assist/",
+      "https://forums.brianenos.com/topic/171331-mossberg-930-arredondo-speedloader-assist/",
+      "https://www.midwayusa.com/product/1005253477"
+    ],
+
+    "//notes": [
+      "source also recommends installing a replacement lifter, but that appears to be not directly relevant to the operation of the speedloader chute itself",
+      "this comes available for a variety of models, each sufficiently-different to warrant a separate item per variant"
+    ],
+
+    "name": { "str": "Arredondo speedloader chute for Mossberg 930" },
+    "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  It allows the use of a speedloader tube, thus fascilitating faster reloading.  This variant is for Mossberg 930.",
+
+    "//weight": [
+      "source description says 4.7 oz ≈ 133 g, source additional information says 4.2 oz ≈ 119 g",
+      "using the larger number to be on the safe side"
+    ],
+    "weight": "133 g",
+    "//dimensions": {
+      "length": "3.33 in",
+      "width": "1.72 in",
+      "height": "2.6 in",
+      "raw": "244 ml",
+      "trim": 0.8,
+      "notes": [
+        "length is taken from visual reference relative to the length of the gun",
+        "width is calculated as outer diameter of the barrel (0.86 in.) × 2",
+        "height is taken from visual reference relative to the length of the gun"
+      ]
+    },
+    "volume": "49 ml",
+    "//integral_volume": "80% of volume due to a lot of the 'volume' being 'hidden' inside the shotgun after attaching the speedloader",
+    "integral_volume": "39 ml",
+    "longest_side": "85 mm",
+    "integral_longest_side": "0 mm",
+
+    "mod_targets": ["mossberg_930"],
+
+    "price": "164 USD"
+  },
+
+  {
+    "id": "masterkey",
+    "copy-from": "masterkey",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.lockharttactical.com/ubs12",
+      "https://www.lockharttactical.com/release",
+      "https://www.remarms.com/other-products/model-870-tac-14",
+      "https://shockwavetechnologies.com/product/raptor-grip-for-remington-870/",
+      "https://www.pewpewtactical.com/remington-tac-14-review/"
+    ],
+
+    "//notes": [
+      "the actual KAC Masterkey appears nowhere to be found (the only sell points available online are sketchy and/or lacking in info), so we're replacing it with a temporary shotgun solution based on Remington Tac-14 sans the grip, plus the UBS-12 adapter",
+      "this arrangement supports any Remington 870 clones",
+      "shot spread: 7 in. @ 100 yds w/ 00 Federal ammo",
+      "https://www.pewpewtactical.com/remington-tac-14-review/"
+    ],
+
+    "name": {
+      "str": "Lockhart Tactical UBS-12 underbarrel shotgun"
+    },
+    "description": "A short-barreled Remington 870, relieved of its grip and attached to a unique mount.  This Canadian product is a modern iteration of the idea of a \"masterkey\" shotgun: a secondary, attached weapon designed specifically for breaking locks or hinges off a locked door.  Heavy and bulky, it's still a full-powered shotgun that can still blow a hinge -- or a head -- off.",
+
+    "//weight": "Tac-14 (5.6 lbs = 2540 g) - Raptor grip (10 oz ≈ 284 g) + UBS-12 mount (0.2 lbs ≈ 91 g) = 2347 g",
+    "weight": "2347 g",
+    "//dimensions": [
+      {
+        "description": "shotgun",
+
+        "length": "21.3 in",
+        "width": "1.5 in",
+        "height": "3.52 in",
+        "raw": "1843 ml",
+        "trim": 0.2,
+        "volume": "1474 ml",
+        "notes": [
+          "Tac-14 is measured without the Raptor grip, since that's how it's attached to the mount",
+          "length is taken from visual reference",
+          "height is taken from visual reference relative to the length of the gun"
+        ]
+      },
+      {
+        "description": "mount",
+
+        "length": "7 in",
+        "width": "1.25 in",
+        "height": "2.75 in",
+        "raw": "394 ml",
+        "trim": 0.8,
+        "volume": "79 ml"
+      }
+    ],
+    "volume": "1553 ml",
+    "//longest_side": "overall length of Tac-14 + attached mount is ~22.3 in. ≈ 566 mm",
+    "longest_side": "566 mm",
+    "//integral_longest_side": "we're going to assume that it doesn't poke out from underneath the barrel",
+    "integral_longest_side": "0 mm",
+
+    "//material": "only the UBS-12 mount is aluminium",
+    "material": ["steel", "plastic", "aluminum"],
+
+    "//mod_targets": "generally speaking, only modern rifles with metal handguards would have a strong-enough rail to mount this thing on",
+    "mod_targets": ["rifle"],
+
+    "//install_time": [
+      "merely a guess, since no reviews or tutorials seem to be available",
+      "real value welcome"
+    ],
+    "install_time": "10 m",
+
+    "//price": [
+      "Tac-14 (420 USD) - Raptor grip (25 USD) + UBS-12 mount (395 CAD ≈ 295 USD) = 690 USD",
+      "applied a 15% discount for (in this fictional situation) coming as a complete package, and rounded up to the nearest 25 USD mark"
+    ],
+    "price": "600 USD"
+  },
+
+  {
+    "id": "cheek_pad",
+    "copy-from": "cheek_pad",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.beartooth-products.com/collections/comb-raising-kit-gun-cover-cheek-pad-weld-piece-riser/products/comb-raising-kit-no-loop-black",
+      "https://www.amazon.com/Beartooth-Raising-Improve-Accuracy-Neoprene/dp/B01FL9JKRI",
+      "https://ukoutdoorstore.co.uk/shop/beartooth-comb-raising-kit-2-0-rifle-shotgun-neoprene-stock-guard-inserts/"
+    ],
+
+    "//notes": [
+      "this particular model is specifically one without cartridge loops on the side"
+    ],
+
+    "name": { "str": "Beartooth Comb Raising Kit 2.0 cheek pad" },
+    "description": "A neoprene cover for most one-piece rifle or shotgun stocks.  It adds a padded cushion to the top of the stock, where your cheek would rest during aiming, providing comfort and relief from recoil, in effect improving your aim.",
+
+    "//weight": "Amazon says 0.09 kg = 90 g, the UK source says 0.200 kg = 200 g",
+    "weight": "90 g",
+    "//dimensions": {
+      "length": "7 in",
+      "width": "0.15 in",
+      "height": "4.5 in",
+      "raw": "81 ml",
+      "trim": 0,
+      "notes": [
+        "length of sleeve of 7 inches is stated in source, yet the sleeve covers an entire stock when put on",
+        "most stocks' length of pull is 13.5 in.",
+        "we are left to assume a high degree of stretchiness",
+        "width is assumed",
+        "height is taken from visual reference relative to the length of the stock"
+      ]
+    },
+    "volume": "81 ml",
+    "longest_side": "178 mm",
+    "integral_longest_side": "0 mm",
+
+    "//melee_damage": [
+      "the least amount of damage of possible, without making it totally harmless",
+      "getting hit by this is like getting hit by a puffy glove"
+    ],
+    "melee_damage": { "bash": 1 },
+
+    "material": ["neoprene"],
+
+    "mod_targets": ["rifle", "shotgun"],
+
+    "price": "164 USD"
+  },
+
+  {
+    "id": "choke",
+    "copy-from": "choke",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://mullerchokes.com/collections/remington-choke-tubes/products/12-gauge-remchoke-waterfowl?variant=946375717",
+      "https://www.shotgunworld.com/threads/how-much-lighter-are-muller-chokes.307413/"
+    ],
+
+    "//notes": [
+      "specifically the 'passing' variant, which is said to be comparable to improved modified or full choke",
+      "this variant allows shooting slugs"
+    ],
+
+    "name": { "str": "Müller passing choke for Remington shotguns" },
+    "description": "A choke for Remington-manufactured shotguns.  Noticably reduces spread of shot, shaping it towards longer range and higher accuracy.  Classed as \"passing\", which is stated to be comparable to a traditional \"improved modified\" or \"full\" choke.",
+
+    "weight": "19 g",
+    "//dimensions": {
+      "length": "4.3125 in",
+      "diameter": "0.86 in",
+      "raw": "41 ml",
+      "trim": 0
+    },
+    "volume": "41 ml",
+    "longest_side": "110 mm",
+    "//integral_longest_side": "part of the choke covers the thread",
+    "integral_longest_side": "91 mm",
+
+    "//shot_spread_multiplier_modifier": [
+      "on the assumption that this model is between an improved modified choke and a full choke, in terms of performance",
+      "at 40 yards, Beretta estimates an average of 65% of choke constriction for improved modified chokes, and 70% for full chokes",
+      "https://www.gmk.co.uk/pdf/choke-constriction-chart.pdf",
+      "taking an average of 67.5% for the Müller passing choke, and the 40% value for a cylinder choke (i.e., unconstricted shotgun barrel) at 40 yards, we get 0.4 / 0.675 ≈ 0.59"
+    ],
+    "shot_spread_multiplier_modifier": -0.41,
+
+    "//compatibility": { "remington": ["870", "887", "11-87", "1100", "V3"] },
+    "mod_targets": ["remington_870", "remington_1100"],
+
+    "price": "135 USD"
+  },
+
+  {
+    "id": "butt_hook",
+    "copy-from": "butt_hook",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://tec-hro.de/schiesssport/en/butt-plate-hook-cap/278-buttplate-butt-plate-butt-plate-tec-hro-fusion.html",
+      "https://oberleenterprises.com/product/tec-hro-fusion-buttplate/",
+      "https://www.intershoot.co.uk/product/tec-hro-fusion-hook/",
+      "https://pardini.it/en/accessories/b653-pardini-butt-plate/"
+    ],
+
+    "name": { "str": "TEC-HRO Fusion butt hook plate" },
+    "description": "An ergonomic butt plate, which attachs to the buttstock of a firearm in order to spread recoil slightly wider across the shoulder.  Similar butt plates are more often found on airguns used in competitive shooting, such as biathlon, but zombie apocalypse takes no hostages.  This model is equipped with a butt hook: an adjustable metal rod that goes under your armpit during aiming, with the goal of improving stability and, therefore, accuracy.",
+
+    "//weight": [
+      "unknown, but definitely above 100 g",
+      "Intershoot source lists hook separately as 0.3 kg = 300 g",
+      "we extrapolate visually and put total weight of the plate and the hook at 800 g"
+    ],
+    "weight": "800 g",
+    "//dimensions": {
+      "length": "18.58 cm",
+      "width": "1.5 cm",
+      "height": "17.91 cm",
+      "raw": "499 ml",
+      "trim": 0.8,
+      "notes": [
+        "dimensions acquired visually from a similar product: B653 Pardini butt plate",
+        "width assumed from visuals"
+      ]
+    },
+    "volume": "100 ml",
+    "longest_side": "186 mm",
+
+    "price": "349 USD"
+  },
+
+  {
+    "id": "sights_mount_pistol",
+    "copy-from": "sights_mount_pistol",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.umtactical.com/store/p36/UM3%28X%29_Sight_Mount.html",
+      "https://www.tactical-survivalist.com/um-tactical-um3-scope-mount-review/",
+      "https://www.shootingillustrated.com/content/um-tactical-um3-sight-mount/"
+    ],
+
+    "//notes": [
+      "has a list of pistol models it supports",
+      "the UM3(X) specifically is the model with the widest support",
+      "for now, we assume that any pistol with an underbarrel rail would comfortably install this mount",
+      "top rail has 6 slots"
+    ],
+
+    "name": { "str": "UM Tactical UM3(X) pistol sight mount" },
+    "description": "A metal frame that attaches to the underbarrel rail of a pistol, adding a top rail for sights to any modern pistol.  The UM3(X) model has support for a wider variety of models of pistol, making it practically-universal.  Also features its own underbarrel rail, thus not depriving you of the option to install a tactical light or a laser sight.",
+
+    "weight": "71 g",
+    "//dimensions": {
+      "length": "3.50 in",
+      "width": "1.13 in",
+      "height": "2.84 in",
+      "raw": "184 ml",
+      "trim": 0.65,
+      "notes": [
+        "dimensions acquired from visual reference",
+        "trim is meant to accomodate both shape and hollow interior"
+      ]
+    },
+    "volume": "64 ml",
+    "longest_side": "89 mm",
+
+    "material": ["aluminum"],
+
+    "//location": [
+      "this attachment is meant for pistols with underbarrel rail, which is what it mounts onto",
+      "other types of pistols will require custom solutions"
+    ],
+    "location": "underbarrel",
+
+    "add_mod": [
+      ["sights", 1],
+      ["underbarrel", 1]
+    ],
+    "//install_time": [
+      "review says it installs in seconds",
+      "manufacturer says it installs in under 30 secs",
+      "we err on the side of caution by assuming 20 secs"
+    ],
+    "install_time": "20 s",
+    "//min_skills": "does not appear to require any special skill in gunsmithing",
+    "min_skills": [["gun", 1]],
+
+    "extend": {
+      "flags": ["DISABLE_SIGHTS"],
+      "//notes": [
+        "on most pistols, the top rail covers sights entirely",
+        "we pretend this is true for all models"
+      ]
+    },
+    "delete": {
+      "flags": ["INSTALL_DIFFICULT"],
+      "//notes": [
+        "installation is said to be very easy and quick",
+        "this is doubly true now that this item is not intended to be screwed on or in"
+      ]
+    },
+
+    "price": "130 USD"
+  },
+
+  {
+    "id": "single_sling",
+    "copy-from": "single_sling",
+    "type": "ARMOR",
+
+    "//sources": [
+      "https://magpul.com/ms3-single-qd-sling-gen-2.html",
+      "https://gunfire.com/en/products/ms3-r-single-qd-sling-gen-2-ranger-green-1152218760.html"
+    ],
+
+    "name": { "str": "Magpul MS3 single-point rifle sling" },
+    "description": "This nylon sling can be attached to a rifle or other large gun type and let you carry the gun over your shoulder, freeing your hands.  Even less convenient than a two- or three-point sling because it doesn't prevent the gun to swing wildly while hanging, but still better than nothing.  Being a strap of thin nylon, this sling provides barely any protection; you better pray the bastards don't hit the gun.",
+
+    "weight": "240 g",
+    "//dimensions": {
+      "length": "48 in",
+      "width": "1.25 in",
+      "height": "0.05 in",
+      "raw": "49 ml",
+      "trim": -0.1,
+      "notes": [
+        "for slickness' sake, we assume the shortest overall length of 48 in.",
+        "height/thickness is presumed"
+      ]
+    },
+    "volume": "54 ml",
+    "//longest_side": [
+      "assumes it's folded three times when carried",
+      "48 in. ≈ 1219 mm / 8 = 152.375 mm ≈ 152 mm"
+    ],
+    "longest_side": "152 mm",
+
+    "material": ["nylon", "steel", "plastic"],
+
+    "install_time": "10 s",
+
+    "price": "60 USD"
+  }
+]

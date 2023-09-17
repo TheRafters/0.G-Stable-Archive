@@ -1,0 +1,83 @@
+[
+  {
+    "type": "item_group",
+    "id": "loadout_foregrips_tiny",
+
+    "subtype": "distribution",
+
+    "items": [
+      "foregrip_icrw",
+      "foregrip_strike_bikini",
+      "foregrip_strike_link",
+      "foregrip_slr_barricade",
+      "foregrip_impact",
+      "foregrip_odin_b1"
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_foregrips_short",
+
+    "subtype": "distribution",
+
+    "items": [
+      "foregrip_strike_short",
+      "foregrip_dd_short",
+      "foregrip_arisaka",
+      "foregrip_tyrant_halo",
+      "foregrip_magpul"
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_foregrips_angled",
+
+    "subtype": "distribution",
+
+    "items": [
+      "foregrip_tyrant_mod",
+      "foregrip_tyrant_modv2",
+      "foregrip_fortis_shift_angled",
+      "foregrip_strike_cobra",
+      "foregrip_magpul_afg2",
+      "foregrip_f1"
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_foregrips_tall",
+
+    "subtype": "distribution",
+
+    "items": [
+      "foregrip_ergo",
+      "foregrip_tyrant_halo_minivert",
+      "foregrip_fortis_shift",
+      "foregrip_mission_first",
+      "foregrip_mission_first_folding",
+      "foregrip_fab_folding"
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_all_foregrips",
+
+    "//notes": [
+      "sights that are better than iron sights",
+      "for gun stores and other locations where you may see a variety of different attachments"
+    ],
+
+    "subtype": "distribution",
+
+    "groups": [
+      "loadout_foregrips_tiny",
+      "loadout_foregrips_short",
+      "loadout_foregrips_angled",
+      "loadout_foregrips_tall"
+    ]
+  }
+]

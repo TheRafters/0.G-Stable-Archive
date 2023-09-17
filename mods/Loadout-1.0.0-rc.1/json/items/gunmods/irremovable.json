@@ -1,0 +1,79 @@
+[
+  {
+    "id": "adjustable_stock",
+    "copy-from": "adjustable_stock",
+    "type": "GUNMOD",
+    
+    "name": { "str": "adjustable stock" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+  {
+    "id": "pistol_grip",
+    "copy-from": "pistol_grip",
+    "type": "GUNMOD",
+    
+    "name": { "str": "ergonomic grip" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+  {
+    "id": "match_trigger",
+    "copy-from": "match_trigger",
+    "type": "GUNMOD",
+    
+    "name": { "str": "match trigger" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+  {
+    "id": "folding_stock",
+    "copy-from": "folding_stock",
+    "type": "GUNMOD",
+    
+    "name": { "str": "folding stock" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+  {
+    "id": "high_end_folding_stock",
+    "copy-from": "high_end_folding_stock",
+    "type": "GUNMOD",
+    
+    "name": { "str": "modular folding stock" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+  {
+    "id": "recoil_stock",
+    "copy-from": "recoil_stock",
+    "type": "GUNMOD",
+    
+    "name": { "str": "recoil stock" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+  {
+    "id": "retool_ar15_300blk",
+    "copy-from": "retool_ar15_300blk",
+    "type": "GUNMOD",
+
+    "name": { "str": ".300 AAC Blackout AR-15 conversion kit" },
+    
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  }
+]

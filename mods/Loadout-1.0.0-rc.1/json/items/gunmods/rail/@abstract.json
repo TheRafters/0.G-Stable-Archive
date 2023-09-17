@@ -1,0 +1,125 @@
+[
+  {
+    "abstract": "laser_sight_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "laser sight"
+    },
+    "description": "idea of a laser sight",
+
+    "weight": "50 g",
+    "volume": "50 ml",
+    "longest_side": "50 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "rail",
+    "install_time": "30 s",
+
+    "field_of_view": 3000,
+
+    "mod_targets": [
+      "pistol",
+      "rifle",
+      "smg",
+      "shotgun",
+      "bow",
+      "crossbow",
+      "launcher"
+    ],
+
+    "flags": ["LASER_SIGHT"]
+  },
+
+  {
+    "abstract": "laser_sight_red",
+    "copy-from": "laser_sight_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "red laser sight"
+    },
+    "description": "idea of a red laser sight",
+
+    "//sight_dispersion": "vague attempt at balancing this to be somewhere between iron sights and standalone sights",
+    "sight_dispersion": 12,
+    "aim_speed_modifier": 15
+  },
+
+  {
+    "abstract": "laser_sight_green",
+    "copy-from": "laser_sight_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "green laser sight"
+    },
+    "description": "idea of a green laser sight",
+
+    "//sight_dispersion": "green laser is attested to be slightly more visible than red laser",
+    "sight_dispersion": 12,
+    "aim_speed_modifier": 17
+  },
+
+  {
+    "abstract": "flashlight_abstract",
+    "type": "TOOL",
+
+    "name": {
+      "str": "flashlight"
+    },
+    "description": "idea of a flashlight",
+
+    "weight": "150 g",
+    "volume": "150 ml",
+    "longest_side": "150 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "gunmod_data": {
+      "location": "rail",
+      "install_time": "30 s",
+
+      "mod_targets": [
+        "pistol",
+        "rifle",
+        "smg",
+        "shotgun",
+        "crossbow",
+        "launcher"
+      ]
+    }
+  },
+
+  {
+    "abstract": "flashlight_1in",
+    "copy-from": "flashlight_abstract",
+    "type": "TOOL",
+
+    "name": {
+      "str": "pistol flashlight"
+    },
+    "description": "idea of a pistol flashlight",
+
+    "gunmod_data": {
+      "location": "1-inch mount",
+      "install_time": "30 s",
+
+      "mod_targets": [
+        "pistol",
+        "rifle",
+        "smg",
+        "shotgun",
+        "crossbow",
+        "launcher"
+      ]
+    }
+  }
+]

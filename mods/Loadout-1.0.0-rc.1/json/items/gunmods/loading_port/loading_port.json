@@ -1,0 +1,34 @@
+[
+  {
+    "id": "speedloader_arredondo_remington_1100",
+    "copy-from": "arredondo_chute",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.arredondoaccessories.com/product/speed-loader-assist/",
+      "https://babblestorm462.wordpress.com/2013/06/22/benelliremington-speedloader-assist-bracket-benelli-speedloader-assist/"
+    ],
+
+    "//notes": ["see also: notes for `arredondo_chute`"],
+
+    "name": { "str": "Arredondo speedloader chute for Remington 1100" },
+    "description": "A small metal ramp that mounts just behind the loading port of a shotgun.  It allows the use of a speedloader tube, thus fascilitating faster reloading.  This variant is for Remington 1100.",
+
+    "//weight": "source description says 4.7 oz ≈ 133 g, source additional information says 4.2 oz ≈ 119 g",
+    "weight": "133 g",
+    "//dimensions": {
+      "length": "5 in",
+      "width": "1.825 in",
+      "height": "2 in",
+      "raw": "299 ml",
+      "trim": 0.2
+    },
+    "volume": "60 ml",
+    "//integral_volume": "80% of volume due to a lot of the 'volume' being 'hidden' inside the shotgun after attaching the speedloader",
+    "integral_volume": "40 ml",
+    "longest_side": "127 mm",
+    "integral_longest_side": "0 mm",
+
+    "mod_targets": ["remington_1100"]
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "type": "item_group",
+    "id": "loadout_suppressors_qd",
+
+    "subtype": "distribution",
+
+    "groups": [
+      "loadout_suppressor_socom",
+      "loadout_suppressor_basegame",
+      "loadout_suppressor_dominus",
+      "loadout_suppressor_silent_legion"
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_suppressors_direct",
+
+    "//notes": ["suppressors that mount directly onto muzzle thread"],
+
+    "subtype": "distribution",
+
+    "items": [
+      "suppressor_silencer_central_banish_30",
+      "suppressor_thunder_beast_ultra9",
+      "suppressor_elite_iron_bravo1_lite",
+      "suppressor_jk_105ccx",
+      "suppressor_compact"
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_muzzle_brakes",
+
+    "//notes": ["those not used in mounting other devices"],
+
+    "subtype": "distribution",
+
+    "items": [
+      "muzzle_brake_precision_hypertap",
+      "muzzle_brake_sjc_titan",
+      "muzzle_brake_v7",
+      "muzzle_brake_v7_furion",
+      "muzzle_brake_apex_esa",
+      "muzzle_brake_dead_air_keymount"
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_thread_protectors",
+
+    "subtype": "distribution",
+
+    "items": ["thread_protector_silencer_central"]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_all_muzzle_devices",
+
+    "//notes": [
+      "for gun stores and other locations where you may see a variety of different attachments"
+    ],
+
+    "subtype": "collection",
+
+    "groups": [
+      ["loadout_suppressors_qd", 60],
+      ["loadout_suppressors_direct", 50],
+      ["loadout_muzzle_brakes", 70],
+      ["loadout_thread_protectors", 20]
+    ]
+  }
+]

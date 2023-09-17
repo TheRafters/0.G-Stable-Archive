@@ -1,0 +1,24 @@
+[
+  {
+    "type": "item_group",
+    "id": "loadout_loading_port_devices",
+
+    "//notes": ["base-game Arredondo chute already spawns"],
+
+    "subtype": "distribution",
+
+    "items": ["speedloader_arredondo_remington_1100"]
+  },
+  {
+    "type": "item_group",
+    "id": "loadout_all_misc_gunmods",
+
+    "//notes": [
+      "for gun stores and other locations where you may see a variety of different attachments"
+    ],
+
+    "subtype": "collection",
+
+    "groups": ["loadout_loading_port_devices"]
+  }
+]

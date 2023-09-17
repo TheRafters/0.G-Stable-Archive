@@ -1,0 +1,115 @@
+[
+  {
+    "id": "magnifier_bushnell_3x",
+    "copy-from": "magnifier_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.bushnell.com/red-dots/shop-all-red-dots/transition-3x-magnifier/BU-AR731304.html",
+      "https://www.optics-trade.eu/en/bushnell-ar-optics-3x-magnifier.html",
+      "https://ts2.shop/bg/blog/post/bushnell-transition-3x-magnifier.html"
+    ],
+
+    "name": {
+      "str": "Bushnell 3× sight magnifier"
+    },
+    "description": "This bulky sight attaches in front of a present red dot or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.",
+
+    "//weight": "manufacturer source says the weight is 13 oz ≈ 369 g, OpticsTrade says 374 g",
+    "weight": "369 g",
+    "//dimensions": {
+      "length": "117.00 mm",
+      "width": "73.50 mm",
+      "height": "44.50 mm",
+      "raw": "383 ml",
+      "trim": 0.35,
+      "notes": [
+        "height assumed to be absolute co-witness height (1.46 in.) × 1.2"
+      ]
+    },
+    "volume": "249 ml",
+    "longest_side": "117 mm",
+
+    "material": ["plastic", "glass"],
+
+    "//field_of_view": "75 feet @ 100 yards = 854.97 MOA",
+    "field_of_view": 855,
+
+    "price": "156 USD"
+  },
+
+  {
+    "id": "magnifier_leapers_3x",
+    "copy-from": "magnifier_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.leapers.com/utg-3x-magnifier-with-fliptoside-qd-mount-we-adjustable-scp-mf3weqs.html",
+      "https://www.optics-trade.eu/en/bushnell-ar-optics-3x-magnifier.html"
+    ],
+
+    "name": {
+      "str": "Leapers UTG 3× sight magnifier"
+    },
+    "description": "This bulky sight attaches in front of a present red dot or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.",
+
+    "weight": "335 g",
+    "//dimensions": {
+      "length": "104.00 mm",
+      "width": "44.00 mm",
+      "height": "44.50 mm",
+      "raw": "204 ml",
+      "trim": 0.4,
+      "notes": [
+        "height assumed to be absolute co-witness height (1.46 in.) × 1.2"
+      ]
+    },
+    "volume": "122 ml",
+    "longest_side": "104 mm",
+
+    "material": ["plastic", "glass"],
+
+    "//field_of_view": "45 feet @ 100 yards = 514.63 MOA",
+    "field_of_view": 515,
+
+    "price": "95 USD"
+  },
+
+  {
+    "id": "magnifier_vortex_3x",
+    "copy-from": "magnifier_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://vortexoptics.com/vortex-micro-3x-magnifier.html",
+      "https://gritroutdoors.com/vortex-micro-3x-magnifier-v3xm"
+    ],
+
+    "name": {
+      "str": "Vortex Micro 3× sight magnifier"
+    },
+    "description": "This somewhat-compact sight attaches in front of a present red dot or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at a further distance reliably, without changing sights.  The main disadvantage of a magnifier is the weight it adds to a firearm, making it that much less ergonomic.",
+
+    "//weight": ["9.55 oz ≈ 271 g with mount", "6.9 oz ≈ 196 g without"],
+    "weight": "271 g",
+    "//dimensions": {
+      "length": "74.00 mm",
+      "width": "44.00 mm",
+      "height": "44.50 mm",
+      "raw": "145 ml",
+      "trim": 0.4,
+      "notes": [
+        "height assumed to be absolute co-witness height (1.46 in.) × 1.2"
+      ]
+    },
+    "volume": "87 ml",
+    "longest_side": "74 mm",
+
+    "material": ["plastic", "glass"],
+
+    "//field_of_view": "7.28° = 436.8 MOA",
+    "field_of_view": 439,
+
+    "price": "450 USD"
+  }
+]

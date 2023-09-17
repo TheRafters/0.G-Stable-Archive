@@ -1,0 +1,62 @@
+[
+  {
+    "//": [
+      "these are the red dot sights that are affixed to a specific mount",
+      "mounts in these groups are set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount"
+    ],
+
+    "type": "item_group",
+    "id": "loadout_sight_rmr",
+
+    "subtype": "distribution",
+
+    "items": ["sight_trijicon_rmr", ["sight_mount_rmr_trijicon_rm33", 80]]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sight_holosun_507k",
+
+    "//notes": [
+      "507K does not appear to have a Picatinny mount directly from the manufacturer, therefore we improvise"
+    ],
+
+    "subtype": "distribution",
+
+    "items": [
+      "sight_holosun_507k",
+      ["sight_mount_adapter_rmr_holosun", 80],
+      ["sight_mount_rmr_trijicon_rm33", 20]
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sight_aimpoint_micro_t2",
+
+    "subtype": "distribution",
+
+    "items": ["sight_aimpoint_micro_t2", ["sight_mount_micro_aimpoint", 80]]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sight_vortex_strikefire_ii",
+
+    "subtype": "distribution",
+
+    "items": [
+      "sight_vortex_strikefire_ii",
+      ["sight_mount_30mm_single_aero", 80]
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sight_sigsauer_romeo5x",
+
+    "subtype": "distribution",
+
+    "items": ["sight_sigsauer_romeo5x", ["sight_mount_romeo_sig_sauer", 80]]
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "id": "laser_sight_firefield",
+    "copy-from": "laser_sight_red",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://firefield.eu/collections/laser-sights/products/firefield-charge-ar-red-laser",
+      "https://palmettostatearmory.com/firefield-charge-ar-red-laser-sight-for-rifles-ff25006.html",
+      "https://www.opticsplanet.com/firefield-ff25006-charge-ar-red-las.html"
+    ],
+
+    "name": {
+      "str": "Firefield Charge red laser sight"
+    },
+    "description": "A boxy, compact laser sight that mounts on a Picatinny rail, providing the shooter with reliable aim at shorter distances.  This one emits red laser: the most common kind of lasers.  Ineffective at longer ranges and in bright environments.",
+
+    "weight": "68 g",
+    "//dimensions": {
+      "length": "56 mm",
+      "width": "42 mm",
+      "height": "28 mm",
+      "raw": "66 ml",
+      "trim": -0.1,
+      "notes": ["negative trim is to cover the rail mount"]
+    },
+    "volume": "73 ml",
+    "longest_side": "56 mm",
+
+    "//laser": {
+      "class": "3R",
+      "power": "5 mW",
+      "divergence": "2.86 MOA",
+      "range": {
+        "day": "20 m",
+        "night": "274 m"
+      }
+    },
+
+    "sight_dispersion": 12,
+
+    "//power": {
+      "source": [["CR2"]],
+      "lifetime": "40 h"
+    },
+
+    "price": "45 USD"
+  },
+
+  {
+    "id": "laser_sight_steiner",
+    "copy-from": "laser_sight_green",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://palmettostatearmory.com/steiner-tor-mini-green-laser-sight-7003.html",
+      "https://www.steiner-optics.com/laser-devices/tor-mini"
+    ],
+
+    "name": {
+      "str": "Steiner TOR Mini green laser sight"
+    },
+    "description": "An ultra-compact laser sight that mounts on a Picatinny rail, providing the shooter with reliable aim at shorter distances.  This one emits green laser, attested to remaining more visible than the more-common red laser in adverse conditions.  Still, it remains ineffective at longer ranges and in bright environments.",
+
+    "//weight": [
+      "weight is stated to be with batteries",
+      "typical Duracell CR1/3N battery weighs around 3.3g",
+      "https://www.duracell.com/wp-content/uploads/2021/06/DL1-3N_JP.pdf",
+      "unless togglable/draining lasers are implemented, we assume the battery is always in and always active"
+    ],
+    "weight": "60 g",
+    "//dimensions": {
+      "length": "53 mm",
+      "width": "33 mm",
+      "height": "30 mm",
+      "raw": "53 ml",
+      "trim": -0.1,
+      "notes": ["negative trim is to cover the rail mount"]
+    },
+    "volume": "58 ml",
+    "longest_side": "53 mm",
+
+    "//laser": {
+      "class": "3R",
+      "power": "5 mW",
+      "divergence": "0.477 MOA",
+      "range": {
+        "day": "???"
+      }
+    },
+
+    "sight_dispersion": 2,
+
+    "//power": {
+      "source": [["CR1/3N"]],
+      "lifetime": "???"
+    },
+
+    "price": "339 USD"
+  },
+
+  {
+    "id": "laser_sight_l3harris",
+    "copy-from": "laser_sight_red",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://palmettostatearmory.com/eotech-atpial-an-peq-15-commercial-laser-aiming-system-w-ir-and-visible-aim-laser-atp-000-a58.html",
+      "https://www.midwayusa.com/product/1868370417/",
+      "https://anvsinc.com/product/eotech-atpial-an-peq-15-aiming-laser/",
+      "https://www.l3harris.com/all-capabilities/advanced-target-pointer-illuminator-aiming-laser-atpial-an-peq-15"
+    ],
+
+    "//notes": [
+      "AN/PEQ-15 is US military nomeclature for this laser sight",
+      "The C in ATPIAL-C denotes that this is a commercial, civilian-legal variant",
+      "this model also features an IR illuminator"
+    ],
+
+    "name": {
+      "str": "L3Harris ATPIAL-C red laser sight"
+    },
+    "description": "A boxy, elaborate-looking laser sight that mounts on a Picatinny rail, providing the shooter with reliable aim at shorter distances.  This model is the commercial counterpart of a famous military laser sight employed in the US Armed Forces.  This one emits red laser: the most common kind of lasers.  Ineffective at longer ranges and in bright environments.",
+
+    "//weight": [
+      "weight is stated to be with batteries",
+      "DL123 weighs about 17 g",
+      "https://www.duracell.com/wp-content/uploads/2018/09/2018-September-DL123_0918-002.pdf",
+      "unless togglable/draining lasers are implemented, we assume the battery is always in and always active"
+    ],
+    "weight": "213 g",
+    "//volume": "10% trim for shape",
+    "//dimensions": {
+      "length": "4.6 in",
+      "width": "2.8 in",
+      "height": "1.6 in",
+      "raw": "338 ml",
+      "trim": 0.05
+    },
+    "volume": "321 ml",
+    "longest_side": "117 mm",
+
+    "//laser": {
+      "class": "3R",
+      "power": "4.6 mW",
+      "divergence": "1.72 MOA",
+      "range": {
+        "day": "25 meters"
+      }
+    },
+
+    "sight_dispersion": 7,
+
+    "//power": {
+      "source": [["CR123"]],
+      "lifetime": "6 h",
+      "notes": [
+        "lifetime is given when running both visible and IR laser on high settings",
+        "CR123 is equivalent to the DL123 listed in specs in sources"
+      ]
+    },
+
+    "price": "1787 USD"
+  }
+]

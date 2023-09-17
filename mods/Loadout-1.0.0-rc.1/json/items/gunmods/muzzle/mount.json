@@ -1,0 +1,42 @@
+[
+  {
+    "id": "thread_mount_silencerco_bravo",
+    "copy-from": "thread_mount",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://silencerco.com/shop/bravo-direct-thread-mount/",
+      "https://www.snipershide.com/shooting/threads/silencerco-bravo-thread-dimension.7004658/",
+      "https://escapefromtarkov.fandom.com/wiki/SilencerCo_Hybrid_46_Direct_Thread_Mount_adapter"
+    ],
+
+    "name": {
+      "str": "SilencerCo Bravo direct thread mount"
+    },
+    "description": "This adapter serves as the mounting point for Bravo-compatible suppressors from SilencerCo.  In particular, it can be used to mount SilencerCo Hybrid 46.  It confers no other benefits.",
+
+    "weight": "140 g",
+    "//dimensions": {
+      "length": "0.9375 in",
+      "diameter": "1.375 in",
+      "raw": "23 ml",
+      "trim": 0.3,
+      "notes": [
+        "length eyeballed to be 1.5 × minimum thread length for 1/2 in. × 28-threaded barrel",
+        "minimum thread length for this kind of a thread is said to be between 0.6 in. and 0.625 in.",
+        "https://www.snipershide.com/shooting/threads/muzzle-thread-length.6934966/",
+        "for AR-15-style rifles, usually using 5.56mm/.223 rounds, the length is said to be 0.625 in.",
+        "https://www.ar15.com/forums/armory/Thread_length_for_1_2_x_28_TPI_thread/20-418609/?",
+        "we're using 0.625 in. as the length of thread"
+      ]
+    },
+    "volume": "16 ml",
+    "longest_side": "24 mm",
+    "//integral_longest_side": "length of mount (0.9375 in. ≈ 24 mm) - length of thread (0.625 in. ≈ 16 mm) = 7.9375 mm ≈ 8 mm",
+    "integral_longest_side": "8 mm",
+
+    "add_mod": [["SilencerCo direct thread mount", 1]],
+
+    "price": "109 USD"
+  }
+]

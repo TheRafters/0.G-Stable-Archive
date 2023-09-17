@@ -1,0 +1,118 @@
+[
+  {
+    "type": "item_group",
+    "id": "gunmod_common",
+
+    "//removed": [
+      [
+        ["pistol_grip", "match_trigger"],
+        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+      ]
+    ],
+
+    "items": [
+      ["brass_catcher", 100],
+      ["improve_sights", 60],
+      ["muzzle_brake", 20],
+      ["rifle_scope", 30],
+      ["shoulder_strap", 50],
+      ["single_sling", 50],
+      ["butt_hook", 30],
+      ["offset_sights", 40],
+      ["offset_sight_rail", 30],
+      ["cheek_pad", 25],
+      ["rail_laser_sight", 40],
+      ["red_dot_sight", 70],
+      ["choke", 50],
+
+      ["laser_sight_firefield", 30]
+    ],
+
+    "groups": [
+      ["loadout_all_iron_sights", 35],
+      ["loadout_all_red_dot_sights", 40],
+
+      ["loadout_foregrips_tall", 35],
+      ["loadout_foregrips_short", 25],
+
+      ["loadout_all_misc_gunmods", 5],
+
+      ["loadout_all_muzzle_devices", 30]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_rare",
+
+    "//removed": [
+      [
+        "barrel_ported",
+        [
+          "comes pre-installed on some guns, but isn't meant to be an item that can be carried",
+          "having `barrel_ported` to be craftable on the gun itself (as opposed to an abstract object) would be a great compromise"
+        ]
+      ],
+      [
+        [
+          "folding_stock",
+          "high_end_folding_stock",
+          "recoil_stock",
+          "retool_ar15_300blk",
+          "adjustable_stock"
+        ],
+        "spawns as a built-in mod for some weapons, but shouldn't be installable onto others"
+      ],
+      [
+        "wooden_grip",
+        [
+          "is a stick with a nail through it, yet had a chance to spawn in gunstores etc.",
+          "to be reviewed after v1.0",
+          "after an audit and a rethinking, it could be re-added to survivalist (and survivalist zombie) spawn lists"
+        ]
+      ],
+      [
+        [
+          "waterproof_gunmod",
+          "stabilizer",
+          "gun_crossbow",
+          "light_grip",
+          "u_shotgun",
+          "tail_hook_stock",
+          "hybrid_sight_4x",
+          "rifle_scope_high_end_mount",
+          "modern_handguard"
+        ],
+        "obsoleted items, removed for clarity"
+      ]
+    ],
+
+    "items": [
+      ["bipod", 20],
+      ["grip", 80],
+      ["laser_sight", 40],
+      ["pistol_bayonet", 10],
+      ["pistol_scope", 10],
+      ["pistol_stock", 10],
+      ["butt_hook", 20],
+      ["arredondo_chute", 20],
+      ["shot_suppressor", 10],
+      ["suppressor", 60],
+      ["suppressor_compact", 40],
+      ["acog_scope", 40],
+      ["holo_sight", 50],
+      ["holo_magnifier", 30],
+
+      ["laser_sight_steiner", 20],
+      ["laser_sight_l3harris", 25]
+    ],
+
+    "groups": [
+      ["loadout_all_enhanced_sights", 40],
+
+      ["loadout_foregrips_tiny", 20],
+      ["loadout_foregrips_angled", 30],
+
+      ["loadout_all_muzzle_devices", 40]
+    ]
+  }
+]

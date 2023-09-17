@@ -1,0 +1,58 @@
+{
+  "abstract": "suppressor_cover",
+  "type": "GUNMOD",
+
+  "//notes": [
+    "the main purpose of a suppressor cover is to be able to handle a hot suppressor with bare hands safely",
+    "given that this isn't – and will likely never be – modelled in-game, the item's primary benefit in the game becomes to further, if slightly, reduce shot volume"
+  ],
+
+  "name": {
+    "str": "suppressor cover"
+  },
+  "description": "idea of a suppressor cover",
+
+  "weight": "130 g",
+  "//dimensions": {
+    "length": "7 in",
+    "diameter": "1.7 in",
+    "raw": "260 ml",
+    "trim": 0.6,
+    "notes": [
+      "these dimensions seem to be universally-applicable",
+      "diameter as calculated as 1.5 in. (chosen average diameter of larger-caliber suppressors) + 0.2 in. (thickness of cover itself)",
+      "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty and folded through"
+    ]
+  },
+  "volume": "104 ml",
+  "//longest_side": "7 in., a common length",
+  "longest_side": "178 mm",
+
+  "material": ["kevlar", "nylon"],
+
+  "symbol": ":",
+  "color": "dark_gray",
+
+  "location": "suppressor cover",
+  "install_time": "30 s",
+
+  "//mod_targets": [
+    "not quite as permissive due to the range of suppressors that can take a cover being rather limited",
+    "size being the primary consideration: typical suppressor cover requires a suppressor of 7 in. or longer"
+  ],
+  "mod_targets": ["smg", "rifle"],
+
+  "//loudness_modifier": [
+    "apparently reduces sound signature of the weapon slightly",
+    "to make things varied, each cover will be rated for volume reduction based on its heat tolerance",
+    "every 500°F rounded up = -1 to volume"
+  ],
+  "loudness_modifier": -3,
+
+  "//dispersion_modifier": [
+    "covers reduce heat mirage from weapon, thus theoretically aiding in accuracy overall",
+    "to make things varied, each cover will be rated for dispersion reduction based on its heat tolerance",
+    "every 1000°F rounded up = -1 to dispersion"
+  ],
+  "dispersion_modifier": -2
+}

@@ -1,0 +1,424 @@
+[
+  {
+    "id": "sight_mount_rmr_trijicon_rm33",
+    "copy-from": "sight_mount_rmr",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.trijicon.com/products/details/rm33"],
+
+    "name": {
+      "str": "Trijicon RM33 RMR mount"
+    },
+    "description": "An adapter allowing one to install a popular Trijicon RMR red dot sight onto a common Picatinny rail.  This being a low mount, it allows the user to reduce the amount of space their gun takes, in exchange for slightly more effort while aiming.",
+
+    "weight": "34 g",
+    "//dimensions": {
+      "length": "1.78 in",
+      "width": "1.32 in",
+      "height": "0.52 in",
+      "raw": "20 ml",
+      "trim": 0.2
+    },
+    "volume": "16 ml",
+    "longest_side": "45 mm",
+
+    "price": "109 USD"
+  },
+
+  {
+    "id": "sight_mount_rmr_trijicon_rm35",
+    "copy-from": "sight_mount_rmr",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.trijicon.com/products/details/rm35",
+      "https://www.amazon.com/Trijicon-Ruggedized-Miniature-Reflex-Bosses/dp/B0036J4U5S",
+      "https://escapefromtarkov.fandom.com/wiki/Trijicon_RMR_mount_for_ACOG_scopes",
+      "https://www.waffen-ferkinghoff.com/english/rmr-mount-acog-3.5x/5-5x/4x"
+    ],
+
+    "name": {
+      "str": "Trijicon RM35 RMR mount for ACOG"
+    },
+    "description": "A specialized mount allowing one to install a popular Trijicon RMR red dot sight on top of an equally-popular Trijicon ACOG TA01 sight.  This enables usage of different sights for different distances, potentially making aiming quicker and more precise overall.",
+
+    "//weight": [
+      "Amazon lists weight as 0.1 lbs ≈ 45 g",
+      "Tarkov lists it as ~20 g",
+      "the German reseller lists 55 g"
+    ],
+    "weight": "55 g",
+    "//dimensions": {
+      "length": "1.78 in",
+      "width": "1.485 in",
+      "height": "1.04 in",
+      "raw": "45 ml",
+      "trim": 0.55,
+      "notes": [
+        "width is 1.125× width of RM33, to account for the boss legs",
+        "height is 2× the height of RM33, to account for the boss legs",
+        "assumes Amazon dimensions are packaging, as they often are for firearm accessories"
+      ]
+    },
+    "volume": "20 ml",
+    "longest_side": "45 mm",
+
+    "location": "ACOG bosses",
+
+    "add_mod": [["RMR mount", 1]],
+
+    "price": "106 USD"
+  },
+
+  {
+    "id": "sight_mount_30mm_aero",
+    "copy-from": "sight_mount_30mm",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.aeroprecisionusa.com/ultralight-30mm-extended-scope-mount",
+      "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/aero-precision-ultralight-extended-scope-mount/"
+    ],
+
+    "name": {
+      "str": "Aero Precision Ultralight 30mm scope mount"
+    },
+    "description": "A set of two rings on top of a single large platform, accomodating a single 30mm scope.",
+
+    "//weight": "manufacturer source says weight is 3.27 oz ≈ 93 g, 0.03 oz above the Wings Tactical source, enough to swing the grammage",
+    "weight": "93 g",
+    "//dimensions": {
+      "length": "4.75 in",
+      "width": "1.31 in",
+      "height": "2.56 in",
+      "raw": "261 ml",
+      "trim": 0.8
+    },
+    "volume": "52 ml",
+    "longest_side": "121 mm",
+
+    "price": "105 USD"
+  },
+
+  {
+    "id": "sight_mount_adapter_rmr_holosun",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://holosun.com/index/product/detail/id/196.html",
+      "https://www.holosun.eu/p/70147353"
+    ],
+
+    "name": {
+      "str": "Holosun 407/507K adapter for RMR mount"
+    },
+    "description": "This adapter mounts on top of any RMR mount, enabling installation of a compatible Holosun red dot sight -- namely, 507K -- instead.",
+
+    "weight": "28 g",
+    "//dimensions": {
+      "length": "1.78 in",
+      "width": "1 in",
+      "height": "0.15 in",
+      "raw": "4 ml",
+      "trim": 0.05
+    },
+    "volume": "4 ml",
+    "longest_side": "45 mm",
+
+    "location": "RMR mount",
+
+    "add_mod": [["Holosun 407/507K mount", 1]],
+
+    "price": "47 USD"
+  },
+
+  {
+    "id": "sight_mount_micro_aimpoint",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.aimpoint.com/products/mounting-solutions/microtm-standard-mount-for-micro-t-2t-1-and-compm5tm-sights-fits-picatinny-rail",
+      "https://aimpoint.us/micro-standard-mount-for-t-1-t-2-kit/"
+    ],
+
+    "name": {
+      "str": "Aimpoint Micro mount"
+    },
+    "description": "A low Micro-series mount for compatible Aimpoint red dot sights: T-1 and T-2.  Installs on top of a common Picatinny rail, found on most large modern firearms.",
+
+    "weight": "48 g",
+    "//dimensions": {
+      "length": "2.00 in",
+      "width": "1.30 in",
+      "height": "0.50 in",
+      "raw": "21 ml",
+      "trim": 0.2
+    },
+    "volume": "17 ml",
+    "longest_side": "51 mm",
+
+    "add_mod": [["Micro mount", 1]],
+
+    "price": "95 USD"
+  },
+
+  {
+    "id": "sight_mount_acog_trijicon",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.trijicon.com/products/details/ta51"],
+
+    "name": {
+      "str": "Trijicon ACOG TA51 mount"
+    },
+    "description": "A fairly-large mount for installing a popular Trijicon ACOG sight onto any common Picatinny rail.",
+
+    "weight": "113 g",
+    "//dimensions": {
+      "length": "3.50 in",
+      "width": "1.60 in",
+      "height": "0.40 in",
+      "raw": "37 ml",
+      "trim": 0.3,
+      "notes": ["height and width acquired through visual reference"]
+    },
+    "volume": "26 ml",
+    "longest_side": "89 mm",
+
+    "add_mod": [["ACOG mount", 1]],
+
+    "price": "83 USD"
+  },
+
+  {
+    "id": "sight_mount_34mm_leapers",
+    "copy-from": "sight_mount_34mm",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.leapers.com/utg-accusync-34mm-high-profile-50mm-offset-picatinny-rings-black-air42250.html",
+      "https://www.adorama.com/utair42250.html"
+    ],
+
+    "name": {
+      "str": "Leapers UTG 34mm ring mount"
+    },
+    "description": "A set of two rings on top of a single large platform, accomodating a single 34mm scope.",
+
+    "weight": "171 g",
+    "//dimensions": {
+      "length": "130 mm",
+      "width": "32 mm",
+      "height": "78 mm",
+      "raw": "243 ml",
+      "trim": 0.65,
+      "notes": [
+        "dimensions eyeballed from available dimensions",
+        "length is assumed to be length of base × 130%",
+        "height is assumed to be 2× center height",
+        "width is assumed to be Picatinny rail width × 1.5, accounting for the ring width"
+      ]
+    },
+    "volume": "85 ml",
+    "longest_side": "130 mm",
+
+    "price": "55 USD"
+  },
+
+  {
+    "id": "sight_mount_1in_warne",
+    "copy-from": "sight_mount_1in",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://warnescopemounts.com/v4001m-1-inch-1-piece-msr-mount-matte/"
+    ],
+
+    "name": {
+      "str": "Warne 1-inch ring mount"
+    },
+    "description": "A set of two rings on top of a single large platform, accomodating a single 1-in. scope.",
+
+    "weight": "133 g",
+    "//dimensions": {
+      "length": "4.925 in",
+      "width": "32 mm",
+      "height": "1.68 in",
+      "raw": "128 ml",
+      "trim": 0.65,
+      "notes": [
+        "dimensions eyeballed from available dimensions",
+        "length is calculated as 3.05 (space between rings) + 0.75 (length of ring) × 2 + 0.375 (half of ring length before back ring) in",
+        "height is assumed to be 1.2× center height",
+        "width is assumed to be Picatinny rail width × 1.5, accounting for the ring width"
+      ]
+    },
+    "volume": "45 ml",
+    "longest_side": "125 mm",
+
+    "price": "80 USD"
+  },
+
+  {
+    "id": "sight_mount_romeo_sig_sauer",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.sigsauer.com/romeo5x-1x20-mm.html",
+      "https://www.sigsauer.com/romeo5-low-mount-graphite.html"
+    ],
+
+    "//notes": [
+      "this appears to be a different mount from what Romeo5X is using, but for now, we pretend this to be a minor detail",
+      "this mount is supposed to be also compatible with Aimpoint T-1 sights, but we cannot implement this layer of interoperability at this stage without making the gameplay too clunky"
+    ],
+
+    "name": {
+      "str": "Sig Sauer Romeo5 mount"
+    },
+    "description": "A low mount for installing compatible compact Sig Sauer red dot sights -- namely, Romeo5X -- onto any common Picatinny rail.",
+
+    "//weight": [
+      "assumed to be the same as Aimpoint Micro mount due to similar dimensions",
+      "there seem to be no sources for the mount's dimensions online"
+    ],
+    "weight": "48 g",
+    "//dimensions": {
+      "length": "50.40 mm",
+      "width": "35.60 mm",
+      "height": "0.50 in",
+      "raw": "23 ml",
+      "trim": 0.2,
+      "notes": [
+        "length assumed from visual reference",
+        "width assumed to be same as width of sight",
+        "height assumed to be same as Aimpoint Micro"
+      ]
+    },
+    "volume": "15 ml",
+    "longest_side": "50 mm",
+
+    "add_mod": [["Romeo5 mount", 1]],
+
+    "price": "95 USD"
+  },
+
+  {
+    "id": "sight_mount_30mm_jp",
+    "copy-from": "sight_mount_30mm",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.jprifles.com/buy.php?item=JPFTSM-30/1"],
+
+    "//notes": [
+      "for the sake of player comfort AND our promise to replace gunmods, we'll pretend that this mount has a Picatinny rail",
+      "in reality, the top of the front ring can be replaced with a proprietary JPoint sight mount: https://jprifles.com/buy.php?item=JPA-SM30/1C",
+      "but who has time to figure out complex mounting mechanisms, there are two zombies behind you right now!!"
+    ],
+
+    "name": {
+      "str": "JP Enterprises 30mm scope mount"
+    },
+    "description": "A set of two rings on top of a single large platform, accomodating a single 30mm scope.  This mount also features a single short Picatinny rail above the rings, allowing the user to install a second small sight.",
+
+    "weight": "196 g",
+    "//dimensions": {
+      "length": "155 mm",
+      "width": "32 mm",
+      "height": "78 mm",
+      "raw": "369 ml",
+      "trim": 0.675,
+      "notes": [
+        "dimensions assumed from Leapers UTG 34mm ring mount due to measuring dimensions of this scope proving difficult",
+        "we add ~1 in. (25 mm) to the overall length to account for the front-ring sight mount"
+      ]
+    },
+    "volume": "120 ml",
+    "longest_side": "155 mm",
+
+    "add_mod": [
+      ["sights", 1],
+      ["30mm scope mount", 1]
+    ],
+
+    "price": "335 USD"
+  },
+
+  {
+    "id": "sight_mount_adapter_jpoint_rmr",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.arredondoaccessories.com/product/rmr-mount-adapter-2/",
+      "https://www.speedshooter.com/product/arredondo-rmr-adapter-to-j-point-optic-pattern/"
+    ],
+
+    "//notes": [
+      "we'll reuse this one in Gunsmith or something",
+      "for now, do not spawn it, since it is useless",
+      "see notes for JP Enterprises 30 mm sight mount for reason of this item's existence"
+    ],
+
+    "name": {
+      "str": "Arredondo RMR adapter for JPoint mount"
+    },
+    "description": "TBD",
+
+    "weight": "43 g",
+    "//dimensions": {
+      "length": "1.78 in",
+      "width": "1.32 in",
+      "height": "0.52 in",
+      "raw": "20 ml",
+      "trim": 0,
+      "notes": [
+        "here, we assume dimensions of RM33",
+        "measuring the dimensions of this adapter has proven difficult, and the nature of the two items is similar enough"
+      ]
+    },
+    "volume": "20 ml",
+    "longest_side": "45 mm",
+
+    "location": "JPoint mount",
+
+    "add_mod": [["RMR mount", 1]],
+
+    "price": "39 USD"
+  },
+
+  {
+    "id": "sight_mount_30mm_single_aero",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/optic-sight-mounts/aero-precision-cantilever-30mm-red-dot-scope-mount/"
+    ],
+
+    "name": {
+      "str": "Aero Precision cantilever 30mm red dot scope mount"
+    },
+    "description": "A single-ring cantilever 30mm mount for cylindrical red dot sights.  Similar in appearance to dual-ring 30mm mounts for large scopes, this one is more compact and lightweight, intended to carry significantly smaller load.",
+
+    "weight": "46 g",
+    "//dimensions": {
+      "length": "2.60 in",
+      "width": "1.30 in",
+      "height": "2.35 in",
+      "raw": "130 ml"
+    },
+    "volume": "39 ml",
+    "longest_side": "66 mm",
+
+    "location": "sights",
+
+    "add_mod": [["single 30mm mount", 1]],
+
+    "price": "85 USD"
+  }
+]

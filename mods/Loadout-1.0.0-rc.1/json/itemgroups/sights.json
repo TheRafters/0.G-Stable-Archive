@@ -1,0 +1,152 @@
+[
+  {
+    "type": "item_group",
+    "id": "loadout_sights_holographic",
+
+    "subtype": "distribution",
+
+    "items": ["sight_eotech_xps2", "sight_vortex_uh1"]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sights_iron",
+
+    "subtype": "distribution",
+
+    "items": [
+      "iron_sights_ultradyne_c4",
+      "iron_sights_scalarworks",
+      "iron_sights_diamondhead",
+      "iron_sights_spikes_micro",
+      "iron_sights_troy",
+      "iron_sights_magpul_mbus_gen3"
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sights_offset",
+
+    "subtype": "distribution",
+
+    "items": ["iron_sights_strike_sidewinder2"]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sights_magnifier",
+
+    "subtype": "distribution",
+
+    "items": [
+      "magnifier_bushnell_3x",
+      "magnifier_leapers_3x",
+      "magnifier_vortex_3x"
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sights_red_dot_direct_mount",
+
+    "subtype": "distribution",
+
+    "items": ["sight_holosun_aems"]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sights_red_dot_mounted",
+
+    "subtype": "distribution",
+
+    "groups": [
+      "loadout_sight_rmr",
+      "loadout_sight_holosun_507k",
+      "loadout_sight_aimpoint_micro_t2",
+      "loadout_sight_vortex_strikefire_ii",
+      "loadout_sight_sigsauer_romeo5x"
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sights_scopes_mounted",
+
+    "subtype": "distribution",
+
+    "groups": [
+      "loadout_sight_distribution_30mm",
+      "loadout_sight_distribution_34mm",
+      "loadout_sight_distribution_1in"
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_all_red_dot_sights",
+
+    "//notes": [
+      "for gun stores and other locations where you may see a variety of different attachments"
+    ],
+
+    "subtype": "collection",
+
+    "groups": [
+      ["loadout_sights_red_dot_mounted", 75],
+      ["loadout_sights_red_dot_direct_mount", 25]
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_all_iron_sights",
+
+    "//notes": [
+      "for gun stores and other locations where you may see a variety of different attachments"
+    ],
+
+    "subtype": "collection",
+
+    "groups": [
+      ["loadout_sights_iron", 80],
+      ["loadout_sights_offset", 20]
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_all_enhanced_sights",
+
+    "//notes": [
+      "sights that are better than iron sights",
+      "for gun stores and other locations where you may see a variety of different attachments"
+    ],
+
+    "subtype": "collection",
+
+    "groups": [
+      ["loadout_all_red_dot_sights", 54],
+      ["loadout_sights_holographic", 28],
+      ["loadout_sights_scopes_mounted", 18]
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_all_sights",
+
+    "//notes": [
+      "all new sights",
+      "for gun stores and other locations where you may see a variety of different attachments"
+    ],
+
+    "subtype": "collection",
+
+    "groups": [
+      ["loadout_all_iron_sights", 64],
+      ["loadout_all_enhanced_sights", 36]
+    ]
+  }
+]

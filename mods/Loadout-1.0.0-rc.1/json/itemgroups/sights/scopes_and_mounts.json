@@ -1,0 +1,95 @@
+[
+  {
+    "//": [
+      "these are the scopes and their relevant mounts",
+      "this structure is necessary because there may be multiple kinds of the same mount",
+      "e.g. 30mm mounts from Aero Precision (no extra sight mount) and JP Enterprises (rail for extra sight)"
+    ],
+
+    "type": "item_group",
+    "id": "loadout_sight_mounts_30mm",
+
+    "subtype": "distribution",
+
+    "items": [
+      ["sight_mount_30mm_jp", 25],
+      ["sight_mount_30mm_aero", 75]
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sight_mounts_34mm",
+
+    "subtype": "distribution",
+
+    "items": ["sight_mount_34mm_leapers"]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sight_mounts_1in",
+
+    "subtype": "distribution",
+
+    "items": ["sight_mount_1in_warne"]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sights_30mm",
+
+    "subtype": "distribution",
+
+    "items": [
+      ["sight_eotech_vudu", 53],
+      ["sight_trijicon_huron", 27],
+      ["sight_trijicon_tenmile", 20]
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sights_34mm",
+
+    "subtype": "distribution",
+
+    "items": ["rifle_scope"]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sights_1in",
+
+    "subtype": "distribution",
+
+    "items": ["pistol_scope"]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sight_distribution_30mm",
+
+    "subtype": "distribution",
+
+    "groups": ["loadout_sight_mounts_30mm", "loadout_sights_30mm"]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sight_distribution_34mm",
+
+    "subtype": "distribution",
+
+    "groups": ["loadout_sight_mounts_34mm", "loadout_sights_34mm"]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_sight_distribution_1in",
+
+    "subtype": "distribution",
+
+    "groups": ["loadout_sight_mounts_1in", "loadout_sights_1in"]
+  }
+]

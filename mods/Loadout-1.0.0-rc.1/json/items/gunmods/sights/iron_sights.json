@@ -1,0 +1,216 @@
+[
+  {
+    "id": "iron_sights_ultradyne_c4",
+    "copy-from": "iron_sights_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/sights/ultradyne-c4-flip-up-front-and-rear-sight/"
+    ],
+
+    "name": {
+      "str": "Ultradyne C4 iron sights",
+      "str_pl": "pairs of Ultradyne C4 iron sights"
+    },
+    "description": "A pair of uniquely-designed folding iron sights, with both posts using concentric circles for faster target acquisition, sacrificing precision at range.  Can be flipped down to allow use of other sights.",
+
+    "weight": "133 g",
+
+    "//sight_dispersion": "12 MOA front post aperture",
+    "sight_dispersion": 48,
+    "//aim_speed_modifier": "+3 for unique design allowing for faster target acquisition",
+    "aim_speed_modifier": 5,
+
+    "price": "249 USD"
+  },
+
+  {
+    "id": "iron_sights_scalarworks",
+    "copy-from": "iron_sights_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/sights/scalarworks-peak-fixed-iron-sights-set/"
+    ],
+
+    "name": {
+      "str": "Scalarworks PEAK iron sights",
+      "str_pl": "pairs of Scalarworks PEAK iron sights"
+    },
+    "description": "A pair of fixed iron sights.  Touted as being some of the best fixed sights in the world, this pair offers a sillouette of the classic AR-15 iron sights, while refining the overall design for performance, lower weight, and build quality.",
+
+    "//weight": "0.94 oz + 1.45 oz = 2.39 oz ≈ 68 g",
+    "weight": "68 g",
+
+    "material": ["aluminum", "steel"],
+
+    "//aim_speed_modifier": "+1 for advertised performance",
+    "aim_speed_modifier": 3,
+
+    "//price": "129 USD per front/rear sight separately",
+    "price": "258 USD"
+  },
+
+  {
+    "id": "iron_sights_diamondhead",
+    "copy-from": "iron_sights_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/sights/diamondhead-polymer-integrated-sighting-system-with-nitebrite/",
+      "https://www.bauer-precision.com/diamondhead-front-rear-integrated-sighting-system-iss-flip-up-sight-set/"
+    ],
+
+    "//notes": [
+      "comes in black and FDE color schemes",
+      "tritium front post is an optional accessory, but we assume it comes as a default for this particular model",
+      "takes standard A2 front posts, giving these sights around 10 MOA of dispersion"
+    ],
+
+    "name": {
+      "str": "Diamondhead iron sights",
+      "str_pl": "pairs of Diamondhead iron sights"
+    },
+    "description": "A pair of folding iron sights, with a unique diamond-shape design.  Tritium-illuminated posts and a relatively-large rear-sight aperture allow for faster target acquisition.  Can be flipped down to allow use of other sights.",
+
+    "//dimensions": "duplicates the abstract",
+
+    "material": ["plastic"],
+
+    "//sight_dispersion": "10 MOA front post aperture",
+    "sight_dispersion": 40,
+    "//aim_speed_modifier": "+2 for tritium illumination",
+    "aim_speed_modifier": 4,
+
+    "price": "118 USD"
+  },
+
+  {
+    "id": "iron_sights_spikes_micro",
+    "copy-from": "iron_sights_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/sights/spikes-tactical-micro-front-sight/",
+      "https://www.wingtactical.com/accessories/optics-sights/sights/spikes-tactical-micro-rear-sight/"
+    ],
+
+    "name": {
+      "str": "Spike's Tactical micro iron sights",
+      "str_pl": "pairs of Spike's Tactical micro iron sights"
+    },
+    "description": "A pair of compact folding iron sights.  Front sight features a thin post, enabling more accurate shots at longer distances, without the usual disadvantages of slower target acquisition.  Can be flipped down to allow use of other sights.",
+
+    "weight": "64 g",
+    "//dimensions": {
+      "length": "1.734 in",
+      "width": "1.37 in",
+      "height": "1.537 in",
+      "raw": "60 ml",
+      "trim": 0.4,
+      "//notes": [
+        "stats for raised sights",
+        "length of both sights added (0.854 + 0.88 in.) to emulate both sights stacked together in the inventory",
+        "height is taken from the tallest (rear) sight of the pair",
+        "slightly inaccurate, since it assumes total height is height from top of rail to aperture"
+      ]
+    },
+    "volume": "36 ml",
+    "longest_side": "44 mm",
+
+    "material": ["aluminum", "steel"],
+
+    "//sight_dispersion": [
+      "5 MOA front post aperture",
+      "front post width is presumed from visuals to be 0.35 in."
+    ],
+    "sight_dispersion": 20,
+
+    "//price": "105 USD + 125 USD",
+    "price": "230 USD"
+  },
+
+  {
+    "id": "iron_sights_troy",
+    "copy-from": "iron_sights_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/sights/troy-industries-m4-flip-up-front-battle-sight/",
+      "https://www.wingtactical.com/accessories/optics-sights/sights/troy-industries-folding-rear-battle-sight/"
+    ],
+
+    "name": {
+      "str": "Troy Industries iron sights",
+      "str_pl": "pairs of Troy Industries iron sights"
+    },
+    "description": "A pair of folding iron sights, with a design reminiscent of the classic M1 Garand sights.  Can be flipped down to allow use of other sights.",
+
+    "weight": "89 g",
+    "//dimensions": {
+      "length": "2.127 in",
+      "width": "1.259 in",
+      "height": "1.586 in",
+      "raw": "70 ml",
+      "trim": 0.3,
+      "//notes": [
+        "stats for raised sights",
+        "width is taken from the widest (rear) sight of the pair",
+        "length of both sights added (1.064 + 1.063 in.) to emulate both sights stacked together in the inventory",
+        "height is taken from the tallest (rear) sight of the pair",
+        "slightly inaccurate, since it assumes total height is height from top of rail to aperture"
+      ]
+    },
+    "volume": "49 ml",
+    "longest_side": "54 mm",
+
+    "material": ["aluminum", "steel"],
+
+    "//price": "100 USD + 120 USD",
+    "price": "220 USD"
+  },
+
+  {
+    "id": "iron_sights_magpul_mbus_gen3",
+    "copy-from": "iron_sights_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/sights/magpul-back-up-sight-mbus-3-front/",
+      "https://www.wingtactical.com/accessories/optics-sights/sights/magpul-back-up-sight-mbus-3-rear/",
+      "https://www.trex-arms.com/store/magpul-mbus-3-sight-front/",
+      "https://www.trex-arms.com/store/magpul-mbus-3-sight-rear/",
+      "https://www.wingtactical.com/accessories/optics-sights/sights/magpul-back-up-rear-sight-mbus/",
+      "https://www.wingtactical.com/accessories/optics-sights/sights/magpul-back-up-front-sight-mbus/"
+    ],
+
+    "//notes": ["come in black, FDE, and OD green color schemes"],
+
+    "name": {
+      "str": "Magpul MBUS 3 iron sights",
+      "str_pl": "pairs of Magpul MBUS 3 iron sights"
+    },
+    "description": "A pair of folding iron sights made of impact-resistant polymer.  The material makes these sights lightweight, without sacrificing durable, as proven by the long-standing popularity of this design.  Can be flipped down to allow use of other sights.",
+
+    "weight": "55 g",
+    "//dimensions": {
+      "length": "3 in",
+      "width": "1.38 in",
+      "height": "1.551 in",
+      "raw": "105 ml",
+      "trim": 0.25,
+      "//notes": [
+        "stats for raised sights",
+        "length when deployed is assumed from a previous model in the series, then added (1.5 + 1.5 in.) to emulate both sights stacked together in the inventory",
+        "height is calculated as 1.41 in. (centerline height of these sights) × 1.1 (to add the remaining height above rail + rough height of rail mount)"
+      ]
+    },
+    "volume": "78 ml",
+    "longest_side": "76 mm",
+
+    "material": ["plastic"],
+
+    "//price": "40 USD + 60 USD",
+    "price": "100 USD"
+  }
+]

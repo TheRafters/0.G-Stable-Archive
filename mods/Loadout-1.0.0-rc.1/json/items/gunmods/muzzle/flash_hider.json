@@ -1,0 +1,41 @@
+[
+  {
+    "id": "flash_hider_silent_legion_qd7",
+    "copy-from": "flash_hider",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://silentlegion.com/products/quick-detach-flash-hiders",
+      "https://silentlegion.com/sites/default/files/8827%20-%20SL%20Owner%20Manuals_5RQ_web.pdf"
+    ],
+
+    "name": {
+      "str": "Silent Legion QD-7 flash hider"
+    },
+    "description": "Steel flash hider that mounts onto the threading at the muzzle.  While its primary function is to reduce visual signature (i.e., flash) from shooting, this model also serves as a mount for the Silent Legion line of suppressors.",
+
+    "weight": "116 g",
+    "//dimensions": {
+      "length": "2 in",
+      "diameter": "0.875 in",
+      "raw": "20 ml",
+      "trim": 0,
+      "notes": [
+        "length eyeballed",
+        "diameter assumed from a visually-similar flash hider",
+        "https://ultradyneusa.com/product/cloak/",
+        "trim assumes the dips and bumps even each other out"
+      ]
+    },
+    "volume": "20 ml",
+    "longest_side": "51 mm",
+    "//integral_longest_side": "absorbs 16 mm of regular threading on a 1/2 in. × 24-threaded barrel",
+    "integral_longest_side": "35 mm",
+
+    "//calibers": ["556"],
+
+    "add_mod": [["Silent Legion muzzle mount", 1]],
+
+    "price": "99 USD"
+  }
+]

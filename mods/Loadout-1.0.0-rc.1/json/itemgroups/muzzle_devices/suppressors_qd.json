@@ -1,0 +1,54 @@
+[
+  {
+    "//": [
+      "these are the suppressors that mount on a QD (quick detach) device, e.g. a muzzle brake or flash hider",
+      "QD devices in these groups are set to high, but not absolute, spawn chance, to emulate real-life situations where one is likely, but may not always, come with its required mount"
+    ],
+
+    "type": "item_group",
+    "id": "loadout_suppressor_socom",
+
+    "subtype": "distribution",
+
+    "items": [
+      "suppressor_surefire_socom556",
+      ["muzzle_brake_surefire_socom", 80]
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_suppressor_dominus",
+
+    "subtype": "distribution",
+
+    "items": [
+      "suppressor_thunder_beast_dominus",
+      ["muzzle_brake_thunder_beast_sr", 80]
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_suppressor_silent_legion",
+
+    "subtype": "distribution",
+
+    "items": [
+      "suppressor_silent_legion_556",
+      ["flash_hider_silent_legion_qd7", 80]
+    ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "loadout_suppressor_basegame",
+
+    "subtype": "distribution",
+
+    "items": [
+      "suppressor",
+      ["thread_mount_silencerco_bravo", 80]
+    ]
+  }
+]

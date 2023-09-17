@@ -1,0 +1,74 @@
+[
+  {
+    "id": "brass_catcher_caldwell_ar",
+    "copy-from": "brass_catcher",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.amazon.com/Caldwell-Brass-Catcher-Picatinny-Resistant/dp/B00EB5OU0Q",
+      "https://www.caldwellshooting.com/range-gear/brass-catchers/ar-pic-rail-brass-catcher/530143.html"
+    ],
+
+    "//notes": [
+      "the nylon catcher part is not technically rigid, but it's shaped enough by the metal skeleton to effectively retain its shape throughout the filling process",
+
+      "this used to be the replacement for the base-game `brass_catcher`",
+      "we're not positive this item remains useful, given that a universal catcher exists",
+      "besides, the dimensions seem to be way off, given that based visual analysis, the catcher cannot possibly be almost 4 times its case capacity of (2 × 100 = 200) ml",
+      "for now, the item definition remains, but the item must not spawn"
+    ],
+
+    "name": { "str": "Caldwell AR-15 brass catcher" },
+    "description": "TBD",
+
+    "weight": "136 g",
+    "//dimensions": {
+      "length": "4.5 in",
+      "width": "5.5 in",
+      "height": "3.5 in",
+      "raw": "1420 ml",
+      "trim": 0.3
+    },
+    "volume": "994 ml",
+    "longest_side": "140 mm",
+
+    "material": ["nylon"],
+
+    "//mod_targets": "this version is crucially only usable on the AR-15 platform because of its unique charging handle positioning",
+    "mod_targets": [
+      "ar15",
+      "ar_pistol",
+      "m27_assault_rifle",
+      "m4_carbine",
+      "m16a4",
+      "m16_auto_rifle",
+      "m231pfw",
+      "ar15_retool_300blk",
+      "hk417_13",
+      "mk47"
+    ],
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "//max_contains_volume": [
+          "the average case capacity for a .223/5.56mm case seems to be ~30 gr H2O ≈ 1.95 ml",
+          "https://www.6mmbr.com/223Rem.html",
+          "the catcher is rated for 100 casings inside",
+          "we give the capacity 5% extra on top of its (2 × 100 = 200) ml expected capacity"
+        ],
+        "max_contains_volume": "210 ml",
+        "//max_contains_weight": [
+          "a .223/5.56mm casing weighs ~6 g",
+          "https://www.armorally.com/brass-counts-by-weight/",
+          "the catcher is rated for 100 casings inside",
+          "the default 1 kg ought to cover it and then some"
+        ],
+        "max_contains_weight": "1 kg"
+      }
+    ],
+
+    "price": "40 USD"
+  }
+]

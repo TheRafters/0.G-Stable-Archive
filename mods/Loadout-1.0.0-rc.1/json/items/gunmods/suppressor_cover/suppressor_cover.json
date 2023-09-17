@@ -1,0 +1,287 @@
+[
+  {
+    "id": "suppressor_cover_coletac_htp",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://coletac.eu/collections/suppressor-covers/products/htp-suppressor-cover",
+      "https://www.cole-tac.com/product/htp-suppressor-cover/",
+      "https://www.pewpewtactical.com/best-suppressor-covers/"
+    ],
+
+    "//notes": [
+      "config tool on the American site has a whole lot more visual options",
+      "https://www.cole-tac.com/suppressor-cover-builder/configure/9128/",
+      "though configurable in length and diameter upon manufacture, we assume set dimensions and calculate the entire cover as a cylinder",
+      "these dimensions appear to be within reason for the product: 7 in. is a common suppressor length, and an average diameter between 1 in. and 2 in. would be 1.5 in."
+    ],
+
+    "name": {
+      "str": "Cole-TAC HTP suppressor cover"
+    },
+    "description": "A soft-sleeve suppressor cover.  \"HTP\" stands for \"High Temperature Python\", referencing a previous model by the same company.  The inner core is rated for 3000°F, or around 1650°C.  Three Velcro straps supposed with plastic buckles allow for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, just before the farthest strap.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+
+    "weight": "153 g",
+    "//dimensions": {
+      "length": "7 in",
+      "diameter": "2.15 in",
+      "raw": "417 ml",
+      "trim": 0.6,
+      "notes": [
+        "diameter acquired from visual reference",
+        "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty and folded through"
+      ]
+    },
+    "volume": "167 ml",
+
+    "//material": "while kevlar isn't clearly stated in the source, this appears to be the material of the bottom layer touching the suppressor in other models",
+    "material": ["kevlar", "nylon"],
+
+    "//heat_tolerance": "3000°F",
+    "loudness_modifier": -6,
+    "dispersion_modifier": -3,
+
+    "price": "95 USD"
+  },
+
+  {
+    "id": "suppressor_cover_coletac_corset",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.cole-tac.com/product/corset-suppressor-cover/"],
+
+    "name": {
+      "str": "Cole-TAC Corset suppressor cover"
+    },
+    "description": "A soft-sleeve suppressor cover.  It has a clean and unassuming design.  The cover is rated for 3150°F, or around 1730°C, making it the highest-rated cover on the market.  An elaborate system of cords allows for a high degree of diameter adjustment.  Company logo -- \"Cole-TAC\", with the initial C looking like a scope reticle -- is sewn onto a leaf, on the side closer to the muzzle.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+
+    "//weight": [
+      "listed as 0.25 oz / in., or 0.28 g / mm",
+      "we assume a standard 7-in. length"
+    ],
+    "weight": "50 g",
+
+    "//material": "source also lists carbon fiber, but as of 0.G it isn't in the game",
+    "material": ["kevlar", "nomex"],
+
+    "//heat_tolerance": "3150°F",
+    "loudness_modifier": -7,
+    "dispersion_modifier": -4,
+
+    "price": "125 USD"
+  },
+
+  {
+    "id": "suppressor_cover_silent_legion_sc7",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//sources": ["https://silentlegion.com/products/suppressor-covers"],
+
+    "name": {
+      "str": "Silent Legion SC-7 suppressor cover"
+    },
+    "description": "A soft-sleeve suppressor cover.  It has a clean and unassuming design.  The entire cover is rated for 1800°F, or around 980°C.  Three Velcro straps over the sleeve allow for a high degree of diameter adjustment.  Company logo -- a Spartan-looking helmet, with the eyeholes in the shape of two suppressed pistols -- is sewn next to the farthest strap.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+
+    "//weight": [
+      "none listed in source",
+      "however, we can infer that it's heavier than the default weight because it shares a similar construction to the Cole-TAC HTP cover",
+      "we err on the side of caution and use a similar, though slightly-smaller, weight for SC-7"
+    ],
+    "weight": "146 g",
+
+    "//heat_tolerance": "1800°F",
+    "loudness_modifier": -4,
+    "dispersion_modifier": -2,
+
+    "price": "70 USD"
+  },
+
+  {
+    "id": "suppressor_cover_armageddon_gear",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://armageddongear.com/product/suppressor-cover-2/",
+      "https://www.capitolarmory.com/armageddon-gear-suppressor-mirage-cover-tbac-338ba-1-85-x-10.html",
+      "https://www.pewpewtactical.com/best-suppressor-covers/"
+    ],
+
+    "name": {
+      "str": "Armageddon Gear suppressor cover"
+    },
+    "description": "A soft-sleeve suppressor cover.  It has a clean and unassuming design.  The entire cover is rated for 800°F, or around 430°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+
+    "//weight": [
+      "source lists as 0.81 lbs, which seems too high",
+      "right now, this cover is the worst possible choice for a gun, with its low bonuses and high weight",
+      "for the purposes of balance, we assume that 0.81 lbs is the weight of the largest possible length: 10.375 in.",
+      "from that, we extrapolate the weight of this 7-in. cover: 0.81 lbs ≈ 230 g / 10.375 ≈ 22.17 * 7 ≈ 155 g"
+    ],
+    "weight": "155 g",
+    "//dimensions": {
+      "length": "7 in",
+      "diameter": "1.97 in",
+      "raw": "350 ml",
+      "trim": 0.6,
+      "notes": [
+        "diameter acquired from visual reference",
+        "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty and folded through"
+      ]
+    },
+    "volume": "140 ml",
+
+    "//heat_tolerance": "800°F",
+    "loudness_modifier": -2,
+    "dispersion_modifier": -1,
+
+    "price": "87 USD"
+  },
+
+  {
+    "id": "suppressor_cover_libertys_defense",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://libertysdefense.com/shop/ols/products/straightjacket-thermal-attenuator-kevlar-outer-material",
+      "https://img1.wsimg.com/blobby/go/45776147-ccb8-450f-8bb9-824b181fd92a/downloads/straightJacket.pdf?ver=1633205039244"
+    ],
+
+    "name": {
+      "str": "Liberty's Defense straightJacket suppressor cover"
+    },
+    "description": "A soft-sleeve suppressor cover.  It has a rugged-looking, almost jury-rigged design, with Liberty's Defense logo -- a simplified figure of an archer with a large bow -- near the front of the cover.  Its mineral-based inner core is rated for 3000°F, or around 1650°C, while the Kevlar outer sleeve is rated for 2000°F, or around 1100°C.  Stainless steel cord over the sleeve allow for a high degree of diameter adjustment.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+
+    "//weight": [
+      "PDF source provides a listing of weights for specific models of suppressors, because a cover is generally bespoke",
+      "to make it more generic, we can calculate an approximate weight for a 7-in. suppressor of similar construction",
+      "taking Dead Air Nomad 30 suppressor as the starting point: 7.7 oz / 6.5 in ≈ 1.19 * 7 in. ≈ 8.3 oz ≈ 235 g"
+    ],
+    "weight": "235 g",
+
+    "//material": [
+      "inner core is a combination of Kevlar, basalt, amorphous silica, and aluminized silica",
+      "outer shell is Kevlar",
+      "adjustment cord is stainless steel"
+    ],
+    "material": ["kevlar", "nylon", "steel"],
+
+    "//heat_tolerance": "3000°F",
+    "loudness_modifier": -6,
+    "dispersion_modifier": -3,
+
+    "price": "322 USD"
+  },
+
+  {
+    "id": "suppressor_cover_bpg_heavy",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.burnproofgear.com/product/bpg-sc-h/",
+      "https://www.pewpewtactical.com/best-suppressor-covers/"
+    ],
+
+    "name": {
+      "str": "BPG heavy suppressor cover"
+    },
+    "description": "A soft-sleeve suppressor cover, from Burn Proof Gear.  Its fiberglass inner core is rated for 2000°F, or around 1100°C, while the Nomex outer sleeve is rated for 1000°F, or around 540°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+
+    "weight": "99 g",
+    "//dimensions": {
+      "length": "7 in",
+      "diameter": "1.98 in",
+      "raw": "353 ml",
+      "trim": 0.6,
+      "notes": [
+        "diameter acquired from visual reference",
+        "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty and folded through"
+      ]
+    },
+    "volume": "141 ml",
+
+    "//material": "inner shell is fiberglass",
+    "material": ["kevlar", "nylon"],
+
+    "//heat_tolerance": ["2000°F", "assumes one of the higher-temp models"],
+    "loudness_modifier": -4,
+    "dispersion_modifier": -2,
+
+    "price": "150 USD"
+  },
+
+  {
+    "id": "suppressor_cover_rifles_only_had",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://riflesonly.com/had-suppressor-cover/",
+      "https://www.pewpewtactical.com/best-suppressor-covers/"
+    ],
+
+    "name": {
+      "str": "Rifles Only HAD suppressor cover"
+    },
+    "description": "A soft-sleeve suppressor cover.  HAD stands for \"Heat Abatement Device\".  Its inner core is rated for 3000°F, or around 1650°C, while the outer sleeve is rated for 2000°F, or around 1100°C.  Cords over the sleeve allow for a high degree of diameter adjustment.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+
+    "//dimensions": {
+      "length": "7 in",
+      "diameter": "2.41 in",
+      "raw": "523 ml",
+      "trim": 0.6,
+      "notes": [
+        "diameter acquired from visual reference",
+        "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty and folded through"
+      ]
+    },
+    "volume": "209 ml",
+
+    "//heat_tolerance": "3000°F",
+    "loudness_modifier": -6,
+    "dispersion_modifier": -3,
+
+    "price": "95 USD"
+  },
+
+  {
+    "id": "suppressor_cover_manta_v2",
+    "copy-from": "suppressor_cover",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://mantadefense.com/product/manta-v2-suppressor-cover/"
+    ],
+
+    "name": {
+      "str": "Manta Defense V2 suppressor cover"
+    },
+    "description": "A rubber suppressor cover.  Its unique design and material offer V2 an interesting feel, without sacrificing performance.  On top of deep grooves molded into the cover, a flat logo of Manta Defense is printed.  Like other suppressor covers, it requires a suppressor of at least 7 in. in length.",
+
+    "weight": "203 g",
+    "//dimensions": {
+      "length": "7 in",
+      "diameter": "2.25 in",
+      "raw": "456 ml",
+      "trim": 0.6,
+      "notes": [
+        "trim applies to the internal part of the cover, where a suppressor would be, a space that would otherwise be empty",
+        "while this model doesn't appear to fold or compress, we can assume that the extra space could be filled with smaller items"
+      ]
+    },
+    "volume": "182 ml",
+
+    "material": ["rubber"],
+
+    "//heat_tolerance": ["3000°F", "presumed, based on advertised qualities"],
+    "loudness_modifier": -6,
+    "dispersion_modifier": -3,
+
+    "price": "80 USD"
+  }
+]
