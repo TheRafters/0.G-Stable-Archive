@@ -1,0 +1,19 @@
+[
+  {
+    "type": "item_group",
+    "id": "m38dmr_mods",
+    "subtype": "collection",
+
+    "//entries": [
+      "specifically uses the variants that the M38 designation would require"
+    ],
+    "entries": [
+      { "item": "suppressor_kac_qdss", "variant": "suppressor_kac_qdss_tan" },
+      {
+        "item": "sight_leupold_mark4",
+        "variant": "sight_leupold_mark4_modern"
+      },
+      { "item": "bipod" }
+    ]
+  }
+]

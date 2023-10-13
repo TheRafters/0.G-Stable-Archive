@@ -1,0 +1,352 @@
+[
+  {
+    "id": "muzzle_brake_precision_hypertap",
+    "copy-from": "muzzle_brake_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/muzzle-devices/precision-armament-hypertap-muzzle-brake-5-56-223/"
+    ],
+
+    "name": {
+      "str": "Precision Armament Hypertap muzzle brake"
+    },
+    "description": "A highly-potent, modern- and clean-looking muzzle brake, capable of reducing recoil of a firearm up to 84%.  This model is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+
+    "weight": "87 g",
+    "//dimensions": {
+      "length": "2.54 in",
+      "diameter": "0.86 in",
+      "raw": "24 ml",
+      "trim": 0.05
+    },
+    "volume": "23 ml",
+    "longest_side": "65 mm",
+
+    "//calibers": ["223"],
+
+    "//recoil_reduction": "84%",
+    "handling_modifier": 28,
+    "loudness_modifier": 42,
+
+    "price": "180 USD"
+  },
+
+  {
+    "id": "muzzle_brake_sjc_titan",
+    "copy-from": "muzzle_brake_abstract",
+    "type": "GUNMOD",
+
+    "//sources": ["https://stores.sjcguns.com/223-5-56-sjc-titan-cs-black/"],
+
+    "name": {
+      "str": "S&J Customs Titan muzzle brake"
+    },
+    "description": "A flattened, heavy-looking muzzle brake, this one is among the most potent ones, with recoil reduction of up to 78%.  Despite the name, it's not made of titanium.  This model is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+
+    "weight": "87 g",
+    "//dimensions": {
+      "length": "2.75 in",
+      "width": "0.98 in",
+      "height": "0.75 in",
+      "raw": "33 ml",
+      "trim": 0.1
+    },
+    "volume": "30 ml",
+    "longest_side": "70 mm",
+
+    "//calibers": ["223"],
+
+    "//recoil_reduction": "78%",
+    "//recoil_distance": "2.4688 in",
+    "handling_modifier": 26,
+    "loudness_modifier": 39,
+
+    "price": "100 USD"
+  },
+
+  {
+    "id": "muzzle_brake_v7",
+    "copy-from": "muzzle_brake_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.vsevenweaponsystems.com/muzzle-devices/v7-muzzle-brake",
+      "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
+    ],
+
+    "name": {
+      "str": "V Seven muzzle brake"
+    },
+    "description": "A skinny, shiny steel-gray muzzle brake capable of reducing recoil by more than 56%.  This model is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+
+    "weight": "74 g",
+    "//dimensions": {
+      "length": "2.1 in",
+      "diameter": "0.95 in",
+      "trim": 0.1,
+      "raw": "24 ml",
+      "notes": ["diameter assumed from V Seven FURION"]
+    },
+    "volume": "22 ml",
+    "longest_side": "53 mm",
+
+    "material": ["steel"],
+
+    "//calibers": ["223"],
+
+    "//recoil_reduction": "56.35%",
+    "//recoil_distance": "4.9375 in.",
+    "handling_modifier": 19,
+    "loudness_modifier": 28,
+
+    "//price": "for the 5/8 × 24 / satin stainless model",
+    "price": "97 USD"
+  },
+
+  {
+    "id": "muzzle_brake_v7_furion",
+    "copy-from": "muzzle_brake_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.vsevenweaponsystems.com/muzzle-devices/furion/",
+      "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
+    ],
+
+    "name": {
+      "str": "V Seven FURION muzzle brake"
+    },
+    "description": "A skinny, shiny muzzle brake capable of reducing recoil by as much as 64%.  This model is rated for 5.56mm NATO, and is made of titanium, making it lightweight without sacrificing structural integrity.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+
+    "weight": "45 g",
+    "//dimensions": {
+      "length": "2.3 in",
+      "diameter": "0.95 in",
+      "raw": "27 ml",
+      "trim": 0.15
+    },
+    "volume": "23 ml",
+    "longest_side": "58 mm",
+
+    "material": ["titanium"],
+
+    "//calibers": ["223"],
+
+    "//recoil_reduction": "64.36%",
+    "//recoil_distance": "4.0313 in.",
+    "handling_modifier": 21,
+    "loudness_modifier": 32,
+
+    "//price": "for the titanium 5.56mm model",
+    "price": "153 USD"
+  },
+
+  {
+    "id": "muzzle_brake_apex_esa",
+    "copy-from": "muzzle_brake_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.apextactical.com/apex-enhanced-stabilization-attachment",
+      "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
+    ],
+
+    "name": {
+      "str": "Apex Tactical ESA muzzle brake"
+    },
+    "description": "ESA, or Enhanced Stabilization Attachment, from Apex Tactical is a square, shiny dark-gray muzzle brake with two-and-a-half large cavities.  It's capable of reducing recoil by up to 60%.  This one is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+
+    "//weight": "without crush washer",
+    "weight": "98 g",
+    "//dimensions": {
+      "length": "2.6 in",
+      "width": "0.75 in",
+      "height": "0.75 in",
+      "raw": "24 ml",
+      "trim": 0.05
+    },
+    "volume": "23 ml",
+    "longest_side": "66 mm",
+
+    "//calibers": ["223"],
+
+    "//recoil_reduction": "60.50%",
+    "//recoil_distance": "4.4688 in.",
+    "handling_modifier": 20,
+    "loudness_modifier": 30,
+
+    "//price": "for the square design",
+    "price": "90 USD"
+  },
+
+  {
+    "id": "muzzle_brake_dead_air_keymount",
+    "copy-from": "muzzle_brake_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://deadairsilencers.com/product/keymount-muzzle-brake/",
+      "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/",
+      "https://deadairsilencers.com/dead-air-armament-shipping-keymount-muzzle-brake-for-sandman-suppressors-2/"
+    ],
+
+    "name": {
+      "str": "Dead Air KeyMount muzzle brake"
+    },
+    "description": "Looking like something you'd see in a movie, this muzzle brake is capable of reducing recoil by more than 56%.  This one is rated for 5.56mm NATO.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+
+    "//weight": "going with the lowest number listed in primary source on assumption that weight scales with threading and, therefore, with caliber rating, with higher calibers requiring more metal to keep quiet",
+    "weight": "105 g",
+    "//dimensions": {
+      "length": "2.6 in",
+      "diameter": "1.08 in",
+      "raw": "39 ml",
+      "trim": 0.15
+    },
+    "volume": "33 ml",
+    "longest_side": "66 mm",
+
+    "//calibers": ["223"],
+
+    "//recoil_reduction": "56.63%",
+    "//recoil_distance": "4.9063 in.",
+    "handling_modifier": 19,
+    "loudness_modifier": 28,
+
+    "price": "89 USD"
+  },
+
+  {
+    "id": "muzzle_brake_thunder_beast_sr",
+    "copy-from": "muzzle_brake_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://thunderbeastarms.com/products/dominus-sr",
+      "https://thunderbeastarms.com/products/accessories",
+      "https://escapefromtarkov.fandom.com/wiki/AR-15_Thunder_Beast_Arms_223CB_5.56x45_muzzle_brake",
+      "https://www.thetruthaboutguns.com/ar-15-muzzle-brake-shootout-3/"
+    ],
+
+    "name": {
+      "str": "Thunder Beast Arms SR muzzle brake"
+    },
+    "description": "An unassuming but highly-capable muzzle brake, this one is capable of reducing recoil by more than 70%.  It's rated for .30 cal.  It can also serve as a mount for an equally-capable Dominus-SR suppressor, also from Thunder Beast Arms.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+
+    "//weight": "Dominus SR description states the weight of the brake to be 3.5 oz ≈ 100 g",
+    "weight": "100 g",
+    "//dimensions": {
+      "length": "2.86 in",
+      "diameter": "1.17 in",
+      "raw": "50 ml",
+      "trim": 0.1,
+      "notes": [
+        "length approximated from visual reference",
+        "diameter is assumed to be diameter of Dominus SR suppressor - 35%"
+      ]
+    },
+    "volume": "45 ml",
+    "longest_side": "73 mm",
+    "//integral_longest_side": "assumes mounting onto a standard length of thread for 1/2 in. × 28-threaded barrel (16 mm)",
+    "integral_longest_side": "57 mm",
+
+    "//calibers": ["223", "30"],
+
+    "//recoil_reduction": "???",
+    "//handling_modifier": "its 5.56mm cousin reduces recoil by 72.93%, so let's assume this one performs only slightly worse, at a completely-fictional 70.62%",
+    "handling_modifier": 24,
+    "loudness_modifier": 35,
+
+    "add_mod": [["Thunder Beast SR mount", 1]],
+
+    "price": "145 USD"
+  },
+
+  {
+    "id": "muzzle_brake_surefire_socom",
+    "copy-from": "muzzle_brake_abstract",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.surefire.com/socom-muzzle-brake/"],
+
+    "//notes": [
+      "SureFire SOCOM devices are not compatible with earlier SureFire Fast Attach devices"
+    ],
+
+    "name": {
+      "str": "SureFire SOCOM muzzle brake"
+    },
+    "description": "A fairly-standard muzzle brake, capable of reducing recoil by over 51%.  It can also serve as a mount for the SOCOM556-RC2 suppressor, also from SureFire.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+
+    "weight": "111 g",
+    "//dimensions": {
+      "length": "2.6 in",
+      "diameter": "0.9 in",
+      "raw": "27 ml",
+      "trim": 0,
+      "notes": [
+        "assumes that the dips and bumps even out",
+        "diameter is assumed based on similar muzzle brakes"
+      ]
+    },
+    "volume": "27 ml",
+    "longest_side": "66 mm",
+    "//integral_longest_side": "assumes mounting onto a standard length of thread for 1/2 in. × 28-threaded barrel (16 mm)",
+    "integral_longest_side": "50 mm",
+
+    "//calibers": ["223"],
+
+    "//recoil_reduction": "???",
+    "//handling_modifier": "there's no accurate testing available for this brake, but it looks average enough, so we make up 51.62% recoil reduction",
+    "handling_modifier": 17,
+    "loudness_modifier": 26,
+
+    "add_mod": [["SureFire muzzle mount", 1]],
+
+    "//price": "presumed to be the price for the smaller caliber (.223 / 5.56mm)",
+    "price": "169 USD"
+  },
+
+  {
+    "id": "muzzle_brake_rearden_spb",
+    "copy-from": "muzzle_brake_abstract",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.reardenmfg.com/product/spb-ht-muzzle-brake/"],
+
+    "//notes": ["0.375 in., 1/2×28-threaded version"],
+
+    "name": {
+      "str": "Rearden Manufacturing SPB muzzle brake"
+    },
+    "description": "An ordinary muzzle brake with a wheat-colored body, capable of reducing recoil by over 56%.  It can also serve as a mount for the Atlas thread adapter, which itself can be used to mount the Witt Machine Mod-1 suppressor.  Like any muzzle brake, it makes sound signature (i.e., noise from firing) much louder.  Remember to wear hearing protection.",
+
+    "weight": "64 g",
+    "//dimensions": {
+      "length": "1.73 in",
+      "diameter": "0.9 in",
+      "raw": "18 ml",
+      "trim": 0.075,
+      "notes": ["diameter is assumed based on similar muzzle brakes"]
+    },
+    "volume": "17 ml",
+    "longest_side": "44 mm",
+    "//integral_longest_side": [
+      "from stated added length",
+      "aligns with absorbing a standard length of thread for 1/2 in. × 28-threaded barrel (16 mm)"
+    ],
+    "integral_longest_side": "28 mm",
+
+    "//calibers": ["223"],
+
+    "//recoil_reduction": "???",
+    "//handling_modifier": "no data appears to be available on the performance of this muzzle brake, so we assume a random 56.22%",
+    "handling_modifier": 19,
+    "loudness_modifier": 28,
+
+    "add_mod": [["Rearden muzzle mount", 1]],
+
+    "price": "75 USD"
+  }
+]

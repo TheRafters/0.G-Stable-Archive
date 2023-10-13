@@ -1,0 +1,22 @@
+[ 
+  { 
+    "type": "MOD_INFO", 
+    "id": "loadout", 
+		
+    "name": "Loadout", 
+    "description": "Elevates weapon personalization by introducing a mix of real-life and improvised firearm attachments, thereby increasing tactical flexibility in the game", 
+		
+    "authors": [ 
+      "Hyperseeker" 
+    ], 
+		
+    "category": "items", 
+		
+    "dependencies": [ 
+      "dda", 
+      "frontier_core" 
+    ], 
+    
+    "path": "json" 
+  } 
+]

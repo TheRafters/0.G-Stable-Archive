@@ -1,0 +1,82 @@
+[
+  {
+    "id": "sight_eotech_xps2",
+    "copy-from": "sight_holo",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.eotechinc.com/eotech-hws-xps2",
+      "https://www.eotechinc.com/media/wysiwyg/Product/Product_Manual/XP1956_XPS2_HWS_user_Manual_Rev_B.pdf"
+    ],
+
+    "name": {
+      "str": "EOTech XPS2 holographic sight"
+    },
+    "description": "A modern classic of a holographic sight.  Holographic sights enable quicker and, often, more-precise aiming than iron sights, due to the simplicity of a single-point aim.  They are also an improvement over red dot sights, though the difference is less significant than it is between red-dots and iron sights.  On the other hand, holographic sights heavier, bulkier, and more-expensive than red-dots.",
+
+    "weight": "255 g",
+    "//dimensions": {
+      "length": "3.8 in",
+      "width": "2.1 in",
+      "height": "2.5 in",
+      "raw": "327 ml",
+      "trim": 0.3
+    },
+    "volume": "229 ml",
+    "longest_side": "97 mm",
+
+    "field_of_view": 1024,
+
+    "//power": {
+      "source": [["CR123"]],
+      "lifetime": "1000 h"
+    },
+
+    "price": "629 USD"
+  },
+
+  {
+    "id": "sight_vortex_uh1",
+    "copy-from": "sight_holo",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://vortexoptics.com/vortex-amg-uh1-gen2-holographic-sight.html",
+      "https://www.bhphotovideo.com/c/product/1570039-REG/vortex_amg_hs02_amg_uh_1_gen_ii.html/specs",
+      "https://www.recoilweb.com/vortex-uh-1-gen-ii-review-170457.html",
+      "https://www.badassoptic.com/review-vortex-razor-amg-uh-1-gen-2-holographic-sight/"
+    ],
+
+    "//notes": ["has a 14-hour auto-shutoff feature"],
+
+    "name": {
+      "str": "Vortex Optics AMG UH-1 Gen II holographic sight"
+    },
+    "description": "A boxy, futuristic-looking holographic sight.  Holographic sights enable quicker and, often, more-precise aiming than iron sights, due to the simplicity of a single-point aim.  They are also an improvement over red dot sights, though the difference is less significant than it is between red-dots and iron sights.  On the other hand, holographic sights heavier, bulkier, and more-expensive than red-dots.",
+
+    "weight": "329 g",
+    "//dimensions": {
+      "length": "3.88 in",
+      "width": "2.1 in",
+      "height": "2.65 in",
+      "raw": "356 ml",
+      "trim": 0.15,
+      "notes": [
+        "width likely to be slightly inaccurate, because the BH Photo & Video round up each dimensions to the first decimal, and overview of the sight in the manufacturer source suggests these dimensions may have a significant second decimal"
+      ]
+    },
+    "volume": "303 ml",
+    "longest_side": "99 mm",
+
+    "//field_of_view": "BadassOptic review says FOV of this sight is comparable to an EOTech sight, but possibly slightly worse",
+    "field_of_view": 922,
+
+    "//power": {
+      "source": [["CR123A"]],
+      "lifetime": "1500 h",
+      "notes": ["battery life estimated by RECOIL source"]
+    },
+
+    "price": "899 USD"
+  }
+]

@@ -1,0 +1,896 @@
+[
+  {
+    "id": "foregrip_icrw",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/iron-city-rifle-works-reversible-m-lok-handstop/"
+    ],
+
+    "name": {
+      "str": "Iron City Rifle Works handstop"
+    },
+    "description": "A compact, reversible handstop.  Allows for better handling of the firearm.  Has a grooved texture, though its effect is diminished by the small size factor of the handstop.",
+
+    "weight": "19 g",
+    "//dimensions": {
+      "length": "1.86 in",
+      "width": "0.61 in",
+      "height": "1.01 in",
+      "raw": "19 ml",
+      "trim": 0.5
+    },
+    "volume": "10 ml",
+    "longest_side": "47 mm",
+
+    "material": ["aluminum"],
+
+    "//interfaces": ["M-LOK"],
+
+    "//handling_modifier": {
+      "handstop": 1,
+      "texture": 1,
+      "texture_rough": 1
+    },
+    "handling_modifier": 3,
+
+    "price": "35 USD"
+  },
+
+  {
+    "id": "foregrip_strike_short",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-picatinny-angled-vertical-grip-w-cable-management/",
+      "https://www.strikeindustries.com/si-ar-cmag-rail.html"
+    ],
+
+    "name": {
+      "str": "Strike Industries short vertical foregrip"
+    },
+    "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
+
+    "weight": "48 g",
+    "//dimensions": {
+      "length": "1.75 in",
+      "width": "1.37 in",
+      "height": "2.50 in",
+      "raw": "98 ml",
+      "trim": 0.3
+    },
+    "volume": "67 ml",
+    "longest_side": "64 mm",
+
+    "//interfaces": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_short": 2,
+      "texture": 1,
+      "texture_sides": 1
+    },
+    "handling_modifier": 4,
+
+    "price": "18 USD"
+  },
+
+  {
+    "id": "foregrip_ergo",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/ergo-pop-bottle-vertical-forward-grip-vfg/",
+      "https://www.ergogrips.net/shop/ergo-pop-bottle-vertical-forward-grip/"
+    ],
+
+    "name": {
+      "str": "ERGO Pop Bottle vertical foregrip"
+    },
+    "description": "A plain, bottleneck-shaped foregrip.  Allows for better handling of the firearm.  Has grooves at the bottom, preventing the user's hand from slipping.",
+
+    "weight": "58 g",
+    "//dimensions": {
+      "length": "1.80 in",
+      "width": "1.43 in",
+      "height": "3.66 in",
+      "raw": "154 ml",
+      "trim": 0.3
+    },
+    "volume": "108 ml",
+    "longest_side": "93 mm",
+
+    "//interfaces": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_tall": 4,
+      "bottom_grooves": 1
+    },
+    "handling_modifier": 5,
+
+    "price": "19 USD"
+  },
+
+  {
+    "id": "foregrip_tyrant_mod",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-accessories/foregrips/tyrant-designs-mod-foregrip-fit-both-keymod-and-m-lok/"
+    ],
+
+    "name": {
+      "str": "Tyrant Designs MOD angled foregrip"
+    },
+    "description": "An angled metal foregrip with a unique, aggressive skeletonized design.  Allows for better handling of the firearm.  Its somewhat-ergonomic design combined with its length make it a good choice for a foregrip.",
+
+    "weight": "48 g",
+    "//dimensions": {
+      "length": "5.50 in",
+      "width": "0.625 in",
+      "height": "1.425 in",
+      "raw": "80 ml",
+      "trim": 0.4
+    },
+    "volume": "48 ml",
+    "longest_side": "140 mm",
+
+    "material": ["aluminum", "plastic"],
+
+    "//interfaces": ["KeyMod", "M-LOK"],
+
+    "//handling_modifier": {
+      "grip_angled": 2,
+      "finger_grooves": 2,
+      "finger_shelf": 1
+    },
+    "handling_modifier": 5,
+
+    "price": "75 USD"
+  },
+
+  {
+    "id": "foregrip_tyrant_modv2",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/tyrant-designs-mod-v2-foregrip-fit-both-keymod-and-m-lok/"
+    ],
+
+    "name": {
+      "str": "Tyrant Designs MOD V2 angled foregrip"
+    },
+    "description": "An angled metal foregrip with a unique, aggressive skeletonized design.  Allows for better handling of the firearm.  An improvement upon a previous design by Tyrant Designs, it remains a good choice of a foregrip, with its rubber pad, usable length, and ergonomic shape.",
+
+    "weight": "83 g",
+    "//dimensions": {
+      "length": "5.807 in",
+      "width": "0.653 in",
+      "height": "1.427 in",
+      "raw": "89 ml",
+      "trim": 0.3
+    },
+    "volume": "62 ml",
+    "longest_side": "148 mm",
+
+    "material": ["aluminum", "plastic"],
+
+    "//interfaces": ["KeyMod", "M-LOK"],
+
+    "//handling_modifier": {
+      "grip_angled": 2,
+      "rubber": 2,
+      "finger_shelf": 1,
+      "texture_rough": 1
+    },
+    "handling_modifier": 6,
+
+    "price": "70 USD"
+  },
+
+  {
+    "id": "foregrip_dd_short",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/daniel-defense-enhanced-m-lok-vertical-foregrip/"
+    ],
+
+    "name": {
+      "str": "Daniel Defense short vertical foregrip"
+    },
+    "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of tire-like texture on the sides.",
+
+    "weight": "52 g",
+    "//dimensions": {
+      "length": "1.59 in",
+      "width": "1.11 in",
+      "height": "3.27 in",
+      "raw": "95 ml",
+      "trim": 0.1
+    },
+    "volume": "86 ml",
+    "longest_side": "83 mm",
+
+    "material": ["plastic", "rubber"],
+
+    "//interfaces": {
+      "list": ["M-LOK"],
+      "notes": [
+        "Daniel Defense produces for all three major interfaces, but they are separate models"
+      ]
+    },
+
+    "//handling_modifier": {
+      "grip_short": 2,
+      "rubber": 2,
+      "texture_sides": 1
+    },
+    "handling_modifier": 5,
+
+    "price": "32 USD"
+  },
+
+  {
+    "id": "foregrip_strike_bikini",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-bikini-hand-stop-2-pack/"
+    ],
+
+    "name": {
+      "str_sp": "Strike Industries Bikini fingerstops"
+    },
+    "description": "A pair of tiny metal fingerstops, adjustable in position and length.  Allow for better handling of the firearm.  These don't offer a major improvement due to their miniature size, but they're still better than nothing.",
+
+    "weight": "6 g",
+    "//dimensions": {
+      "length": "1.348 in",
+      "width": "0.609 in",
+      "height": "0.730 in",
+      "raw": "10 ml",
+      "trim": 0.3
+    },
+    "volume": "7 ml",
+    "longest_side": "34 mm",
+
+    "//interfaces": ["M-LOK"],
+
+    "//handling_modifier": {
+      "handstop": 1
+    },
+    "handling_modifier": 1,
+
+    "price": "12 USD"
+  },
+
+  {
+    "id": "foregrip_arisaka",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/arisaka-defense-keymod-vertical-grip/"
+    ],
+
+    "name": {
+      "str": "Arisaka Defense short vertical foregrip"
+    },
+    "description": "A short metal foregrip.  Allows for better handling of the firearm.  Its hollow design make it ligther than the metal alternatives.  Deep grooves along the entire length offer good grip.",
+
+    "weight": "53 g",
+    "//dimensions": {
+      "length": "2.505 in",
+      "diameter": "1.30 in",
+      "raw": "55 ml",
+      "trim": 0.05
+    },
+    "volume": "52 ml",
+    "longest_side": "64 mm",
+
+    "material": ["aluminum"],
+
+    "//interfaces": ["KeyMod"],
+
+    "//handling_modifier": {
+      "grip_short": 2,
+      "finger_grooves": 2
+    },
+    "handling_modifier": 4,
+
+    "price": "53 USD"
+  },
+
+  {
+    "id": "foregrip_strike_link",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-link-anchor-polymer-hand-stop/"
+    ],
+
+    "name": {
+      "str": "Strike Industries LINK handstop"
+    },
+    "description": "A compact handstop.  Allows for better handling of the firearm.  Has a grooved texture, though its effect is diminished by the small size factor of the handstop.",
+
+    "weight": "17 g",
+    "//dimensions": {
+      "length": "2.957 in",
+      "width": "0.855 in",
+      "height": "1.06 in",
+      "raw": "44 ml",
+      "trim": 0.6
+    },
+    "volume": "18 ml",
+    "longest_side": "75 mm",
+
+    "//interfaces": ["KeyMod", "M-LOK"],
+
+    "//handling_modifier": {
+      "handstop": 1,
+      "finger_shelf": 1,
+      "texture": 1,
+      "texture_rough": 1
+    },
+    "handling_modifier": 4,
+
+    "price": "15 USD"
+  },
+
+  {
+    "id": "foregrip_slr_barricade",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/slr-rifleworks-keymod-barricade-handstop/"
+    ],
+
+    "name": {
+      "str": "SLR Rifleworks Mod 2 Barricade handstop"
+    },
+    "description": "A metal handstop, adjustable in position and distance as befits the user.  Allows for better handling of the firearm.  While its effect is minimal due to its size, it's better than nothing.",
+
+    "weight": "19 g",
+    "//dimensions": {
+      "length": "1.95 in",
+      "width": "0.60 in",
+      "height": "1.00 in",
+      "raw": "19 ml",
+      "trim": 0.5
+    },
+    "volume": "10 ml",
+    "longest_side": "50 mm",
+
+    "material": ["aluminum"],
+
+    "//interfaces": ["KeyMod"],
+
+    "//handling_modifier": {
+      "handstop": 1
+    },
+    "handling_modifier": 1,
+
+    "price": "36 USD"
+  },
+
+  {
+    "id": "foregrip_impact",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/impact-weapons-components-m-lok-hand-stop/"
+    ],
+
+    "//notes": ["Barrier Face style"],
+
+    "name": {
+      "str": "Impact Weapons Components handstop"
+    },
+    "description": "A compact metal handstop.  Allows for better handling of the firearm.  Textured, thus offering slightly better performance over its competitors of similar size.",
+
+    "weight": "20 g",
+    "//dimensions": {
+      "length": "1.348 in",
+      "width": "0.60 in",
+      "height": "1.115 in",
+      "raw": "15 ml",
+      "trim": 0.4
+    },
+    "volume": "9 ml",
+    "longest_side": "34 mm",
+
+    "material": ["aluminum"],
+
+    "//interfaces": ["M-LOK"],
+
+    "//handling_modifier": {
+      "handstop": 1,
+      "texture": 1
+    },
+    "handling_modifier": 2,
+
+    "price": "27 USD"
+  },
+
+  {
+    "id": "foregrip_odin_b1",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/odin-works-b1-m-lok-handstop/"
+    ],
+
+    "name": {
+      "str": "ODIN Works B1 handstop"
+    },
+    "description": "A small, skeletonized handstop.  Allows for better handling of the firearm.  Its ergonomic design allows it to stand up to competition of similar size.",
+
+    "weight": "34 g",
+    "//dimensions": {
+      "length": "2.38 in",
+      "width": "0.90 in",
+      "height": "1.15 in",
+      "raw": "40 ml",
+      "trim": 0.3
+    },
+    "volume": "28 ml",
+    "longest_side": "61 mm",
+
+    "material": ["aluminum"],
+
+    "//interfaces": ["M-LOK"],
+
+    "//handling_modifier": {
+      "handstop": 1,
+      "finger_shelf": 1
+    },
+    "handling_modifier": 2,
+
+    "price": "49 USD"
+  },
+
+  {
+    "id": "foregrip_tyrant_halo",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/tyrant-designs-halo-handstop-for-keymod-m-lok-system/"
+    ],
+
+    "name": {
+      "str": "Tyrant Desings HALO short vertical foregrip"
+    },
+    "description": "A short, skeletonized foregrip, comparable in size to a handstop.  Allows for better handling of the firearm.  An aggressive, ergonomic design helps it perform on par with competition, while saving on weight.",
+
+    "weight": "26 g",
+    "//dimensions": {
+      "length": "1.5 in",
+      "width": "0.65 in",
+      "height": "1.42 in",
+      "raw": "23 ml",
+      "trim": 0.2
+    },
+    "volume": "18 ml",
+    "longest_side": "38 mm",
+
+    "material": ["aluminum"],
+
+    "//interfaces": ["KeyMod", "M-LOK"],
+
+    "//handling_modifier": {
+      "grip_short": 2,
+      "texture": 1
+    },
+    "handling_modifier": 3,
+
+    "price": "45 USD"
+  },
+
+  {
+    "id": "foregrip_tyrant_halo_minivert",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-accessories/foregrips/tyrant-designs-halo-minivert-grip-fit-both-keymod-and-m-lok/"
+    ],
+
+    "name": {
+      "str": "Tyrant Designs HALO MiniVert foregrip"
+    },
+    "description": "A metal foregrip with an aggressive, skeletonized design.  Allows for better handling of the firearm.  Ergonomic and lightweight, it performs on par or better than competition.",
+
+    "weight": "71 g",
+    "//dimensions": {
+      "length": "1.93 in",
+      "width": "0.8 in",
+      "height": "3.02 in",
+      "raw": "76 ml",
+      "trim": 0.3
+    },
+    "volume": "53 ml",
+    "longest_side": "77 mm",
+
+    "material": ["aluminum"],
+
+    "//interfaces": ["KeyMod", "M-LOK"],
+
+    "//handling_modifier": {
+      "grip_tall": 4,
+      "texture": 1,
+      "bottom_grooves": 1
+    },
+    "handling_modifier": 6,
+
+    "price": "58 USD"
+  },
+
+  {
+    "id": "foregrip_fortis_shift",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/fortis-shift-m-lok-forend-vertical-grip/"
+    ],
+
+    "name": {
+      "str": "Fortis Shift vertical foregrip"
+    },
+    "description": "A metal foregrip with a starkly-skeletonized design.  Allows for better handling of the firearm.  Performs better than average, while saving on weight.",
+
+    "weight": "108 g",
+    "//dimensions": {
+      "length": "2.93 in",
+      "width": "1.17 in",
+      "height": "3.32 in",
+      "raw": "187 ml",
+      "trim": 0.3
+    },
+    "volume": "131 ml",
+    "longest_side": "77 mm",
+
+    "material": ["aluminum"],
+
+    "//interfaces": ["M-LOK"],
+
+    "//handling_modifier": {
+      "grip_tall": 4,
+      "finger_shelf": 1
+    },
+    "handling_modifier": 5,
+
+    "price": "85 USD"
+  },
+
+  {
+    "id": "foregrip_fortis_shift_angled",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/fortis-shift-m-lok-short-angled-grip/"
+    ],
+
+    "name": {
+      "str": "Fortis Shift angled foregrip"
+    },
+    "description": "A metal angled foregrip with a starkly-skeletonized design.  Allows for better handling of the firearm.  Performs on par with competition, while saving on weight.",
+
+    "weight": "71 g",
+    "//dimensions": {
+      "length": "2.93 in",
+      "width": "1.17 in",
+      "height": "1.73 in",
+      "raw": "97 ml",
+      "trim": 0.2
+    },
+    "volume": "78 ml",
+    "longest_side": "74 mm",
+
+    "material": ["aluminum"],
+
+    "//interface": ["M-LOK"],
+
+    "//handling_modifier": {
+      "grip_angled": 2,
+      "finger_shelf": 1
+    },
+    "handling_modifier": 3,
+
+    "price": "75 USD"
+  },
+
+  {
+    "id": "foregrip_strike_cobra",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.wingtactical.com/firearm-parts/ar-15-parts/grips-foregrips/foregrips/strike-industries-cobra-tactical-foregrip/"
+    ],
+
+    "name": {
+      "str": "Strike Industries Cobra angled foregrip"
+    },
+    "description": "A multi-modal polymer angled foregrip.  Allows for better handling of the firearm.  Can be used in a variety of ways as befits the situation, thanks to its ergonomic design.",
+
+    "weight": "40 g",
+    "//dimensions": {
+      "length": "4.19 in",
+      "width": "1.4625 in",
+      "height": "1.78 in",
+      "raw": "179 ml",
+      "trim": 0.4,
+      "notes": [
+        "height acquired from visual reference",
+        "width assumed to be width of Fortis Shift angled grip × 1.25"
+      ]
+    },
+    "volume": "107 ml",
+    "longest_side": "106 mm",
+
+    "//interface": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_angled": 2,
+      "texture": 1,
+      "finger_shelf": 1
+    },
+    "handling_modifier": 4,
+
+    "price": "25 USD"
+  },
+
+  {
+    "id": "foregrip_mission_first",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/mission-first-tactical-react-full-size-grip-reg/"
+    ],
+
+    "//TODO": ["storage compartment"],
+
+    "name": {
+      "str": "Mission First React vertical foregrip"
+    },
+    "description": "An unassuming-looking foregrip.  Allows for better handling of the firearm.  Textured surface and deliberate finger grooves provide for excellent control over recoil.",
+
+    "weight": "65 g",
+    "//dimensions": {
+      "length": "2.203 in",
+      "width": "1.424 in",
+      "height": "4.601 in",
+      "raw": "237 ml",
+      "trim": 0.1
+    },
+    "volume": "213 ml",
+    "longest_side": "117 mm",
+
+    "//interfaces": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_tall": 4,
+      "form_fitting": 2,
+      "texture": 1,
+      "texture_sides": 1
+    },
+    "handling_modifier": 8,
+
+    "price": "25 USD"
+  },
+
+  {
+    "id": "foregrip_mission_first_folding",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/mission-first-tactical-react-folding-grip-rfg/"
+    ],
+
+    "//TODO": ["storage compartment", "folding capability"],
+
+    "name": {
+      "str": "Mission First React folding vertical foregrip"
+    },
+    "description": "A compact full-sized foregrip.  Allows for better handling of the firearm.  Can be folded to save space.  Grooves at the bottom prevent hands from slipping.",
+
+    "weight": "106 g",
+    "//dimensions": {
+      "length": "2.205 in",
+      "width": "1.524 in",
+      "height": "4.314 in",
+      "raw": "238 ml",
+      "trim": 0.1
+    },
+    "volume": "214 ml",
+    "longest_side": "110 mm",
+
+    "//interface": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_tall": 4,
+      "texture": 1,
+      "texture_sides": 1
+    },
+    "handling_modifier": 6,
+
+    "//flags": ["NEEDS_UNFOLD"],
+
+    "price": "40 USD"
+  },
+
+  {
+    "id": "foregrip_magpul_afg2",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-accessories/foregrips/magpul-afg2-angled-fore-grip/"
+    ],
+
+    "name": {
+      "str": "Magpul AFG2 angled foregrip"
+    },
+    "description": "A slim angled foregrip.  Allows for better handling of the firearm.  Ergonomic design provides a good degree of control over recoil.",
+
+    "weight": "72 g",
+    "//dimensions": {
+      "length": "4.70 in",
+      "width": "1.37 in",
+      "height": "1.94 in",
+      "raw": "205 ml",
+      "trim": 0.4
+    },
+    "volume": "123 ml",
+    "longest_side": "119 mm",
+
+    "//interfaces": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_angled": 2,
+      "texture": 1,
+      "finger_shelf": 1,
+      "bottom_grooves": 1
+    },
+    "handling_modifier": 5,
+
+    "price": "35 USD"
+  },
+
+  {
+    "id": "foregrip_fab_folding",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/fab-defense-7-position-tactical-folding-foregrip-t-fl/"
+    ],
+
+    "//TODO": ["storage compartment", "folding capability"],
+
+    "name": {
+      "str": "FAB Defense folding vertical foregrip"
+    },
+    "description": "A folding polymer foregrip, with several available angles.  Allows for better handling of the firearm.  Aggressive texture on most of the surface provides good grip.",
+
+    "weight": "133 g",
+    "//dimensions": {
+      "length": "2.58 in",
+      "width": "1.45 in",
+      "height": "4.35 in",
+      "raw": "267 ml",
+      "trim": 0.3
+    },
+    "volume": "187 ml",
+    "longest_side": "111 mm",
+
+    "//interfaces": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_tall": 4,
+      "form_fitting": 2,
+      "texture": 1,
+      "texture_sides": 1,
+      "texture_rough": 1
+    },
+    "handling_modifier": 9,
+
+    "//flags": ["NEEDS_UNFOLD"],
+
+    "price": "45 USD"
+  },
+
+  {
+    "id": "foregrip_magpul",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-accessories/foregrips/magpul-rail-vertical-grip-rvg/"
+    ],
+
+    "name": {
+      "str": "Magpul RVG short vertical foregrip"
+    },
+    "description": "A short polymer foregrip.  Allows for better handling of the firearm.  Has ribbed texture on the front and the back, and two islands of texture on the sides.",
+
+    "weight": "78 g",
+    "//dimensions": {
+      "length": "1.6 in",
+      "width": "1.21 in",
+      "height": "3.5 in",
+      "raw": "111 ml",
+      "trim": 0.1
+    },
+    "volume": "95 ml",
+    "longest_side": "84 mm",
+
+    "//interface": ["Picatinny"],
+
+    "//handling_modifier": {
+      "grip_short": 2,
+      "texture": 1,
+      "texture_sides": 1
+    },
+    "handling_modifier": 4,
+
+    "price": "25 USD"
+  },
+
+  {
+    "id": "foregrip_f1",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.wingtactical.com/firearm-parts/ar-15/grips-foregrips/foregrips/f-1-firearms-m-lok-skeletonized-angled-foregrip/"
+    ],
+
+    "name": {
+      "str": "F-1 Firearms skeletonized angled foregrip"
+    },
+    "description": "An angled foregrip with an exceptional amount of material removed.  Allows for better handling of the firearm.  Performs well against competition, while also saving on weight.",
+
+    "weight": "62 g",
+    "//dimensions": {
+      "length": "4.147 in",
+      "width": "0.909 in",
+      "height": "1.769 in",
+      "raw": "109 ml",
+      "trim": 0.3
+    },
+    "volume": "76 ml",
+    "longest_side": "105 mm",
+
+    "//interface": ["M-LOK"],
+
+    "//handling_modifier": {
+      "grip_angled": 2,
+      "finger_shelf": 1,
+      "texture": 1,
+      "texture_rough": 1
+    },
+    "handling_modifier": 5,
+
+    "//add_mod": [["grip wrap", 1]],
+
+    "price": "72 USD"
+  }
+]

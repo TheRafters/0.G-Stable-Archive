@@ -1,0 +1,114 @@
+[
+  {
+    "type": "item_group",
+    "id": "gunmod_common",
+
+    "//removed": [
+      [
+        ["pistol_grip", "match_trigger"],
+        "spawn as a built-in mod for some weapons, but shouldn't be installable onto others"
+      ]
+    ],
+
+    "items": [
+      { "item": "brass_catcher", "prob": 100 },
+      { "item": "improve_sights", "prob": 60 },
+      { "item": "muzzle_brake", "prob": 20 },
+      { "item": "rifle_scope", "prob": 30 },
+      { "item": "shoulder_strap", "prob": 50 },
+      { "item": "single_sling", "prob": 50 },
+      { "item": "butt_hook", "prob": 30 },
+      { "item": "offset_sights", "prob": 40 },
+      { "item": "offset_sight_rail", "prob": 30 },
+      { "item": "cheek_pad", "prob": 25 },
+      { "item": "rail_laser_sight", "prob": 40 },
+      { "item": "red_dot_sight", "prob": 70 },
+      { "item": "choke", "prob": 50 },
+
+      { "item": "laser_sight_firefield", "prob": 30 },
+
+      { "group": "loadout_all_iron_sights", "prob": 35 },
+      { "group": "loadout_all_red_dot_sights", "prob": 40 },
+
+      { "group": "loadout_foregrips_tall", "prob": 35 },
+      { "group": "loadout_foregrips_short", "prob": 25 },
+
+      { "group": "loadout_all_misc_gunmods", "prob": 5 },
+
+      { "group": "loadout_all_muzzle_devices", "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_rare",
+
+    "//removed": [
+      [
+        "barrel_ported",
+        [
+          "comes pre-installed on some guns, but isn't meant to be an item that can be carried",
+          "having `barrel_ported` to be craftable on the gun itself (as opposed to an abstract object) would be a great compromise"
+        ]
+      ],
+      [
+        [
+          "folding_stock",
+          "high_end_folding_stock",
+          "recoil_stock",
+          "retool_ar15_300blk",
+          "adjustable_stock"
+        ],
+        "spawn as a built-in mod for some weapons, but shouldn't be installable onto others"
+      ],
+      [
+        "wooden_grip",
+        [
+          "is a stick with a nail through it, yet had a chance to spawn in gunstores etc.",
+          "to be reviewed after v1.0",
+          "after an audit and a rethinking, it could be re-added to survivalist (and survivalist zombie) spawn lists"
+        ]
+      ],
+      [
+        [
+          "waterproof_gunmod",
+          "stabilizer",
+          "gun_crossbow",
+          "light_grip",
+          "u_shotgun",
+          "tail_hook_stock",
+          "hybrid_sight_4x",
+          "rifle_scope_high_end_mount",
+          "modern_handguard"
+        ],
+        "obsoleted items, removed for clarity"
+      ]
+    ],
+
+    "items": [
+      { "item": "bipod", "prob": 20 },
+      { "item": "grip", "prob": 80 },
+      { "item": "laser_sight", "prob": 40 },
+      { "item": "pistol_bayonet", "prob": 10 },
+      { "item": "pistol_scope", "prob": 10 },
+      { "item": "pistol_stock", "prob": 10 },
+      { "item": "butt_hook", "prob": 20 },
+      { "item": "arredondo_chute", "prob": 20 },
+      { "item": "shot_suppressor", "prob": 10 },
+      { "item": "suppressor", "prob": 60 },
+      { "item": "suppressor_compact", "prob": 40 },
+      { "item": "acog_scope", "prob": 40 },
+      { "item": "holo_sight", "prob": 50 },
+      { "item": "holo_magnifier", "prob": 30 },
+
+      { "item": "laser_sight_steiner", "prob": 20 },
+      { "item": "laser_sight_l3harris", "prob": 25 },
+
+      { "group": "loadout_all_enhanced_sights", "prob": 40 },
+
+      { "group": "loadout_foregrips_tiny", "prob": 20 },
+      { "group": "loadout_foregrips_angled", "prob": 30 },
+
+      { "group": "loadout_all_muzzle_devices", "prob": 40 }
+    ]
+  }
+]

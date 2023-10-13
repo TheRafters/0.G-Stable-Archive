@@ -1,0 +1,14 @@
+[
+  {
+    "type": "item_group",
+    "id": "loadout_rail_laser_sights",
+
+    "subtype": "distribution",
+
+    "items": [
+      "laser_sight_firefield",
+      "laser_sight_steiner",
+      "laser_sight_l3harris"
+    ]
+  }
+]

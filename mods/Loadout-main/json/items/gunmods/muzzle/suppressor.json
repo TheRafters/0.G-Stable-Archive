@@ -1,0 +1,419 @@
+[
+  {
+    "id": "suppressor_surefire_socom556",
+    "copy-from": "suppressor_abstract_no_cover",
+    "type": "GUNMOD",
+
+    "//source": ["https://www.surefire.com/socom556-rc2/"],
+
+    "name": {
+      "str": "SureFire SOCOM556-RC2 suppressor"
+    },
+    "description": "A popular and capable suppressor, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is rated for 5.56mm NATO.  Being somewhat shorter than most suppressors, it cannot accept suppressor covers.  This one also cannot be mounted directly onto muzzle threading.  Instead, it mounts onto a SOCOM muzzle brake, also from SureFire.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+
+    "weight": "482 g",
+    "//dimensions": {
+      "length": "6.40 in",
+      "diameter": "1.50 in",
+      "raw": "185 ml",
+      "trim": -0.025,
+      "notes": [
+        "the higher-diameter collar is reflected in the negative trim value"
+      ]
+    },
+    "volume": "190 ml",
+    "longest_side": "163 mm",
+    "//integral_longest_side": "absorbs the length of the SureFire SOCOM muzzle brake it mounts onto (66 mm)",
+    "integral_longest_side": "97 mm",
+
+    "//calibers": ["556"],
+
+    "//sound_lower": "134.70 dB @ 16 in. w/ 5.56mm M855",
+
+    "handling_modifier": -13,
+    "//loudness_modifier": "-45 + -26 from muzzle brake",
+    "loudness_modifier": -71,
+
+    "consume_divisor": 860,
+
+    "location": "SureFire muzzle mount",
+
+    "price": "1199 USD"
+  },
+
+  {
+    "id": "suppressor_thunder_beast_dominus",
+    "copy-from": "suppressor_abstract",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://thunderbeastarms.com/products/dominus-sr",
+      "https://buddysarmory.com/dominus-sr"
+    ],
+
+    "name": {
+      "str": "Thunder Beast Arms Dominus-SR suppressor"
+    },
+    "description": "A large, potent suppressor, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is rated for a wide variety of rifle cartridges, from 5.56mm NATO to .308 Winchester Magnum.  It cannot be mounted directly onto muzzle threading.  Instead, it mounts onto the SR muzzle brake, also from Thunder Beast Arms.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+
+    "weight": "354 g",
+    "//dimensions": {
+      "length": "6.95 in",
+      "diameter": "1.80 in",
+      "raw": "290 ml",
+      "trim": -0.025,
+      "notes": [
+        "the higher-diameter collar is reflected in the negative trim value"
+      ]
+    },
+    "volume": "297 ml",
+    "longest_side": "177 mm",
+    "//integral_longest_side": "Dominus-SR covers the muzzle brake it mounts on completely, absorbing its length (57 mm)",
+    "integral_longest_side": "120 mm",
+
+    "material": ["titanium", "steel"],
+
+    "//calibers": [
+      "223",
+      "300BLK",
+      "65grendel",
+      "65PRC",
+      "300win",
+      "68SPC",
+      "762soviet",
+      "65creedmoor",
+      "308win"
+    ],
+
+    "//sound_lower": "137 dB @ 20 in. w/ .308",
+
+    "handling_modifier": -18,
+    "//loudness_modifier": "-50 + -35 from muzzle brake",
+    "loudness_modifier": -85,
+
+    "consume_divisor": 1020,
+
+    "location": "Thunder Beast SR mount",
+
+    "price": "1610 USD"
+  },
+
+  {
+    "id": "suppressor_thunder_beast_ultra9",
+    "copy-from": "suppressor_abstract",
+    "type": "GUNMOD",
+
+    "//source": ["https://thunderbeastarms.com/products/ultra-9"],
+
+    "//notes": [
+      "for now, we assume this to be a direct-thread model of Ultra 9 Gen 2",
+      "if the HUB interface expansion kicks off in Loadout or Gunsmith, we'll move it to HUB"
+    ],
+
+    "name": {
+      "str": "Thunder Beast Arms Ultra 9 Gen 2 suppressor"
+    },
+    "description": "A slim yet capable suppressor, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is rated for a wide variety of rifle cartridges, from 5.56mm NATO to .308 Winchester Magnum.  It mounts directly onto muzzle threading, without requiring an adapter.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+
+    "weight": "335 g",
+    "//dimensions": {
+      "length": "9.00 in",
+      "diameter": "1.50 in",
+      "raw": "261 ml",
+      "trim": 0.025,
+      "notes": ["the lower-diameter collar is reflected in the trim value"]
+    },
+    "volume": "268 ml",
+    "longest_side": "229 mm",
+    "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
+    "integral_longest_side": "213 mm",
+
+    "material": ["titanium", "steel"],
+
+    "//calibers": [
+      "223",
+      "300BLK",
+      "65grendel",
+      "65PRC",
+      "300win",
+      "68SPC",
+      "762soviet",
+      "65creedmoor",
+      "308win"
+    ],
+
+    "//sound_lower": "135 dB @ 20 in. w/ .308",
+
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 3
+    },
+    "loudness_modifier": -55,
+    "handling_modifier": 9,
+
+    "consume_divisor": 960,
+
+    "price": "1290 USD"
+  },
+
+  {
+    "id": "suppressor_silent_legion_556",
+    "copy-from": "suppressor_abstract",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://silentlegion.com/products/223556mm-quick-detach-removable-core"
+    ],
+
+    "name": {
+      "str": "Silent Legion 5.56mm suppressor"
+    },
+    "description": "An unassuming model of a suppressor, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is rated primarily for 5.56mm NATO and .300 Blackout.  It cannot be mounted directly onto muzzle threading.  Instead, it mounts onto the QD-7 flash hider, also from Silent Legion.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+
+    "weight": "439 g",
+    "//dimensions": {
+      "length": "7.00 in",
+      "diameter": "1.50 in",
+      "raw": "203 ml",
+      "trim": 0
+    },
+    "volume": "203 ml",
+    "longest_side": "178 mm",
+    "//integral_longest_side": "absorbs the length of the Silent Legion QD-7 flash hider (35 mm)",
+    "integral_longest_side": "143 mm",
+
+    "//material": "actual material for the steel part is inconel",
+    "material": ["titanium", "steel"],
+
+    "//calibers": ["223", "300BLK"],
+
+    "//sound_reduction": "32 dB",
+
+    "handling_modifier": 7,
+    "loudness_modifier": -40,
+
+    "consume_divisor": 800,
+
+    "location": "Silent Legion muzzle mount",
+
+    "price": "1119 USD"
+  },
+
+  {
+    "id": "suppressor_silencer_central_banish_30",
+    "copy-from": "suppressor_abstract",
+    "type": "GUNMOD",
+
+    "//source": ["https://www.silencercentral.com/products/banish-30/"],
+
+    "//notes": ["short 7 in. version without tube extension"],
+
+    "name": {
+      "str": "Silencer Central Banish 30 suppressor"
+    },
+    "description": "A slim and potent suppressor, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is primarily rated for .308 cal., but it can handle anything between .17 cal. and .300 Weatherby.  It mounts directly onto muzzle threading, without requiring an adapter.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+
+    "weight": "318 g",
+    "//dimensions": {
+      "length": "7.00 in",
+      "diameter": "1.50 in",
+      "raw": "203 ml",
+      "trim": 0.025,
+      "notes": ["the lower-diameter collar is reflected in the trim value"]
+    },
+    "volume": "208 ml",
+    "longest_side": "178 mm",
+    "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
+    "integral_longest_side": "162 mm",
+
+    "material": ["titanium", "steel"],
+
+    "//threads": ["5/8×24"],
+
+    "//calibers": [
+      "223",
+      "300BLK",
+      "308",
+      "300weatherby",
+      "300winmag",
+      "17",
+      "22-50",
+      "204"
+    ],
+
+    "//sound_reduction": "34 dB",
+
+    "loudness_modifier": -45,
+    "handling_modifier": 7,
+
+    "consume_divisor": 920,
+
+    "price": "999 USD"
+  },
+
+  {
+    "id": "suppressor_elite_iron_bravo1_lite",
+    "copy-from": "suppressor_abstract",
+    "type": "GUNMOD",
+
+    "//source": ["https://www.eliteiron.com/product/bravo-1-lite-suppressor/"],
+
+    "//notes": [
+      "comes with and mounts onto Elite Iron Bravo 1 muzzle brake",
+      "given that there's very little information about the brake, and since the suppressor comes with the brake, we pretend it's a direct-thread mount",
+      "for future reference: the muzzle brake's length (from visual reference) is 2.55 in.",
+      "https://www.snipershide.com/shooting/threads/elite-iron-bravo.212740/"
+    ],
+
+    "name": {
+      "str": "Elite Iron Bravo 1 Lite suppressor"
+    },
+    "description": "An unassuming suppressor made of titanium, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  This model is rated for a range of calibers between 5.56mm NATO and .308 cal..  It comes with an embedded muzzle brake that allows it to be installed directly onto muzzle threading.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+
+    "weight": "366 g",
+    "//dimensions": {
+      "length": "7.875 in",
+      "diameter": "1.625 in",
+      "raw": "268 ml",
+      "trim": 0
+    },
+    "volume": "268 ml",
+    "longest_side": "200 mm",
+    "//integral_longest_side": "being direct-thread-mounted, absorbs the regular 16 mm of threading on a 1/2 in. × 28-threaded barrel",
+    "integral_longest_side": "184 mm",
+
+    "//material": "actual material for the steel part is inconel",
+    "material": ["titanium", "steel"],
+
+    "//calibers": ["223", "300BLK", "308", "30-06"],
+
+    "//sound_reduction": "23 dB",
+
+    "loudness_modifier": -30,
+    "handling_modifier": 8,
+
+    "consume_divisor": 820,
+
+    "price": "1035 USD"
+  },
+
+  {
+    "id": "suppressor_jk_105ccx",
+    "copy-from": "suppressor_abstract_no_cover",
+    "type": "GUNMOD",
+
+    "//source": ["https://jkarmament.com/products/jk-105-ccxtm-9mm/"],
+
+    "//notes": [
+      "this one assumes maximum-length configuration of 4.6 in., though the suppressor is configurable all the way down to 1.9 in."
+    ],
+
+    "name": {
+      "str": "JK 105 CCX 9mm suppressor"
+    },
+    "description": "A uniquely-designed suppressor, it reduces report (i.e., loudness of shot) by a noticable amount, though far from muffling the sound completely.  This model is rated primarily for pistol calibers, such as 9×19mm Parabellum, .30 Super Carry, and .357 Magnum.  It mounts directly onto muzzle threading, without requiring an adapter.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+
+    "//weight": "2.5 oz ≈ 71 g in the 4.6 in. configuration",
+    "weight": "71 g",
+    "//dimensions": {
+      "length": "4.6 in",
+      "diameter": "1.05 in",
+      "raw": "65 ml",
+      "trim": 0.025
+    },
+    "volume": "63 ml",
+    "longest_side": "117 mm",
+    "//integral_longest_side": [
+      "comes with an optional adapter for the M13.5×1LH thread, where thread length is between 0.400 and 0.438 in. ≈ 10 mm and 11 mm",
+      "defaults to a 1/2 in. × 28 mount, making thread length 16 mm"
+    ],
+    "integral_longest_side": "101 mm",
+
+    "material": ["aluminum"],
+
+    "//calibers": ["9mm", "380acp", "30supercarry", "38special", "357magnum"],
+
+    "//sound_reduction": "?? dB",
+
+    "//loudness_modifier": "-32 should be effective for 9mm, given that (as of 2023-08-08) 9mm JHP's computed loudness is 80",
+    "//loudness_modifier2": "anecdotal evidence suggests that this suppressor is not that effective, though video tests show quite the opposite",
+    "loudness_modifier": -32,
+    "handling_modifier": 5,
+
+    "consume_divisor": 740,
+
+    "price": "399 USD"
+  },
+
+  {
+    "id": "suppressor_kac_qdss",
+    "copy-from": "suppressor_abstract_no_cover",
+    "type": "GUNMOD",
+
+    "//source": [
+      "https://www.knightarmco.com/16373/shop/signature-reduction/rifle-suppressors/5-56mm/5-56mm-qdss-nt4",
+      "https://pewscience.com/sound-signature-reviews-free/sss-6-78-kac-qdss-nt4-mk18-556",
+      "https://www.bigtexordnance.com/product/knights-armament-5-56mm-qdss-nt4-suppressor-fde-black-kac-pn-96062-1-96062-2/"
+    ],
+
+    "name": {
+      "str": "KAC QDSS NT4 5.56mm suppressor"
+    },
+    "description": "A dated yet capable suppressor from Knights Armament Co., it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  It's primarily known for being used on US military rifles for more than two decades.  This model is rated for 5.56mm NATO.  Being somewhat shorter than most suppressors, it cannot accept suppressor covers.  This one also cannot be mounted directly onto muzzle threading.  Instead, it mounts onto an M4QD muzzle brake, also from KAC.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "suppressor_kac_qdss_black",
+        "name": {
+          "str": "KAC QDSS NT4 5.56mm suppressor"
+        },
+        "description": "A dated-yet-capable suppressor from Knights Armament Co., colored black, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  It's primarily known for being used on US military rifles for more than two decades.  This model is rated for 5.56mm NATO.  Being somewhat shorter than most suppressors, it cannot accept suppressor covers.  This one also cannot be mounted directly onto muzzle threading.  Instead, it mounts onto an M4QD muzzle brake, also from KAC.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+        "weight": 1
+      },
+
+      {
+        "id": "suppressor_kac_qdss_tan",
+        "name": {
+          "str": "KAC QDSS NT4 5.56mm suppressor"
+        },
+        "description": "A dated-yet-capable suppressor from Knights Armament Co., colored tan, it reduces report (i.e., loudness of shot) by a considerable amount, though far from muffling the sound completely.  It's primarily known for being used on US military rifles for more than two decades.  This model is rated for 5.56mm NATO.  Being somewhat shorter than most suppressors, it cannot accept suppressor covers.  This one also cannot be mounted directly onto muzzle threading.  Instead, it mounts onto an M4QD muzzle brake, also from KAC.  The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+        "weight": 1,
+        "append": true
+      }
+    ],
+
+    "weight": "624 g",
+    "//dimensions": {
+      "length": "6.50 in",
+      "diameter": "1.50 in",
+      "raw": "188 ml",
+      "trim": -0.025,
+      "notes": [
+        "the higher-diameter collar is reflected in the negative trim value"
+      ]
+    },
+    "volume": "193 ml",
+    "longest_side": "165 mm",
+    "//integral_longest_side": "absorbs the length of the KAC M4QD muzzle brake it mounts onto (48 mm)",
+    "integral_longest_side": "117 mm",
+
+    "//calibers": ["556"],
+
+    "//sound_lower": "146.90 dB @ 10.3 in. w/ 5.56mm XM193",
+
+    "handling_modifier": -13,
+    "//loudness_modifier": [
+      "the review puts this suppressor's performance slightly below SOCOM556-RC2 (at least with muzzle score)",
+      "SOCOM556-RC2's own score in this mod is -45",
+      "the overall sentiment for QDSS' performance is that despite its faulty design, it performs equal to or even better than some current market options"
+    ],
+    "loudness_modifier": -42,
+
+    "consume_divisor": 800,
+
+    "location": "KAC QD muzzle mount",
+
+    "price": "1507 USD"
+  }
+]

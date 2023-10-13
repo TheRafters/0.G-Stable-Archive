@@ -1,0 +1,341 @@
+[
+  {
+    "abstract": "sight_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "sight"
+    },
+    "description": "idea of a sight",
+
+    "weight": "100 g",
+    "volume": "100 ml",
+    "longest_side": "100 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "sights",
+    "install_time": "2 m",
+
+    "mod_targets": ["pistol", "rifle", "smg", "shotgun", "bow", "launcher"],
+
+    "flags": ["DISABLE_SIGHTS"]
+  },
+
+  {
+    "abstract": "sight_rds",
+    "copy-from": "sight_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "red dot sight"
+    },
+    "description": "idea of a red dot sight",
+
+    "//field_of_view": "small default value (`red_dot_sight`'s `field_of_view` × 0.6), since most of the red dot sights are small",
+    "field_of_view": 378,
+    "//sight_dispersion": "3 MOA in quarter-MOA / 15 arc seconds per point",
+    "sight_dispersion": 12,
+    "//aim_speed_modifier": "±1 point for each half-MOA of deviation (rounded to the nearest half-MOA) from the baseline set above",
+    "aim_speed_modifier": 10,
+
+    "add_mod": [["magnifier", 1]]
+  },
+
+  {
+    "abstract": "sight_rds_no_magnifier",
+    "copy-from": "sight_rds",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "red dot sight without magnifier slot"
+    },
+    "description": "idea of a red dot sight without space for a magnifier",
+
+    "//add_mod": [
+      "the magnifier slot may be unavailable on a particular red dot sight due to its height, or for any other reason",
+      "ideally, there would be a way to coordinate either having a riser (for either sight or magnifier), or eye height in general (where misaligning the two would make aiming very difficult"
+    ],
+    "add_mod": []
+  },
+
+  {
+    "abstract": "sight_holo",
+    "copy-from": "sight_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "holographic sight"
+    },
+    "description": "idea of a holographic sight",
+
+    "field_of_view": 1000,
+    "//sight_dispersion": "2 MOA in quarter-MOA / 15 arc seconds per point",
+    "sight_dispersion": 8,
+    "aim_speed_modifier": 14,
+
+    "add_mod": [["magnifier", 1]]
+  },
+
+  {
+    "abstract": "sight_30mm",
+    "copy-from": "sight_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "30mm scope"
+    },
+    "description": "idea of a 30mm scope",
+
+    "//field_of_view": "what low-magnification scopes have (after strong rounding) @ 1× magnification",
+    "field_of_view": 1000,
+    "//sight_dispersion": [
+      "reticle lines of all scopes are sub-quarter-MOA, and therefore should have 1 dispersion",
+      "in light of an addition of variable-power scopes, the score had been artificially increased to make high-magnification mode worth using"
+    ],
+    "sight_dispersion": 4,
+    "//aim_speed_modifier": [
+      "emulates having to aim that much more carefully with a sight this precise",
+      "still better than aiming with no sights"
+    ],
+    "aim_speed_modifier": 3,
+
+    "location": "30mm scope mount",
+    "install_time": "3 m",
+
+    "flags": ["ZOOM"]
+  },
+
+  {
+    "abstract": "sight_34mm",
+    "copy-from": "sight_30mm",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "34mm scope scope"
+    },
+    "description": "idea of a 34mm scope",
+
+    "location": "34mm scope mount"
+  },
+
+  {
+    "abstract": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "sight mount"
+    },
+    "description": "idea of a sight mount",
+
+    "weight": "100 g",
+    "volume": "100 ml",
+    "longest_side": "100 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "sights",
+    "install_time": "15 s",
+
+    "mod_targets": [
+      "pistol",
+      "smg",
+      "shotgun",
+      "rifle",
+      "bow",
+      "crossbow",
+      "launcher"
+    ],
+
+    "flags": ["DISABLE_SIGHTS"]
+  },
+
+  {
+    "id": "sight_mount_rifle_abstract",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "rifle sight mount"
+    },
+    "description": "idea of a rifle sight mount",
+
+    "//mod_targets": "this class is used to prevent installing mounts that require Picatinny rail onto pistols",
+    "mod_targets": ["smg", "shotgun", "rifle", "bow", "launcher"]
+  },
+
+  {
+    "abstract": "sight_mount_rmr",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "RMR sight mount"
+    },
+    "description": "idea of an RMR sight mount",
+
+    "add_mod": [["RMR mount", 1]]
+  },
+
+  {
+    "abstract": "sight_mount_30mm",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "30mm sight mount"
+    },
+    "description": "idea of a 30mm sight mount",
+
+    "add_mod": [["30mm scope mount", 1]],
+
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"]
+  },
+
+  {
+    "abstract": "sight_mount_34mm",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "34mm sight mount"
+    },
+    "description": "idea of a 34mm sight mount",
+
+    "add_mod": [["34mm scope mount", 1]],
+
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"]
+  },
+
+  {
+    "abstract": "sight_mount_1in",
+    "copy-from": "sight_mount_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "1-inch sight mount"
+    },
+    "description": "idea of a 1-inch sight mount",
+
+    "add_mod": [["1-inch sight mount", 1]],
+
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"]
+  },
+
+  {
+    "abstract": "iron_sights_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/sights/diamondhead-polymer-integrated-sighting-system-with-nitebrite/"
+    ],
+
+    "name": {
+      "str": "iron sights"
+    },
+    "description": "idea of a set of iron sights",
+
+    "//weight": "1.2 oz + 1.35 oz = 2.55 oz ≈ 72 g",
+    "weight": "72 g",
+    "//dimensions": {
+      "length": "2.642 in",
+      "width": "1.24 in",
+      "height": "1.778 in",
+      "raw": "96 ml",
+      "trim": 0.35,
+      "//notes": [
+        "stats for raised sights",
+        "length doubled (1.321 × 2) to emulate both sights stacked together in the inventory"
+      ]
+    },
+    "volume": "62 ml",
+    "longest_side": "67 mm",
+
+    "material": ["aluminum"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "sights",
+    "install_time": "30 s",
+
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"],
+
+    "field_of_view": 360,
+    "//sight_dispersion": [
+      "8 MOA in quarter-MOA / 15 arc seconds per point",
+      "based on front post width of ~0.53 in."
+    ],
+    "sight_dispersion": 32,
+    "//aim_speed_modifier": "minor bonus for better-than-default sights",
+    "aim_speed_modifier": 2,
+
+    "flags": ["DISABLE_SIGHTS"]
+  },
+
+  {
+    "abstract": "iron_sights_offset_abstract",
+    "copy-from": "iron_sights_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "offset iron sights"
+    },
+    "description": "idea of a set of offset iron sights",
+
+    "//add_mod": "emulates possibly having another sight, e.g. a red dot sight, along with iron sights",
+    "add_mod": [["sights", 1]]
+  },
+
+  {
+    "abstract": "iron_sights_pistol",
+    "copy-from": "iron_sights_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "pistol iron sights"
+    },
+    "description": "idea of a set of pistol iron sights",
+
+    "weight": "5 g",
+    "volume": "5 ml",
+    "longest_side": "5 mm",
+
+    "mod_targets": ["pistol"],
+
+    "//sight_dispersion": "4 MOA in quarter-MOA / 15 arc seconds per point",
+    "sight_dispersion": 16,
+    "//aim_speed_modifier": "for pistols, custom sights probably allow much-quicker aiming",
+    "aim_speed_modifier": 4
+  },
+
+  {
+    "abstract": "magnifier_abstract",
+    "copy-from": "sight_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "sight magnifier"
+    },
+    "description": "idea of a sight magnifier",
+
+    "//weight": "one of the notable features of magnifier is that they add quite a bit of heft to the weapon",
+    "weight": "250 g",
+
+    "//sight_dispersion": [
+      "6 MOA in quarter-MOA / 15 arc seconds per point",
+      "assumes 3× magnification on a 2 MoA dot in front of the magnifier"
+    ],
+    "sight_dispersion": 24,
+    "//aim_speed_modifier": "compensating for high sight dispersion",
+    "aim_speed_modifier": 16,
+
+    "location": "magnifier"
+  }
+]

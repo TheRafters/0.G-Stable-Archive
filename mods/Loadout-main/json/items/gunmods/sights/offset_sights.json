@@ -1,0 +1,25 @@
+[
+  {
+    "id": "iron_sights_strike_sidewinder2",
+    "copy-from": "iron_sights_offset_abstract",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.wingtactical.com/accessories/optics-sights/sights/strike-industries-sidewinder-ii-45-degree-offset-inline-flip-up-sights/"
+    ],
+
+    "//notes": ["comes in all-black and red-and-black color schemes"],
+
+    "name": {
+      "str": "SI Sidewinder II offset iron sights",
+      "str_pl": "pairs of SI Sidewinder II offset iron sights"
+    },
+    "description": "A pair of offset iron sights that could be flipped down or inline, to make them behave more like regular iron sights.  Offset iron sights can be used alongside other sights and scopes.",
+
+    "weight": "101 g",
+
+    "material": ["aluminum", "steel"],
+
+    "price": "160 USD"
+  }
+]

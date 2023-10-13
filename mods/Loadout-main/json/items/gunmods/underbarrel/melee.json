@@ -1,0 +1,212 @@
+[
+  {
+    "id": "underbarrel_killsaw",
+    "copy-from": "masonrysaw_off",
+    "type": "TOOL",
+
+    "//sources": [
+      "https://www.panaceax.com/killsaw-chainsaw-bayonet/killsaw-chainsaw-bayonet"
+    ],
+
+    "//notes": [
+      "we pretend that in this crazy world, this model is sold with all of its chain teeth intact, rather than ground down to make it more of a novelty time",
+      "is a converted Makita pole saw, uses Makita batteries"
+    ],
+
+    "name": {
+      "str": "Panacea X Kill-Saw chainsaw bayonet (off)",
+      "str_pl": "Panacea X Kill-Saw chainsaw bayonets (off)"
+    },
+    "description": "This converted trimmer saw has been trimmed down to the bare minimum, painted black, and outfitted with a Picatinny rail adapter.  Now, it's a mighty tool against zombies...  or whatever else you might find standing in your way.  Rather unwieldy on its own, it's meant to be attached under the barrel of a modern rifle.  Required a battery to run.",
+
+    "weight": "2098 g",
+    "//dimensions": {
+      "length": "18 in",
+      "width": "7 in",
+      "height": "5 in",
+      "raw": "10324 ml",
+      "trim": 0.925,
+      "notes": [
+        "massive trim to account for the fact that the battery is both the largest object in the construction and is the widest point",
+        "we also trim for the size of the attached battery, which should correctly add its volume due to the magazine well's non-rigid nature"
+      ]
+    },
+    "volume": "774 ml",
+    "//longest_side": "we include battery length in total length because there's no way to account for length of attached magazines",
+    "longest_side": "457 mm",
+
+    "ammo": ["battery"],
+
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": false,
+        "flag_restriction": ["BATTERY_HEAVY"],
+        "default_magazine": "heavy_battery_cell"
+      }
+    ],
+
+    "gunmod_data": {
+      "location": "underbarrel",
+      "install_time": "20 s",
+
+      "//handling_modifier": "due to sheer unwieldiness of this thing",
+      "handling_modifier": -10,
+
+      "//mod_targets": "the only platform to have a stable, long-enough rail for this thing",
+      "mod_targets": ["rifle"],
+
+      "//add_mod": [
+        "comes with another small rail, intended for the complementary foregrip"
+      ],
+      "add_mod": [["underbarrel", 1]]
+    },
+
+    "techniques": ["SWEEP"],
+
+    "use_action": [
+      {
+        "type": "transform",
+        "active": true,
+        "target": "underbarrel_killsaw_on",
+        "msg": "You turn on the chainsaw bayonet on."
+      }
+    ],
+
+    "melee_damage": { "bash": 4 },
+
+    "price": "500 USD",
+    "price_postapoc": "5 USD"
+  },
+
+  {
+    "id": "underbarrel_killsaw_on",
+    "copy-from": "masonrysaw_on",
+    "type": "TOOL",
+
+    "name": {
+      "str": "Panacea X Kill-Saw chainsaw bayonet (on)",
+      "str_pl": "Panacea X Kill-Saw chainsaw bayonets (on)"
+    },
+    "description": "This converted trimmer saw has been trimmed down to the bare minimum, painted black, and outfitted with a Picatinny rail adapter.  Now, it's a mighty tool against zombies...  or whatever else you might find standing in your way.  Rather unwieldy on its own, it's meant to be attached under the barrel of a modern rifle.  It is currently turned on.  Activate to turn off.",
+
+    "//power": {
+      "source": [["makita_accumulator"]],
+      "voltage": "18 V",
+      "capacity": "2250 mAh",
+      "runtime": "90 m"
+    },
+
+    "//power_draw": "the original saw this had been converted from is reported to run 90 mins on an 18V/1.5A battery",
+    "power_draw": "18 W",
+
+    "revert_to": "underbarrel_killsaw",
+
+    "techniques": ["SWEEP"],
+
+    "use_action": [
+      {
+        "type": "transform",
+        "target": "underbarrel_killsaw",
+        "msg": "You turn on the chainsaw bayonet on."
+      }
+    ],
+
+    "melee_damage": { "bash": 4, "cut": 70 }
+  },
+
+  {
+    "id": "underbarrel_machete",
+    "copy-from": "machete",
+    "type": "TOOL",
+    "category": "weapons",
+
+    "//sources": [
+      "https://www.panaceax.com/sm18b-machete-bayon/sm18b-bayonet-hlel4",
+      "https://www.machetespecialists.com/product/hansa-24-inch-lampon-aguila-machete-orange-handle/"
+    ],
+
+    "//notes": ["the 1/8-in. blade thickness option"],
+
+    "name": { "str": "Panacea X SM18B machete bayonet" },
+    "description": "A large multitool bayonet, with a saw back allowing you to saw wood rather efficiently, given what you're working with.  The main selling point for this thing is the fact that it has a Picatinny rail adapter, allowing it to be attached under the barrel of a rifle and used as a very long bayonet.  Can still be used effectively as a regular machete.",
+
+    "//weight": "assumed from the 24-inch model of the Hansa machete",
+    "weight": "567 g",
+    "//dimensions": [
+      {
+        "description": "metal above hilt",
+
+        "length": "19 in",
+        "width": "2.35 in",
+        "height": "0.125 in",
+        "raw": "92 ml",
+        "trim": 0.15,
+        "volume": "78 ml",
+        "notes": [
+          "length and width acquired from visual reference",
+          "heigth is from blade thickness"
+        ]
+      },
+      {
+        "description": "grip",
+
+        "length": "3.75 in",
+        "diameter": "1.00 in",
+        "raw": "48 ml",
+        "trim": -0.1,
+        "volume": "53 ml",
+        "notes": [
+          "modelled as a cylinder for simplicity",
+          "diameter assumed visually",
+          "length acquired from visual reference",
+          "negative trim value accounts for the grooves"
+        ]
+      }
+    ],
+    "volume": "131 ml",
+    "//longest_side": "from visual reference",
+    "longest_side": "711 mm",
+
+    "to_hit": {
+      "grip": "weapon",
+      "length": "short",
+      "surface": "line",
+      "balance": "good"
+    },
+
+    "material": [
+      { "type": "plastic", "portion": 0.85 },
+      { "type": "steel", "portion": 80 }
+    ],
+    "repairs_with": ["steel"],
+
+    "techniques": ["WBLOCK_2"],
+
+    "qualities": [
+      ["PRY", 1],
+      ["SAW_W", 1],
+      ["CUT", 2],
+      ["GRASS_CUT", 1],
+      ["BUTCHER", 15]
+    ],
+
+    "gunmod_data": {
+      "location": "underbarrel",
+      "install_time": "10 s",
+
+      "//handling_modifier": "it's long and, therefore, a bit unwieldy",
+      "handling_modifier": -1,
+
+      "//mod_targets": "the only platform to have a stable, long-enough rail for this thing",
+      "mod_targets": ["rifle"]
+    },
+
+    "weapon_category": ["SHORT_SWORDS"],
+
+    "melee_damage": { "bash": 5, "cut": 21 },
+
+    "price": "180 USD",
+    "price_postapoc": "15 USD"
+  }
+]

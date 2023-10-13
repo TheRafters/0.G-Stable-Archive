@@ -1,0 +1,207 @@
+[
+  {
+    "id": "adjustable_stock",
+    "copy-from": "adjustable_stock",
+    "type": "GUNMOD",
+
+    "name": { "str": "adjustable stock" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"],
+      "add_mod": [["stock accessory", 2]]
+    }
+  },
+
+  {
+    "id": "folding_stock",
+    "copy-from": "folding_stock",
+    "type": "GUNMOD",
+
+    "name": { "str": "folding stock" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"],
+      "add_mod": [["stock accessory", 2]]
+    }
+  },
+
+  {
+    "id": "folding_stock_folded",
+    "copy-from": "folding_stock_folded",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "folding stock (folded)",
+      "str_pl": "folding stocks (folded)"
+    },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"],
+      "add_mod": [["stock accessory", 2]]
+    }
+  },
+
+  {
+    "id": "high_end_folding_stock",
+    "copy-from": "high_end_folding_stock",
+    "type": "GUNMOD",
+
+    "name": { "str": "modular folding stock" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"],
+      "add_mod": [["stock accessory", 2]]
+    }
+  },
+
+  {
+    "id": "high_end_folding_stock_folded",
+    "copy-from": "high_end_folding_stock_folded",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "modular folding stock (folded)",
+      "str_pl": "modular folding stocks (folded)"
+    },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"],
+      "add_mod": [["stock accessory", 2]]
+    }
+  },
+
+  {
+    "id": "recoil_stock",
+    "copy-from": "recoil_stock",
+    "type": "GUNMOD",
+
+    "name": { "str": "recoil stock" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"],
+      "add_mod": [["stock accessory", 2]]
+    }
+  },
+
+  {
+    "id": "pistol_grip",
+    "copy-from": "pistol_grip",
+    "type": "GUNMOD",
+
+    "name": { "str": "ergonomic grip" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+
+  {
+    "id": "match_trigger",
+    "copy-from": "match_trigger",
+    "type": "GUNMOD",
+
+    "name": { "str": "match trigger" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+
+  {
+    "id": "retool_ar15_300blk",
+    "copy-from": "retool_ar15_300blk",
+    "type": "GUNMOD",
+
+    "name": { "str": ".300 AAC Blackout AR-15 conversion kit" },
+
+    "extend": {
+      "flags": ["IRREMOVABLE"]
+    }
+  },
+
+  {
+    "id": "wooden_grip",
+    "copy-from": "wooden_grip",
+    "type": "GUNMOD",
+
+    "//notes": [
+      "this is meant to be a basic foregrip carved from nearby objects out of desperation",
+      "it's intended to only go on guns that have enough wooden furniture to nail the foregrip into"
+    ],
+
+    "name": { "str": "jury-rigged wooden foregrip" },
+    "description": "A wooden grip placed forward on the firearm furniture allows for greater control.  Not as effective as a bipod, but usable under all conditions.  This one was hastily handmade by a desperate survivor or miserly enthusiast, and can only be installed onto guns that have wooden furniture to grab onto.",
+
+    "//mod_targets": [
+      "for Mosin rifles specifically, we can't actively separate between regular old wooden ones and EBR polymer ones",
+      "for now, we presume that someone is desperate enough to permanently damage EBR Mosins"
+    ],
+    "mod_targets": [
+      "winchester_1897",
+      "trex_gun",
+      "ak74",
+      "mosin44",
+      "mosin91_30",
+      "mp18",
+      "rifle_9mm",
+      "1895sbl",
+      "henry_big_boy",
+      "rifle_flintlock",
+      "colt_lightning",
+      "weatherby_5",
+      "win70",
+      "ppsh",
+      "remington700_270",
+      "ak47",
+      "sks",
+      "aksemi",
+      "draco",
+      "m79",
+      "tommygun",
+      "ruger_mini",
+      "ak556",
+      "minidraco556",
+      "garand",
+      "m1903",
+      "m1918",
+      "fn_fal",
+      "m1a",
+      "ak308",
+      "combination_gun",
+      "m1carbine",
+      "marlin_9a",
+      "ruger_1022",
+      "bh_m89",
+      "bullet_crossbow",
+      "compositecrossbow",
+      "rep_crossbow",
+      "crossbow"
+    ],
+    "min_skills": [["weapon", 1]],
+    "install_time": "90 s",
+
+    "//handling_modifier": {
+      "grip_short": 2
+    },
+    "handling_modifier": 2,
+
+    "//flags": "not PUMP_RAIL_COMPATIBLE because it has no rail adapter",
+    "flags": ["IRREMOVABLE"]
+  },
+
+  {
+    "id": "robofac_gun",
+    "copy-from": "robofac_gun",
+    "type": "GUN",
+
+    "name": { "str": "Hub 01 HWP" },
+
+    "default_mods": [
+      "robofac_handguard",
+      "acog_scope",
+      "sight_trijicon_rmr",
+      "robofac_laser_sight",
+      "robofac_stock"
+    ]
+  }
+]

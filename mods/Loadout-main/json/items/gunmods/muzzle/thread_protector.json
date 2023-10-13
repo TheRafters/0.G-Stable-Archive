@@ -1,0 +1,31 @@
+[
+  {
+    "id": "thread_protector_silencer_central",
+    "copy-from": "thread_protector",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.egwguns.com/thread-protector-carbon-steel-5-8-x-24",
+      "https://www.brownells.co.uk/THREAD-PROTECTOR-5/8-24-Blued-EGW-Stainless-Steel-AR-15-296000105",
+      "https://www.optics-trade.eu/en/egw-thread-protector-5-8-x-24.html"
+    ],
+
+    "//notes": ["for 5/8 in. × 24-threaded barrels"],
+
+    "name": {
+      "str": "EGW thread protector"
+    },
+    "description": "A thread protector, intended to cover muzzle threading and protect it from dirt, damage, and the elements.  It does not confer any benefits, but you really should be taking care of your gun.",
+
+    "//weight": "Brownells UK lists 'delivery weight' at 0.041 kg = 41 g",
+    "//weight2": "Optics Trade shows that the protector comes in a small plastic bag, which we assume the weight of to be ~5 g",
+    "weight": "36 g",
+    "//dimensions": "0.8 × 0.95 in.",
+    "//volume": "9 ml",
+    "//trim": "no trim",
+    "volume": "9 ml",
+    "longest_side": "24 mm",
+
+    "price": "15 USD"
+  }
+]

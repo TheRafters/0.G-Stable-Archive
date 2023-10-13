@@ -1,0 +1,63 @@
+[
+  {
+    "type": "recipe",
+    "result": "brass_catcher_improvised",
+
+    "//notes": [
+      "does pretty much what the Loadout `brass_catcher` does, except it has to attach at two points because it doesn't have a hinge",
+      "would fall to the side with only one strap",
+      "couldn't be fixed in place because it has to move out of the way of the ejection port"
+    ],
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+
+    "activity_level": "LIGHT_EXERCISE",
+    "difficulty": 3,
+    "time": "1 h 5 m",
+
+    "skill_used": "tailor",
+    "skills_required": [
+      ["gun", 1],
+      ["fabrication", 1]
+    ],
+
+    "reversible": true,
+    "autolearn": true,
+
+    "//components": [
+      "patchwork cotton for the bag",
+      "two straps, one per side of the gun the bag is attached to",
+      "wire to help the bag maintain shape when used"
+    ],
+    "using": [
+      ["tailoring_cotton_patchwork_simple", 1],
+      ["strap_small", 2]
+    ],
+    "components": [[["wire", 1]]]
+  },
+
+  {
+    "type": "recipe",
+    "result": "shoulder_strap_improvised",
+
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+
+    "activity_level": "LIGHT_EXERCISE",
+    "difficulty": 1,
+    "time": "1 m",
+
+    "skill_used": "fabrication",
+    "autolearn": true,
+
+    "qualities": [{ "id": "CUT", "level": 1 }],
+    "components": [
+      [
+        ["rope_natural_short", 1, "LIST"],
+        ["cotton_patchwork", 3],
+        ["cordage", 6, "LIST"]
+      ]
+    ]
+  }
+]

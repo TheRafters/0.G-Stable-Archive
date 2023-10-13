@@ -1,0 +1,129 @@
+[
+  {
+    "type": "ITEM_BLACKLIST",
+    "whitelist": false,
+
+    "items": [
+      "hybrid_sight_4x",
+      "rifle_scope_high_end_mount",
+      "u_shotgun",
+      "stabilizer",
+      "tail_hook_stock",
+      "sights_mount_launcher",
+      "gun_crossbow",
+
+      "barrel_small",
+      "light_grip",
+      "glocksear",
+      "tec9_auto_parts",
+      "waterproof_gunmod",
+      "m249semi",
+      "m240semi",
+      "grip_mount",
+      "stock_mount",
+      "bipod_handguard",
+      "modern_handguard",
+
+      "muzzle_brake_mod",
+      "gun_crossbow_mod",
+      "offset_sights_mod",
+      "offset_sight_rail_mod",
+      "stabilizer_mod",
+      "rifle_scope_mod",
+      "acog_scope_mod",
+      "bipod_mod",
+      "grip_mod",
+      "m203_mod",
+      "m320_mod_mod",
+      "masterkey_mod",
+      "m26_mass_mod",
+      "rm121aux_mod",
+      "u_shotgun_mod"
+    ],
+
+    "//notes": {
+      "hybrid_sight_4x": [
+        "assumed to be Trijicon ACOG sight with a mount for RMR",
+        "it's a popular model in the films, and is also favored by the military over offset sights",
+        "effectively replaced with giving the fleshed-out ACOG a separate mount for RMR"
+      ],
+      "rifle_scope_high_end_mount": [
+        "replaced by JP Enterprises 30 mm sight mount, which features a top rail over the front ring that could fit a sight"
+      ],
+      "u_shotgun": [
+        "this one appears to be pure fiction and is thus disposed with",
+        "effectively replaced by the 'not-Masterkey' underbarrel shotgun: the latter is more compact, holds more rounds, and is (presumably) easier to shoot"
+      ],
+      "stabilizer": [
+        "gyroscopic stabilizers became a thing in 2020, having been tested for the Iron Man suit by the US Army",
+        "by the looks of it, they weren't very ergonomic for use in the field",
+        "perhaps an expansion could handle it as a fully-developed idea with civilian options available"
+      ],
+      "tail_hook_stock": [
+        "while a neat piece of firearm accessory, it's currently not very useful for the purpose it's designed to fulfill",
+        "its main goal is to help fire a 'pistol' (including AR pistols) or an SMG one-handed, with the hook bracing against the shooter's arm to maintain stability",
+        "since handedness (i.e. differentiation between which hand is being used) is currently not implemented, there's no way to really use this functionality",
+        "beyond that, it's not even a full stock – it's a stock plate (or a stock hook, one would suppose) – and thus requires the rest of the tube to install onto, something that isn't currently implemented",
+        "something like this would be a better fit for Gunsmith, with its intricate gunmod system overhaul"
+      ],
+      "sights_mount_launcher": [
+        "attaching a plastic mount with screws only makes sense for a small number of launchers",
+        "e.g. M79 (has wooden stock grip to drill into), China Lake launcher (likewise)",
+        "even then, their construction makes the installation likely to be flimsy",
+        "beyond that, research yields no authentic attempts at installing anything remotely similar"
+      ],
+      "gun_crossbow": [
+        "this item appears to be pure fiction",
+        "besides, mounting a crossbow powerful-enough to be effective under the barrel (let alone on a side rail) of a rifle would likely make the gun (1) much too heavy, (2) much too unwieldy (due to balance issues), (3) not fit into any possible holster or case"
+      ],
+
+      "barrel_small": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "retool_ar15_300blk": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "light_grip": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "glocksear": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "tec9_auto_parts": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "waterproof_gunmod": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid",
+        "besides, there appears to be nothing of the sort that's generic enough to apply to multiple weapons"
+      ],
+      "m249semi": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "m240semi": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "grip_mount": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "stock_mount": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "bipod_handguard": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+      "modern_handguard": [
+        "one of those 'replace thing into the ether' thing we're trying to avoid"
+      ],
+
+      "*_mod": [
+        "any sort of modification that makes an item attachable to a wider variety of items makes no sense, unless it's an adaptation of a niche mod and/or for a niche platform",
+        "even then, it must be subject to consideration",
+        "most modern firearms feature Picatinny rails, which by default accept any compatible equipment",
+        "and in case of muzzle devices, the threads they mount onto are standardized",
+        "for muzzle devices, worth noting that one cannot attach any device on any thread:",
+        "instead, most devices are made for a range of threads common on their target platform(s)",
+        "the only consideration for rail devices (top, side, and bottom) is the amount of space they take on the rail, which will hopefully get implemented by the next stable release"
+      ]
+    }
+  }
+]

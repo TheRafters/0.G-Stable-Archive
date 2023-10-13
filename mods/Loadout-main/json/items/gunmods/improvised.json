@@ -1,0 +1,110 @@
+[
+  {
+    "id": "brass_catcher_improvised",
+    "copy-from": "brass_catcher",
+    "type": "GUNMOD",
+
+    "name": { "str": "improvised brass catcher" },
+    "description": "A cotton bag hanging off the side of your gun, catching ejected casings until it's full.  It should help you if you're planning on handloading ammunition.  Also, it prevents pollution (even though the world has ended).",
+
+    "weight": "45 g",
+    "//volume": "47 ml from cotton sheet + 5 ml for extras, like attachment straps",
+    "volume": "52 ml",
+
+    "material": ["cotton"],
+
+    "mod_targets": ["shotgun", "smg", "rifle", "launcher"],
+    "min_skills": [["weapon", 1]],
+    "install_time": "20 s",
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "max_contains_volume": "45 ml",
+        "max_contains_weight": "200 g"
+      }
+    ],
+
+    "flags": ["BRASS_CATCHER"],
+
+    "price": "10 USD",
+    "price_postapoc": "250 cent"
+  },
+
+  {
+    "id": "shoulder_strap_improvised",
+    "copy-from": "shoulder_strap",
+    "type": "GUNMOD",
+
+    "name": { "str": "improvised shoulder strap" },
+    "description": "A shoulder strap allows you to carry a firearm like a bag, so you don't have to hold it in your hands all the time.  However, it offers no protection.",
+
+    "weight": "100 g",
+    "volume": "250 ml",
+    "integral_volume": "250 ml",
+
+    "material": ["cotton"],
+
+    "mod_targets": ["rifle", "shotgun", "smg", "crossbow", "launcher"],
+    "location": "sling",
+    "install_time": "20 s",
+
+    "flags": ["IS_ARMOR", "BELTED", "OVERSIZE", "WATER_FRIENDLY"],
+
+    "use_action": {
+      "type": "transform",
+      "msg": "You shift the weapon to the front of your body.",
+      "menu_text": "Adjust",
+      "target": "shoulder_strap_improvised_front",
+      "moves": 150
+    },
+
+    "armor_data": {
+      "armor": [
+        {
+          "covers": ["torso"],
+          "coverage": 5,
+          "encumbrance": 0,
+          "volume_encumber_modifier": 0.33,
+          "specifically_covers": ["torso_hanging_back"]
+        }
+      ]
+    },
+
+    "price": "480 cent",
+    "price_postapoc": "1 USD"
+  },
+
+  {
+    "id": "shoulder_strap_improvised_front",
+    "copy-from": "shoulder_strap_improvised",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "improvised shoulder strap (front)",
+      "str_pl": "improvised shoulder straps (front)"
+    },
+    "description": "A shoulder strap allows you to carry a firearm like a bag, so you don't have to hold it in your hands all the time.  However, it offers no protection.  Currently adjusted so the weapon hangs off your front.",
+
+    "use_action": {
+      "type": "transform",
+      "msg": "You shift the weapon to the back of your body.",
+      "menu_text": "Adjust",
+      "target": "shoulder_strap_improvised",
+      "moves": 150
+    },
+
+    "armor_data": {
+      "armor": [
+        {
+          "covers": ["torso"],
+          "coverage": 5,
+          "encumbrance": 0,
+          "volume_encumber_modifier": 0.33,
+          "specifically_covers": ["torso_hanging_front"]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "abstract": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "foregrip"
+    },
+    "description": "idea of a foregrip",
+
+    "weight": "50 g",
+    "volume": "50 ml",
+    "longest_side": "50 mm",
+
+    "material": ["plastic"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "underbarrel",
+    "install_time": "20 s",
+
+    "//mod_targets": [
+      "the only reason pistols aren't allowed here is because there's no way to control where the attachment goes",
+      "pistols that do have a rail famously don't have enough of a rail to attach another item to it after the grip",
+      "ideally, when installed on a pistol, the grip would not add another slot",
+      "then again, ideally the game would allow using multiple Picatinny slots per item, thus eliminating this issue entirely",
+      "it's the end of the world; equip a foregrip on a pistol if that helps you survive"
+    ],
+    "mod_targets": ["rifle", "smg", "shotgun", "launcher"],
+
+    "//add_mod": "simulates the idea of having enough space to install a rail attachment",
+    "add_mod": [["rail", 1]]
+  },
+
+  {
+    "abstract": "foregrip_large",
+    "copy-from": "foregrip_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "large foregrip"
+    },
+    "description": "idea of a large foregrip",
+
+    "weight": "100 g",
+    "volume": "100 ml",
+    "longest_side": "100 mm",
+
+    "//add_mod": "overrides extra rail slot for large forward grips",
+    "add_mod": []
+  },
+
+  {
+    "abstract": "bipod_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "bipod"
+    },
+    "description": "idea of a bipod",
+
+    "material": ["aluminum", "rubber"],
+
+    "weight": "400 g",
+    "volume": "200 ml",
+    "longest_side": "200 mm",
+
+    "location": "underbarrel",
+    "install_time": "40 s",
+
+    "handling_modifier": 18
+  }
+]

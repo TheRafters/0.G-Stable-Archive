@@ -1,0 +1,25 @@
+[
+  {
+    "type": "nested_category",
+    "id": "nested_modified_gunmods_weapons",
+    "obsolete": true
+  },
+
+	{
+    "type": "nested_category",
+    "id": "nested_modified_gunmods",
+    "obsolete": true
+  },
+
+	{
+    "type": "nested_category",
+    "id": "nested_modified_gunmods_sights",
+    "obsolete": true
+  },
+
+	{
+    "type": "nested_category",
+    "id": "nested_gun_mounts",
+    "obsolete": true
+  }
+]

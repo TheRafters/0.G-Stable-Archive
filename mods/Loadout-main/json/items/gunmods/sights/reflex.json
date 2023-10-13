@@ -1,0 +1,246 @@
+[
+  {
+    "id": "sight_trijicon_rmr",
+    "copy-from": "sight_rds",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.trijicon.com/products/details/rm01-c-700600"],
+
+    "//notes": ["waterproof up to 20 meters"],
+
+    "name": {
+      "str": "Trijicon RMR red dot sight"
+    },
+    "description": "A popular red dot sight, known for its minuscule dimensions.  Its large dot allows for quicker target acquisition, which results in the sight being somewhat less precise.  Installation requires an adapter.  With one of such adapters, it can be installed on top of a similarly-popular Trijicon ACOG sight, allowing the user to have two sights at the same time.",
+
+    "weight": "34 g",
+    "//dimensions": {
+      "length": "1.8 in",
+      "width": "1.1 in",
+      "height": "1 in",
+      "raw": "33 ml",
+      "trim": 0.4
+    },
+    "volume": "20 ml",
+    "longest_side": "46 mm",
+
+    "sight_dispersion": 13,
+    "aim_speed_modifier": 11,
+
+    "location": "RMR mount",
+
+    "//power": {
+      "source": [["CR2032"]],
+      "lifetime": "2 y"
+    },
+
+    "price": "649 USD"
+  },
+
+  {
+    "id": "sight_holosun_507k",
+    "copy-from": "sight_rds",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://holosun.com/products/reflex-sight/507/hs507k-x2.html"
+    ],
+
+    "name": {
+      "str": "Holosun 507K red dot sight"
+    },
+    "description": "A compact red dot sight, a good fit for pistols and similar small firearms. Smaller dot for a reticle makes the sight slightly more accurate at longer ranges, though sacrificing speed of target acquisition.  Installation requires an adapter.",
+
+    "weight": "28 g",
+    "//dimensions": {
+      "length": "1.60 in",
+      "width": "0.98 in",
+      "height": "0.95 in",
+      "raw": "24 ml",
+      "trim": 0.4
+    },
+    "volume": "14 ml",
+    "longest_side": "41 mm",
+
+    "sight_dispersion": 8,
+    "aim_speed_modifier": 8,
+
+    "location": "Holosun 407/507K mount",
+
+    "//power": {
+      "source": [["CR1632"]],
+      "lifetime": "50000 h"
+    },
+
+    "price": "341 USD"
+  },
+
+  {
+    "id": "sight_aimpoint_micro_t2",
+    "copy-from": "sight_rds",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://www.aimpoint.com/products/red-dot-sights/micro-t-2-2-moa-red-dot-reflex-sight-without-mount",
+      "https://aimpoint.us/micro-t-2-no-mount/"
+    ],
+
+    "name": {
+      "str": "Aimpoint Micro T-2 red dot sight"
+    },
+    "description": "A compact, circular red dot sight, advertised for its ruggedness and clarity.  Has lens covers that open upwards, allowing the user to protect the sight from the elements when not in use.  Smaller dot makes the sight more precise at longer ranges, which slightly sacrifices target acquisition speed.  Installation requires an adapter.",
+
+    "weight": "94 g",
+    "//dimensions": {
+      "length": "2.70 in",
+      "width": "1.60 in",
+      "height": "1.40 in",
+      "raw": "99 ml",
+      "trim": 0.3
+    },
+    "volume": "69 ml",
+    "longest_side": "69 mm",
+
+    "sight_dispersion": 8,
+    "aim_speed_modifier": 8,
+
+    "location": "Micro mount",
+
+    "//power": {
+      "source": [["CR2032"]],
+      "lifetime": "50000 h"
+    },
+
+    "price": "870 USD"
+  },
+
+  {
+    "id": "sight_vortex_strikefire_ii",
+    "copy-from": "sight_rds_no_magnifier",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://vortexoptics.com/vortex-strikefire-2-red-dot+reticle-Red"
+    ],
+
+    "name": {
+      "str": "Vortex Strikefire II red dot sight"
+    },
+    "description": "A large red dot sight, looking more like a scope than a more-popular square form factor.  Large dot allows for quicker target acquisition, in exchange for making the sight less-precise at longer ranges.  Installs onto a single-ring 30mm mount.",
+
+    "weight": "204 g",
+    "//dimensions": {
+      "length": "5.60 in",
+      "diameter": "1.45 in",
+      "raw": "152 ml",
+      "trim": -0.1,
+      "notes": [
+        "negative trim value is to account for the adjustment and auxiliary parts that wouldn't (presumably) get covered by taking the largest diameter of the two for the cylinder volume calculations"
+      ]
+    },
+    "volume": "167 ml",
+    "longest_side": "142 mm",
+
+    "sight_dispersion": 16,
+    "aim_speed_modifier": 12,
+
+    "location": "single 30mm mount",
+
+    "//power": {
+      "source": [["CR2"]],
+      "lifetime": "80000 h"
+    },
+
+    "price": "275 USD"
+  },
+
+  {
+    "id": "sight_sigsauer_romeo5x",
+    "copy-from": "sight_rds",
+    "type": "GUNMOD",
+
+    "//sources": ["https://www.sigsauer.com/romeo5x-1x20-mm.html"],
+
+    "name": {
+      "str": "Sig Sauer Romeo5X red dot sight"
+    },
+    "description": "A relatively-compact red dot sight, an improved version of Romeo5.  The battery compartment under the lens makes this sight taller than most compact red dot sights. The small reticle dot makes aiming at longer distances more precise, while also making target acquisition slightly more difficult.  Installation requires an adapter.",
+
+    "//weight": [
+      "listed as 159 g with an alkaline AAA battery",
+      "typical alkaline AAA battery weighs 11.5 g ≈ 12 g",
+      "unless togglable/draining sights are implemented (unlikely, given typical battery life), we assume the battery is always in and always active, and thus always included with the weight"
+    ],
+    "weight": "159 g",
+    "//dimensions": {
+      "length": "63.5 mm",
+      "width": "35.6 mm",
+      "height": "66 mm",
+      "raw": "149 ml",
+      "trim": 0.3,
+      "notes": [
+        "we assume that height is listed for the sight alone, and not the sight and the mount"
+      ]
+    },
+    "volume": "104 ml",
+    "longest_side": "66 mm",
+
+    "sight_dispersion": 8,
+    "aim_speed_modifier": 8,
+
+    "location": "Romeo5 mount",
+
+    "//power": {
+      "source": [["AAA"]],
+      "lifetime": "50000 h"
+    },
+
+    "price": "220 USD"
+  },
+
+  {
+    "id": "sight_holosun_aems",
+    "copy-from": "sight_rds_no_magnifier",
+    "type": "GUNMOD",
+
+    "//sources": [
+      "https://holosun.com/products/reflex-sight/aems/aems-red.html"
+    ],
+
+    "//notes": [
+      "comes with a riser by default",
+      "a low mount is available separately",
+      "https://holosun.com/products/accessories/mounts/aems-low-mount.html",
+      "given that there's little separate information on the riser, we're assuming that modelling the low mount would not prove useful, and rely on the riser being the bundled default"
+    ],
+
+    "name": {
+      "str": "Holosun AEMS red dot sight"
+    },
+    "description": "A large, futuristic-looking red dot sight that is surprisingly light for its bulk.  Smaller dot makes the sight more precise at longer distances, exchanging it for slightly slower target acquisition.  Installs directly onto Picatinny rail, since it comes with an embedded adapter.",
+
+    "weight": "110 g",
+    "//dimensions": {
+      "length": "2.22 in",
+      "width": "1.49 in",
+      "height": "2.52 in",
+      "raw": "137 ml",
+      "trim": 0.15
+    },
+    "volume": "117 ml",
+    "longest_side": "64 mm",
+
+    "location": "sights",
+
+    "sight_dispersion": 8,
+    "aim_speed_modifier": 8,
+
+    "//power": {
+      "source": [["CR2032"]],
+      "lifetime": "50000 h",
+      "notes": ["also solar"]
+    },
+
+    "price": "471 USD"
+  }
+]

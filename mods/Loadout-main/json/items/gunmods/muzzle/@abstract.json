@@ -1,0 +1,228 @@
+[
+  {
+    "abstract": "muzzle_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "muzzle device"
+    },
+    "description": "idea of a muzzle device",
+
+    "weight": "50 g",
+    "volume": "50 ml",
+    "longest_side": "50 mm",
+
+    "material": ["steel"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "location": "muzzle",
+    "install_time": "20 s",
+
+    "mod_targets": ["pistol", "smg", "shotgun", "rifle"]
+  },
+
+  {
+    "abstract": "muzzle_universal_abstract",
+    "copy-from": "muzzle_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "universal muzzle device"
+    },
+    "description": "idea of a universal muzzle device (i.e. for most threads, excluding shotguns)",
+
+    "mod_targets": ["pistol", "smg", "rifle"]
+  },
+
+  {
+    "abstract": "muzzle_brake_abstract",
+    "copy-from": "muzzle_universal_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "muzzle brake"
+    },
+    "description": "idea of a muzzle brake",
+
+    "//handling_modifier": "to calculate: recoil reduction percentage / 3",
+    "handling_modifier": 50,
+
+    "//dispersion_modifier": "muzzle brakes do not affect accuracy",
+    "dispersion_modifier": 0,
+
+    "//loudness_modifier": [
+      "muzzle brakes make the gun much, much louder",
+      "the default value is derived from the negative loudness value of suppressors",
+      "to calculate: recoil reduction percentage / 2"
+    ],
+    "loudness_modifier": 40
+  },
+
+  {
+    "abstract": "suppressor_abstract",
+    "copy-from": "muzzle_universal_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "suppressor"
+    },
+    "description": "idea of a suppressor",
+
+    "//longest_side": "a typical suppressor is 7 in. long",
+    "longest_side": "178 mm",
+
+    "//damage_modifier": [
+      "average for a 7 in. suppressor",
+      "assumes the classic C:DDA '±1 dmg / 3 in' formula"
+    ],
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 2
+    },
+    "loudness_modifier": -40,
+    "//dispersion_modifier": "suppressors generally only have a minor effect on accuracy",
+    "dispersion_modifier": 1,
+    "//handling_modifier": [
+      "while suppressors are known to add some degree of handling to the firearm, we're assuming that QD suppressors and their muzzle brake/flash hider counterparts even this value out between them, so we're not adding another modifier to a suppressor unless it mounts directly onto a thread",
+      "the default value is '+1 / 1 in', rounded",
+      "baseline is assumed to be 7 in.",
+      "to calculate for mounted suppressors: muzzle brake recoil reduction percentage / -2"
+    ],
+    "handling_modifier": 7,
+
+    "//consume_divisor": "default taken from base-game `suppressor`",
+    "consume_divisor": 840,
+
+    "mod_targets": ["pistol", "smg", "rifle"],
+    "install_time": "10 s",
+
+    "add_mod": [["suppressor cover", 1]],
+
+    "flags": ["CONSUMABLE"]
+  },
+
+  {
+    "abstract": "suppressor_abstract_no_cover",
+    "copy-from": "muzzle_universal_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "shorter suppressor"
+    },
+    "description": "idea of a shorter suppressor",
+
+    "//longest_side": "we assume this suppressor is shorter than 7 in., making it average 6 in.",
+    "longest_side": "152 mm",
+
+    "loudness_modifier": -35,
+
+    "//add_mod": [
+      "this one specifically doesn't add a slot for suppressor cover",
+      "covers often require a suppressor with a minimum of 7 in. of length"
+    ]
+  },
+
+  {
+    "abstract": "muzzle_shotgun_abstract",
+    "copy-from": "muzzle_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "shotgun muzzle device"
+    },
+    "description": "idea of a shotgun muzzle device",
+
+    "mod_targets": ["shotgun"]
+  },
+
+  {
+    "abstract": "suppressor_shotgun_abstract",
+    "copy-from": "muzzle_shotgun_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "shotgun suppressor"
+    },
+    "description": "idea of a shotgun suppressor",
+
+    "//damage_modifier": "average for a 7 in. suppressor",
+    "damage_modifier": {
+      "damage_type": "bullet",
+      "amount": 2
+    },
+    "loudness_modifier": -40,
+    "//dispersion_modifier": "basic suppressor effect",
+    "dispersion_modifier": 1,
+
+    "mod_targets": ["shotgun"]
+  },
+
+  {
+    "abstract": "flash_hider",
+    "copy-from": "muzzle_universal_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "flash hider"
+    },
+    "description": "idea of a flash hider",
+
+    "handling_modifier": 5,
+
+    "//loudness_modifier": "apparently some shooters claim flash hiders to reduce sound signature slightly",
+    "loudness_modifier": -5
+  },
+
+  {
+    "abstract": "thread_mount",
+    "copy-from": "muzzle_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "thread mount"
+    },
+    "description": "idea of a thread mount",
+
+    "//weight": [
+      "based on SilencerCo Hybrid 46 direct thread mount's weight",
+      "https://escapefromtarkov.fandom.com/wiki/SilencerCo_Hybrid_46_Direct_Thread_Mount_adapter"
+    ],
+    "weight": "140 g",
+    "//volume": "based on SilencerCo Hybrid 46",
+    "volume": "16 ml",
+    "//longest_side": [
+      "based on length of thread from a 5/8 in. × 24-threaded barrel",
+      "some adapters and threaded barrel extensions in this thread config provide a 0.7 in. ≈ 18 mm thread",
+      "https://www.pikearms.com/catalog/product/id-5146"
+    ],
+    "longest_side": "16 mm",
+
+    "install_time": "10 s"
+  },
+
+  {
+    "abstract": "thread_protector",
+    "copy-from": "muzzle_abstract",
+    "type": "GUNMOD",
+
+    "name": {
+      "str": "thread protector"
+    },
+    "description": "idea of a thread protector",
+
+    "//weight": [
+      "based on stated 'delivery weight' of EGW thread protector minus 5 g for the plastic bag",
+      "https://www.brownells.co.uk/THREAD-PROTECTOR-5/8-24-Blued-EGW-Stainless-Steel-AR-15-296000105",
+      "https://www.optics-trade.eu/en/egw-thread-protector-5-8-x-24.html"
+    ],
+    "weight": "36 g",
+    "//volume": "based on EGW thread protector",
+    "volume": "9 ml",
+    "//longest_side": "based on length of EGW thread protector for a 5/8 in. × 24-threaded barrel",
+    "longest_side": "24 mm",
+
+    "install_time": "10 s"
+  }
+]
